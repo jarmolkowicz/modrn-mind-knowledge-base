@@ -1,19 +1,17 @@
 # Modern Mind — Knowledge Base for the AI Age
 
-Curated knowledge on AI and human thinking — structured for your AI to use as context, or for you to use directly.
-
-Curated research, practice, and professional insight translated into concepts you can trust, teach from, and apply.
+Curated research on AI and human thinking — translated into concepts you can trust, teach from, and apply. Structured for your AI to use as context, or for you to browse directly.
 
 **Not anti-AI. Not blindly pro-AI. Pro-human.**
 
 ## What's Inside
 
-- `concepts/` — Named phenomena: cognitive debt, fluency bias, jagged frontier, and 35 more
-- `frameworks/` — Decision models for when to use AI and when to think independently
+- `concepts/` — 55 named phenomena: cognitive surrender, capacity erosion, performance paradox, belief offloading, and more
+- `frameworks/` — Decision models: Tri-System Theory, Complementarity Framework, SCAN, Modern Mind
 - `practices/` — Methods for preserving thinking capacity: think-first, calibration, strategic alternation
-- `sources/` — 30+ curated papers with key findings and full citations
+- `sources/` — 65+ curated sources (papers, books, articles) with key findings and full citations
 
-Entries synthesize and translate published research. Original authors and papers are cited in each entry and in `sources/`.
+Every entry ties back to research or documented practice, status-tagged (`solid`, `emerging`, `speculative`) so you know the confidence level. Original authors and papers are cited in each entry and in `sources/`.
 
 The curation process is deliberately semi-automated — AI-assisted, human-reviewed. See `_guide/contributing.md` for how and why.
 
@@ -31,13 +29,9 @@ The curation process is deliberately semi-automated — AI-assisted, human-revie
 
 ## Contributing
 
-This is an emerging field. No single person or framework has the full picture.                                                                                          
-The KB gets stronger with diverse perspectives — practitioners, educators, and
-researchers who challenge, validate, and build on what's here.
+This is an emerging field. No single person or framework has the full picture. The KB gets stronger with diverse perspectives — practitioners, educators, and researchers who challenge, validate, and build on what's here.
 
-Review entries, challenge interpretations, contribute new sources, translate
-ideas to your domain, or build on top. Every entry has a `reviewed_by` field
-waiting for a name.
+Review entries, challenge interpretations, contribute new sources, translate ideas to your domain, or build on top. Every entry has a `reviewed_by` field waiting for a name.
 
 The easiest way to contribute is to [open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) — suggest a source, flag an error, or propose a concept. For writing entries directly, see `_guide/contributing.md`.
 
