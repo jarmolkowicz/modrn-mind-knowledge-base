@@ -35,7 +35,7 @@ Keshky (2026) provides SEM evidence for a specific mechanism: cognitive dependen
 2. **Retreat of knowledge ownership** — confusion about whether ideas are self-generated or AI-generated; blurred authorship of knowledge
 3. **Disturbance of cognitive self-concept** — disrupted understanding of one's own intellectual capabilities and identity
 
-Direct effect from cognitive dependence to identity distortion: beta = 0.60 (p < .001). But the indirect path through illusory competence inflation (beta = 0.35, p = .04) reveals the mechanism: AI dependence inflates confidence, and that inflated confidence masks the erosion of intellectual self-concept. You feel more capable while simultaneously losing your sense of yourself as an independent thinker.
+Direct effect from cognitive dependence to identity distortion: beta = 0.60 (p < .001). But the indirect path through illusory competence inflation (beta = 0.35, p = .05) reveals the mechanism: AI dependence inflates confidence, and that inflated confidence masks the erosion of intellectual self-concept. You feel more capable while simultaneously losing your sense of yourself as an independent thinker.
 
 ## Psychological Impact
 

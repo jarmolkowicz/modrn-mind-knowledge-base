@@ -38,7 +38,7 @@ Keshky (2026) provides SEM-level structural evidence for the confidence-competen
 3. **Resistance to feedback** — rejecting correction that contradicts inflated self-assessment
 4. **Uncritical reliance on AI** — accepting AI output without verification
 
-SEM results show cognitive dependence on GenAI is very strongly associated with illusory competence inflation (beta = 0.90, p < .001), though this high coefficient may partly reflect construct overlap between the scales. The study also shows that this inflated confidence *mediates* the path to a deeper consequence — intellectual identity distortion (indirect effect beta = 0.35, p = .04).
+SEM results show cognitive dependence on GenAI is very strongly associated with illusory competence inflation (beta = 0.90, p < .001), though this high coefficient may partly reflect construct overlap between the scales. The study also shows that this inflated confidence *mediates* the path to a deeper consequence — intellectual identity distortion (indirect effect beta = 0.35, p = .05).
 
 This adds an identity dimension not previously captured: the confidence-competence gap doesn't just affect performance. Over time, it distorts who you think you are as a thinker. The three dimensions of intellectual identity distortion are: dissolution of the thinking self, retreat of knowledge ownership, and disturbance of cognitive self-concept.
 

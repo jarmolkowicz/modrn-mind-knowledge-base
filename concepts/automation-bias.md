@@ -36,7 +36,7 @@ Creates a dangerous feedback loop:
 
 Appropriate reliance is learnable but not the default.
 
-Shaw & Nave (2026) show that the feedback loop described here operates at scale: across 9,593 trials, participants who engaged AI followed its advice on ~80% of faulty trials (Study 1). The loop is not just about individual errors — it reflects a systemic reallocation of cognitive control to an external system. Their data also show that incentives + item-level feedback can partially break the loop (override rates doubled), suggesting the bias is malleable but persistent.
+Shaw & Nave (2026) show that the feedback loop described here operates at scale: in Study 1, participants who engaged AI followed its advice on approximately 80% of faulty trials, with follow rates varying across studies (72-80% depending on conditions). The loop is not just about individual errors — it reflects a systemic reallocation of cognitive control to an external system. Their data also show that incentives + item-level feedback can partially break the loop (override rates doubled), suggesting the bias is malleable but persistent.
 
 The complementarity framework identifies a structural mechanism: AI systems can "fail silently with high confidence when encountering unfamiliar conditions," while human vigilance degrades under fatigue and cognitive load. This creates a compounding failure mode where both parties miss errors simultaneously — the human trusts the confident AI, and the AI is confidently wrong.
 
