@@ -9,6 +9,10 @@ sources:
   - "MIT Media Lab (2025)"
   - "Lodge & Loble (2026)"
   - "Shaw & Nave (2026)"
+  - "Shen & Tamkin (2026)"
+  - "Gilbert et al. (2023)"
+  - "Hu, Luo & Fleming (2019)"
+  - "Guingrich, Mehta & Bhatt (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -20,6 +24,10 @@ reviewed_date:
 Delegating mental work to external tools or AI rather than performing it internally. Reducing cognitive load by relying on external resources to store, process, or generate information.
 
 Shaw & Nave (2026) draw an explicit empirical distinction between cognitive offloading and [[cognitive-surrender]]. In their Tri-System Theory framework, offloading is strategic delegation where System 2 (deliberation) remains active and integrates AI output — the user retains cognitive control. Cognitive surrender, by contrast, is uncritical adoption where System 2 is bypassed entirely. In their experiments, when AI was engaged and gave wrong answers, 19.7% of trials showed offloading (user overrode AI and answered correctly), while 73.2% showed surrender (user followed faulty AI). This provides the first experimental quantification of how often AI use is strategic vs. uncritical.
+
+Guingrich et al. (2026) identify a deeper form of offloading beyond tasks, memory, or metacognition: [[belief-offloading]]. Where standard cognitive offloading exports informational content (a phone number, a calculation), belief offloading exports commitment-laden states — beliefs that guide action, inference, and deliberation. The distinction matters because beliefs are normatively loaded: to believe something is to take a stance you are answerable for. When AI shapes belief formation (not just information retrieval), the offloading crosses from cognitive delegation to epistemic dependence.
+
+Gilbert et al. (2023) review "intention offloading" — the specific form of cognitive offloading where people create external cues (reminders, calendars, alerts) to trigger delayed intentions rather than relying on internal memory. This is distinct from offloading factual memory or computation: it involves offloading the prospective component — remembering *to do* something, not just remembering information. The review establishes that intention offloading is guided by metacognitive processes: people decide whether to set reminders based on their confidence in their own memory, and these offloading strategies show stable individual differences over time.
 
 ## Why It Matters
 
@@ -47,6 +55,10 @@ Your knowledge level determines whether offloading is strategic or erosive.
 
 Shaw & Nave (2026) provide experimental evidence that the offloading/surrender split is measurable and predicted by individual differences: higher need for cognition and fluid intelligence predict more offloading over surrender, while higher trust in AI predicts more surrender over offloading. Incentives + feedback shifted the ratio toward offloading (~37% offloading vs ~58% surrender), while time pressure shifted it toward surrender (~6% offloading vs ~80% surrender).
 
+Hu et al. (2019) provide experimental and computational evidence for the metamemory mechanism underlying offloading decisions. Across four experiments, participants' confidence in their own memory predicted whether they chose to use externally saved information. A Bayesian model confirmed that beliefs about the performance boost from offloading are negatively coupled to self-evaluated memory ability. This means offloading is not purely about objective difficulty — it is driven by how capable you *believe* your memory to be. In the AI context, this suggests a self-reinforcing cycle: habitual offloading may erode memory confidence, which drives further offloading.
+
+Shen & Tamkin (2026) identified six AI interaction patterns in a coding RCT that map a spectrum of offloading behavior. Three patterns involving full cognitive offloading (AI Delegation, Progressive AI Reliance, Iterative AI Debugging) averaged quiz scores below 40%. Three patterns preserving cognitive engagement (Generation-Then-Comprehension, Hybrid Code-Explanation, Conceptual Inquiry) averaged above 65%. The distinguishing factor was not whether AI was used, but whether the user maintained cognitive engagement — asking for explanations, seeking understanding, resolving errors independently. This provides the first experimental typology of offloading behaviors in a coding context with measured learning outcomes.
+
 Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognitive level to the metacognitive level. Learners offload not just the thinking but the monitoring of their thinking — planning, self-assessment, and revision. This "double offloading" compounds erosion because the very self-regulation that would catch detrimental offloading is itself being offloaded.
 
 ## Related
@@ -62,3 +74,6 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 - [[metacognitive-laziness]] - offloading extends to metacognitive self-regulation
 - [[cognitive-surrender]] - the uncritical counterpart to strategic offloading
 - [[tri-system-theory]] - framework that formally distinguishes offloading from surrender
+- [[metacognition]] - metacognitive confidence drives offloading decisions (Gilbert et al. 2023)
+- [[confidence-competence-gap]] - metamemory distortions drive maladaptive offloading (Hu et al. 2019)
+- [[belief-offloading]] - the deepest form of offloading: exporting conviction, not just cognition (Guingrich et al. 2026)

@@ -6,6 +6,8 @@ sources:
   - "Tsim & Gutoreva (2025)"
   - "Tankelevitch et al. (2024)"
   - "Gonzalez et al. (2026)"
+  - "Mollick (2024)"
+  - "He, Kuiper, & Gadiraju (2023)"
 reviewed_by:
 reviewed_date:
 ---
@@ -75,6 +77,12 @@ Key findings relevant to calibration practice:
 - **Expertise matters** — Novices and experts benefit from different calibration modes. Novices need more guidance and guardrails; experts can use AI as a "sparring partner." This aligns with the existing SCAN-based calibration approach.
 - **Context shapes reliance** — Humans are less likely to rely on AI for high-stakes decisions due to accountability concerns. Time pressure and fatigue shift reliance patterns — under pressure, people may lean on AI for speed; fatigue can both increase human errors and reduce responsiveness to AI alerts.
 
+He et al. (2023) tested a tutorial intervention that provided performance feedback and contrastive explanations. It improved self-assessment calibration for overestimators (those exhibiting DKE) but had an asymmetric effect: underestimators who received the same tutorial showed worse appropriate reliance — possibly developing false confidence after seeing AI errors. This underscores that calibration interventions must account for baseline self-assessment. One-size-fits-all calibration can backfire.
+
+Mollick (2024) provides a practitioner framing that aligns with calibration: his Principle 1 ("Always invite AI to the table") is explicitly a calibration strategy — experimenting to learn the shape of the [[jagged-frontier]] in your specific work. He frames this as ongoing, not one-time: "To figure out the shape of the frontier, you will need to experiment." The experimentation itself is calibration in practice.
+
+His "falling asleep at the wheel" finding (Dell'Acqua study, N=181) offers a cautionary note: higher-quality AI made recruiters *worse* because they stopped calibrating. They spent less time per task, followed AI blindly, and did not improve over time. Lower-quality AI kept people alert and critical. This suggests that calibration effort must *increase* as AI quality improves — the opposite of intuition.
+
 **Note on broken feedback loops:** Research shows feedback loops are broken with AI—users accept outputs, rarely discover if correct, so no calibration happens naturally. Unlike traditional skill development where errors provide correction signals, AI users often never learn when they've accepted flawed output. This means metacognitive accuracy doesn't naturally improve with AI experience—deliberate calibration practice is required.
 
 ## Related
@@ -89,3 +97,4 @@ Key findings relevant to calibration practice:
 - [[jagged-frontier]] - what you're calibrating for
 - [[human-ai-complementarity]] - calibration is the prerequisite for complementarity
 - [[complementarity-framework]] - trust calibration is a core factor in the framework
+- [[confidence-competence-gap]] - DKE as a specific calibration barrier

@@ -34,10 +34,17 @@ Anti-intelligence operates without:
 
 - "Thinking, in its human form, is something we live with"
 - "Human intelligence was never just about producing answers. It was about being answerable for them"
+- "Human intelligence was shaped in the rough. It stutters and contradicts itself."
+- "AI severs the connection between coherence and understanding. It produces language that behaves like knowledge but carries none of the history that once made knowledge worth trusting."
+- "Anti-intelligence is not the enemy but a diagnostic signal warning us when fluency impersonates truth."
 
 ## The Real Threat
 
 The danger isn't replacement but "relief from responsibility." When humans can always defer to AI, the pressure to develop and maintain judgment diminishes.
+
+The book deepens the anti-intelligence framing with the concept of "vapid brilliance" — drawing on Liang et al. (2025) "machine bullshit" research. AI produces "engineered emptiness" through four patterns: empty rhetoric, paltering, weasel words, and unverified claims. Critically, RLHF alignment may intensify rather than correct this: "Instead of aligning output with human truth-seeking, they can align it with human satisfaction-seeking. The result is not deeper intelligence but more convincing vapidity."
+
+Nosta also names what he calls the "indifference engine": AI's defining feature is structural indifference, not capability. "AI does not lie. It just does not care." It produces "coherence without commitment." This reframes anti-intelligence as not merely an absence of human qualities but an active production of something — polished, fluent, and fundamentally uncommitted.
 
 ## Resistant Domains
 
@@ -53,3 +60,6 @@ Some areas remain resistant because they require irreversibility:
 - [[authorship-levels]] - connection to ownership
 - [[capacity-erosion]] - mechanism through abdication
 - [[cognitive-offloading]] - related phenomenon
+- [[amathia-drift]] - the process by which anti-intelligence reshapes users
+- [[minimum-cognitive-integrity]] - threshold concept for anti-intelligence's effects
+- [[fluency-bias]] - vapid brilliance as mechanism

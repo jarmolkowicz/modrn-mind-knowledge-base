@@ -7,6 +7,7 @@ sources:
   - "Nosta (2025)"
   - "Jarmołkowicz (2025)"
   - "Tankelevitch et al. (2024)"
+  - "Reich & Teeny (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -43,3 +44,4 @@ Nosta (2025) extends fluency bias into epistemological territory with the [[cohe
 - [[borrowed-certainty]] - confidence from fluent AI output
 - [[metacognitive-demand]] - the skill needed to overcome fluency bias
 - [[jagged-frontier]] - where fluency bias causes errors
+- [[artificial-confidence]] - related but distinct mechanism: fluency bias is about processing ease signaling truth (trusting AI output); artificial confidence is about social comparison signaling relative ability (dismissing AI as inferior and feeling more capable by comparison). Both distort self-assessment but through different pathways.

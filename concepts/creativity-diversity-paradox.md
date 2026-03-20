@@ -4,6 +4,7 @@ area: [risk]
 sources:
   - "Science Advances (2024)"
   - "Runco & Jaeger (2012)"
+  - "Anderson, Shah & Kreminski (2024)"
 reviewed_by:
 reviewed_date:
 ---
@@ -29,6 +30,8 @@ From experimental study on short story writing:
 
 Each story got "better" by standard metrics; the collection became more homogeneous.
 
+Anderson et al. (2024) add group-level experimental evidence beyond writing. In a 36-participant study using Torrance-style divergent ideation tasks, ChatGPT users produced ideas that were no more homogeneous individually than users of a non-AI tool (Oblique Strategies), but significantly more homogeneous at the group level. The mechanism: LLMs give different users similar ideas, rather than constraining any single user's range. Notably, ChatGPT users also scored higher on fluency, flexibility, and elaboration — reinforcing the paradox that individual metrics improve while collective diversity declines.
+
 ## The Mechanism
 
 AI provides:
@@ -37,6 +40,8 @@ AI provides:
 - Language that elevates "weaker" outputs
 
 AI generates sophisticated novelty through pattern remixing, but the "usefulness" judgment — knowing whether something actually works in context — depends primarily on human experience and domain knowledge. AI can assess some forms of usefulness (logical consistency, format compliance), but contextual and domain-specific usefulness remains a human strength. This is why AI-assisted creativity can score high on metrics while the diversity of approaches narrows.
+
+Anderson et al. (2024) identify a specific pathway: low inferential distance. LLM outputs arrive looking "finished," reducing the gap between suggestion and final product. When ideas require less personal transformation, users incorporate them more directly, and since the LLM suggests similar ideas to everyone, the collective output converges.
 
 AI removes:
 - Unusual approaches that don't fit training patterns
@@ -54,3 +59,4 @@ AI removes:
 - [[leveling-effect]] - same mechanism, individual framing
 - [[cognitive-debt]] - explains why thinking converges
 - originality - what's at stake
+- [[agency]] - Anderson et al. find ChatGPT users felt less responsible for ideas they generated

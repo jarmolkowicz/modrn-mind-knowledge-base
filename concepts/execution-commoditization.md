@@ -3,6 +3,7 @@ status: emerging
 area: [risk, preservation]
 sources:
   - "Mollick (2026)"
+  - "Niederhoffer et al. (2025/2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -35,6 +36,12 @@ The implication: prompt engineering is a transitional skill. Domain expertise an
 
 If execution builds the expertise needed to evaluate execution, commoditizing it creates a development gap. Today's experts can leverage AI because they already have judgment. But how do tomorrow's experts build judgment if they never do the hands-on work?
 
+Niederhoffer et al. (2025/2026) provide empirical evidence for what execution commoditization looks like at organizational scale: workslop. When execution is commoditized (anyone can produce polished output via AI), the gap between production and quality judgment becomes visible. The result: polished work that "masquerades as good work, but lacks the substance to meaningfully advance a given task."
+
+Key data point: ~50% of workslop recipients view the sender as less capable, creative, and reliable afterward. This suggests a market mechanism is emerging — when execution is cheap, others can detect the absence of quality judgment, and the producer's professional reputation suffers. Commoditized execution without judgment is not just ineffective; it actively damages professional standing.
+
+The survey also found a protective factor: workers with "competence and control over AI tools" are half as likely to create workslop. This aligns with the entry's core claim that domain expertise and judgment remain permanent advantages. The workers who can evaluate AI output are the ones producing value; the rest produce workslop.
+
 ## Related
 
 - [[judgment]] - what becomes the scarce resource
@@ -43,3 +50,4 @@ If execution builds the expertise needed to evaluate execution, commoditizing it
 - [[novice-vulnerability]] - juniors can't evaluate what they've never learned to produce
 - [[leveling-effect]] - AI compresses the performance distribution
 - [[calibration]] - delegation decisions require ongoing calibration
+- [[workslop]] - empirical manifestation of commoditized execution without judgment

@@ -28,6 +28,12 @@ But AI changes the environment: "When cognitive tools reliably shorten effort, t
 
 Without friction forcing engagement, cognitive grit may not develop naturally. It must become intentional.
 
+Nosta (2026) develops what he calls the "smoothness trap" — a framing complementary to cognitive grit. Where cognitive grit is the capacity to endure difficulty, the smoothness trap describes what happens when difficulty is removed: "When something inside us strains to understand, it reshapes itself. That reshaping is growth." AI fluency bypasses this strain. "Completion starts to masquerade as comprehension."
+
+Nosta connects this to Csikszentmihalyi's flow research: flow does not arise from ease but from challenge at the edge of skill. "Remove the strain, and the state collapses." The smoothness trap is not just about losing grit but about losing the conditions under which deep cognitive states form.
+
+He also notes preliminary neuroscience evidence: "studies tracking neural activity during AI-assisted writing suggest a kind of dimming — less engagement and weaker connective paths. The work still gets done, but the mind may no longer bear the mark of having done it." More research needed, but the early signals align with the grit thesis.
+
 ## Cognitive Durability
 
 Related concept: the long-horizon capacity to sustain depth and judgment across life stages. Historically built through unavoidable friction; now requires deliberate cultivation.
@@ -43,9 +49,17 @@ The challenge isn't whether human thinking survives but whether we actively main
 - Resisting the urge to immediately consult AI
 - Valuing the process of working through problems
 
+Nosta (2026) offers additional practical guidance:
+- Writing first drafts by hand forces the mind to generate rather than evaluate
+- Setting aside problems to wrestle with overnight allows slower cognitive processes to work
+- Reading primary sources before reading summaries keeps the encounter with difficulty alive
+- "The willingness to follow a train of thought into territory where the outcome is genuinely unknown requires a kind of cognitive courage that smoothness erodes"
+
 ## Related
 
 - [[desirable-difficulty]] - why difficulty builds capacity
 - [[cognitive-friction]] - the experiential side
 - [[strategic-alternation]] - practice for maintaining grit
 - [[think-first]] - specific application
+- [[amathia-drift]] - the smoothness trap as driver of drift
+- [[minimum-cognitive-integrity]] - cognitive grit protects against falling below MCI

@@ -8,6 +8,7 @@ sources:
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"
   - "Shaw & Nave (2026)"
+  - "Shen & Tamkin (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -45,6 +46,8 @@ The paper grounds erosion in Cognitive Load Theory: what erodes is not just skil
 
 Erosion isn't only about capability — it includes meaning and identity. Nikolova et al. (2024) found that automation reduces workers' sense of meaning and self-determination even when job security is maintained. While Nikolova et al. studied industrial automation and robotics, the mechanism — reduced sense of meaning when work is automated — likely extends to AI-assisted knowledge work. This adds what we term the **meaning illusion** (KB synthesis, not from source) — work continues to get done, so the loss of personal significance goes unnoticed.
 
+Shen & Tamkin (2026) demonstrate that erosion is not only a long-term disuse phenomenon — it operates at the point of skill formation itself. In their RCT, developers who used AI while learning a new library failed to acquire the skills in the first place (17% lower quiz scores, d = 0.738). This is erosion by prevention rather than erosion by atrophy: AI doesn't just degrade existing skills, it can prevent new ones from forming. The control group's advantage came specifically from encountering and independently resolving errors — the productive struggle that AI bypasses.
+
 ## AI Rebound Effect
 
 Research cited by Nosta (2025): When gastroenterologists stopped using AI for polyp detection, their performance dropped **below their pre-AI baseline**—not just to where they started. This "AI rebound" suggests AI's performance boost comes at the cost of degraded underlying capabilities. Erosion isn't just skill pause—it's active degradation.
@@ -64,3 +67,4 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 - [[metacognitive-laziness]] - the mechanism that accelerates erosion
 - [[cognitive-surrender]] - specific mechanism of erosion; uncritical AI adoption that bypasses deliberation
 - [[tri-system-theory]] - framework modeling how AI displaces internal reasoning
+- [[desirable-difficulty]] - Shen & Tamkin show error encounters during learning are the specific desirable difficulty AI removes

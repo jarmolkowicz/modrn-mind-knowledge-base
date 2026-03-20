@@ -4,6 +4,7 @@ area: [risk, preservation]
 sources:
   - "Dell'Acqua et al. (2023)"
   - "Mollick (2026)"
+  - "Mollick (2024)"
 reviewed_by:
 reviewed_date:
 ---
@@ -26,6 +27,8 @@ From BCG/Harvard study of 758 consultants:
 
 The same consultants who excelled with AI inside the frontier struggled to identify when they'd crossed outside it.
 
+Mollick (2024) provides additional detail from the BCG study: most experiment participants simply pasted in their questions and accepted AI output without editing. In writing experiments at MIT, "most participants didn't even bother editing the AI's output once it was created for them." This passivity pattern is a direct mechanism for how users fall outside the frontier without noticing.
+
 ## The Metacognitive Challenge
 
 Consultants frequently:
@@ -44,9 +47,18 @@ Mollick (2026) adds a practitioner heuristic for navigating the frontier: he fra
 
 Both can work—but both require accurate frontier awareness.
 
+Mollick (2024) elaborates the Centaur/Cyborg distinction with a practical task taxonomy:
+- **Just Me Tasks** — AI not useful, or tasks deliberately reserved for human judgment (ethical/personal reasons)
+- **Delegated Tasks** — AI generates, human checks (e.g., summarization)
+- **Automated Tasks** — Full AI handling, no human review (currently small category)
+- **Centaur** and **Cyborg** occupy the middle ground, differing in how tightly human and AI work interweave
+
+He notes these categories are fluid and will shift as AI improves — Just Me Tasks may shrink, Delegated may become Automated, and new Cyborg patterns may emerge.
+
 ## Related
 
 - [[calibration]] - matching engagement to context
 - [[metacognitive-demand]] - why this is hard
 - [[cognitive-debt]] - cost of guessing wrong
 - [[execution-commoditization]] - what happens when AI handles most of what's inside the frontier
+- [[confidence-competence-gap]] - "falling asleep at the wheel" as related mechanism

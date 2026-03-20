@@ -3,6 +3,7 @@ status: emerging
 area: [erosion]
 sources:
   - "Nosta (2025)"
+  - "Nosta (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -30,6 +31,10 @@ When algorithmic fluency meets human emotion:
 
 This explains why misinformation and polished marketing prove effective—coherence creates emotional conviction.
 
+Nosta (2026) extends the loop with a psychological foundation: "Belief is rarely rational. We organize information into patterns that feel stable." He calls this "emotional coherence" — what makes a story satisfying, a leader convincing, and a conspiracy theory strangely reassuring. We don't usually ask whether something is true, but whether it fits. "Does this align with what I already believe? Does it complete a pattern I recognize?"
+
+Historically, coherence was a "reasonable proxy for truth" — if a story held together, odds were decent it reflected reality, because producing coherent language required understanding. AI severs that connection. "Coherence can now be manufactured at scale and without any underlying reality to anchor it."
+
 ## Key Quote
 
 "We aren't losing our minds to machines. We are...learning to think like them."
@@ -37,6 +42,8 @@ This explains why misinformation and polished marketing prove effective—cohere
 ## Solution
 
 Embrace cognitive friction: "patience, context, and doubt" as distinctly human safeguards. Deliberately tolerate discomfort and uncertainty.
+
+Nosta (2026) names the three components of the cognitive immune system explicitly: "patience, because complexity takes time to show itself. Context, some sense of history and circumstance. And doubt, the willingness to question what arrives too smoothly. These three things work together like an immune system for the mind. Without them, you absorb whatever comes your way."
 
 ## Relationship to Fluency Bias
 
@@ -50,3 +57,4 @@ The coherence trap extends [[fluency-bias]] into epistemological territory:
 - [[automation-bias]] - accepting AI conclusions uncritically
 - [[metacognition]] - doubt as protective factor
 - [[calibration]] - maintaining accurate self-assessment
+- [[amathia-drift]] - coherence trap as one driver of drift

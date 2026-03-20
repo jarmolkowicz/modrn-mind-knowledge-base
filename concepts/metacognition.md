@@ -13,6 +13,9 @@ sources:
   - "Lodge & Loble (2026)"
   - "Gonzalez et al. (2026)"
   - "Shaw & Nave (2026)"
+  - "He, Kuiper, & Gadiraju (2023)"
+  - "Gilbert et al. (2023)"
+  - "Hu, Luo & Fleming (2019)"
 reviewed_by:
 reviewed_date:
 ---
@@ -45,6 +48,12 @@ This adds a critical question to the metacognitive checklist:
 - "Did I actually evaluate this AI output, or did it arrive so smoothly that my monitoring never engaged?"
 
 Their data show that higher need for cognition (a proxy for metacognitive disposition) predicted resistance to [[cognitive-surrender]] and more [[cognitive-offloading]] — suggesting that metacognitive habits are protective, but only if they are active before AI engagement, not after.
+
+Gilbert et al. (2023) establish that metacognitive confidence is the primary driver of cognitive offloading decisions. People decide whether to rely on internal memory or set external reminders based on their subjective confidence in future memory performance — not just objective task difficulty. Individuals show stable, trait-like biases in offloading strategies, suggesting that metacognitive calibration for offloading is a durable individual difference. This implies that metacognitive interventions could promote more adaptive use of cognitive tools, including AI.
+
+Hu et al. (2019) demonstrate experimentally that metamemory — specifically, confidence in future memory performance — drives cognitive offloading decisions. Their Bayesian computational model shows that the perceived benefit of offloading is negatively coupled to memory self-evaluation: lower memory confidence leads to more offloading. This is not just a correlational finding — the model quantitatively characterizes how metacognitive beliefs shape the decision to rely on external storage. The implication for AI: if AI availability itself reduces memory confidence (a plausible hypothesis given the "Google effect"), it could trigger a self-reinforcing offloading spiral.
+
+He et al. (2023) provide empirical evidence that a specific metacognitive bias — the Dunning-Kruger Effect — directly shapes AI reliance. In their study (N = 249), participants with inflated self-assessment under-relied on accurate AI predictions. A tutorial revealing actual performance improved metacognitive calibration for overestimators but hurt underestimators. This adds an important nuance to metacognitive monitoring in AI contexts: the metacognitive question is not only "Am I thinking or accepting?" but also "Am I accurately assessing my own competence relative to the AI?"
 
 Metacognition also means recognizing what kind of reasoning you're doing. Gentner & Markman (1997) distinguish surface similarity (shared features) from structural similarity (shared relations). A key metacognitive question when using AI: "Am I making a genuine cross-domain connection, or am I accepting a surface-level association from AI?"
 
@@ -94,3 +103,4 @@ This extends the KB's existing metacognitive questions with a team-level variant
 - [[complementarity-framework]] - metacognitive oversight anchors the human role in error detection
 - [[cognitive-surrender]] - what happens when metacognitive monitoring is bypassed by AI
 - [[tri-system-theory]] - models metacognitive monitoring as the gate between offloading and surrender
+- [[confidence-competence-gap]] - DKE as a specific metacognitive failure in AI contexts

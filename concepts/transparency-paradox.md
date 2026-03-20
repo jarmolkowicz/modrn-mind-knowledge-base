@@ -4,6 +4,7 @@ area: [risk]
 sources:
   - "Reimann & Schilke (2025)"
   - "Cheong et al. (2025)"
+  - "Raj, Berg, & Seamans (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -33,6 +34,8 @@ Across 13 experiments with 5,000+ participants:
 - Client trust in designers declined 20% after AI disclosure
 - Effect persisted regardless of respondent's own AI familiarity
 
+Raj et al. (2026) extend the paradox to creative writing with the largest study to date: 16 experiments (N = 27,491). People cannot reliably distinguish AI from human writing when unlabeled — but penalize it ~6.2% when labeled. Multiple mitigation strategies drawn from prior research failed, suggesting the paradox is not merely a framing problem but deeply rooted in authenticity perceptions.
+
 ## Vicious Cycle
 
 ```
@@ -52,3 +55,4 @@ Cycle continues
 - [[disclosure-penalty]] - the measured trust reduction
 - [[fluency-bias]] - why we judge AI-assisted work differently
 - [[authenticity]] - what disclosure threatens
+- [[ai-moralization]] - moralization may intensify the paradox by adding moral weight to disclosure judgments

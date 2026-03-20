@@ -4,6 +4,7 @@ area: [risk, preservation]
 sources:
   - "Duncan (2026)"
   - "Gonzalez et al. (2026)"
+  - "Leonardi & Leavell (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -43,6 +44,8 @@ The complementarity framework identifies specific roles for human judgment in te
 
 The paper emphasizes that in safety-critical or value-laden decisions, AI must function as a "low-agency advisor" because human accountability cannot be delegated. This aligns with Duncan's "Ownership" judgment type — accepting accountability under uncertainty — but extends it to the team context.
 
+Leonardi & Leavell (2026) demonstrate a specific organizational mechanism by which AI undermines expert judgment. When AI generates representations that appear authoritative and unambiguous ([[artificial-certainty]]), non-expert stakeholders conclude that expert guidance is unnecessary — precisely when such mediation is most essential. The paper reframes process expertise as interpretive work that maintains useful levels of uncertainty, and shows that experts who "modulate" AI outputs (tempering their certainty) preserve their authority, while those who "enhance" AI capabilities lose it. This connects to Duncan's "Contextual" and "Evaluative" judgment types: the process expert's judgment lies in knowing how much certainty a representation should convey.
+
 ## The Judgment Development Paradox
 
 AI simultaneously increases the need for judgment and erodes the experiences that produce it. Traditional judgment developed through repetitive, low-stakes tasks with real consequences — junior consultants doing research, PMs writing specs, marketers creating from scratch. AI now generates these outputs instantly, eliminating the developmental struggle. See [[judgment-development-paradox]] for the full individual, organizational, and systemic dimensions of this challenge.
@@ -67,3 +70,4 @@ Borrowed from high-stakes fields (medicine, military):
 - [[judgment-development-paradox]] - the paradox explored in depth
 - [[human-ai-complementarity]] - judgment is structurally irreplaceable in complementary teams
 - [[complementarity-framework]] - human judgment anchors the reasoning dimension
+- [[artificial-certainty]] - AI-generated representations that bypass expert judgment (Leonardi & Leavell 2026)

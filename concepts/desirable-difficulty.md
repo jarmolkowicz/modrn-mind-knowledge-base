@@ -7,6 +7,7 @@ sources:
   - "Jarmołkowicz (2025)"
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"
+  - "Shen & Tamkin (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -32,6 +33,8 @@ Effort during learning is not a bug—it's a feature. The struggle to retrieve, 
 This is why unassisted work matters: it preserves the generative difficulty that builds capacity before AI makes the work easy.
 
 Lodge & Loble (2026) note that the generation effect (Duplice 2025) provides a direct mechanistic explanation: students forced to generate answers from cues had significantly better long-term retention than those who passively reviewed. AI as answer oracle is the ultimate passive review tool.
+
+Shen & Tamkin (2026) provide experimental evidence for a specific desirable difficulty AI removes: encountering and independently resolving errors during learning. In their RCT, the control group (no AI) encountered more coding errors and resolved them independently — this process directly improved their skill formation. The AI group bypassed this productive struggle and scored 17% lower on comprehension. Notably, the three high-scoring AI interaction patterns (Generation-Then-Comprehension, Hybrid Code-Explanation, Conceptual Inquiry) all preserved some form of productive struggle — asking conceptual questions, seeking explanations, or resolving errors independently. This confirms that difficulty can be maintained even with AI access, but only through deliberate interaction choices.
 
 ## Cognitive Friction
 
