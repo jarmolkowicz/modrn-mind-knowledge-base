@@ -26,13 +26,14 @@ For processing sources into KB entries, use the workflow prompts in `_workflows/
 
 **Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
 
-**3-stage pipeline:**
+**4-stage pipeline:**
 
 1. **Scout** (`_workflows/scout.md`) — Discover new sources relevant to the KB domain. Outputs go to `_workspace/inbox/`.
 2. **Screener** (`_workflows/screener.md`) — Assess a source for relevance and quality. Recommends include, partial, skip, or defer.
 3. **Processor** (`_workflows/processor.md`) — Extract concepts, frameworks, practices, and source entries from approved sources.
+4. **Verifier** (`_workflows/verifier.md`) — 7-expert panel reviews processed entries for accuracy, fit, and integrity. Produces a verification report with Pass/Flag/Block verdicts. Mechanical fixes applied automatically; content decisions reserved for human review.
 
-**Guardrail:** All workflow outputs go to `_workspace/` — never directly to KB folders (`concepts/`, `frameworks/`, `practices/`, `sources/`). A human reviews and approves every entry before it moves into the KB.
+**Guardrail:** All workflow outputs go to `_workspace/` — never directly to KB folders (`concepts/`, `frameworks/`, `practices/`, `sources/`). A human reviews and approves every entry before it moves into the KB. After approval, the AI agent executes mechanical integration (moving files, merging updates, archiving sources).
 
 Each stage hands off to the next after human review. The prompts are open so you can see exactly how content is processed. See the individual workflow files for detailed instructions.
 

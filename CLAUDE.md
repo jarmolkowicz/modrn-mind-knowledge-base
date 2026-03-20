@@ -29,7 +29,8 @@ Modern Mind Knowledge Base/
 ├── _workflows/        # Agent processing prompts
 │   ├── scout.md
 │   ├── screener.md
-│   └── processor.md
+│   ├── processor.md
+│   └── verifier.md
 │
 ├── _workspace/        # Working area (not curated content)
 │   ├── inbox/
@@ -83,7 +84,7 @@ reviewed_date:
 All content goes through human review:
 
 ```
-Source → Screener → Processor → Human Review → KB
+Source → Screener → Processor → Verifier → Human Review → AI Integration → KB
 ```
 
 ### Guardrails
