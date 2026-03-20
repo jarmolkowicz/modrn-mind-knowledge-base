@@ -37,7 +37,7 @@ Modern Mind Knowledge Base/
 │   ├── processing/
 │   └── archive/
 │
-├── scripts/
+├── _scripts/
 │   └── build-bundle.sh    # Concatenates KB into single file
 │
 └── .github/workflows/

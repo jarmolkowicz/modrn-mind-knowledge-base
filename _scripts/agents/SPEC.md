@@ -65,7 +65,7 @@ Weekly cron (GitHub Actions, Monday 8am UTC)
 ## File Structure
 
 ```
-scripts/agents/
+_scripts/agents/
 ├── SPEC.md              # this file
 ├── config.py            # model choices, budget limits, search queries
 ├── scout.py             # search Semantic Scholar + arxiv

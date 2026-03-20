@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build concatenated KB file
-        run: bash scripts/build-bundle.sh
+        run: bash _scripts/build-bundle.sh
 
       - name: Get bundle stats
         id: stats
