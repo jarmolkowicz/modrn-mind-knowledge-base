@@ -47,4 +47,4 @@ MIT — Use freely with attribution.
 ## Contributors
 
 - [Paweł Jarmołkowicz](https://www.linkedin.com/in/jarmolkowicz) — creator, curator
-- [Julia Kołodko](https://www.linkedin.com/in/jkolodko/) — research contributor, literature review
+- [Julia Kołodko](https://www.linkedin.com/in/jkolodko/) — behavioral scientist, research contributor
