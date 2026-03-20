@@ -51,3 +51,4 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[jagged-frontier]] - where fluency bias causes errors
 - [[artificial-confidence]] - related but distinct mechanism: fluency bias is about processing ease signaling truth (trusting AI output); artificial confidence is about social comparison signaling relative ability (dismissing AI as inferior and feeling more capable by comparison). Both distort self-assessment but through different pathways.
 - [[capacity-erosion]] - Huffstadt (2026) shows fluency creates a satisfaction illusion that masks motivational erosion
+- [[effort-heuristic]] - inverse effect: AI's effortlessness makes solo effort feel like a bug

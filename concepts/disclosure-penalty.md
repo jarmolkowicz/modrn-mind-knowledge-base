@@ -49,6 +49,6 @@ Getting caught using AI without disclosing produces even larger trust drops than
 ## Related
 
 - [[transparency-paradox]] - the broader pattern
-- [[stigma-management]] - how people navigate this
+- stigma management - how people navigate this
 - [[authenticity]] - what's at stake
 - [[ai-moralization]] - moral judgment may compound the disclosure penalty (de Mello et al., 2026); moralization may operate as a deeper mechanism beneath the disclosure penalty: people don't just perceive AI-assisted work as less authentic, some view AI use as morally suspect

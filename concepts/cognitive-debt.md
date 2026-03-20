@@ -1,5 +1,5 @@
 ---
-status: solid
+status: emerging
 area: [erosion]
 sources:
   - "MIT Media Lab (2025)"

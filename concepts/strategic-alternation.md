@@ -50,3 +50,4 @@ This suggests alternation design matters:
 - [[cognitive-offloading]] - what alternation counterbalances
 - [[ai-oscillation-trap]] - switching costs to consider
 - [[cognitive-grit]] - mental endurance for unassisted work
+- [[continuous-improvement-loop]] - the recognize-practice-adjust cycle that refines alternation over time

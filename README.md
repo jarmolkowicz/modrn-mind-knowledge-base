@@ -7,7 +7,7 @@ Curated research on AI and human thinking — translated into concepts you can t
 ## What's Inside
 
 - `concepts/` — 55 named phenomena: cognitive surrender, capacity erosion, performance paradox, belief offloading, and more
-- `frameworks/` — Decision models: Tri-System Theory, Complementarity Framework, SCAN, Modern Mind
+- `frameworks/` — Decision models: Tri-System Theory, Complementarity Framework, SCAN, [[modern-mind|Modern Mind]]
 - `practices/` — Methods for preserving thinking capacity: think-first, calibration, strategic alternation
 - `sources/` — 65+ curated sources (papers, books, articles) with key findings and full citations
 

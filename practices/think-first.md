@@ -31,3 +31,4 @@ Your brain does the cognitive work. AI scaffolds and challenges but doesn't repl
 - [[strategic-alternation]] - Think-First is the primary mode
 - [[desirable-difficulty]] - what this practice preserves
 - [[capacity-erosion]] - what this practice prevents
+- [[structured-co-creation]] - the mode that follows Think-First: you provide seeds, AI expands
