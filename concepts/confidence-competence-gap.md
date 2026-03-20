@@ -4,6 +4,7 @@ area: [erosion]
 sources:
   - "Scispace Literature Synthesis (2025)"
   - "Tankelevitch et al. (2024)"
+  - "Shaw & Nave (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -18,10 +19,13 @@ AI creates a "skill illusion"—people feel competent when they're not. The gap 
 
 This is the hidden erosion mechanism. You don't notice capability degrading because AI keeps producing good outputs. The gap only becomes visible when you try to work without AI—and by then, significant erosion may have occurred.
 
+Shaw & Nave (2026) provide direct experimental evidence of this gap in real-time. AI access inflated confidence by ~12 percentage points (Study 1: 77.0% AI-assisted vs 65.3% brain-only, Hedges' g = 0.54), despite approximately half of AI outputs being deliberately wrong. Critically, confidence did not decline as the number of faulty trials increased — participants remained confident even as they accumulated errors. Per-item confidence in Study 3 was higher on AI-assisted trials (82.2%) than brain-only trials (77.5%), and did not vary between AI-accurate and AI-faulty trials. People felt equally confident whether AI helped or hurt them.
+
 ## Key Insight
 
 The mechanism:
 1. AI produces correct outputs
+1b. Shaw & Nave (2026) reveal an additional mechanism: AI doesn't just produce correct outputs that get misattributed — it produces *confident, fluent* outputs that inflate the user's sense of certainty regardless of accuracy. The confidence boost is not contingent on outcomes. This means the gap can widen even in a single session, not just over time.
 2. User attributes success to own understanding
 3. Delayed/absent feedback provides no correction signal
 4. Confidence stays high while competence declines
@@ -46,3 +50,5 @@ Traditional metacognitive tools assume direct engagement with the task. When AI 
 - [[calibration]] - practice for accurate self-assessment
 - [[cognitive-debt]] - what accumulates in the gap
 - [[fluency-bias]] - why AI outputs feel trustworthy
+- [[cognitive-surrender]] - the behavioral mechanism that drives confidence inflation with AI
+- [[tri-system-theory]] - framework explaining why System 3 inflates confidence

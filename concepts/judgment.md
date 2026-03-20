@@ -3,6 +3,7 @@ status: emerging
 area: [risk, preservation]
 sources:
   - "Duncan (2026)"
+  - "Gonzalez et al. (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -12,6 +13,8 @@ reviewed_date:
 ## What It Is
 
 The capacity to act wisely in situations where rules by themselves are insufficient. Not a single skill but a cluster of distinct capabilities: evaluating quality, reading context, weighing tradeoffs, anticipating consequences, and accepting accountability under uncertainty.
+
+Gonzalez et al. (2026) reinforce the non-delegable nature of human judgment from a team science perspective. In human-AI teams, humans must remain "the locus of ethical authority and accountability in consequential decisions." AI systems "cannot hold moral agency or be held responsible for harm" — this asymmetry makes human judgment structurally irreplaceable regardless of AI capability improvements.
 
 ## Why It Matters
 
@@ -28,6 +31,17 @@ Duncan (2026) proposes a practitioner framework distinguishing five types of jud
 5. **Ownership** — Accepting personal accountability under uncertainty. "I'll stand behind this decision even without full information."
 
 Each type develops through different experiences and erodes through different mechanisms of AI over-reliance.
+
+### Judgment in Human-AI Teams
+
+The complementarity framework identifies specific roles for human judgment in teams:
+
+- **Ethical authority** — Adjudicating competing values, weighing tradeoffs, and making fairness decisions that require empathy and contextual norms. AI can surface disparities and flag inconsistencies, but humans must adjudicate.
+- **Contextual reasoning** — Interpreting ambiguous or novel situations using tacit, experiential, and embodied knowledge that AI does not possess.
+- **Override authority** — Knowing when to challenge or override AI recommendations, especially when AI fails silently with high confidence in unfamiliar conditions.
+- **Improvisation** — Dynamic replanning and navigating unstructured environments where AI coordination strategies become brittle.
+
+The paper emphasizes that in safety-critical or value-laden decisions, AI must function as a "low-agency advisor" because human accountability cannot be delegated. This aligns with Duncan's "Ownership" judgment type — accepting accountability under uncertainty — but extends it to the team context.
 
 ## The Judgment Development Paradox
 
@@ -51,3 +65,5 @@ Borrowed from high-stakes fields (medicine, military):
 - [[zone-of-proximal-development]] - graduated responsibility mirrors scaffolding theory
 - [[confidence-competence-gap]] - judgment gap is invisible until tested
 - [[judgment-development-paradox]] - the paradox explored in depth
+- [[human-ai-complementarity]] - judgment is structurally irreplaceable in complementary teams
+- [[complementarity-framework]] - human judgment anchors the reasoning dimension

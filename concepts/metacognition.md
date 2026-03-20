@@ -10,6 +10,9 @@ sources:
   - "Gentner & Markman (1997)"
   - "Lakoff & Johnson (1999)"
   - "Varela, Thompson & Rosch (1991)"
+  - "Lodge & Loble (2026)"
+  - "Gonzalez et al. (2026)"
+  - "Shaw & Nave (2026)"
 reviewed_by:
 reviewed_date:
 ---
@@ -24,6 +27,8 @@ The awareness and understanding of your own thinking processes—knowing what yo
 
 Metacognition is the master skill for navigating AI. It enables calibration, recognizing biases, detecting erosion, and maintaining agency. Without metacognition, you can't monitor your own state.
 
+Lodge & Loble (2026) identify two specific threats AI poses to metacognition. First, an "illusion of competence": AI's fluent output acts as a misleading metacognitive cue, signaling to the learner that deep engagement is unnecessary. This is familiar from research on fluent learning materials (Carpenter et al. 2013), but AI is "fluency on demand" — it produces this illusion constantly and on any topic. Second, "metacognitive laziness" (Fan et al. 2024): because self-regulated learning itself creates cognitive load, learners rationally offload planning, monitoring, and revision to AI, abdicating the very processes that develop metacognitive capacity.
+
 ## Key Insight
 
 Metacognition is trainable and protective. You can get better at monitoring your own cognition, and this skill helps protect against erosion.
@@ -32,6 +37,14 @@ Key questions:
 - "Do I actually understand this, or does it just feel familiar?"
 - "Am I thinking, or am I accepting AI thinking?"
 - "Could I do this without AI?"
+- "Am I trying to learn this, or am I trying to finish this?" (Lodge & Loble 2026) — the distinction between a "learn the concept" goal and a "task completion" goal determines whether AI use builds or bypasses knowledge.
+
+Shaw & Nave (2026) provide experimental evidence that AI use bypasses metacognitive monitoring. In their Tri-System Theory, the conflict/uncertainty detection that normally routes processing from System 1 to System 2 (deliberation) is short-circuited when System 3 (AI) delivers fluent, confident outputs. The metacognitive signal that says "wait, think harder" is suppressed — not because the user lacks metacognitive capacity, but because AI outputs don't trigger the conflict detection that would activate it.
+
+This adds a critical question to the metacognitive checklist:
+- "Did I actually evaluate this AI output, or did it arrive so smoothly that my monitoring never engaged?"
+
+Their data show that higher need for cognition (a proxy for metacognitive disposition) predicted resistance to [[cognitive-surrender]] and more [[cognitive-offloading]] — suggesting that metacognitive habits are protective, but only if they are active before AI engagement, not after.
 
 Metacognition also means recognizing what kind of reasoning you're doing. Gentner & Markman (1997) distinguish surface similarity (shared features) from structural similarity (shared relations). A key metacognitive question when using AI: "Am I making a genuine cross-domain connection, or am I accepting a surface-level association from AI?"
 
@@ -49,6 +62,22 @@ Building on Varela, Thompson & Rosch (1991), we extend metacognition to include 
 
 These form a self-sustaining cycle that strengthens over time.
 
+Shaw & Nave's finding that incentives + item-level feedback partially reactivated System 2 monitoring (override rates doubled on faulty AI trials) supports SCAN's emphasis on real-time evaluation — but also shows that without external prompts, metacognitive monitoring during AI use is weak by default.
+
+### Metacognitive Oversight in Human-AI Teams
+
+Gonzalez et al. (2026) identify metacognitive oversight as essential for error detection in human-AI teams. The paper notes that "humans provide metacognitive oversight and contextual reasoning, though their vigilance degrades under fatigue and cognitive load." This positions metacognition not just as an individual self-monitoring skill, but as a team function — the human's role in layered defenses where AI handles systematic checks and humans provide the contextual, metacognitive layer.
+
+Key team-level metacognitive demands identified:
+- **Interrogation over acceptance** — Teams perform best when humans actively interrogate AI rather than passively accept output. This requires ongoing metacognitive monitoring: "Am I questioning this, or am I accepting?"
+- **Trust calibration as metacognitive skill** — Recognizing when you are over-trusting or under-trusting AI requires awareness of your own reliance patterns. The framework calls for shared mental models of AI abilities and limitations — a metacognitive map of the AI partner.
+- **Detecting silent failures** — AI can "fail silently with high confidence when encountering unfamiliar conditions." Detecting these failures requires the human to monitor not just the AI output, but the conditions under which the AI is likely to be wrong — a second-order metacognitive task.
+
+This extends the KB's existing metacognitive questions with a team-level variant:
+- "Am I interrogating this AI output, or accepting it?"
+- "Do I have an accurate mental model of when this AI is likely to fail?"
+- "Is my vigilance degrading — am I monitoring less carefully than I was an hour ago?"
+
 ## Related
 
 - [[calibration]] - applied metacognition
@@ -59,3 +88,9 @@ These form a self-sustaining cycle that strengthens over time.
 - [[zone-of-proximal-development]] - metacognition helps locate yourself
 - [[analogical-reasoning]] - metacognition helps distinguish deep analogy from surface pattern matching
 - [[embodied-cognition]] - metacognition includes monitoring embodied knowing
+- [[metacognitive-laziness]] - specific phenomenon of AI-induced metacognitive abdication
+- [[performance-paradox]] - what happens when metacognitive monitoring fails
+- [[human-ai-complementarity]] - metacognition is essential for achieving complementarity
+- [[complementarity-framework]] - metacognitive oversight anchors the human role in error detection
+- [[cognitive-surrender]] - what happens when metacognitive monitoring is bypassed by AI
+- [[tri-system-theory]] - models metacognitive monitoring as the gate between offloading and surrender
