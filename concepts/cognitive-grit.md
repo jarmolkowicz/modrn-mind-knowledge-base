@@ -2,7 +2,8 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Nosta (2026)"
+  - "Nosta, Cognitive Grit (2026)"
+  - "Nosta, The Borrowed Mind (2026)"
 reviewed_by:
 reviewed_date:
 ---

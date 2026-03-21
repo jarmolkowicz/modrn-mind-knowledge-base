@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Nosta (2026)"
+  - "Nosta, Frictionless Intelligence (2026)"
   - "Bjork & Bjork (2011)"
 reviewed_by:
 reviewed_date:

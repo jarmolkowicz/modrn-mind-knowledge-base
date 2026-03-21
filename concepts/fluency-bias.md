@@ -4,7 +4,7 @@ area: [erosion]
 sources:
   - "Oppenheimer (2008)"
   - "Reber & Schwarz (1999)"
-  - "Nosta (2025)"
+  - "Nosta, Coherence Trap (2025)"
   - "Jarmołkowicz (2025)"
   - "Tankelevitch et al. (2024)"
   - "Reich & Teeny (2026)"

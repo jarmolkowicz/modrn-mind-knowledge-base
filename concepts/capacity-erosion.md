@@ -2,7 +2,7 @@
 status: emerging
 area: [erosion, risk]
 sources:
-  - "Nosta (2025)"
+  - "Nosta, AI Rebound (2025)"
   - "Jarmołkowicz (2025)"
   - "Nikolova et al. (2024)"
   - "Duncan (2026)"

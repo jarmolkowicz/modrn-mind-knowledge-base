@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Nosta (2025)"
+  - "Nosta, Oscillation Trap (2025)"
   - "Jarmołkowicz (2025)"
   - "Runco & Jaeger (2012)"
 reviewed_by:

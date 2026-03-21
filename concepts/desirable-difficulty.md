@@ -3,7 +3,7 @@ status: solid
 area: [preservation]
 sources:
   - "Bjork & Bjork (2011)"
-  - "Nosta (2026)"
+  - "Nosta, Frictionless Intelligence (2026)"
   - "Jarmołkowicz (2025)"
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"

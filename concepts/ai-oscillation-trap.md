@@ -2,7 +2,7 @@
 status: emerging
 area: [erosion]
 sources:
-  - "Nosta (2025)"
+  - "Nosta, Oscillation Trap (2025)"
 reviewed_by:
 reviewed_date:
 ---

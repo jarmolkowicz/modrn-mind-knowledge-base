@@ -2,8 +2,8 @@
 status: emerging
 area: [erosion]
 sources:
-  - "Nosta (2025)"
-  - "Nosta (2026)"
+  - "Nosta, Borrowed Certainty (2025)"
+  - "Nosta, The Borrowed Mind (2026)"
   - "Guingrich, Mehta & Bhatt (2026)"
 reviewed_by:
 reviewed_date:
