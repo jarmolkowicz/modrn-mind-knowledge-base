@@ -22,7 +22,7 @@ From BetterUp Labs / Stanford Social Media Lab survey (N=1,150):
 - ~50% of recipients view senders as less capable, creative, and reliable afterward
 - 42% see senders as less trustworthy
 
-Workslop is not laziness — it is what happens when overwhelmed employees are given vague mandates to "use AI" without training, agency, or trust. 53% who send workslop say they do so because they feel "stretched too thin."
+Workslop is not laziness — it is what happens when overwhelmed employees are given vague mandates to "use AI" without training, agency, or trust. 53% of respondents admitted to sending subpar AI-generated work at least some of the time — primarily because they feel "stretched too thin."
 
 ## Mechanism
 ```

@@ -26,7 +26,7 @@ Reduce AI-generated low-quality work output at the team level by building trust,
 **What to avoid:**
 - Blanket AI mandates without training or quality norms
 - Measuring AI adoption by usage metrics alone
-- Pressuring overwhelmed teams to "just use AI" — 53% of workslop senders say they feel "stretched too thin"
+- Pressuring overwhelmed teams to "just use AI" — 53% admit to sending subpar AI work, primarily because they feel "stretched too thin"
 
 ## Why It Works
 
