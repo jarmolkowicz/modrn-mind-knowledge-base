@@ -35,7 +35,7 @@ Self-diagnose which of six AI interaction patterns you default to. Three preserv
 
 ## Why It Works
 
-Shen & Tamkin (2026) ran an RCT (N=52, Cohen's d=0.725) showing that AI-assisted developers scored 17% lower on comprehension — but only when using the three destroying patterns. The three preserving patterns maintained cognitive engagement: you stay in the loop, you process the information, you build understanding. The critical variable is not whether you use AI but how you interact with it.
+Shen & Tamkin (2026) ran an RCT (N=52, Cohen's d=0.738) showing that AI-assisted developers scored 17% lower on comprehension — but only when using the three destroying patterns. The three preserving patterns maintained cognitive engagement: you stay in the loop, you process the information, you build understanding. The critical variable is not whether you use AI but how you interact with it.
 
 The destroying patterns share a common mechanism: they bypass [[desirable-difficulty]] — the productive struggle of encountering and resolving errors independently. The control group hit ~3 errors per task and resolved them; the AI group hit ~1. Those error encounters drove learning.
 
