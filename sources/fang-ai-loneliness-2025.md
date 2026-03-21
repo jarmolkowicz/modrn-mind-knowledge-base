@@ -50,3 +50,4 @@ Largest and longest controlled study of AI chatbot psychosocial effects to date.
 ## Supports
 - [[ai-loneliness-effect]] - defines the concept
 - [[capacity-erosion]] - extends erosion to social/relational domain: socialization with real people decreased
+- [[green-yellow-red-monitoring]] - relatedness/social signals dimension grounded in the dose-dependent findings

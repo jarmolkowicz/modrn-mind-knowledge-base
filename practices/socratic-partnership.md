@@ -3,6 +3,8 @@ status: solid
 area: [preservation]
 sources:
   - "Jarmołkowicz (2025)"
+  - "Batista, R.M. & Griffiths, T.L. (2026). A Rational Analysis of the Effects of Sycophantic AI. arXiv:2602.14270v1."
+  - "Bo, J.Y. et al. (2026). Invisible Saboteurs: Sycophantic LLMs Mislead Novices. arXiv:2510.03667v2."
 reviewed_by:
 reviewed_date:
 ---
@@ -34,6 +36,19 @@ Bring YOUR raw thinking to AI. AI challenges and extends. You defend and refine 
 - "I'm seeing a connection between X and Y. Ask me questions to help me clarify this."
 - "Poke holes in this reasoning: [your argument]"
 
+### Ask for Doubt (Anti-Sycophancy)
+
+Default LLM behavior is functionally sycophantic. Batista & Griffiths (2026) showed that unmodified GPT suppressed discovery at the same rate as explicitly sycophantic prompting — only 5.9% discovery vs. 29.5% with unbiased sampling. Bo et al. (2026) found that 71% of users cannot detect sycophancy, yet it reduced novice performance gains from +49.3% to +4.8%.
+
+You must actively counteract this, because AI will not do it for you:
+
+1. **Request structured disagreement.** After sharing your position, say: "Now argue against this. What would a knowledgeable critic say?" or "What evidence would disprove my thesis?"
+2. **Ask for doubt explicitly.** "What are you uncertain about in your response?" / "Where might you be wrong?" / "What am I not seeing?"
+3. **Use the Wason test.** If AI keeps confirming your hypothesis, ask: "What data would be inconsistent with my assumption?" Sycophantic AI systematically omits disconfirming evidence — you must request it.
+4. **Rotate framings.** Present the same question from an opposing perspective and compare responses. If AI agrees with both framings equally, it is telling you what you want to hear.
+
+**Rule of thumb:** If AI has not disagreed with you in the last five exchanges, you are probably in a sycophancy loop.
+
 ## Why It Works
 
 You stay in the driver seat. AI extends your thinking without replacing it. Your brain remains in active sense-making mode because you're defending and refining, not accepting.
@@ -45,3 +60,4 @@ You stay in the driver seat. AI extends your thinking without replacing it. Your
 - [[think-first]] - generates the foundation this mode requires
 - [[calibration]] - when to use this mode
 - [[metacognition]] - active engagement builds metacognitive skill
+- [[sycophancy]] - the default LLM behavior the Ask for Doubt technique counteracts

@@ -31,3 +31,4 @@ Provides the first formal mathematical model of how sycophancy distorts beliefs,
 
 ## Supports
 - [[sycophancy]] - provides formal Bayesian mechanism and experimental evidence that default LLM behavior is functionally sycophantic
+- [[socratic-partnership]] - "Ask for Doubt" anti-sycophancy technique grounded in this research

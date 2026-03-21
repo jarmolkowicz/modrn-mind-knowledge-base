@@ -32,3 +32,4 @@ Complements Batista & Griffiths' theoretical analysis with applied evidence in a
 ## Supports
 - [[sycophancy]] - applied evidence of sycophancy's impact in complex problem-solving (beyond question-answering benchmarks)
 - [[novice-vulnerability]] - demonstrates that novices are uniquely susceptible to sycophancy because they hold misconceptions and cannot detect when AI validates them
+- [[socratic-partnership]] - 71% invisibility finding motivates the "Ask for Doubt" technique

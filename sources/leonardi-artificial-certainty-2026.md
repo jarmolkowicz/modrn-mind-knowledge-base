@@ -40,3 +40,4 @@ Extends the KB's individual-level concepts ([[confidence-competence-gap]], [[bor
 - [[confidence-competence-gap]] - organizational variant where AI gives non-experts false confidence
 - [[judgment]] - non-expert overconfidence enabled by AI representations
 - [[novice-vulnerability]] - organizational dimension of the vulnerability
+- [[modulation-practice]] - practice built on the modulation deployment mode

@@ -50,6 +50,16 @@ Before each task, consciously choose your AI engagement mode based on context.
 
 **Team calibration question:** "Do I have an accurate mental model of when this AI is likely to be right and when it is likely to fail?" Gonzalez et al. (2026) show that incomplete or divergent mental models of AI capabilities lead to delegation errors and coordination breakdowns.
 
+**Team calibration (five design principles from Gonzalez et al., 2026):**
+
+Calibration is not just individual — teams using AI together need shared calibration. Five principles for team-level calibration:
+
+1. **Align mental models.** Ensure all team members share an accurate understanding of what the AI can and cannot do. Divergent mental models cause some members to over-rely and others to under-rely, producing coordination failures worse than either error alone.
+2. **Define complementary roles.** Assign human-AI task allocation explicitly: what the AI handles, what humans handle, and what requires joint review. Do not leave this to individual discretion.
+3. **Build shared trust calibration.** Teams need collective agreement on when to trust AI output and when to scrutinize. One member's blind trust can override another's valid skepticism if norms are not explicit.
+4. **Establish error-detection protocols.** Designate who monitors AI output quality. Metacognitive oversight — noticing when AI might be wrong — is a team function, not just an individual one.
+5. **Iterate through shared experience.** Calibration improves when teams encounter and discuss AI errors together. Build in regular retrospectives on AI-assisted decisions: where it helped, where it misled.
+
 **SCAN-based calibration (zone check):**
 
 Before each task, locate yourself in SCAN zones:

@@ -46,3 +46,5 @@ High-scoring (avg quiz >65%):
 - [[capacity-erosion]] - demonstrates that skill formation deficit occurs during AI-assisted task completion, not just through long-term disuse
 - [[cognitive-offloading]] - six interaction patterns map a spectrum from full offloading (AI Delegation) to strategic engagement (Conceptual Inquiry)
 - [[desirable-difficulty]] - error encounters and independent resolution are the productive struggle AI removes
+- [[six-pattern-diagnostic]] - practice built on the six AI interaction patterns
+- [[think-first]] - "Embrace the Error" variant grounded in the error-encounter finding

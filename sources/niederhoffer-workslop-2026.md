@@ -67,3 +67,4 @@ Provides the first large-scale survey data (N=1,150) on the organizational cost 
 - [[fluency-bias]] - workslop succeeds because it looks polished
 - [[agency]] - "Pilots" vs "Passengers" framing; agency as protective factor
 - [[calibration]] - workslop as calibration failure at organizational level
+- [[workslop-prevention]] - practice built on the three organizational levers
