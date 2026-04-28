@@ -23,7 +23,7 @@ Research, practice, and professional insight translated into concepts you can te
 Not anti-AI. Not blindly pro-AI. Pro-human.
 
 > This file is auto-generated from the Modern Mind Knowledge Base.
-> Source: https://github.com/jarmolkowicz/modern-mind-knowledge-base
+> Source: https://github.com/jarmolkowicz/modrn-mind-knowledge-base
 > Website: https://modrnmind.com
 
 ---

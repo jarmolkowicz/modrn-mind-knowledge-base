@@ -22,7 +22,7 @@ The curation process is deliberately semi-automated — AI-assisted, human-revie
 
 ## Getting Started
 
-- **Use it with your AI** — Download the [knowledge pack](https://github.com/jarmolkowicz/modern-mind-knowledge-base/releases/latest), a single file with the full KB. Upload it to Claude Projects, NotebookLM, a Custom GPT, or any AI assistant that lets you upload files. Then prompt it to design, write, audit, or teach.
+- **Use it with your AI** — Download the [knowledge pack](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/releases/latest), a single file with the full KB. Upload it to Claude Projects, NotebookLM, a Custom GPT, or any AI assistant that lets you upload files. Then prompt it to design, write, audit, or teach.
 - **Browse it yourself** — Start with [index.md](index.md) for a scannable catalog of all 137 entries. From there, follow what catches your eye. `concepts/cognitive-debt.md` is a good starting concept; `methods/scan.md` and `methods/think-first.md` are strong methods to begin with.
 
 ## Contributing
@@ -31,7 +31,7 @@ This is an emerging field. No single person or framework has the full picture. T
 
 Review entries, challenge interpretations, contribute new sources, translate ideas to your domain, or build on top.
 
-The easiest way to contribute is to [open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) — suggest a source, flag an error, or propose a concept. For writing entries directly, see `CONTRIBUTING.md`.
+The easiest way to contribute is to [open an issue](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/issues) — suggest a source, flag an error, or propose a concept. For writing entries directly, see `CONTRIBUTING.md`.
 
 ## License
 

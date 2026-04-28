@@ -4,7 +4,7 @@
 
 ### Suggest via Issue
 
-The quickest way to contribute — no git knowledge needed. [Open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) to:
+The quickest way to contribute — no git knowledge needed. [Open an issue](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/issues) to:
 
 - Suggest a source or paper
 - Flag an error or misinterpretation
