@@ -12,8 +12,28 @@ dist/
 
 # Raw source files (PDFs, articles) — local only, copyright concerns
 # Track folder structure (.gitkeep files), ignore everything else inside
-raw/**/*
-!raw/**/.gitkeep
+raw/*
+!raw/inbox/
+!raw/papers/
+!raw/articles/
+!raw/books/
+!raw/transcripts/
+!raw/decks/
+!raw/other/
+raw/inbox/*
+raw/papers/*
+raw/articles/*
+raw/books/*
+raw/transcripts/*
+raw/decks/*
+raw/other/*
+!raw/inbox/.gitkeep
+!raw/papers/.gitkeep
+!raw/articles/.gitkeep
+!raw/books/.gitkeep
+!raw/transcripts/.gitkeep
+!raw/decks/.gitkeep
+!raw/other/.gitkeep
 
 # Python build artifacts
 __pycache__/
