@@ -22,8 +22,9 @@ Modrn Mind - Knowledge Base/
 ├── methods/            # Structured guidance: descriptive models AND prescriptive practices
 ├── sources/            # Per-source distillations with key passages, relevance, open questions
 │
-├── raw/                # Source files (gitignored contents, tracked structure)
+├── raw/                # Source files + ingestion lifecycle (gitignored contents, tracked structure)
 │   ├── inbox/          # New arrivals, awaiting screening + distillation
+│   ├── processing/     # In-flight drafts (per-source folder during ingestion)
 │   ├── papers/         # Academic papers (post-ingestion)
 │   ├── articles/       # Web articles, blog posts
 │   ├── books/          # Books and book chapters
@@ -31,7 +32,7 @@ Modrn Mind - Knowledge Base/
 │   ├── decks/          # Slide decks
 │   └── other/          # Anything that doesn't fit
 │
-├── workspace/          # Working artifacts (gitignored — processing drafts, feedback, reports)
+├── workspace/          # Generated reports + reviewer feedback (gitignored)
 │
 ├── index.md            # Auto-generated catalog: one row per entry, scannable
 ├── log.md              # Chronological record of ingests and changes
@@ -67,7 +68,7 @@ Without these, the agents still handle plain markdown and short PDFs (≤10 page
 When the user asks to ingest a source, refine an entry, run health checks, or restructure content:
 
 - Use the slash commands (`/scout-sources`, `/screen-source`, `/distill-source`, `/verify-draft`, `/update-index`, `/log`) and the sub-agents in `.claude/agents/`
-- Drafts always land in `workspace/processing/[source-slug]/`, never directly in `concepts/`, `methods/`, or `sources/`
+- Drafts always land in `raw/processing/[source-slug]/`, never directly in `concepts/`, `methods/`, or `sources/`
 - After ingestion, update `index.md` (`/update-index`) and append to `log.md` (`/log`)
 - Run `python tooling/scripts/linter.py` after structural changes to catch broken wikilinks, orphans, frontmatter drift
 
@@ -147,7 +148,7 @@ Drop source in raw/inbox/  →  /screen-source  →  /distill-source  →  (opti
 
 The user reviews drafts during the session. There's no separate review queue — the LLM proposes, the user edits, and the entry exists because the user committed it.
 
-Working artifacts (screening notes, in-flight drafts, reports) live in `workspace/`. Source files (PDFs, DOCX, etc.) live in `raw/`. New arrivals go to `raw/inbox/`; after ingestion, sources move to `raw/<type>/` based on their `type:` frontmatter.
+Source files and the entire ingestion lifecycle (incoming, in-flight drafts, processed) live in `raw/`. New arrivals go to `raw/inbox/`, distillation work happens in `raw/processing/[slug]/`, and after ingestion sources move to `raw/<type>/` based on their `type:` frontmatter. Generated reports (linter output, contradiction scan results) and reviewer feedback live in `workspace/`.
 
 ## Templates
 

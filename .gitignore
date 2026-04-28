@@ -14,6 +14,7 @@ dist/
 # Track folder structure (.gitkeep files), ignore everything else inside
 raw/*
 !raw/inbox/
+!raw/processing/
 !raw/papers/
 !raw/articles/
 !raw/books/
@@ -21,6 +22,7 @@ raw/*
 !raw/decks/
 !raw/other/
 raw/inbox/*
+raw/processing/*
 raw/papers/*
 raw/articles/*
 raw/books/*
@@ -28,6 +30,7 @@ raw/transcripts/*
 raw/decks/*
 raw/other/*
 !raw/inbox/.gitkeep
+!raw/processing/.gitkeep
 !raw/papers/.gitkeep
 !raw/articles/.gitkeep
 !raw/books/.gitkeep

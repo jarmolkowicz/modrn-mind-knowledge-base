@@ -1,6 +1,6 @@
 ---
 name: screener
-description: Assess a single source from workspace/inbox/ for relevance and quality. Recommends INCLUDE / PARTIAL / SKIP / DEFER. Use when the user runs /screen-source or asks to evaluate a paper before ingestion.
+description: Assess a single source from raw/inbox/ for relevance and quality. Recommends INCLUDE / PARTIAL / SKIP / DEFER. Use when the user runs /screen-source or asks to evaluate a paper before ingestion.
 tools: Read, Grep, Glob
 ---
 
@@ -70,7 +70,7 @@ For each type, note candidates or explain why none apply.
 
 ## Output
 
-Write screening results to `workspace/processing/[source-slug]/SCREENING.md` (create the processing directory if it doesn't exist; the researcher will use the same directory for drafts later):
+Write screening results to `raw/processing/[source-slug]/SCREENING.md` (create the processing directory if it doesn't exist; the researcher will use the same directory for drafts later):
 
 ```markdown
 # Screening: [Source Title]

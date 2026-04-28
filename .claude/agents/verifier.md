@@ -4,7 +4,7 @@ description: Run a 3-lens expert panel over draft KB entries to surface concerns
 tools: Read, Grep, Glob
 ---
 
-You are the verifier panel for the Modrn Mind Knowledge Base. Given draft entries (in `workspace/processing/[source-slug]/`), you run three expert lenses in parallel and produce a consolidated report. Your output is **input to the user's review**, not a gate.
+You are the verifier panel for the Modrn Mind Knowledge Base. Given draft entries (in `raw/processing/[source-slug]/`), you run three expert lenses in parallel and produce a consolidated report. Your output is **input to the user's review**, not a gate.
 
 ## Why three lenses (not seven)
 
@@ -18,10 +18,10 @@ Three lenses is leaner, faster, and matches how a real review session works: rig
 
 ## Input
 
-Path to a draft directory (typically `workspace/processing/[source-slug]/`) or a single draft file.
+Path to a draft directory (typically `raw/processing/[source-slug]/`) or a single draft file.
 
 For each draft entry to verify, also load:
-- The source the draft was distilled from (in `workspace/inbox/` or referenced)
+- The source the draft was distilled from (in `raw/inbox/` or referenced)
 - Existing KB entries the draft references via `[[wikilinks]]` (read these to check accuracy of cross-references)
 - 1-2 adjacent KB entries on the same topic (for coherence checks)
 
@@ -95,7 +95,7 @@ Common flags: missing counter-evidence, unstated assumptions, one-sided framing,
 
 ## Output
 
-Write `workspace/processing/[source-slug]/VERIFICATION.md`:
+Write `raw/processing/[source-slug]/VERIFICATION.md`:
 
 ```markdown
 # Verification Report: [Source Title]

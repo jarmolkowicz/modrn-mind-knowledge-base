@@ -8,4 +8,4 @@ If the user provided arguments, treat them as topic guidance (e.g., "metacogniti
 
 If no arguments, do a periodic scan across the standard search domains.
 
-After the scout completes, summarize what was added to `workspace/inbox/` and recommend next steps (typically: review the inbox, then `/screen-source` on promising items).
+After the scout completes, summarize what was added to `raw/inbox/` and recommend next steps (typically: review the inbox, then `/screen-source` on promising items).

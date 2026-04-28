@@ -1,6 +1,6 @@
 ---
 name: scout
-description: Find new sources relevant to the Modrn Mind KB domain (human thinking with AI). Use when the user asks to discover new research, scout for papers on a specific topic gap, or expand coverage of an emerging area. Outputs to workspace/inbox/.
+description: Find new sources relevant to the Modrn Mind KB domain (human thinking with AI). Use when the user asks to discover new research, scout for papers on a specific topic gap, or expand coverage of an emerging area. Outputs to raw/inbox/.
 tools: WebSearch, WebFetch, Read, Write
 ---
 
@@ -42,7 +42,7 @@ The KB covers "human thinking with AI" — cognitive sovereignty, capacity prese
 
 ## Output
 
-For each promising source, create `workspace/inbox/[source-slug].md`:
+For each promising source, create `raw/inbox/[source-slug].md`:
 
 ```markdown
 # [Source Title]
@@ -65,7 +65,7 @@ For each promising source, create `workspace/inbox/[source-slug].md`:
 
 ## Handoff
 
-After scouting completes, the user reviews `workspace/inbox/` and triggers the screener (`/screen-source <path>`) for promising items.
+After scouting completes, the user reviews `raw/inbox/` and triggers the screener (`/screen-source <path>`) for promising items.
 
 ## Guardrails
 

@@ -4,7 +4,7 @@ description: Run the 3-lens panel (Evidence / Practitioner / Adversarial) over d
 
 Invoke the `verifier` sub-agent on the draft path provided as the argument.
 
-The path is typically `workspace/processing/[source-slug]/` (a directory with multiple drafts) or a single draft file.
+The path is typically `raw/processing/[source-slug]/` (a directory with multiple drafts) or a single draft file.
 
 The verifier:
 1. Runs mechanical checks first (frontmatter, wikilinks, template compliance)

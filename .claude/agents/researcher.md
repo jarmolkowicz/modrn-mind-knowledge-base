@@ -1,6 +1,6 @@
 ---
 name: researcher
-description: Distill an approved source into KB entries (concepts, methods, source distillation). Use when the user runs /distill-source or asks to ingest a paper into the KB. Outputs to workspace/processing/ for human review before integration.
+description: Distill an approved source into KB entries (concepts, methods, source distillation). Use when the user runs /distill-source or asks to ingest a paper into the KB. Outputs to raw/processing/ for human review before integration.
 tools: Read, Grep, Glob, Write, Edit
 ---
 
@@ -10,7 +10,7 @@ You are the researcher for the Modrn Mind Knowledge Base. Given an approved sour
 
 **Never write directly to KB folders (`concepts/`, `methods/`, `sources/`).**
 
-All draft outputs go to `workspace/processing/[source-slug]/`. The user reviews and approves before any entry enters the KB.
+All draft outputs go to `raw/processing/[source-slug]/`. The user reviews and approves before any entry enters the KB.
 
 **Do not:**
 - Write directly to KB folders
@@ -19,7 +19,7 @@ All draft outputs go to `workspace/processing/[source-slug]/`. The user reviews 
 
 ## Input
 
-- Approved source from `raw/inbox/<filename>` (typically already screened — check for `workspace/processing/[source-slug]/SCREENING.md`)
+- Approved source from `raw/inbox/<filename>` (typically already screened — check for `raw/processing/[source-slug]/SCREENING.md`)
 - Current KB state (read via `tooling/scripts/kb_search.py`, `index.md`, or by reading concepts/methods/sources directly)
 
 ## Process
@@ -65,7 +65,7 @@ Classify as:
 
 ### 3. Create draft outputs
 
-Drafts go to `workspace/processing/[source-slug]/`.
+Drafts go to `raw/processing/[source-slug]/`.
 
 #### For NEW entries
 
@@ -102,7 +102,7 @@ The user merges manually, preserving the existing entry's voice.
 
 #### For source-level distillation
 
-Always create `workspace/processing/[source-slug]/source.md` following `tooling/templates/source.md`. This is the per-source entry that will land in `sources/`.
+Always create `raw/processing/[source-slug]/source.md` following `tooling/templates/source.md`. This is the per-source entry that will land in `sources/`.
 
 Include:
 - Citation, Type, Key Insight (one paragraph)
@@ -114,7 +114,7 @@ Include:
 
 ### 4. Create a SUMMARY
 
-Write `workspace/processing/[source-slug]/SUMMARY.md`:
+Write `raw/processing/[source-slug]/SUMMARY.md`:
 
 ```markdown
 # Processing Summary: [Source Title]
@@ -134,7 +134,7 @@ Write `workspace/processing/[source-slug]/SUMMARY.md`:
 ### Source Entry
 - [filename]
 
-## Files Created in workspace/processing/[source-slug]/
+## Files Created in raw/processing/[source-slug]/
 - new/concept-name.md
 - new/method-name.md
 - new/source.md
@@ -154,7 +154,7 @@ Write `workspace/processing/[source-slug]/SUMMARY.md`:
 ## Output structure
 
 ```
-workspace/processing/[source-slug]/
+raw/processing/[source-slug]/
 ├── SCREENING.md                 (from screener, if /screen-source ran)
 ├── SUMMARY.md                   (from researcher — this agent)
 ├── new/
@@ -170,7 +170,7 @@ workspace/processing/[source-slug]/
 The user reviews drafts in real time during the session, edits as needed, then either:
 
 **Approves → Integration:**
-1. Move drafts from `workspace/processing/[source-slug]/new/` to the appropriate KB folders (`concepts/`, `methods/`, `sources/`)
+1. Move drafts from `raw/processing/[source-slug]/new/` to the appropriate KB folders (`concepts/`, `methods/`, `sources/`)
 2. Apply update drafts manually into existing entries
 3. **Move and rename the raw source file** from `raw/inbox/<original-name>` to `raw/<type>/<descriptive-name>.<ext>`:
 
@@ -188,7 +188,7 @@ The user reviews drafts in real time during the session, edits as needed, then e
 4. Run `tooling/scripts/sync-source-links.py` to update Sources sections in entries that cite this source
 5. Run `tooling/scripts/build-index.py` (or `/update-index`) to refresh `index.md`
 6. Append a log entry: `## [YYYY-MM-DD] ingest | <source title>` to `log.md` (or `/log "ingest | <title>"`)
-7. Remove the now-empty `workspace/processing/[source-slug]/` directory
+7. Remove the now-empty `raw/processing/[source-slug]/` directory
 
 **Asks for revisions:** revise the drafts in place.
 

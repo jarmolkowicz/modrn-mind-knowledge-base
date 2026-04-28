@@ -46,14 +46,14 @@ If you don't install the plugin, the agents will still work for plain markdown s
 
 **4-stage pipeline:**
 
-1. **`/scout-sources`** — Discover new sources relevant to the KB domain. Outputs go to `workspace/inbox/`. (Agent: `.claude/agents/scout.md`)
+1. **`/scout-sources`** — Discover new sources relevant to the KB domain. Outputs go to `raw/inbox/`. (Agent: `.claude/agents/scout.md`)
 2. **`/screen-source <path>`** — Assess a source for relevance and quality. Recommends INCLUDE, PARTIAL, SKIP, or DEFER. (Agent: `.claude/agents/screener.md`)
-3. **`/distill-source <path>`** — Extract concepts, methods, and source distillation from an approved source into `workspace/processing/[source-slug]/`. (Agent: `.claude/agents/researcher.md`)
+3. **`/distill-source <path>`** — Extract concepts, methods, and source distillation from an approved source into `raw/processing/[source-slug]/`. (Agent: `.claude/agents/researcher.md`)
 4. **`/verify-draft <path>`** — Run a 3-lens panel (Evidence, Practitioner, Adversarial) over drafts as additional input for review. Optional but recommended for substantive entries. (Agent: `.claude/agents/verifier.md`)
 
 After integration, run **`/update-index`** to regenerate `index.md`, and **`/log "ingest | <source name>"`** to record the change in `log.md`.
 
-**Guardrail:** All workflow outputs go to `workspace/` — never directly to KB folders (`concepts/`, `methods/`, `sources/`). The user reviews drafts during the session and approves before any entry moves into the KB.
+**Guardrail:** All workflow outputs go to `raw/processing/[source-slug]/` — never directly to KB folders (`concepts/`, `methods/`, `sources/`). The user reviews drafts during the session and approves before any entry moves into the KB.
 
 ## Templates
 
