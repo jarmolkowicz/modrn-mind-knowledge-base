@@ -24,6 +24,24 @@ All contributions require human review before merging.
 
 For ingesting sources, use the agents and slash commands in `.claude/`. These are designed for Claude Code — not scripts, not fully automated pipelines.
 
+#### Required Claude Code plugins (one-time setup)
+
+The ingestion agents (especially `screener` and `researcher`) call Anthropic skills to read PDFs, Word documents, and PowerPoints. Install the plugin once:
+
+```
+claude
+/plugin install anthropic-skills
+```
+
+This makes the following skills available:
+- `anthropic-skills:pdf` — read, extract text and tables from PDF files (essential for academic papers)
+- `anthropic-skills:docx` — read Word documents
+- `anthropic-skills:pptx` — read PowerPoint decks
+
+Plugin installation is per-machine, not per-project. Each contributor (you, Julia, anyone using Claude Code in this repo) installs once and the skills become available across all their Claude Code sessions.
+
+If you don't install the plugin, the agents will still work for plain markdown sources and short PDFs (≤10 pages), but will fail or degrade on long PDFs, DOCX, and PPTX inputs.
+
 **Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
 
 **4-stage pipeline:**

@@ -48,6 +48,18 @@ Modrn Mind - Knowledge Base/
 └── .github/workflows/  # build-kb-bundle.yml
 ```
 
+## Required plugins (one-time per contributor)
+
+Ingestion agents call Anthropic skills for non-trivial source formats. Install once:
+
+```
+/plugin install anthropic-skills
+```
+
+Provides `anthropic-skills:pdf`, `anthropic-skills:docx`, `anthropic-skills:pptx`. Installation is per-user, not per-project.
+
+Without these, the agents still handle plain markdown and short PDFs (≤10 pages) via the built-in Read tool, but will fail or degrade on longer PDFs, DOCX, and PPTX inputs.
+
 ## Two modes Claude Code operates in here
 
 ### Maintenance mode (you are *editing* the KB)
