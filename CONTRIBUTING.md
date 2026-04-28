@@ -42,6 +42,29 @@ Plugin installation is per-machine, not per-project. Each contributor (you, Juli
 
 If you don't install the plugin, the agents will still work for plain markdown sources and short PDFs (≤10 pages), but will fail or degrade on long PDFs, DOCX, and PPTX inputs.
 
+#### System binaries the document skills depend on
+
+The PDF/DOCX/PPTX skills shell out to a few system binaries. Install once on your machine:
+
+- **pandoc** — DOCX text extraction ([install](https://pandoc.org/installing.html))
+- **Python 3** — script runtime
+- **LibreOffice** (`soffice`) — DOC↔DOCX conversion, DOCX→PDF rendering
+- **poppler** (`pdftoppm`) — PDF→image rendering
+- **Node.js** + `npm install -g docx` — only if creating new .docx files
+
+For the typical research-ingestion flow (papers as PDF, articles as web text → markdown distillations), pandoc + Python + LibreOffice + poppler is the practical minimum.
+
+#### Python tooling: invoke via `uv`
+
+KB tooling scripts (`tooling/scripts/*.py`) **must be invoked with `uv run python ...`**, never bare `python`. `uv` reads `pyproject.toml`, manages `.venv/` automatically, and ensures every contributor runs the same dependency versions.
+
+```bash
+uv run python tooling/scripts/linter.py          # ✓ correct
+python tooling/scripts/linter.py                 # ✗ wrong — uses system Python
+```
+
+If `uv` isn't installed: https://docs.astral.sh/uv/getting-started/installation/
+
 **Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
 
 **5-stage pipeline:**
