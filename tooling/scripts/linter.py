@@ -16,10 +16,11 @@ free, deterministic.
 
 ## Usage
 
-    python tooling/scripts/linter.py                # full run, write report
-    python tooling/scripts/linter.py --check orphans --check frontmatter
-    python tooling/scripts/linter.py --stdout       # print to terminal
-    python tooling/scripts/linter.py --json         # machine-readable output
+    python tooling/scripts/linter.py                  # summary table to stdout (no file)
+    python tooling/scripts/linter.py --check orphans  # filter to one check
+    python tooling/scripts/linter.py --stdout         # full markdown report to stdout
+    python tooling/scripts/linter.py --json           # JSON to stdout (for programmatic use)
+    python tooling/scripts/linter.py --out lint.md    # write full report to a file
 """
 
 from __future__ import annotations
@@ -46,8 +47,6 @@ from kb_search import (  # noqa: E402
     load_entries,
 )
 
-DIST_DIR = KB_ROOT / "dist"
-REPORT_PATH = DIST_DIR / "lint-report.md"
 
 
 @dataclass
@@ -337,23 +336,18 @@ def main(argv: list[str] | None = None) -> int:
     )
     parser.add_argument(
         "--out",
-        default=str(REPORT_PATH),
-        help=f"output path for markdown report (default: {REPORT_PATH})",
+        default=None,
+        help="optional path to write the full markdown report to (default: no file written)",
     )
     parser.add_argument(
         "--stdout",
         action="store_true",
-        help="print report to stdout instead of writing to file",
+        help="print full markdown report to stdout (default: summary table only)",
     )
     parser.add_argument(
         "--json",
         action="store_true",
-        help="emit findings as JSON to stdout (suppresses markdown report)",
-    )
-    parser.add_argument(
-        "--summary-only",
-        action="store_true",
-        help="print only the summary table to stdout (on top of file write)",
+        help="emit findings as JSON to stdout",
     )
     args = parser.parse_args(argv)
 
@@ -369,20 +363,21 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.stdout:
         print(report)
-    else:
+    elif args.out:
         out_path = Path(args.out)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(report, encoding="utf-8")
         print(f"Wrote {len(findings)} findings across {len(selected)} checks to {out_path}")
-        if args.summary_only or True:
-            print()
-            print("Summary:")
-            by_check: dict[str, int] = {name: 0 for name in selected}
-            for f in findings:
-                by_check[f.check] = by_check.get(f.check, 0) + 1
-            width = max(len(n) for n in selected)
-            for name in selected:
-                print(f"  {name:<{width}}  {by_check.get(name, 0):>4}")
+    else:
+        # Default: print the summary table to stdout. No file written.
+        print(f"Lint findings: {len(findings)} across {len(selected)} checks")
+        print()
+        by_check: dict[str, int] = {name: 0 for name in selected}
+        for f in findings:
+            by_check[f.check] = by_check.get(f.check, 0) + 1
+        width = max(len(n) for n in selected)
+        for name in selected:
+            print(f"  {name:<{width}}  {by_check.get(name, 0):>4}")
 
     return 0
 
