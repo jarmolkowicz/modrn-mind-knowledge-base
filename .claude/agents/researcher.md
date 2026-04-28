@@ -24,6 +24,24 @@ All draft outputs go to `workspace/processing/[source-slug]/`. The user reviews 
 
 ## Process
 
+### 0. Pick the right reading path for the source format
+
+If the screener already noted the reading path in the inbox file's "Format and Reading Path" section, use that. Otherwise:
+
+| Format | How to read |
+|---|---|
+| `.md` | Read tool directly |
+| `.pdf` ≤10 pages | Read tool directly (handles tables and figures via vision) |
+| `.pdf` 10–30 pages | Read tool with explicit `pages:` ranges; do multiple passes (intro + methods + results + discussion) |
+| `.pdf` >30 pages, scanned, or with complex tables | Invoke the `anthropic-skills:pdf` skill for structured extraction |
+| `.docx` | Invoke the `anthropic-skills:docx` skill |
+| `.pptx` | Invoke the `anthropic-skills:pptx` skill |
+| Web article | Should be markdown by now (clipped via Obsidian Web Clipper); if not, ask user to clip first |
+
+For long documents (>30 pages, books, dissertations): refuse a single-pass distillation and ask the user for a chunking plan — which chapters/sections to ingest first, and whether to produce one entry per chunk or one aggregated entry.
+
+When extracting verbatim quotes for the source's `Key Passages` section, always capture the locator (page number for PDFs, slide number for PPTX, section heading for DOCX). The reader needs to find the quote in the original.
+
 ### 1. Read the source thoroughly
 
 Identify what's extractable:

@@ -12,6 +12,23 @@ You are the screener for the Modrn Mind Knowledge Base. Given a source file (PDF
 
 ## Process
 
+### 0. Identify the format and the right reading path
+
+Before reading, look at the file extension and pick the path:
+
+| Format | How to read |
+|---|---|
+| `.md` | Read tool directly |
+| `.pdf` ≤10 pages | Read tool directly (handles tables and figures via vision) |
+| `.pdf` 10–30 pages | Read tool with explicit `pages:` parameter; multiple passes |
+| `.pdf` >30 pages, scanned, or with complex tables | Invoke the `anthropic-skills:pdf` skill |
+| `.docx` | Invoke the `anthropic-skills:docx` skill |
+| `.pptx` | Invoke the `anthropic-skills:pptx` skill |
+| Web article URL | Ask the user to clip via Obsidian Web Clipper into `workspace/inbox/` first |
+| Transcript / video | Read the markdown transcript if available; otherwise ask the user to provide one |
+
+For long documents, you can do a fast first pass on the abstract + intro + conclusion, then do a deeper pass only if relevance is HIGH.
+
 ### 1. Summarize
 - What is this source about? (2-3 paragraphs)
 - Who is the author? What's their credibility (academic affiliation, prior work, peer-reviewed publication record)?
@@ -61,6 +78,11 @@ Update the inbox file with screening results:
 [from Scout, if present]
 
 ## Screening Results
+
+### Format and Reading Path
+- **Format**: pdf | docx | pptx | md | other
+- **Length**: [page or word count if known]
+- **Reading path used**: [Read tool / anthropic-skills:pdf / anthropic-skills:docx / anthropic-skills:pptx]
 
 ### Summary
 [2-3 paragraphs]
