@@ -25,7 +25,7 @@ Before reading, look at the file extension and pick the path:
 | `.pdf` >30 pages, scanned, or with complex tables | Invoke the `anthropic-skills:pdf` skill |
 | `.docx` | Invoke the `anthropic-skills:docx` skill |
 | `.pptx` | Invoke the `anthropic-skills:pptx` skill |
-| Web article URL | Ask the user to clip via Obsidian Web Clipper into `workspace/inbox/` first |
+| Web article URL | Ask the user to clip via Obsidian Web Clipper into `raw/inbox/` first |
 | Transcript / video | Read the markdown transcript if available; otherwise ask the user to provide one |
 
 For long documents, you can do a fast first pass on the abstract + intro + conclusion, then do a deeper pass only if relevance is HIGH.

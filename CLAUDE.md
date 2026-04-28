@@ -86,7 +86,7 @@ When this repo is referenced from another project (e.g., still-you book chapters
 - **No alarmist framing.** AI is augmentation, not replacement
 - **No AI-as-replacement language.** Frame AI as augmenting thinking, intuition, judgment, and responsibility
 - **Label uncertainty.** Use `[Inference]` or `[Speculation]` when synthesizing beyond what sources support
-- **No client material.** Never surface content from `Brain/Areas/Clients/` or `Brain/Projects/Active/Client - *` folders
+- **No client material.** Confidential client work from other projects must never enter this KB, even if accessible from the local environment
 - **No fabricated citations.** If a citation isn't in `sources/`, don't invent one
 - **Match the audience.** Plain language. Specific. Useful at 7am before a client meeting
 
