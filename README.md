@@ -13,7 +13,7 @@ Curated research on AI and human thinking — translated into concepts you can t
 
 Every entry ties back to research or documented practice, status-tagged (`solid`, `emerging`, `speculative`) so you know the confidence level. Original authors and papers are cited in each entry and in `sources/`.
 
-The curation process is deliberately semi-automated — AI-assisted, human-reviewed. See `_guide/contributing.md` for how and why.
+The curation process is deliberately semi-automated — AI-assisted, human-reviewed. See `CONTRIBUTING.md` for how and why.
 
 ## Who This Is For
 
@@ -33,7 +33,7 @@ This is an emerging field. No single person or framework has the full picture. T
 
 Review entries, challenge interpretations, contribute new sources, translate ideas to your domain, or build on top. Every entry has a `reviewed_by` field waiting for a name.
 
-The easiest way to contribute is to [open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) — suggest a source, flag an error, or propose a concept. For writing entries directly, see `_guide/contributing.md`.
+The easiest way to contribute is to [open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) — suggest a source, flag an error, or propose a concept. For writing entries directly, see `CONTRIBUTING.md`.
 
 ## License
 

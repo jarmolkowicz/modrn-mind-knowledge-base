@@ -12,7 +12,7 @@ Source → Screener → Processor → **Verifier** → Human Review → KB
 
 ## Input
 
-- All outputs from `_workspace/processing/[source-slug]/` (new entries, updates, SUMMARY.md)
+- All outputs from `workspace/processing/[source-slug]/` (new entries, updates, SUMMARY.md)
 - Current KB state (all entries in `concepts/`, `frameworks/`, `practices/`, `sources/`)
 - The original source material (PDF, URL, or text)
 
@@ -21,8 +21,8 @@ Source → Screener → Processor → **Verifier** → Human Review → KB
 ### 1. Load Context
 
 Read thoroughly:
-- Every file in `_workspace/processing/[source-slug]/`
-- The original source (from `_workspace/inbox/` or provided directly)
+- Every file in `workspace/processing/[source-slug]/`
+- The original source (from `workspace/inbox/` or provided directly)
 - All existing KB entries referenced by the processed outputs (wikilinked or mentioned)
 - Adjacent KB entries that cover related concepts
 
@@ -126,7 +126,7 @@ Check:
 - **Naming**: Does the filename follow conventions? (`lowercase-with-hyphens.md`, sources: `author-keyword-year.md`)
 - **Frontmatter**: All required fields present? (`status`, `area`, `sources`, `reviewed_by`, `reviewed_date`)
 - **Wikilinks**: Do `[[linked-entries]]` actually exist in the KB? Flag broken links.
-- **Template compliance**: Does the entry follow the correct template structure from `_guide/templates/`?
+- **Template compliance**: Does the entry follow the correct template structure from `tooling/templates/`?
 - **Consistency**: Does the entry's framing align with how related concepts are framed in existing entries?
 - **Update merges**: For updates — does the proposed addition fit naturally into the existing entry's structure and tone?
 - **Extraction balance**: Does SUMMARY.md include an Extraction Ledger with all four entry types assessed (concepts, frameworks, practices, source)? If any type shows NONE, is the rationale documented?
@@ -158,7 +158,7 @@ Check:
 
 ### 3. Compile Verification Report
 
-After all experts have reviewed all entries, create `_workspace/processing/[source-slug]/VERIFICATION.md`:
+After all experts have reviewed all entries, create `workspace/processing/[source-slug]/VERIFICATION.md`:
 
 ```markdown
 # Verification Report: [Source Title]
@@ -208,7 +208,7 @@ BLOCKED = at least one entry has a block
 - [ ] All FLAGs reviewed (approved, fixed, or overridden)
 - [ ] New entries ready to move to KB folders
 - [ ] Updates ready to merge into existing entries
-- [ ] Source archived to `_workspace/archive/`
+- [ ] Source archived to `workspace/archive/`
 ```
 
 ### 4. Apply Non-Controversial Fixes
@@ -226,7 +226,7 @@ These require human judgment.
 ## Output Structure
 
 ```
-_workspace/processing/[source-slug]/
+workspace/processing/[source-slug]/
 ├── SUMMARY.md          (from Processor)
 ├── VERIFICATION.md     (from Verifier — NEW)
 ├── [entry files]       (potentially updated with mechanical fixes)
@@ -256,7 +256,7 @@ After human approval, the AI agent executes integration. This is mechanical — 
 
 For each approved new entry:
 
-1. **Move** the file from `_workspace/processing/[source-slug]/` to the correct KB folder:
+1. **Move** the file from `workspace/processing/[source-slug]/` to the correct KB folder:
    - Concepts → `concepts/`
    - Frameworks → `frameworks/`
    - Practices → `practices/`
@@ -281,8 +281,8 @@ Rules:
 
 ### 3. Archive Source
 
-1. **Move** the original source file from `_workspace/inbox/` to `_workspace/archive/`
-2. **Remove** the `_workspace/processing/[source-slug]/` directory (all files have been integrated or rejected)
+1. **Move** the original source file from `workspace/inbox/` to `workspace/archive/`
+2. **Remove** the `workspace/processing/[source-slug]/` directory (all files have been integrated or rejected)
 
 ### 4. Integration Report
 
@@ -301,8 +301,8 @@ After integration, output a brief confirmation:
 - `concepts/novice-vulnerability.md` — added workplace context (Duncan 2026)
 
 ### Archived
-- `_workspace/inbox/duncan-judgment-ai-era-2026.md` → `_workspace/archive/`
-- `_workspace/processing/duncan-judgment-ai-era-2026/` → removed
+- `workspace/inbox/duncan-judgment-ai-era-2026.md` → `workspace/archive/`
+- `workspace/processing/duncan-judgment-ai-era-2026/` → removed
 
 ### Not Integrated
 - [any rejected entries and reason]
