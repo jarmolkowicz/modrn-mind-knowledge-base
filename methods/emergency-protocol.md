@@ -45,3 +45,8 @@ The key is the commitment to restoration. Without it, emergency becomes excuse.
 - [[green-yellow-red-monitoring]] - detecting your state
 - [[calibration]] - returning to normal calibration after emergency
 - [[strategic-alternation]] - the restoration that follows
+
+## Sources
+
+- Jarmołkowicz (2025)
+

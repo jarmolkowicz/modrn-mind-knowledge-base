@@ -36,3 +36,8 @@ Knowing your actual authorship level enables honesty with yourself and others. C
 - [[agency]] - authorship reflects agency expression
 - [[accountability]] - authorship level affects accountability depth
 - [[metacognition]] - awareness of your actual contribution
+
+## Sources
+
+- Jarmołkowicz (2025)
+

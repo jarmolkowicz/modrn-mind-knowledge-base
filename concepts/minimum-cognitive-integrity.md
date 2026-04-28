@@ -37,3 +37,8 @@ Nosta suggests:
 - [[agency]] - what is compromised below MCI
 - [[strategic-alternation]] - practice that protects MCI
 - [[cognitive-offloading]] - the mechanism by which MCI is crossed
+
+## Sources
+
+- Nosta, The Borrowed Mind (2026)
+

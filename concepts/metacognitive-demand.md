@@ -48,3 +48,8 @@ Metacognitive accuracy doesn't improve with AI experience because feedback is mi
 - [[calibration]] - the skill this describes
 - [[fluency-bias]] - why evaluation is hard
 - [[jagged-frontier]] - what you're trying to navigate
+
+## Sources
+
+- [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
+

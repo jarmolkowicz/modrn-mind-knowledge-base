@@ -35,3 +35,9 @@ The effort you're avoiding is often the exact effort that builds expertise. The 
 - [[fluency-bias]] - easy feels good, hard feels wrong
 - [[cognitive-offloading]] - avoiding effort through delegation
 - [[capacity-erosion]] - result of systematically avoiding effort
+
+## Sources
+
+- Kruger et al. (2004)
+- Jarmołkowicz (2025)
+

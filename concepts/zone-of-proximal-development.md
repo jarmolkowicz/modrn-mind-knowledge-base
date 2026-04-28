@@ -32,3 +32,10 @@ AI complicates this because it can "scaffold" you past the ZPD entirely—produc
 - [[desirable-difficulty]] - productive struggle in the ZPD
 - [[cognitive-offloading]] - can bypass or support ZPD
 - [[metacognition]] - awareness of which zone you're in
+
+## Sources
+
+- Vygotsky (1978)
+- Wood et al. (1976)
+- Van de Pol et al. (2010)
+

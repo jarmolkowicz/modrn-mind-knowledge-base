@@ -53,3 +53,13 @@ Han et al. (2025) add a trust-dynamics dimension: AI usage boosts self-efficacy 
 - [[cognitive-surrender]] - broader phenomenon that automation bias sits within
 - [[tri-system-theory]] - framework that contextualizes automation bias as one dynamic among several
 - [[ai-self-efficacy-erosion]] - Han et al. (2025) show AI-as-tool inflates self-efficacy; the trust dynamics differ from AI-as-evaluator contexts
+
+## Sources
+
+- [[parasuraman-riley-automation-1997]] — Parasuraman & Riley (1997)
+- [[goddard-automation-bias-2012]] — Goddard et al. (2012)
+- Jarmołkowicz (2025)
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+- [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+

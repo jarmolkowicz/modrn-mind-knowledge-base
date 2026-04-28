@@ -55,3 +55,9 @@ This is among the strongest findings in AI-human collaboration research. Multipl
 - [[cognitive-debt]] - what full automation accumulates
 - [[desirable-difficulty]] - why engagement matters
 - [[think-first]] - practice that applies this
+
+## Sources
+
+- Passalacqua et al. (2024)
+- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+

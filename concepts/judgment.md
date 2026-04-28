@@ -69,3 +69,10 @@ Borrowed from high-stakes fields (medicine, military):
 - [[human-ai-complementarity]] - judgment is structurally irreplaceable in complementary teams
 - [[complementarity-framework]] - human judgment anchors the reasoning dimension
 - [[artificial-certainty]] - AI-generated representations that bypass expert judgment (Leonardi & Leavell 2026)
+
+## Sources
+
+- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+- [[leonardi-artificial-certainty-2026]] — Leonardi & Leavell (2026)
+

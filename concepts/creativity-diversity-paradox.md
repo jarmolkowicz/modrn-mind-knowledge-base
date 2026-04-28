@@ -59,3 +59,10 @@ AI removes:
 - originality - what's at stake
 - [[agency]] - Anderson et al. find ChatGPT users felt less responsible for ideas they generated
 - [[analogical-reasoning]] - AI narrows analogical sources, reducing creative diversity
+
+## Sources
+
+- Science Advances (2024)
+- [[runco-jaeger-creativity-2012]] — Runco & Jaeger (2012)
+- [[anderson-homogenization-2024]] — Anderson, Shah & Kreminski (2024)
+

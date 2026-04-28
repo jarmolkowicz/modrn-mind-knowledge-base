@@ -79,3 +79,19 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 - [[confidence-competence-gap]] - metamemory distortions drive maladaptive offloading (Hu et al. 2019)
 - [[belief-offloading]] - the deepest form of offloading: exporting conviction, not just cognition (Guingrich et al. 2026)
 - [[capacity-erosion]] - Huffstadt (2026) shows offloading costs include motivational erosion, not just skill decay
+
+## Sources
+
+- [[risko-gilbert-cognitive-offloading-2016]] — Risko & Gilbert (2016)
+- [[storm-stone-saving-memory-2015]] — Storm & Stone (2015)
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+- Jarmołkowicz (2025)
+- [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+- [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
+- [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)
+- [[hu-metamemory-offloading-2019]] — Hu, Luo & Fleming (2019)
+- [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
+- [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
+

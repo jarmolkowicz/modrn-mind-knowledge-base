@@ -27,3 +27,8 @@ Complementarity emerges from asymmetry, not similarity. Humans contribute contex
 - [[judgment]] - human ethical authority remains non-delegable in complementary teams
 - [[accountability]] - complementarity requires clear lines of human accountability
 - [[jagged-frontier]] - the uneven capability boundary that complementarity must navigate
+
+## Sources
+
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+

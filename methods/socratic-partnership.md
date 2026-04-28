@@ -59,3 +59,10 @@ You stay in the driver seat. AI extends your thinking without replacing it. Your
 - [[calibration]] - when to use this mode
 - [[metacognition]] - active engagement builds metacognitive skill
 - [[sycophancy]] - the default LLM behavior the Ask for Doubt technique counteracts
+
+## Sources
+
+- Jarmołkowicz (2025)
+- [[batista-sycophantic-ai-2026]] — Batista, R.M. & Griffiths, T.L. (2026). A Rational Analysis of the Effects of Sycophantic AI. arXiv:2602.14270v1.
+- [[bo-sycophancy-novices-2026]] — Bo, J.Y. et al. (2026). Invisible Saboteurs: Sycophantic LLMs Mislead Novices. arXiv:2510.03667v2.
+

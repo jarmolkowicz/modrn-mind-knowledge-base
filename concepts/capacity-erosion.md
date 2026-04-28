@@ -76,3 +76,16 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 - [[fluency-bias]] - Huffstadt (2026) shows reduced cognitive effort creates satisfaction that masks motivational decay
 - [[performance-paradox]] - AI improves efficiency metrics while undermining the motivation that sustains long-term performance (Huffstadt 2026)
 - [[novice-vulnerability]] - Singh Yadav maps erosion vulnerability to Dreyfus stages; amplification is greatest for novices
+
+## Sources
+
+- Nosta, AI Rebound (2025)
+- Jarmołkowicz (2025)
+- [[nikolova-robots-meaning-2024]] — Nikolova et al. (2024)
+- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+- [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
+- [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
+- [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
+

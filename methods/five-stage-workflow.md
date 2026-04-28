@@ -74,3 +74,8 @@ The five stages are universal cognitive patterns. By applying calibration at eac
 - [[calibration]] - how to choose mode at each stage
 - [[strategic-alternation]] - the underlying principle
 - [[think-first]] - default mode for high-requirement stages
+
+## Sources
+
+- Jarmołkowicz (2025)
+

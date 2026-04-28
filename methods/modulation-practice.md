@@ -34,3 +34,8 @@ Leonardi & Leavell (2026) studied two organizations using the same AI simulation
 - [[judgment]] - modulation preserves the expert judgment role
 - [[confidence-competence-gap]] - enhancement mode enables non-expert overconfidence
 - [[calibration]] - modulation is calibration applied to how you communicate AI outputs
+
+## Sources
+
+- [[leonardi-artificial-certainty-2026]] — Leonardi, P. M., & Leavell, V. (2026). Knowing Enough to Be Dangerous: Artificial Certainty. Organization Science.
+

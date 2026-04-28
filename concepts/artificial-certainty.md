@@ -31,3 +31,8 @@ The distinction maps to "representations *of* the future" (claiming to show what
 - [[novice-vulnerability]] - organizational dimension where AI enables non-expert overconfidence
 - [[borrowed-certainty]] - individual-level counterpart; artificial certainty operates at the organizational/institutional level
 - [[fluency-bias]] - the perceptual mechanism through which artificial certainty takes hold
+
+## Sources
+
+- [[leonardi-artificial-certainty-2026]] — Leonardi & Leavell (2026)
+

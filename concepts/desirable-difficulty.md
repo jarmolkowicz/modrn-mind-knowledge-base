@@ -51,3 +51,13 @@ When friction disappears, speed replaces insight and confidence arrives without 
 - [[judgment-development-paradox]] - what happens when difficulty disappears at scale
 - [[performance-paradox]] - the measurable consequence of bypassed difficulty
 - [[metacognitive-laziness]] - SRL effort is itself a desirable difficulty being bypassed
+
+## Sources
+
+- [[bjork-desirable-difficulties-2011]] — Bjork & Bjork (2011)
+- Nosta, Frictionless Intelligence (2026)
+- Jarmołkowicz (2025)
+- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
+

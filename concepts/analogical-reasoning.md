@@ -31,3 +31,8 @@ Genuine insight typically comes from structural mapping between distant domains.
 - [[embodied-cognition]] - lived experience feeds cross-domain connections
 - [[creativity-diversity-paradox]] - AI narrows the diversity of analogical sources
 - [[strategic-alternation]] - unassisted work exercises analogical reasoning
+
+## Sources
+
+- [[gentner-markman-analogy-1997]] — Gentner & Markman (1997)
+

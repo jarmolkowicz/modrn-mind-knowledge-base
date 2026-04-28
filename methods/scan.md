@@ -53,3 +53,8 @@ Tasks should migrate from S → A → C over time as task-specific knowledge acc
 - [[metacognition]] - SCAN operationalizes with three components
 - [[zone-of-proximal-development]] - foundational theory
 - [[calibration]] - SCAN-based calibration practice
+
+## Sources
+
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+

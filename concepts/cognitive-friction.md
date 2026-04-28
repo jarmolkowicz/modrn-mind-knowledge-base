@@ -44,3 +44,9 @@ Cognitive friction is the experiential side of [[desirable-difficulty]]. Desirab
 - [[strategic-alternation]] - how to preserve friction intentionally
 - [[think-first]] - practice that maintains friction
 - [[cognitive-grit]] - endurance capacity for sustained friction
+
+## Sources
+
+- Nosta, Frictionless Intelligence (2026)
+- [[bjork-desirable-difficulties-2011]] — Bjork & Bjork (2011)
+

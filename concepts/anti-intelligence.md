@@ -62,3 +62,9 @@ Some areas remain resistant because they require irreversibility:
 - [[amathia-drift]] - the process by which anti-intelligence reshapes users
 - [[minimum-cognitive-integrity]] - threshold concept for anti-intelligence's effects
 - [[fluency-bias]] - vapid brilliance as mechanism
+
+## Sources
+
+- Nosta, Anti-Intelligence (2026)
+- Nosta, The Borrowed Mind (2026)
+

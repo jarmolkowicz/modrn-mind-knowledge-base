@@ -43,3 +43,8 @@ The framework can feel like a source of guilt rather than guidance. Practitioner
 - [[emergency-protocol]] - one form of permission structure
 - [[strategic-alternation]] - permissions define when alternation isn't needed
 - [[agency]] - explicit permission criteria preserve agency by making AI use a conscious choice
+
+## Sources
+
+- Jarmołkowicz (2025)
+

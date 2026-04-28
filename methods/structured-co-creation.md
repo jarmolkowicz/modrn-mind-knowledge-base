@@ -51,3 +51,8 @@ You maintain control of direction. AI expands specific aspects, but the architec
 - [[think-first]] - provides the seeds
 - [[calibration]] - when to use this mode vs others
 - [[socratic-partnership]] - alternative collaborative mode
+
+## Sources
+
+- Jarmołkowicz (2025)
+

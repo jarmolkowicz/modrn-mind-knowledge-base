@@ -36,3 +36,8 @@ Niederhoffer et al. (N=1,150) found that 40% of employees received workslop in t
 - [[novice-vulnerability]] - novices most likely to produce workslop without realizing it
 - [[execution-commoditization]] - workslop is what commoditized execution looks like without judgment
 - [[calibration]] - workslop as organizational calibration failure
+
+## Sources
+
+- Niederhoffer, K., Robichaux, A., & Hancock, J. T. (2025/2026). AI-Generated Workslop / Why People Create AI 'Workslop'. Harvard Business Review.
+

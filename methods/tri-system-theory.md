@@ -61,3 +61,8 @@ Modern decision-making unfolds within a triadic cognitive ecology, not a purely 
 - [[metacognition]] - the monitoring capacity that surrender bypasses
 - [[capacity-erosion]] - long-term consequence the theory implies but does not test
 - [[fluency-bias]] - mechanism that enables surrender (fluent AI output lowers scrutiny threshold)
+
+## Sources
+
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+

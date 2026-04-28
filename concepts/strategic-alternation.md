@@ -49,3 +49,10 @@ This suggests alternation design matters:
 - [[ai-oscillation-trap]] - switching costs to consider
 - [[cognitive-grit]] - mental endurance for unassisted work
 - [[continuous-improvement-loop]] - the recognize-practice-adjust cycle that refines alternation over time
+
+## Sources
+
+- Nosta, Oscillation Trap (2025)
+- Jarmołkowicz (2025)
+- [[runco-jaeger-creativity-2012]] — Runco & Jaeger (2012)
+

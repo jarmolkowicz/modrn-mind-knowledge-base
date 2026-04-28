@@ -32,3 +32,8 @@ Critically, C1 can be satisfied even when the user retains the feeling of autono
 - [[agency]] - belief offloading threatens belief autonomy, a core dimension of agency
 - [[fluency-bias]] - the perceptual mechanism that enables uncritical uptake of AI-generated beliefs
 - [[sycophancy]] - AI's tendency to agree can reinforce offloaded beliefs
+
+## Sources
+
+- [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
+

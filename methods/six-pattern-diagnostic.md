@@ -43,3 +43,8 @@ The destroying patterns share a common mechanism: they bypass [[desirable-diffic
 - [[calibration]] - use the diagnostic to inform your calibration decisions
 - [[novice-vulnerability]] - skill formation deficit held across all experience levels
 - [[desirable-difficulty]] - the learning mechanism the destroying patterns bypass
+
+## Sources
+
+- [[shen-skill-formation-2026]] — Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2.
+

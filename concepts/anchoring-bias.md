@@ -32,3 +32,9 @@ The Think-First practice exists specifically to counter anchoring—by generatin
 - [[fluency-bias]] - AI anchors feel especially solid because they're fluent
 - [[automation-bias]] - tendency to accept AI's anchor uncritically
 - [[cognitive-offloading]] - anchoring as subtle form of offloading
+
+## Sources
+
+- Tversky & Kahneman (1974)
+- Jarmołkowicz (2025)
+

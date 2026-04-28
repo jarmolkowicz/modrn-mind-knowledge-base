@@ -36,3 +36,9 @@ The causal chain is: AI interaction --> reduced self-efficacy --> increased self
 - [[capacity-erosion]] - self-efficacy erosion as a dimension of capacity loss
 - [[confidence-competence-gap]] - Han et al. show AI-inflated self-efficacy without learning orientation maps to confidence without competence
 - [[novice-vulnerability]] - learning goal orientation as moderator suggests those without growth mindsets are most vulnerable to shallow efficacy gains
+
+## Sources
+
+- [[alessandro-self-efficacy-2025]] — Alessandro, G., Federica, D., Baldissarri, C., Manfredi, A., Sterlicchio, A., & Romano, S. (2025). Artificial intelligence in the workplace: Effects on self-efficacy, self-objectification and beliefs in free will. Journal of Community & Applied Social Psychology, 35, e70107. https://doi.org/10.1002/casp.70107
+- [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+

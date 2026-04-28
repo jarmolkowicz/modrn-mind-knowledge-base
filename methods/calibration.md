@@ -106,3 +106,13 @@ His "falling asleep at the wheel" finding (Dell'Acqua study, N=181) offers a cau
 - [[human-ai-complementarity]] - calibration is the prerequisite for complementarity
 - [[complementarity-framework]] - trust calibration is a core factor in the framework
 - [[confidence-competence-gap]] - DKE as a specific calibration barrier
+
+## Sources
+
+- Jarmołkowicz (2025)
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+- [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+- [[mollick-cointelligence-2024]] — Mollick (2024)
+- [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)
+

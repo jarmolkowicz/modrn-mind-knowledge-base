@@ -57,3 +57,8 @@ If you routinely use AI for research, drafting, and analysis, you may:
 - [[desirable-difficulty]] - why struggle builds capacity
 - [[capacity-erosion]] - the broader pattern
 - [[think-first]] - practice that reduces debt
+
+## Sources
+
+- [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
+

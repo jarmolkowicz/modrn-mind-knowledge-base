@@ -50,3 +50,14 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[artificial-confidence]] - related but distinct mechanism: fluency bias is about processing ease signaling truth (trusting AI output); artificial confidence is about social comparison signaling relative ability (dismissing AI as inferior and feeling more capable by comparison). Both distort self-assessment but through different pathways.
 - [[capacity-erosion]] - Huffstadt (2026) shows fluency creates a satisfaction illusion that masks motivational erosion
 - [[effort-heuristic]] - inverse effect: AI's effortlessness makes solo effort feel like a bug
+
+## Sources
+
+- [[oppenheimer-fluency-2008]] — Oppenheimer (2008)
+- [[reber-schwarz-fluency-truth-1999]] — Reber & Schwarz (1999)
+- Nosta, Coherence Trap (2025)
+- Jarmołkowicz (2025)
+- [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
+- [[reich-artificial-confidence-2026]] — Reich & Teeny (2026)
+- [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
+

@@ -28,3 +28,8 @@ This suggests authenticity perceptions are not a knowledge gap to be educated aw
 - [[ai-moralization]] - moral judgment may compound authenticity concerns
 - [[professional-identity-threat]] - authenticity ties to professional self-concept
 - [[affective-trust-deficit]] - affective trust requires perceived authenticity
+
+## Sources
+
+- [[raj-disclosure-penalty-2026]] — Raj, Berg, & Seamans (2026)
+

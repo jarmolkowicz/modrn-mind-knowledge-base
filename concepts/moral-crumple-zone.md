@@ -43,3 +43,8 @@ From experimental research:
 - [[transparency-paradox]] - when AI involvement is known
 - [[affective-trust-deficit]] - what's lost in AI mediation
 - [[accountability]] - what shifts
+
+## Sources
+
+- [[hohenstein-crumple-zone-2020]] — Hohenstein & Jung (2020)
+

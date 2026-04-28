@@ -23,3 +23,8 @@ This is distinct from [[fluency-bias]] (which is about trusting AI output) and f
 - [[confidence-competence-gap]] - distinct mechanism (attribution vs. social comparison) but same outcome: inflated self-assessment
 - [[fluency-bias]] - related but distinct: fluency bias trusts AI output, artificial confidence dismisses it as inferior
 - [[novice-vulnerability]] - novices may be especially susceptible to unwarranted confidence boosts
+
+## Sources
+
+- [[reich-artificial-confidence-2026]] — Reich & Teeny (2026)
+

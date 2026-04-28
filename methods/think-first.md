@@ -42,3 +42,9 @@ Your brain does the cognitive work. AI scaffolds and challenges but doesn't repl
 - [[capacity-erosion]] - what this practice prevents
 - [[structured-co-creation]] - the mode that follows Think-First: you provide seeds, AI expands
 - [[cognitive-offloading]] - error avoidance is a form of cognitive offloading that impairs skill formation
+
+## Sources
+
+- Jarmołkowicz (2025)
+- [[shen-skill-formation-2026]] — Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2.
+

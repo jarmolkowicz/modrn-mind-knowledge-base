@@ -46,3 +46,11 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - [[capacity-erosion]] - the long-term consequence
 - [[novice-vulnerability]] - who is most affected; Singh Yadav's augmentation illusion is most pronounced at early Dreyfus stages
 - [[desirable-difficulty]] - Singh Yadav traces a historical arc showing each cognitive technology bypassed the productive struggle that built competence
+
+## Sources
+
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- Bastani et al. (2025)
+- Yan et al. (2025)
+- [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
+

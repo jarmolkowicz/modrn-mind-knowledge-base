@@ -102,3 +102,21 @@ This extends the KB's existing metacognitive questions with a team-level variant
 - [[cognitive-surrender]] - what happens when metacognitive monitoring is bypassed by AI
 - [[tri-system-theory]] - models metacognitive monitoring as the gate between offloading and surrender
 - [[confidence-competence-gap]] - DKE as a specific metacognitive failure in AI contexts
+
+## Sources
+
+- [[flavell-metacognition-1979]] — Flavell (1979)
+- [[dunlosky-metcalfe-metacognition-2009]] — Dunlosky & Metcalfe (2009)
+- [[tankelevitch-metacognitive-demands-2023]] — Tankelevitch et al. (2023)
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+- Jarmołkowicz (2025)
+- [[gentner-markman-analogy-1997]] — Gentner & Markman (1997)
+- [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
+- [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+- [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)
+- [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)
+- [[hu-metamemory-offloading-2019]] — Hu, Luo & Fleming (2019)
+

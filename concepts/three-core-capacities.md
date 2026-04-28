@@ -45,3 +45,8 @@ These capacities are what make your work valuable. AI can produce output, but it
 - [[desirable-difficulty]] - mechanism of Capacity 3
 - [[strategic-alternation]] - practice that maintains all three
 - [[capacity-erosion]] - what happens when these degrade
+
+## Sources
+
+- Jarmołkowicz (2025)
+

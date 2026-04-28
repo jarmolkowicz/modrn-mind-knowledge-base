@@ -59,3 +59,8 @@ Your professional value lives in your capacity for agency—the ability to origi
 - [[cognitive-offloading]] - core erosion mechanism
 - [[strategic-alternation]] - core practice
 - [[fluency-bias]] - key bias addressed
+
+## Sources
+
+- Modern Mind Framework v3.0 (Jarmołkowicz, 2026)
+

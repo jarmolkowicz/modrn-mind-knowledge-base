@@ -68,3 +68,8 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 - [[judgment]] - human judgment anchors the reasoning dimension
 - [[accountability]] - accountability as non-delegable is a core premise
 - [[scan]] - complementary framework for individual-level AI engagement calibration
+
+## Sources
+
+- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+

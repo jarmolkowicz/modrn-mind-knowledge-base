@@ -55,3 +55,8 @@ Many professionals assume that being expert in their domain makes them expert at
 - [[strategic-alternation]] - how to develop both paths
 - [[calibration]] - applying both paths to task decisions
 - [[novice-vulnerability]] - novices most need deliberate development on both paths
+
+## Sources
+
+- Jarmołkowicz (2025)
+

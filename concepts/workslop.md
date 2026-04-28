@@ -48,3 +48,8 @@ Vague AI mandate + Overburdened employees + No quality norms
 - [[fluency-bias]] - workslop succeeds because it looks polished
 - [[agency]] - high-agency workers resist producing workslop
 - [[calibration]] - workslop results from failure to calibrate AI use to task demands
+
+## Sources
+
+- Niederhoffer et al. (2025/2026)
+

@@ -31,3 +31,10 @@ Fan et al. (2024) found this in a randomised study — AI convenience undermined
 - [[fluency-bias]] - AI fluency triggers the laziness
 - [[confidence-competence-gap]] - laziness widens the gap
 - [[desirable-difficulty]] - SRL effort is itself a desirable difficulty being bypassed
+
+## Sources
+
+- Fan et al. (2024)
+- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
+- Wang & Lajoie (2023)
+

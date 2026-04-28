@@ -60,3 +60,8 @@ This isn't one-time learning—it's ongoing refinement that compounds over time.
 - [[green-yellow-red-monitoring]] - the recognize phase
 - [[calibration]] - the practice phase
 - [[metacognition]] - enables all three phases
+
+## Sources
+
+- Jarmołkowicz (2025)
+
