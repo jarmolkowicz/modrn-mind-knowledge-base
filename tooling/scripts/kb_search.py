@@ -65,8 +65,6 @@ class Entry:
     status: str | None
     area: list[str]
     sources: list[str]
-    reviewed_by: str | None
-    reviewed_date: str | None
     title: str
     body: str
     wikilinks: set[str] = field(default_factory=set)
@@ -122,8 +120,6 @@ def _parse_file(path: Path, entry_type: str) -> Entry | None:
         status=fm.get("status"),
         area=_coerce_list(fm.get("area")),
         sources=_coerce_list(fm.get("sources")),
-        reviewed_by=(fm.get("reviewed_by") or None),
-        reviewed_date=(str(fm.get("reviewed_date")) if fm.get("reviewed_date") else None),
         title=title,
         body=body,
         wikilinks=wikilinks,

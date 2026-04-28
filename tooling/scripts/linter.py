@@ -10,12 +10,9 @@ free, deterministic. Contradiction detection lives in a separate script
 - broken_wikilinks  — [[links]] pointing to entries that don't exist
 - orphans           — entries with zero inbound AND zero outbound wikilinks
                       (sources excluded — they're cited via frontmatter)
-- uncited_sources   — source entries that no other entry [[wikilinks]] to
+- uncited_sources   — source entries not referenced by any concept/method
 - missing_related   — entry A mentions entry B's full title in body but
                       doesn't [[link]] to it
-- stale_reviews     — solid entries reviewed >1y ago; emerging >6mo ago
-                      (candidates for re-verification or upgrade)
-- empty_reviewer    — status=solid but reviewed_by is empty (governance)
 - frontmatter       — missing/invalid required fields
 
 ## Usage
@@ -33,7 +30,7 @@ import json
 import sys
 import unicodedata
 from dataclasses import asdict, dataclass
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 # Allow running as a standalone script: add own directory to sys.path so
@@ -52,9 +49,6 @@ from kb_search import (  # noqa: E402
 
 WORKSPACE_DIR = KB_ROOT / "workspace"
 REPORT_PATH = WORKSPACE_DIR / "lint-report.md"
-
-STALE_SOLID_DAYS = 365
-STALE_EMERGING_DAYS = 180
 
 
 @dataclass
@@ -193,77 +187,6 @@ def check_missing_related(entries: dict[str, Entry]) -> list[Finding]:
     return findings
 
 
-def _parse_iso_date(value) -> date | None:
-    if not value:
-        return None
-    if isinstance(value, date):
-        return value
-    s = str(value).strip()
-    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
-        try:
-            return datetime.strptime(s, fmt).date()
-        except ValueError:
-            continue
-    try:
-        return datetime.fromisoformat(s).date()
-    except ValueError:
-        return None
-
-
-def check_stale_reviews(entries: dict[str, Entry]) -> list[Finding]:
-    today = date.today()
-    findings: list[Finding] = []
-    for stem, entry in entries.items():
-        if not entry.reviewed_date:
-            continue
-        rd = _parse_iso_date(entry.reviewed_date)
-        if rd is None:
-            findings.append(
-                Finding(
-                    check="stale_reviews",
-                    entry=stem,
-                    issue=f"unparseable reviewed_date: {entry.reviewed_date!r}",
-                    fix="use ISO date (YYYY-MM-DD)",
-                )
-            )
-            continue
-        age_days = (today - rd).days
-        if entry.status == "solid" and age_days > STALE_SOLID_DAYS:
-            findings.append(
-                Finding(
-                    check="stale_reviews",
-                    entry=stem,
-                    issue=f"solid entry reviewed {age_days} days ago",
-                    fix="re-verify sources or downgrade to emerging",
-                )
-            )
-        elif entry.status == "emerging" and age_days > STALE_EMERGING_DAYS:
-            findings.append(
-                Finding(
-                    check="stale_reviews",
-                    entry=stem,
-                    issue=f"emerging entry reviewed {age_days} days ago",
-                    fix="re-verify and consider upgrading to solid",
-                )
-            )
-    return findings
-
-
-def check_empty_reviewer(entries: dict[str, Entry]) -> list[Finding]:
-    findings: list[Finding] = []
-    for stem, entry in entries.items():
-        if entry.status == "solid" and not entry.reviewed_by:
-            findings.append(
-                Finding(
-                    check="empty_reviewer",
-                    entry=stem,
-                    issue="status=solid but reviewed_by is empty",
-                    fix="fill reviewed_by (governance rule) or downgrade status",
-                )
-            )
-    return findings
-
-
 def check_frontmatter(entries: dict[str, Entry]) -> list[Finding]:
     findings: list[Finding] = []
     for stem, entry in entries.items():
@@ -322,8 +245,6 @@ CHECKS = {
     "orphans": check_orphans,
     "uncited_sources": check_uncited_sources,
     "missing_related": check_missing_related,
-    "stale_reviews": check_stale_reviews,
-    "empty_reviewer": check_empty_reviewer,
     "frontmatter": check_frontmatter,
 }
 
@@ -331,10 +252,8 @@ CHECKS = {
 CHECK_DESCRIPTIONS = {
     "broken_wikilinks": "Wikilinks pointing to entries that don't exist",
     "orphans": "Entries with no inbound or outbound wikilinks",
-    "uncited_sources": "Source entries not wikilinked from any concept/framework/practice",
+    "uncited_sources": "Source entries not wikilinked from any concept/method",
     "missing_related": "Entries whose body mentions another entry's title without linking",
-    "stale_reviews": "Solid entries >1y old, emerging entries >6mo old",
-    "empty_reviewer": "Solid entries with empty reviewed_by (governance violation)",
     "frontmatter": "Missing or invalid required frontmatter fields",
 }
 
