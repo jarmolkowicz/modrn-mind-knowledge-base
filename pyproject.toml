@@ -5,7 +5,7 @@ description = "On-demand CLI tools for the Modern Mind Knowledge Base (search, l
 requires-python = ">=3.13"
 license = "MIT"
 dependencies = [
-    "anthropic>=0.40.0",
+    "anthropic>=0.86.0",
     "pyyaml>=6.0",
     "python-dotenv>=1.2.2",
 ]
