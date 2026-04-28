@@ -14,4 +14,4 @@ After the researcher completes:
 - Recommend running `/verify-draft raw/processing/[source-slug]` to invoke the 3-lens panel
 - Or proceed directly to user review if the user prefers to skip the panel for low-stakes entries
 
-After the user approves the drafts, the integration step (described in `.claude/agents/researcher.md`) moves drafts to KB folders, moves the source file from `raw/inbox/` to `raw/<type>/`, and updates index.md and log.md.
+After the user approves the drafts, run `/integrate-draft <slug>` to move drafts into KB folders, rename and relocate the raw source under `raw/<type>/`, refresh `index.md`, and append to `log.md`.
