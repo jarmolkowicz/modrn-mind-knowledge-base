@@ -1,134 +1,34 @@
 # Contributing
 
-## How to Contribute
+This is a curated public KB on "human thinking with AI." Contributions welcome.
 
-### Suggest via Issue
+## Suggest via issue
 
-The quickest way to contribute — no git knowledge needed. [Open an issue](https://github.com/jarmolkowicz/modern-mind-knowledge-base/issues) to:
+Easiest path — no git or local setup needed. [Open an issue](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/issues) to:
 
 - Suggest a source or paper
 - Flag an error or misinterpretation
 - Propose a new concept or method
 
-### Add an Entry Directly
+## Submit a PR
 
-To write and submit a KB entry:
+Collaborators with write access push a branch directly. External contributors fork the repo and PR upstream.
 
-1. **Fork** the repository
-2. **Create** your entry using templates in `tooling/templates/`
-3. **Submit** a pull request
+For entry structure, see `tooling/templates/`. The templates define the schema, the section layout, and what each entry type (concept, method, source) is for.
 
-All contributions require human review before merging.
+## What's a good fit
 
-### AI-Assisted Workflows (for collaborators using Claude Code)
-
-For ingesting sources, use the agents and slash commands in `.claude/`. These are designed for Claude Code — not scripts, not fully automated pipelines.
-
-#### Required Claude Code plugins (one-time setup)
-
-The ingestion agents (especially `screener` and `researcher`) call Anthropic skills to read PDFs, Word documents, and PowerPoints. Install the plugin once:
-
-```
-claude
-/plugin install anthropic-skills
-```
-
-This makes the following skills available:
-- `anthropic-skills:pdf` — read, extract text and tables from PDF files (essential for academic papers)
-- `anthropic-skills:docx` — read Word documents
-- `anthropic-skills:pptx` — read PowerPoint decks
-
-Plugin installation is per-machine, not per-project. Each contributor (you, Julia, anyone using Claude Code in this repo) installs once and the skills become available across all their Claude Code sessions.
-
-If you don't install the plugin, the agents will still work for plain markdown sources and short PDFs (≤10 pages), but will fail or degrade on long PDFs, DOCX, and PPTX inputs.
-
-#### System binaries the document skills depend on
-
-The PDF/DOCX/PPTX skills shell out to a few system binaries. Install once on your machine:
-
-- **pandoc** — DOCX text extraction ([install](https://pandoc.org/installing.html))
-- **Python 3** — script runtime
-- **LibreOffice** (`soffice`) — DOC↔DOCX conversion, DOCX→PDF rendering
-- **poppler** (`pdftoppm`) — PDF→image rendering
-- **Node.js** + `npm install -g docx` — only if creating new .docx files
-
-For the typical research-ingestion flow (papers as PDF, articles as web text → markdown distillations), pandoc + Python + LibreOffice + poppler is the practical minimum.
-
-#### Python tooling: invoke via `uv`
-
-KB tooling scripts (`tooling/scripts/*.py`) **must be invoked with `uv run python ...`**, never bare `python`. `uv` reads `pyproject.toml`, manages `.venv/` automatically, and ensures every contributor runs the same dependency versions.
-
-```bash
-uv run python tooling/scripts/linter.py          # ✓ correct
-python tooling/scripts/linter.py                 # ✗ wrong — uses system Python
-```
-
-If `uv` isn't installed: https://docs.astral.sh/uv/getting-started/installation/
-
-**Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
-
-**5-stage pipeline:**
-
-1. **`/scout-sources`** — Discover new sources relevant to the KB domain. Outputs go to `raw/inbox/`. (Agent: `.claude/agents/scout.md`)
-2. **`/screen-source <path>`** — Assess a source for relevance and quality. Recommends INCLUDE, PARTIAL, SKIP, or DEFER. (Agent: `.claude/agents/screener.md`)
-3. **`/distill-source <path>`** — Extract concepts, methods, and source distillation from an approved source into `raw/processing/[source-slug]/`. (Agent: `.claude/agents/researcher.md`)
-4. **`/verify-draft <path>`** — Run a 3-lens panel (Evidence, Practitioner, Adversarial) over drafts as additional input for review. Optional but recommended for substantive entries. (Agent: `.claude/agents/verifier.md`)
-5. **`/integrate-draft <slug>`** — After human review, move drafts into KB folders, rename and move the raw source file into the right `raw/<type>/` subfolder, refresh `index.md` and `log.md`. (Command: `.claude/commands/integrate-draft.md`)
-
-**Guardrail:** All workflow outputs go to `raw/processing/[source-slug]/` — never directly to KB folders (`concepts/`, `methods/`, `sources/`). The user reviews drafts during the session and approves before any entry moves into the KB.
-
-## Templates
-
-Use the appropriate template in `tooling/templates/`:
-
-- `concept.md` — Atomic named phenomena (cognitive offloading, fluency bias)
-- `method.md` — Structured guidance: descriptive models, prescriptive practices, or both
-- `source.md` — Per-source distillation with citation, key passages, relevance, supports, contradicts/extends, open questions
-
-## Required Metadata
-
-Every entry needs YAML frontmatter:
-
-```yaml
----
-status: solid | emerging | speculative
-area: [risk, erosion, preservation]
-sources:
-  - "Citation or reference"
----
-```
-
-Source entries also include `type: paper | book | article | video | talk`.
-
-## Quality Standards
-
-- **One concept per entry** — Keep entries focused
-- **Plain language** — Accessible to non-academics
-- **Source everything** — No unsourced claims
-- **Connect entries** — Use `[[wikilinks]]` to relate concepts and methods
-
-## Naming Conventions
-
-**KB entries** (in `concepts/`, `methods/`, `sources/`): lowercase, hyphens.
-- Concepts: `cognitive-offloading.md`
-- Methods: `think-first.md`
-- Sources: `<author(s)>-<keyword>-<year>.md` — e.g., `bjork-desirable-difficulties-2011.md`
-
-**Raw source files** (in `raw/<type>/`): descriptive, human-readable.
-- Pattern: `<Author(s)> (<Year>) - <Short Title>.<ext>`
-- Examples: `Bjork (2011) - Desirable Difficulties.pdf`, `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
-
-The raw file and the source entry are paired by content but use different naming conventions for their different purposes (file-system browsing vs. slug-friendly cross-referencing).
-
-## What to Contribute
-
-Good contributions:
-- Research papers with clear implications
-- Frameworks or methods from domain experts
-- Methods (descriptive models or prescriptive practices) with evidence or strong reasoning
+- Research papers with clear implications for human thinking with AI
+- Methods or frameworks from domain experts
+- Practitioner observations grounded in evidence
 - Corrections or clarifications to existing entries
 
-Not a fit:
+## What's not a fit
+
 - Opinion without evidence
-- Content outside the "human thinking with AI" domain
-- Duplicates of existing concepts (check `index.md` first)
+- Content outside the "human thinking with AI" domain (e.g., general AI capabilities, AI safety alignment)
+- Duplicates of existing concepts — check `index.md` first
+
+## Going deeper
+
+If you have write access and use Claude Code, the AI-assisted ingestion pipeline lives in `.claude/agents/` and `.claude/commands/`. See `CLAUDE.md` for the operating model and slash commands.

@@ -6,7 +6,7 @@ Operating instructions for Claude Code working in this repo.
 
 Public, curated reference on "human thinking with AI" — cognitive sovereignty, capacity preservation, professional judgment under AI. Content lives in `concepts/`, `methods/`, `sources/`.
 
-This is the **central trunk** of the broader Modrn Mind project. Books (`still-you` and successors), public writing, and workshop materials are downstream artifacts that draw from this KB and contribute back. The KB outlives any single project.
+This is the **central trunk** of the broader Modrn Mind project. Books, public writing, and workshop materials are downstream artifacts that draw from this KB and contribute back. The KB outlives any single project.
 
 External users download `dist/modern-mind-kb.md` (the bundle) and upload it to Claude Projects, NotebookLM, or similar.
 
@@ -23,15 +23,31 @@ User asks to ingest a source, refine an entry, run health checks, or restructure
 
 ### Using the KB as context
 
-User in another project (e.g., `still-you`) references this KB, or someone uploaded the bundle to an AI tool.
+User in a downstream project references this KB, or someone uploaded the bundle to an AI tool.
 
 - Read `index.md` first — it's the entry point. Don't bulk-load entries.
 - For topic search: `uv run python tooling/scripts/kb_search.py search "<topic>"`
 - Cite by stem: `[[cognitive-offloading]]`. Don't restate full entries.
 
-## Always invoke Python via uv
+## Setup (one-time per contributor with write access)
 
-`uv run python tooling/scripts/<script>.py` — never bare `python`. uv reads `pyproject.toml` and manages `.venv/` automatically, ensuring contributors run identical dependency versions.
+KB tooling scripts run via `uv`:
+
+```bash
+uv run python tooling/scripts/<script>.py    # ✓ correct
+python tooling/scripts/<script>.py           # ✗ wrong — uses system Python
+```
+
+`uv` reads `pyproject.toml` and manages `.venv/` automatically. Install: https://docs.astral.sh/uv/getting-started/installation/
+
+The PDF/DOCX/PPTX skills in `.claude/skills/` shell out to system binaries — install them once on your machine for non-trivial document ingestion:
+
+- `pandoc` — DOCX text extraction
+- `libreoffice` (`soffice`) — DOC↔DOCX, DOCX→PDF
+- `poppler` (`pdftoppm`) — PDF→image
+- `node` + `npm install -g docx` — only if creating new .docx files
+
+Without them, ingestion still works for plain markdown and short PDFs (≤10 pages); fails on long PDFs, DOCX, PPTX.
 
 ## Universal guardrails
 
@@ -48,6 +64,5 @@ User in another project (e.g., `still-you`) references this KB, or someone uploa
 | Slash commands and what each does | `.claude/commands/` |
 | Sub-agent system prompts | `.claude/agents/` |
 | Entry schema (status, area, sources) and templates | `tooling/templates/` |
-| Naming conventions, raw-file naming | `CONTRIBUTING.md` |
 | Tooling scripts (each has its own docstring) | `tooling/scripts/` |
-| Setup, binaries, plugins, contributor onboarding | `CONTRIBUTING.md` |
+| External-contributor onboarding (issues, PRs, fork flow) | `CONTRIBUTING.md` |
