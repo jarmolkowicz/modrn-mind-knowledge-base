@@ -4,8 +4,6 @@ area: [erosion, risk]
 sources:
   - "Tversky & Kahneman (1974)"
   - "Jarmołkowicz (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Anchoring Bias

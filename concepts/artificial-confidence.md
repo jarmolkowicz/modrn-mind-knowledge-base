@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Reich & Teeny (2026)"
-reviewed_by:
-reviewed_date:
 ---
 # Artificial Confidence
 

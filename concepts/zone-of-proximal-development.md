@@ -5,8 +5,6 @@ sources:
   - "Vygotsky (1978)"
   - "Wood et al. (1976)"
   - "Van de Pol et al. (2010)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Zone of Proximal Development (ZPD)

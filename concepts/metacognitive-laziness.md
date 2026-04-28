@@ -5,8 +5,6 @@ sources:
   - "Fan et al. (2024)"
   - "Lodge & Loble (2026)"
   - "Wang & Lajoie (2023)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Metacognitive Laziness

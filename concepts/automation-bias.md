@@ -8,8 +8,6 @@ sources:
   - "Gonzalez et al. (2026)"
   - "Shaw & Nave (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
-reviewed_by:
-reviewed_date:
 ---
 	
 # Automation Bias

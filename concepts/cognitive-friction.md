@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Nosta, Frictionless Intelligence (2026)"
   - "Bjork & Bjork (2011)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Friction

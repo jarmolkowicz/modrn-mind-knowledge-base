@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Anderson, B. R., Shah, J. H., & Kreminski, M. (2024). Homogenization Effects of Large Language Models on Human Creative Ideation. In Creativity and Cognition (C&C '24). ACM. https://doi.org/10.1145/3635636.3656204"
-reviewed_by:
-reviewed_date:
 ---
 
 # Homogenization Effects of LLMs on Creative Ideation

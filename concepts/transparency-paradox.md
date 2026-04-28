@@ -5,8 +5,6 @@ sources:
   - "Reimann & Schilke (2025)"
   - "Cheong et al. (2025)"
   - "Raj, Berg, & Seamans (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Transparency Paradox

@@ -4,8 +4,6 @@ area: [risk, erosion]
 sources:
   - "Dell'Acqua et al. (2023)"
   - "Science Advances (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Leveling Effect

@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Cheong, I., et al. (2025). Penalizing Transparency? How AI Disclosure and Author Demographics Shape Human and AI Judgments About Writing. arXiv:2507.01418v1."
-reviewed_by:
-reviewed_date:
 ---
 
 # Cheong et al. (2025) - Penalizing Transparency

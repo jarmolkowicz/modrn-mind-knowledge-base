@@ -4,8 +4,6 @@ area: [risk, preservation]
 type: paper
 sources:
   - "Dillon, E. W., Jaffe, S., Immorlica, N., & Stanton, C. T. (2025). Shifting work patterns with generative AI. arXiv:2504.11436. https://doi.org/10.48550/arXiv.2504.11436"
-reviewed_by:
-reviewed_date:
 ---
 
 # Shifting Work Patterns with Generative AI

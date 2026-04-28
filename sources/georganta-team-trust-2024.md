@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Georganta, K., et al. (2024). Would You Trust an AI Team Member? Journal of Occupational and Organizational Psychology."
-reviewed_by:
-reviewed_date:
 ---
 
 # Georganta et al. (2024) - Team Trust in Human-AI Teams

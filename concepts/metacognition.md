@@ -16,8 +16,6 @@ sources:
   - "He, Kuiper, & Gadiraju (2023)"
   - "Gilbert et al. (2023)"
   - "Hu, Luo & Fleming (2019)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Metacognition

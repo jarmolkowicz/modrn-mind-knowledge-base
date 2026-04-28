@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "MIT Media Lab (2025). Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task."
-reviewed_by:
-reviewed_date:
 ---
 
 # MIT Media Lab (2025) - Cognitive Debt

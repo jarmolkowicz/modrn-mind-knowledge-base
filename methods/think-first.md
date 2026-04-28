@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Jarmołkowicz (2025)"
   - "Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2."
-reviewed_by:
-reviewed_date:
 ---
 
 # Think-First Practice

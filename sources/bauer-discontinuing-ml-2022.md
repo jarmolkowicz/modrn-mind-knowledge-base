@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Bauer, K., Nofer, M., & Abdel-Karim, B.M. (2022). The Effects of Discontinuing Machine Learning Decision Support. SSRN."
-reviewed_by:
-reviewed_date:
 ---
 
 # Bauer et al. (2022) - Discontinuing ML Support

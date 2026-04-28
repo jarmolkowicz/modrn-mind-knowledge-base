@@ -4,8 +4,6 @@ area: [risk, erosion]
 type: paper
 sources:
   - "Shaw, S. D., & Nave, G. (2026). Thinking fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender. SSRN. https://doi.org/10.2139/ssrn.5765911"
-reviewed_by:
-reviewed_date:
 ---
 
 # Thinking Fast, Slow, and Artificial (Shaw & Nave, 2026)

@@ -5,8 +5,6 @@ type: article
 sources:
   - "Niederhoffer, K., Robichaux, A., & Hancock, J. T. (2025). AI-Generated Workslop Is Destroying Productivity. Harvard Business Review."
   - "Niederhoffer, K., Robichaux, A., & Hancock, J. T. (2026). Why People Create AI 'Workslop' — and How to Stop It. Harvard Business Review."
-reviewed_by:
-reviewed_date:
 ---
 # Workslop (Niederhoffer et al.)
 

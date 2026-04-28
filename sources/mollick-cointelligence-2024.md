@@ -4,8 +4,6 @@ area: [risk, preservation]
 type: book
 sources:
   - "Mollick, E. (2024). Co-Intelligence: Living and Working with AI. Portfolio/Penguin."
-reviewed_by:
-reviewed_date:
 ---
 # Co-Intelligence: Living and Working with AI
 

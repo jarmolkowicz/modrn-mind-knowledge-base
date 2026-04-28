@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Goddard, K., Roudsari, A., & Wyatt, J. C. (2012). Automation bias: A systematic review. JAMIA."
-reviewed_by:
-reviewed_date:
 ---
 
 # Goddard et al. (2012) - Automation Bias Systematic Review

@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. Trends in Cognitive Sciences."
-reviewed_by:
-reviewed_date:
 ---
 
 # Risko & Gilbert (2016) - Cognitive Offloading

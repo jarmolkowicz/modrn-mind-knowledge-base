@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Oppenheimer, D. M. (2008). The secret life of fluency. Trends in Cognitive Sciences."
-reviewed_by:
-reviewed_date:
 ---
 
 # Oppenheimer (2008) - The Secret Life of Fluency

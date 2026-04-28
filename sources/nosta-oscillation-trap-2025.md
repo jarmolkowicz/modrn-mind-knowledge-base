@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: article
 sources:
   - "Nosta, J. (2025). The AI Oscillation Trap: Stuck Between AI and Autonomy. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - AI Oscillation Trap

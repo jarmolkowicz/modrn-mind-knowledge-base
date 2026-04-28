@@ -7,8 +7,6 @@ sources:
   - "de Mello et al. (2026)"
   - "Alessandro et al. (2025)"
   - "Keshky (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Professional Identity Threat

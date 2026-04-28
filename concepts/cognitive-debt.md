@@ -3,8 +3,6 @@ status: emerging
 area: [erosion]
 sources:
   - "MIT Media Lab (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Debt

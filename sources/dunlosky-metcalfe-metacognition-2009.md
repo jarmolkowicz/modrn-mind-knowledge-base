@@ -4,8 +4,6 @@ area: [preservation]
 type: book
 sources:
   - "Dunlosky, J., & Metcalfe, J. (2009). Metacognition. SAGE Publications."
-reviewed_by:
-reviewed_date:
 ---
 
 # Dunlosky & Metcalfe (2009) - Metacognition

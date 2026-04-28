@@ -4,8 +4,6 @@ area: [erosion]
 type: article
 sources:
   - "Nosta, J. (2025). The Coherence Trap: How AI Is Teaching Us to Feel Truth. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - Coherence Trap

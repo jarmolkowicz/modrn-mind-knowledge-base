@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Passalacqua, M., et al. (2024). Practice With Less AI Makes Perfect. International Journal of Human-Computer Interaction."
-reviewed_by:
-reviewed_date:
 ---
 
 # Passalacqua et al. (2024) - Practice With Less AI Makes Perfect

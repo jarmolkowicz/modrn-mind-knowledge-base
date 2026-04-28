@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Guingrich, Mehta & Bhatt (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Belief Offloading

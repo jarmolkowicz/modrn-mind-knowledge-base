@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Bo, J.Y., Kazemitabaar, M., Deng, M., Inzlicht, M., & Anderson, A. (2026). Invisible Saboteurs: Sycophantic LLMs Mislead Novices in Problem-Solving Tasks. arXiv:2510.03667v2. University of Toronto & University of Alberta."
-reviewed_by:
-reviewed_date:
 ---
 # Invisible Saboteurs: Sycophantic LLMs Mislead Novices
 

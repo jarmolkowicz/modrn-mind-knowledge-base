@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "Raj, Berg, & Seamans (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Authenticity

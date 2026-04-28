@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Nosta, Cognitive Grit (2026)"
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Grit

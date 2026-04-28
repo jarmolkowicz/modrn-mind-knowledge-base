@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "Georganta et al. (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Affective Trust Deficit

@@ -4,8 +4,6 @@ area: [preservation]
 type: article
 sources:
   - "Nosta, J. (2025). Why AI Shouldn't Replace the Rough Draft. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - Rough Draft

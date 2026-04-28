@@ -4,8 +4,6 @@ area: [erosion]
 type: article
 sources:
   - "Nosta, J. (2026). Anti-Intelligence: When Thinking Has No Consequence. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2026) - Anti-Intelligence

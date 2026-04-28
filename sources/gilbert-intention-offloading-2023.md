@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Gilbert, S. J., Boldt, A., Sachdeva, C., Scarampi, C., & Tsai, P.-C. (2023). Outsourcing Memory to External Tools: A Review of 'Intention Offloading'. Psychonomic Bulletin & Review, 30, 60-76. https://doi.org/10.3758/s13423-022-02139-4"
-reviewed_by:
-reviewed_date:
 ---
 
 # Outsourcing Memory to External Tools: Intention Offloading

@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Science Advances (2024). Generative AI Enhances Individual Creativity but Reduces Collective Diversity."
-reviewed_by:
-reviewed_date:
 ---
 
 # Science Advances (2024) - Creativity Diversity Paradox

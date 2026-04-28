@@ -4,8 +4,6 @@ area: [erosion, risk]
 sources:
   - "Alessandro, G., Federica, D., Baldissarri, C., Manfredi, A., Sterlicchio, A., & Romano, S. (2025). Artificial intelligence in the workplace: Effects on self-efficacy, self-objectification and beliefs in free will. Journal of Community & Applied Social Psychology, 35, e70107. https://doi.org/10.1002/casp.70107"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # AI Self-Efficacy Erosion

@@ -11,8 +11,6 @@ sources:
   - "Shen & Tamkin (2026)"
   - "Huffstadt (2026)"
   - "Singh Yadav (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Capacity Erosion

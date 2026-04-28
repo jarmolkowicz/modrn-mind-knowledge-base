@@ -3,8 +3,6 @@ status: emerging
 area: [risk, erosion]
 sources:
   - "Fang et al. (2025)"
-reviewed_by:
-reviewed_date:
 ---
 # AI Loneliness Effect
 

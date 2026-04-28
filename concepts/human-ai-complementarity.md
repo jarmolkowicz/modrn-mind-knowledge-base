@@ -3,8 +3,6 @@ status: emerging
 area: [preservation, risk]
 sources:
   - "Gonzalez et al. (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Human-AI Complementarity

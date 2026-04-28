@@ -5,8 +5,6 @@ sources:
   - "Jarmołkowicz (2025)"
   - "Batista, R.M. & Griffiths, T.L. (2026). A Rational Analysis of the Effects of Sycophantic AI. arXiv:2602.14270v1."
   - "Bo, J.Y. et al. (2026). Invisible Saboteurs: Sycophantic LLMs Mislead Novices. arXiv:2510.03667v2."
-reviewed_by:
-reviewed_date:
 ---
 
 # Socratic Partnership Mode

@@ -5,8 +5,6 @@ sources:
   - "Tsim & Gutoreva (2025)"
   - "Shukla et al. (2025)"
   - "Krook (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Upskilling-Deskilling Paradox

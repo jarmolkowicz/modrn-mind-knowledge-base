@@ -5,8 +5,6 @@ sources:
   - "Varela, Thompson & Rosch (1991)"
   - "Lakoff & Johnson (1999)"
   - "Jarmołkowicz (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Embodied Cognition

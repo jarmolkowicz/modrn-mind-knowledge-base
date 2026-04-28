@@ -5,8 +5,6 @@ sources:
   - "Duncan (2026)"
   - "Gonzalez et al. (2026)"
   - "Leonardi & Leavell (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Judgment

@@ -8,8 +8,6 @@ sources:
   - "Gonzalez et al. (2026)"
   - "Mollick (2024)"
   - "He, Kuiper, & Gadiraju (2023)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Calibration Practice

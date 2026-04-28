@@ -3,8 +3,6 @@ status: emerging
 area: [risk, erosion, preservation]
 sources:
   - "Modern Mind Framework v3.0 (Jarmołkowicz, 2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Modern Mind Framework

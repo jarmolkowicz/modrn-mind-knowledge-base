@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Hatano, G., & Inagaki, K. (1986). Two courses of expertise. In Child Development and Education in Japan."
-reviewed_by:
-reviewed_date:
 ---
 
 # Hatano & Inagaki (1986) - Two Courses of Expertise

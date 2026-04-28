@@ -3,8 +3,6 @@ status: emerging
 area: [risk, preservation]
 sources:
   - "Niederhoffer, K., Robichaux, A., & Hancock, J. T. (2025/2026). AI-Generated Workslop / Why People Create AI 'Workslop'. Harvard Business Review."
-reviewed_by:
-reviewed_date:
 ---
 
 # Workslop Prevention

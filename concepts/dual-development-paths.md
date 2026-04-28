@@ -3,8 +3,6 @@ status: solid
 area: [preservation]
 sources:
   - "Jarmołkowicz (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Dual Development Paths

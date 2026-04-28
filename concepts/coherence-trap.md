@@ -4,8 +4,6 @@ area: [erosion]
 sources:
   - "Nosta, Coherence Trap (2025)"
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Coherence Trap

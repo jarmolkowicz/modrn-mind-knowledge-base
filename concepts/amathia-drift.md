@@ -3,8 +3,6 @@ status: emerging
 area: [erosion]
 sources:
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 # Amathia Drift
 

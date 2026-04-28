@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "de Mello, V. O., Côté, É., Ayad, R., Inbar, Y., Plaks, J., & Inzlicht, M. (2026). The moralization of artificial intelligence. University of Toronto."
-reviewed_by:
-reviewed_date:
 ---
 
 # The Moralization of Artificial Intelligence

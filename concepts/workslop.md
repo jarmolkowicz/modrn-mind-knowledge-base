@@ -3,8 +3,6 @@ status: emerging
 area: [risk, erosion]
 sources:
   - "Niederhoffer et al. (2025/2026)"
-reviewed_by:
-reviewed_date:
 ---
 # Workslop
 

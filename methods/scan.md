@@ -3,8 +3,6 @@ status: emerging
 area: [preservation, erosion]
 sources:
   - "Tsim & Gutoreva (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # SCAN Framework

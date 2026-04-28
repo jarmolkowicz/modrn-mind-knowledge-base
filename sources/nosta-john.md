@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: thought-leader
 sources:
   - "Psychology Today - The Digital Self blog"
-reviewed_by:
-reviewed_date:
 ---
 
 # John Nosta

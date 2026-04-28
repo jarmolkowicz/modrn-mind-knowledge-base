@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Passalacqua et al. (2024)"
   - "Scispace Literature Synthesis (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Partial Automation Principle

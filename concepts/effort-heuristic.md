@@ -4,8 +4,6 @@ area: [erosion, risk]
 sources:
   - "Kruger et al. (2004)"
   - "Jarmołkowicz (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Effort Heuristic (Inverse)

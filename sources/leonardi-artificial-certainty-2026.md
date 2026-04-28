@@ -4,8 +4,6 @@ area: [risk, erosion]
 type: paper
 sources:
   - "Leonardi, P. M., & Leavell, V. (2026). Knowing Enough to Be Dangerous: The Problem of 'Artificial Certainty' for Expert Authority When Using AI for Decision Making and Planning. Organization Science. https://doi.org/10.1287/orsc.2023.18224"
-reviewed_by:
-reviewed_date:
 ---
 
 # Knowing Enough to Be Dangerous: Artificial Certainty

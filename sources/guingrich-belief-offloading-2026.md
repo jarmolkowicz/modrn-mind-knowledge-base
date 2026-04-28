@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Guingrich, R. E., Mehta, D., & Bhatt, U. (2026). Belief Offloading in Human-AI Interaction. arXiv:2602.08754. https://doi.org/10.48550/arXiv.2602.08754"
-reviewed_by:
-reviewed_date:
 ---
 
 # Belief Offloading in Human-AI Interaction

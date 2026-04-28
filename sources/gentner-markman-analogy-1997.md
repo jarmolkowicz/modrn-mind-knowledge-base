@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Gentner, D., & Markman, A. B. (1997). Structure mapping in analogy and similarity. American Psychologist."
-reviewed_by:
-reviewed_date:
 ---
 
 # Gentner & Markman (1997) - Structure Mapping in Analogy

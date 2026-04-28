@@ -5,8 +5,6 @@ sources:
   - "Science Advances (2024)"
   - "Runco & Jaeger (2012)"
   - "Anderson, Shah & Kreminski (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Creativity-Diversity Paradox

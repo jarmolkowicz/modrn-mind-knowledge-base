@@ -5,8 +5,6 @@ sources:
   - "Jarmołkowicz (2025)"
   - "Fang, C.M. et al. (2025). How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use. arXiv:2503.17473v1."
   - "Nosta, J. (2025). AI Rebound: The Paradoxical Drop After the AI Lift. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Green/Yellow/Red Monitoring

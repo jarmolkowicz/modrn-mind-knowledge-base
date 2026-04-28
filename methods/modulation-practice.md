@@ -3,8 +3,6 @@ status: emerging
 area: [risk, preservation]
 sources:
   - "Leonardi, P. M., & Leavell, V. (2026). Knowing Enough to Be Dangerous: Artificial Certainty. Organization Science."
-reviewed_by:
-reviewed_date:
 ---
 
 # Modulation Practice

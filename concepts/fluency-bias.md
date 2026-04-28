@@ -9,8 +9,6 @@ sources:
   - "Tankelevitch et al. (2024)"
   - "Reich & Teeny (2026)"
   - "Huffstadt (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Fluency Bias

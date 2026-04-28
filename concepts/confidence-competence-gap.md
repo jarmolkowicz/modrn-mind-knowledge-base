@@ -10,8 +10,6 @@ sources:
   - "Reich & Teeny (2026)"
   - "Keshky (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Confidence-Competence Gap

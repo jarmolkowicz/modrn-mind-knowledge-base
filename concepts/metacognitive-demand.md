@@ -3,8 +3,6 @@ status: emerging
 area: [preservation]
 sources:
   - "Tankelevitch et al. (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Metacognitive Demand

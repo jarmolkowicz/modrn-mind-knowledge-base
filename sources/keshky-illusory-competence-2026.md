@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "El Keshky, M. E. (2026). Illusory Competence Inflation as a Mediating Variable in the Relationship Between Cognitive Dependence on Generative Artificial Intelligence and Intellectual Identity Distortion Among Postgraduate Students in Saudi Universities (A Mixed-Methods Study). International Journal for Research in Education, 50(1), 251-310."
-reviewed_by:
-reviewed_date:
 ---
 # Illusory Competence Inflation (Keshky)
 

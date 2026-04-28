@@ -3,8 +3,6 @@ status: emerging
 area: [risk, erosion, preservation]
 sources:
   - "Shaw & Nave (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Tri-System Theory

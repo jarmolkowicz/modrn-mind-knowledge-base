@@ -8,8 +8,6 @@ sources:
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"
   - "Shen & Tamkin (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Desirable Difficulty

@@ -4,8 +4,6 @@ area: [preservation, risk]
 type: paper
 sources:
   - "Tankelevitch, L., et al. (2023). The Metacognitive Demands of Generative AI. arXiv."
-reviewed_by:
-reviewed_date:
 ---
 
 # Tankelevitch et al. (2023) - Metacognitive Demands of Generative AI

@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Storm, B. C., & Stone, S. M. (2015). Saving-enhanced memory. Psychological Science."
-reviewed_by:
-reviewed_date:
 ---
 
 # Storm & Stone (2015) - Saving-Enhanced Memory

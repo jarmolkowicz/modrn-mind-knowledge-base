@@ -4,8 +4,6 @@ area: [preservation, risk]
 type: paper
 sources:
   - "Gonzalez, C., Donahue, K., Goldstein, D. G., Heidari, H., Jalali, M. S., Schelble, B., Singh, A., & Woolley, A. W. (2026). Toward a Science of Human–AI Teaming for Decision-making: A Complementarity Framework. PNAS Nexus."
-reviewed_by:
-reviewed_date:
 ---
 
 # Gonzalez et al. — Complementarity Framework (2026)

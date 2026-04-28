@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Parasuraman, R., & Riley, V. (1997). Humans and automation: Use, misuse, disuse, abuse. Human Factors."
-reviewed_by:
-reviewed_date:
 ---
 
 # Parasuraman & Riley (1997) - Humans and Automation

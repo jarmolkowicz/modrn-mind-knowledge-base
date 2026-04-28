@@ -5,8 +5,6 @@ sources:
   - "Nosta, Borrowed Certainty (2025)"
   - "Nosta, The Borrowed Mind (2026)"
   - "Guingrich, Mehta & Bhatt (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Borrowed Certainty

@@ -4,8 +4,6 @@ area: [preservation]
 type: article
 sources:
   - "Nosta, J. (2026). Cognitive Grit in the Age of AI's Easy Answers. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2026) - Cognitive Grit

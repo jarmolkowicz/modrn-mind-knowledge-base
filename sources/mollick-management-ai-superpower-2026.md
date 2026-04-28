@@ -4,8 +4,6 @@ area: [preservation]
 type: article
 sources:
   - "Mollick, E. (2026). Management as AI Superpower. One Useful Thing."
-reviewed_by:
-reviewed_date:
 ---
 
 # Mollick (2026) - Management as AI Superpower

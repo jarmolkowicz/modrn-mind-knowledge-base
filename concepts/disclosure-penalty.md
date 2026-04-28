@@ -6,8 +6,6 @@ sources:
   - "Cheong et al. (2025)"
   - "Raj, Berg, & Seamans (2026)"
   - "de Mello et al. (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Disclosure Penalty

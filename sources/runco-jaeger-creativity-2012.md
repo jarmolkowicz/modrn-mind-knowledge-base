@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Runco, M. A., & Jaeger, G. J. (2012). The standard definition of creativity. Creativity Research Journal."
-reviewed_by:
-reviewed_date:
 ---
 
 # Runco & Jaeger (2012) - Standard Definition of Creativity

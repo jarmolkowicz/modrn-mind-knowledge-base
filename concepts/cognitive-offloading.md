@@ -14,8 +14,6 @@ sources:
   - "Hu, Luo & Fleming (2019)"
   - "Guingrich, Mehta & Bhatt (2026)"
   - "Huffstadt (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Offloading

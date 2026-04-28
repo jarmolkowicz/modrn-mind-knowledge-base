@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Shaw & Nave (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Surrender

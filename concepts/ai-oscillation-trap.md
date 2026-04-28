@@ -3,8 +3,6 @@ status: emerging
 area: [erosion]
 sources:
   - "Nosta, Oscillation Trap (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # AI Oscillation Trap

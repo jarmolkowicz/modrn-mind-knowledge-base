@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Duncan (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Judgment Development Paradox

@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Raj, M., Berg, J. M., & Seamans, R. (2026). The artificial intelligence disclosure penalty: Humans persistently devalue AI-generated creative writing. Journal of Experimental Psychology: General. Advance online publication. https://doi.org/10.1037/xge0001889"
-reviewed_by:
-reviewed_date:
 ---
 
 # The AI Disclosure Penalty

@@ -4,8 +4,6 @@ area: [risk, preservation]
 sources:
   - "Mollick (2026)"
   - "Niederhoffer et al. (2025/2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Execution Commoditization

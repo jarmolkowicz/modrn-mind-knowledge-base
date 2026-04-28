@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "Hohenstein & Jung (2020)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Moral Crumple Zone

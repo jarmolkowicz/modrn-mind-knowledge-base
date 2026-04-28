@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Bjork, R. A., & Bjork, E. L. (2011). Making things hard on yourself, but in a good way. Psychology and the Real World."
-reviewed_by:
-reviewed_date:
 ---
 
 # Bjork & Bjork (2011) - Desirable Difficulties

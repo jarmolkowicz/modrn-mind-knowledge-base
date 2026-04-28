@@ -3,8 +3,6 @@ status: emerging
 area: [risk, erosion]
 sources:
   - "Leonardi & Leavell (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Artificial Certainty

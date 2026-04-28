@@ -3,8 +3,6 @@ status: emerging
 area: [preservation, risk]
 sources:
   - "Gentner & Markman (1997)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Analogical Reasoning

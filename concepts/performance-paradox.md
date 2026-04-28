@@ -6,8 +6,6 @@ sources:
   - "Bastani et al. (2025)"
   - "Yan et al. (2025)"
   - "Singh Yadav (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Performance Paradox

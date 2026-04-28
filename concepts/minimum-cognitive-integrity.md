@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, preservation]
 sources:
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 # Minimum Cognitive Integrity
 

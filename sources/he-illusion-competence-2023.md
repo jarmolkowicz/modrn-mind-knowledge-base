@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "He, G., Kuiper, L., & Gadiraju, U. (2023). Knowing about knowing: An illusion of human competence can hinder appropriate reliance on AI systems. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). ACM. https://doi.org/10.1145/3544548.3581025"
-reviewed_by:
-reviewed_date:
 ---
 
 # Knowing About Knowing: Illusion of Competence in AI-Assisted Decisions

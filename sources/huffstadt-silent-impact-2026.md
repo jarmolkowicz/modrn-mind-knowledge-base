@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Huffstadt, K. (2026). The Silent Impact of AI: Unveiling Motivational Side Effects in the Digital Workplace. Intelligent Human Systems Integration (IHSI), Vol. 200, 351-361. https://doi.org/10.54941/ahfe1007094"
-reviewed_by:
-reviewed_date:
 ---
 
 # Huffstadt — Silent Impact 2026

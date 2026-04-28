@@ -7,8 +7,6 @@ sources:
   - "Malmqvist (2025)"
   - "Batista & Griffiths (2026)"
   - "Bo et al. (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Sycophancy (AI)

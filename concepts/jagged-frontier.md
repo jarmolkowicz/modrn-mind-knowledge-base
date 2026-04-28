@@ -5,8 +5,6 @@ sources:
   - "Dell'Acqua et al. (2023)"
   - "Mollick (2026)"
   - "Mollick (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Jagged Frontier
