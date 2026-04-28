@@ -37,10 +37,10 @@ Intelligence stripped of the obligations that normally give thinking its meaning
 
 ## Relevance
 
-Reframes AI risk as "relief from responsibility" rather than replacement. Connects to [[accountability]] and [[authorship-levels]].
+Reframes AI risk as "relief from responsibility" rather than replacement. Connects to accountability and authorship levels.
 
 ## Supports
 
 - [[anti-intelligence]] - defines the concept
-- [[accountability]] - why consequence matters
+- accountability - why consequence matters
 - [[capacity-erosion]] - mechanism through abdication

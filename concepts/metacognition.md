@@ -6,7 +6,6 @@ sources:
   - "Dunlosky & Metcalfe (2009)"
   - "Tankelevitch et al. (2023)"
   - "Tsim & Gutoreva (2025)"
-  - "Jarmołkowicz (2025)"
   - "Gentner & Markman (1997)"
   - "Lakoff & Johnson (1999)"
   - "Varela, Thompson & Rosch (1991)"
@@ -109,7 +108,6 @@ This extends the KB's existing metacognitive questions with a team-level variant
 - [[dunlosky-metcalfe-metacognition-2009]] — Dunlosky & Metcalfe (2009)
 - [[tankelevitch-metacognitive-demands-2023]] — Tankelevitch et al. (2023)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
-- Jarmołkowicz (2025)
 - [[gentner-markman-analogy-1997]] — Gentner & Markman (1997)
 - [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
 - [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)

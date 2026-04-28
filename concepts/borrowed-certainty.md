@@ -48,8 +48,8 @@ Additional test from Nosta (2026): "At its best, AI acts as a lens. But a lens i
 
 - [[fluency-bias]] - why AI output feels trustworthy
 - [[calibration]] - what drifts with borrowed certainty
-- [[accountability]] - you can't be accountable for borrowed conclusions
-- [[authorship-levels]] - borrowed certainty = low authorship
+- accountability - you can't be accountable for borrowed conclusions
+- authorship levels - borrowed certainty = low authorship
 - [[belief-offloading]] - deeper form: not just borrowed confidence but offloaded conviction (Guingrich et al. 2026)
 - [[amathia-drift]] - borrowed certainty as symptom of drift
 - [[minimum-cognitive-integrity]] - excessive borrowing can cross MCI threshold

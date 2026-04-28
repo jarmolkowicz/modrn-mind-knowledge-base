@@ -55,8 +55,8 @@ Some areas remain resistant because they require irreversibility:
 
 ## Related
 
-- [[accountability]] - what anti-intelligence removes
-- [[authorship-levels]] - connection to ownership
+- accountability - what anti-intelligence removes
+- authorship levels - connection to ownership
 - [[capacity-erosion]] - mechanism through abdication
 - [[cognitive-offloading]] - related phenomenon
 - [[amathia-drift]] - the process by which anti-intelligence reshapes users

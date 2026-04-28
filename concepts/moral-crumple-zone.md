@@ -42,7 +42,7 @@ From experimental research:
 
 - [[transparency-paradox]] - when AI involvement is known
 - [[affective-trust-deficit]] - what's lost in AI mediation
-- [[accountability]] - what shifts
+- accountability - what shifts
 
 ## Sources
 

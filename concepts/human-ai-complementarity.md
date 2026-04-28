@@ -25,7 +25,7 @@ Complementarity emerges from asymmetry, not similarity. Humans contribute contex
 - [[calibration]] - trust calibration is a prerequisite for complementarity
 - [[automation-bias]] - a primary barrier to achieving complementarity
 - [[judgment]] - human ethical authority remains non-delegable in complementary teams
-- [[accountability]] - complementarity requires clear lines of human accountability
+- accountability - complementarity requires clear lines of human accountability
 - [[jagged-frontier]] - the uneven capability boundary that complementarity must navigate
 
 ## Sources

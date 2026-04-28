@@ -3,7 +3,6 @@ status: solid
 area: [erosion, risk]
 sources:
   - "Kruger et al. (2004)"
-  - "Jarmołkowicz (2025)"
 ---
 
 # Effort Heuristic (Inverse)
@@ -39,5 +38,4 @@ The effort you're avoiding is often the exact effort that builds expertise. The 
 ## Sources
 
 - Kruger et al. (2004)
-- Jarmołkowicz (2025)
 

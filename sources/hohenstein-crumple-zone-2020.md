@@ -36,4 +36,4 @@ Shows AI changes accountability dynamics in communication—potentially preventi
 
 - [[moral-crumple-zone]] - primary source
 - [[transparency-paradox]] - related dynamic
-- [[accountability]] - what shifts
+- accountability - what shifts

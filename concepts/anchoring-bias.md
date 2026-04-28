@@ -3,7 +3,6 @@ status: solid
 area: [erosion, risk]
 sources:
   - "Tversky & Kahneman (1974)"
-  - "Jarmołkowicz (2025)"
 ---
 
 # Anchoring Bias
@@ -36,5 +35,4 @@ The Think-First practice exists specifically to counter anchoring—by generatin
 ## Sources
 
 - Tversky & Kahneman (1974)
-- Jarmołkowicz (2025)
 

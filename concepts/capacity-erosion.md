@@ -3,7 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Nosta, AI Rebound (2025)"
-  - "Jarmołkowicz (2025)"
   - "Nikolova et al. (2024)"
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"
@@ -80,7 +79,6 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 ## Sources
 
 - Nosta, AI Rebound (2025)
-- Jarmołkowicz (2025)
 - [[nikolova-robots-meaning-2024]] — Nikolova et al. (2024)
 - [[duncan-judgment-ai-era-2026]] — Duncan (2026)
 - [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)

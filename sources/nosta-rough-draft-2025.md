@@ -50,4 +50,4 @@ Provides specific application of [[desirable-difficulty]] to writing. Supports [
 
 - [[think-first]] - why drafting before AI matters
 - [[desirable-difficulty]] - applied to creative work
-- [[five-stage-workflow]] - rationale for human-first creating stage
+- five-stage workflow - rationale for human-first creating stage

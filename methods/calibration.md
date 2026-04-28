@@ -2,7 +2,6 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
   - "Tsim & Gutoreva (2025)"
   - "Tankelevitch et al. (2024)"
   - "Gonzalez et al. (2026)"
@@ -109,7 +108,6 @@ His "falling asleep at the wheel" finding (Dell'Acqua study, N=181) offers a cau
 
 ## Sources
 
-- Jarmołkowicz (2025)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
 - [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
 - [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)

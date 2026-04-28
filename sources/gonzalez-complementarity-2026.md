@@ -32,5 +32,5 @@ Provides the strongest multi-institutional, multi-disciplinary synthesis to date
 - [[automation-bias]] - identified as primary barrier to complementarity
 - [[judgment]] - human ethical authority and contextual judgment as non-delegable
 - [[metacognition]] - metacognitive oversight as essential for error detection in teams
-- [[accountability]] - human accountability cannot be delegated to AI
+- accountability - human accountability cannot be delegated to AI
 - [[calibration]] - team calibration section built on the five design principles

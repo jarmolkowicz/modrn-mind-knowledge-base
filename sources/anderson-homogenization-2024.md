@@ -22,7 +22,7 @@ In a 36-participant comparative study, ChatGPT users produced ideas that were no
 
 ## Relevance
 
-Provides direct experimental evidence for the group-level mechanism behind the [[creativity-diversity-paradox]]. The finding that homogenization is a between-user rather than within-user effect is critical: individual users may feel their creativity is supported (and it may be, by fluency and elaboration metrics), while the collective diversity of a field quietly narrows. The reduced sense of responsibility finding connects to [[agency]] and [[accountability]].
+Provides direct experimental evidence for the group-level mechanism behind the [[creativity-diversity-paradox]]. The finding that homogenization is a between-user rather than within-user effect is critical: individual users may feel their creativity is supported (and it may be, by fluency and elaboration metrics), while the collective diversity of a field quietly narrows. The reduced sense of responsibility finding connects to [[agency]] and accountability.
 
 ## Key Findings
 
