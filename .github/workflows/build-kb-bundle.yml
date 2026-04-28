@@ -5,8 +5,7 @@ on:
     branches: [main]
     paths:
       - 'concepts/**'
-      - 'frameworks/**'
-      - 'practices/**'
+      - 'methods/**'
       - 'sources/**'
 
   workflow_dispatch:
@@ -29,15 +28,13 @@ jobs:
         id: stats
         run: |
           CONCEPTS=$(ls concepts/*.md 2>/dev/null | wc -l | tr -d ' ')
-          FRAMEWORKS=$(ls frameworks/*.md 2>/dev/null | wc -l | tr -d ' ')
-          PRACTICES=$(ls practices/*.md 2>/dev/null | wc -l | tr -d ' ')
+          METHODS=$(ls methods/*.md 2>/dev/null | wc -l | tr -d ' ')
           SOURCES=$(ls sources/*.md 2>/dev/null | wc -l | tr -d ' ')
-          TOTAL=$((CONCEPTS + FRAMEWORKS + PRACTICES + SOURCES))
+          TOTAL=$((CONCEPTS + METHODS + SOURCES))
           DATE=$(date +%Y.%m.%d)
 
           echo "concepts=$CONCEPTS" >> "$GITHUB_OUTPUT"
-          echo "frameworks=$FRAMEWORKS" >> "$GITHUB_OUTPUT"
-          echo "practices=$PRACTICES" >> "$GITHUB_OUTPUT"
+          echo "methods=$METHODS" >> "$GITHUB_OUTPUT"
           echo "sources=$SOURCES" >> "$GITHUB_OUTPUT"
           echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
           echo "date=$DATE" >> "$GITHUB_OUTPUT"
@@ -64,8 +61,7 @@ jobs:
 
           ### Contents
           - **${{ steps.stats.outputs.concepts }}** concepts
-          - **${{ steps.stats.outputs.frameworks }}** frameworks
-          - **${{ steps.stats.outputs.practices }}** practices
+          - **${{ steps.stats.outputs.methods }}** methods
           - **${{ steps.stats.outputs.sources }}** sources
           - **${{ steps.stats.outputs.total }}** entries total
 
