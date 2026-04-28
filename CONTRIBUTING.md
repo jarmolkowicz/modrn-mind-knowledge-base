@@ -69,9 +69,16 @@ Source entries also include `type: paper | book | article | video | talk`.
 
 ## Naming Conventions
 
-- Lowercase with hyphens: `cognitive-offloading.md`
-- Sources: `author-keyword-year.md`
-- Descriptive but concise
+**KB entries** (in `concepts/`, `methods/`, `sources/`): lowercase, hyphens.
+- Concepts: `cognitive-offloading.md`
+- Methods: `think-first.md`
+- Sources: `<author(s)>-<keyword>-<year>.md` — e.g., `bjork-desirable-difficulties-2011.md`
+
+**Raw source files** (in `raw/<type>/`): descriptive, human-readable.
+- Pattern: `<Author(s)> (<Year>) - <Short Title>.<ext>`
+- Examples: `Bjork (2011) - Desirable Difficulties.pdf`, `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
+
+The raw file and the source entry are paired by content but use different naming conventions for their different purposes (file-system browsing vs. slug-friendly cross-referencing).
 
 ## What to Contribute
 

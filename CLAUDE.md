@@ -22,8 +22,16 @@ Modrn Mind - Knowledge Base/
 ├── methods/            # Structured guidance: descriptive models AND prescriptive practices
 ├── sources/            # Per-source distillations with key passages, relevance, open questions
 │
-├── raw/                # Source PDFs/articles (gitignored — local only, copyright)
-├── workspace/          # Working area (gitignored — inbox, processing, archive, feedback)
+├── raw/                # Source files (gitignored contents, tracked structure)
+│   ├── inbox/          # New arrivals, awaiting screening + distillation
+│   ├── papers/         # Academic papers (post-ingestion)
+│   ├── articles/       # Web articles, blog posts
+│   ├── books/          # Books and book chapters
+│   ├── transcripts/    # Video / podcast / talk transcripts
+│   ├── decks/          # Slide decks
+│   └── other/          # Anything that doesn't fit
+│
+├── workspace/          # Working artifacts (gitignored — processing drafts, feedback, reports)
 │
 ├── index.md            # Auto-generated catalog: one row per entry, scannable
 ├── log.md              # Chronological record of ingests and changes
@@ -97,17 +105,38 @@ Source entries also have `type: paper | book | article | video | talk`.
 
 ## Naming conventions
 
-- Files: lowercase with hyphens (`cognitive-offloading.md`)
-- Sources: `author-keyword-year.md` (`bjork-desirable-difficulties-2011.md`)
-- Use `[[wikilinks]]` for internal references — by stem, no path prefix
+**KB entries** (`concepts/`, `methods/`, `sources/`): lowercase, hyphens, code-friendly.
+- Concepts: `cognitive-offloading.md`
+- Methods: `think-first.md`
+- Sources: `<author(s)>-<keyword>-<year>.md` — e.g., `bjork-desirable-difficulties-2011.md`
+
+**Raw files** (`raw/<type>/`): descriptive, human-readable, for browsing.
+- Pattern: `<Author(s)> (<Year>) - <Short Title>.<ext>`
+- Single author: `Bjork (2011) - Desirable Difficulties.pdf`
+- Two authors: `Risko & Gilbert (2016) - Cognitive Offloading.pdf`
+- Three+ authors: `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
+
+The raw file (browse-friendly) and the source entry (code-friendly slug) both reference the same source. Pairing example: `raw/papers/Bjork (2011) - Desirable Difficulties.pdf` ↔ `sources/bjork-desirable-difficulties-2011.md`.
+
+**Wikilinks**: `[[wikilinks]]` for internal references — by entry stem, no path prefix. Sources are wikilinked via the slug (`[[bjork-desirable-difficulties-2011]]`), not by raw filename.
 
 ## Ingestion workflow
 
 ```
-Source → /scout-sources → /screen-source → /distill-source → (optional) /verify-draft → human review → integrate → /update-index → /log
+Drop source in raw/inbox/  →  /screen-source  →  /distill-source  →  (optional) /verify-draft
+                                                                                  ↓
+                                                                          human review
+                                                                                  ↓
+                                                                          integrate:
+                                                                          - drafts → concepts/methods/sources
+                                                                          - source: raw/inbox/ → raw/<type>/
+                                                                          - /update-index
+                                                                          - /log "ingest | <title>"
 ```
 
 The user reviews drafts during the session. There's no separate review queue — the LLM proposes, the user edits, and the entry exists because the user committed it.
+
+Working artifacts (screening notes, in-flight drafts, reports) live in `workspace/`. Source files (PDFs, DOCX, etc.) live in `raw/`. New arrivals go to `raw/inbox/`; after ingestion, sources move to `raw/<type>/` based on their `type:` frontmatter.
 
 ## Templates
 

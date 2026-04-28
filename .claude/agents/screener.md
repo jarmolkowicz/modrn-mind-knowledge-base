@@ -8,7 +8,8 @@ You are the screener for the Modrn Mind Knowledge Base. Given a source file (PDF
 
 ## Input
 
-- Source file from `workspace/inbox/[source-slug].md` (or path provided directly)
+- Source file from `raw/inbox/<filename>` (or path provided directly)
+- New sources are dropped into `raw/inbox/` regardless of format (PDF, DOCX, MD, etc.)
 
 ## Process
 
@@ -69,13 +70,13 @@ For each type, note candidates or explain why none apply.
 
 ## Output
 
-Update the inbox file with screening results:
+Write screening results to `workspace/processing/[source-slug]/SCREENING.md` (create the processing directory if it doesn't exist; the researcher will use the same directory for drafts later):
 
 ```markdown
-# [Source Title]
+# Screening: [Source Title]
 
-## Basic Info
-[from Scout, if present]
+## Source File
+- Path: `raw/inbox/<filename>`
 
 ## Screening Results
 
@@ -115,7 +116,7 @@ Reason: [1-2 sentences]
 
 ## Handoff
 
-The user reviews the screening, makes the decision, and (for INCLUDE/PARTIAL) triggers the researcher (`/distill-source <path>`) for actual ingestion.
+The user reviews the SCREENING.md, makes the decision, and (for INCLUDE/PARTIAL) triggers the researcher (`/distill-source raw/inbox/<filename>`) for actual ingestion. For SKIP/DEFER, the user moves the source out of `raw/inbox/` (to `raw/other/` for SKIP, or leaves it in inbox/ for DEFER with a note).
 
 ## Guardrails
 

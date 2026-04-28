@@ -19,7 +19,7 @@ All draft outputs go to `workspace/processing/[source-slug]/`. The user reviews 
 
 ## Input
 
-- Approved source from `workspace/inbox/[source-slug].md` (with screening results) or path provided directly
+- Approved source from `raw/inbox/<filename>` (typically already screened — check for `workspace/processing/[source-slug]/SCREENING.md`)
 - Current KB state (read via `tooling/scripts/kb_search.py`, `index.md`, or by reading concepts/methods/sources directly)
 
 ## Process
@@ -155,7 +155,8 @@ Write `workspace/processing/[source-slug]/SUMMARY.md`:
 
 ```
 workspace/processing/[source-slug]/
-├── SUMMARY.md
+├── SCREENING.md                 (from screener, if /screen-source ran)
+├── SUMMARY.md                   (from researcher — this agent)
 ├── new/
 │   ├── concept-name.md          (if any new concepts)
 │   ├── method-name.md           (if any new methods)
@@ -167,9 +168,31 @@ workspace/processing/[source-slug]/
 ## After drafting
 
 The user reviews drafts in real time during the session, edits as needed, then either:
-- Approves: drafts move into KB folders, source moves from `workspace/inbox/` to `raw/` (or `workspace/archive/` if pre-raw migration), `index.md` regenerates, `log.md` gets an ingest entry
-- Asks for revisions: you revise the drafts in place
-- Rejects: drafts are discarded, source goes to `workspace/archive/` with a note
+
+**Approves → Integration:**
+1. Move drafts from `workspace/processing/[source-slug]/new/` to the appropriate KB folders (`concepts/`, `methods/`, `sources/`)
+2. Apply update drafts manually into existing entries
+3. **Move and rename the raw source file** from `raw/inbox/<original-name>` to `raw/<type>/<descriptive-name>.<ext>`:
+
+   - Pick the destination subfolder based on the source entry's `type:` frontmatter:
+     - `paper` → `raw/papers/`
+     - `book` → `raw/books/`
+     - `article` → `raw/articles/`
+     - `video` or `talk` → `raw/transcripts/`
+     - other → `raw/other/`
+   - Rename the file to a human-readable descriptive name in the form: `<Author(s)> (<Year>) - <Short Title>.<ext>`
+     - Single author: `Bjork (2011) - Desirable Difficulties.pdf`
+     - Two authors: `Risko & Gilbert (2016) - Cognitive Offloading.pdf`
+     - Three+ authors: `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
+   - This makes raw files browseable in the file system; the corresponding source entry in `sources/` keeps its slug name (`bjork-desirable-difficulties-2011.md`)
+4. Run `tooling/scripts/sync-source-links.py` to update Sources sections in entries that cite this source
+5. Run `tooling/scripts/build-index.py` (or `/update-index`) to refresh `index.md`
+6. Append a log entry: `## [YYYY-MM-DD] ingest | <source title>` to `log.md` (or `/log "ingest | <title>"`)
+7. Remove the now-empty `workspace/processing/[source-slug]/` directory
+
+**Asks for revisions:** revise the drafts in place.
+
+**Rejects:** drafts discarded, source moved from `raw/inbox/` to `raw/other/` (with a note in log.md if useful).
 
 ## Guardrails
 

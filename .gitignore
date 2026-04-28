@@ -11,7 +11,9 @@ workspace/
 dist/
 
 # Raw source files (PDFs, articles) — local only, copyright concerns
-raw/
+# Track folder structure (.gitkeep files), ignore everything else inside
+raw/**/*
+!raw/**/.gitkeep
 
 # Python build artifacts
 __pycache__/
