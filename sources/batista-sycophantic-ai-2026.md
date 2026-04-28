@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Batista, R.M. & Griffiths, T.L. (2026). A Rational Analysis of the Effects of Sycophantic AI. arXiv:2602.14270v1. Princeton University."
-reviewed_by:
-reviewed_date:
 ---
 # Rational Analysis of Sycophantic AI
 

@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Anderson, B. R., Shah, J. H., & Kreminski, M. (2024). Homogenization Effects of Large Language Models on Human Creative Ideation. In Creativity and Cognition (C&C '24). ACM. https://doi.org/10.1145/3635636.3656204"
-reviewed_by:
-reviewed_date:
 ---
 
 # Homogenization Effects of LLMs on Creative Ideation
@@ -24,7 +22,7 @@ In a 36-participant comparative study, ChatGPT users produced ideas that were no
 
 ## Relevance
 
-Provides direct experimental evidence for the group-level mechanism behind the [[creativity-diversity-paradox]]. The finding that homogenization is a between-user rather than within-user effect is critical: individual users may feel their creativity is supported (and it may be, by fluency and elaboration metrics), while the collective diversity of a field quietly narrows. The reduced sense of responsibility finding connects to [[agency]] and [[accountability]].
+Provides direct experimental evidence for the group-level mechanism behind the [[creativity-diversity-paradox]]. The finding that homogenization is a between-user rather than within-user effect is critical: individual users may feel their creativity is supported (and it may be, by fluency and elaboration metrics), while the collective diversity of a field quietly narrows. The reduced sense of responsibility finding connects to [[agency]] and accountability.
 
 ## Key Findings
 

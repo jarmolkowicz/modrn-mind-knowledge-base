@@ -5,8 +5,6 @@ sources:
   - "Reimann & Schilke (2025)"
   - "Cheong et al. (2025)"
   - "Raj, Berg, & Seamans (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Transparency Paradox
@@ -52,3 +50,10 @@ Cycle continues
 - [[fluency-bias]] - why we judge AI-assisted work differently
 - [[authenticity]] - what disclosure threatens
 - [[ai-moralization]] - moralization may intensify the paradox by adding moral weight to disclosure judgments
+
+## Sources
+
+- [[reimann-schilke-disclosure-2025]] — Reimann & Schilke (2025)
+- [[cheong-penalizing-transparency-2025]] — Cheong et al. (2025)
+- [[raj-disclosure-penalty-2026]] — Raj, Berg, & Seamans (2026)
+

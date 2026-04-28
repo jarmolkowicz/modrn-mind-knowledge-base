@@ -2,12 +2,9 @@
 status: solid
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
   - "Alessandro et al. (2025)"
   - "Guingrich, Mehta & Bhatt (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Agency
@@ -46,11 +43,18 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 
 ## Related
 
-- [[three-core-capacities]] - what enables agency
+- three core capacities - what enables agency
 - [[strategic-alternation]] - preserves agency through conscious choice
-- [[accountability]] - agency enables meaningful accountability
+- accountability - agency enables meaningful accountability
 - [[capacity-erosion]] - what happens when agency degrades
 - [[ai-self-efficacy-erosion]] - AI-driven evaluation erodes the psychological basis of agency
 - [[belief-offloading]] - threat to belief autonomy, a dimension of agency beyond task delegation (Guingrich et al. 2026)
 - [[confidence-competence-gap]] - Han et al. (2025) show AI-boosted self-efficacy without learning orientation produces confidence without genuine capability
-- [[permission-structures]] - explicit criteria for when heavy AI use preserves rather than erodes agency
+- permission structures - explicit criteria for when heavy AI use preserves rather than erodes agency
+
+## Sources
+
+- [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
+- [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
+- [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+

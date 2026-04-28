@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "de Mello, V. O., Côté, É., Ayad, R., Inbar, Y., Plaks, J., & Inzlicht, M. (2026). The moralization of artificial intelligence. University of Toronto."
-reviewed_by:
-reviewed_date:
 ---
 
 # AI Moralization
@@ -37,3 +35,8 @@ When teaching about or facilitating AI adoption, distinguishing between pragmati
 - [[disclosure-penalty]] - moralization may compound the penalty by adding moral weight to AI use judgments
 - [[professional-identity-threat]] - moral judgment from others adds external pressure to internal identity threat
 - [[transparency-paradox]] - moralization intensifies the paradox by making disclosure morally loaded
+
+## Sources
+
+- de Mello, V. O., Côté, É., Ayad, R., Inbar, Y., Plaks, J., & Inzlicht, M. (2026). The moralization of artificial intelligence. University of Toronto.
+

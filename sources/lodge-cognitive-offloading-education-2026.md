@@ -4,8 +4,6 @@ area: [erosion, risk, preservation]
 type: paper
 sources:
   - "Lodge & Loble (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Lodge & Loble — Cognitive Offloading and Education (2026)

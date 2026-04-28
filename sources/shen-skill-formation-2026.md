@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2."
-reviewed_by:
-reviewed_date:
 ---
 # How AI Impacts Skill Formation
 

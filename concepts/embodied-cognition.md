@@ -4,9 +4,6 @@ area: [preservation]
 sources:
   - "Varela, Thompson & Rosch (1991)"
   - "Lakoff & Johnson (1999)"
-  - "Jarmołkowicz (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Embodied Cognition
@@ -33,10 +30,16 @@ AI can remix patterns from text, but it cannot:
 - Have the gut feeling that something is wrong
 - Draw on muscle memory and embodied skill
 
-This is why [[three-core-capacities]] includes "Where Your Ideas Come From"—original insight emerges from embodied experience that AI cannot replicate.
+This is why three core capacities includes "Where Your Ideas Come From"—original insight emerges from embodied experience that AI cannot replicate.
 
 ## Related
 
-- [[three-core-capacities]] - embodiment underlies Capacity 2
+- three core capacities - embodiment underlies Capacity 2
 - [[metacognition]] - awareness of your embodied knowing
 - [[agency]] - embodied judgment is irreplaceable
+
+## Sources
+
+- [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)
+- [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
+

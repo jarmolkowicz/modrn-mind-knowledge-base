@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Reich, T. & Teeny, J.D. (2026). Does Artificial Intelligence Cause Artificial Confidence? Generative Artificial Intelligence as an Emerging Social Referent. Journal of Personality and Social Psychology: Attitudes and Social Cognition. https://doi.org/10.1037/pspa0000450"
-reviewed_by:
-reviewed_date:
 ---
 # Does AI Cause Artificial Confidence?
 

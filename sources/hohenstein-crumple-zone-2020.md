@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Hohenstein, J., & Jung, M.F. (2020). AI as a Moral Crumple Zone. Computers in Human Behavior."
-reviewed_by:
-reviewed_date:
 ---
 
 # Hohenstein & Jung (2020) - Moral Crumple Zone
@@ -38,4 +36,4 @@ Shows AI changes accountability dynamics in communication—potentially preventi
 
 - [[moral-crumple-zone]] - primary source
 - [[transparency-paradox]] - related dynamic
-- [[accountability]] - what shifts
+- accountability - what shifts

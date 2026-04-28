@@ -1,11 +1,9 @@
 [project]
 name = "modern-mind-kb-tools"
-version = "0.2.0"
-description = "On-demand CLI tools for the Modern Mind Knowledge Base (search, lint, contradiction scan)"
+version = "0.3.0"
+description = "On-demand CLI tools for the Modern Mind Knowledge Base (search, lint, index)"
 requires-python = ">=3.13"
 license = "MIT"
 dependencies = [
-    "anthropic>=0.40.0",
     "pyyaml>=6.0",
-    "python-dotenv>=1.2.2",
 ]

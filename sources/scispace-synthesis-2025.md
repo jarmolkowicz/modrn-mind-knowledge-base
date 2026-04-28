@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: synthesis
 sources:
   - "Scispace Research Synthesis (2025). Analysis of 831-Paper Literature Review. December 2025."
-reviewed_by:
-reviewed_date:
 ---
 
 # Scispace Literature Synthesis (2025)

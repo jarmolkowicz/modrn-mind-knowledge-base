@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: book
 sources:
   - "Nosta, J. (2026). The Borrowed Mind: Reclaiming Human Thought in the Age of AI. ThoughtLeaderPress."
-reviewed_by:
-reviewed_date:
 ---
 # The Borrowed Mind
 

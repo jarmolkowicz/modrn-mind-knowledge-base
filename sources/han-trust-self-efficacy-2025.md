@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025). Trust the Machine or Trust Yourself: How AI Usage Reshapes Employee Self-Efficacy and Willingness to Take Risks. Behavioral Sciences, 15(8), 1046. https://doi.org/10.3390/bs15081046"
-reviewed_by:
-reviewed_date:
 ---
 
 # Han — Trust Self-Efficacy 2025

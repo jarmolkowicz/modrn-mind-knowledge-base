@@ -4,8 +4,6 @@ area: [risk]
 type: paper
 sources:
   - "Reimann, M., & Schilke, O. (2025). Disclosing AI Use Can Backfire. University of Arizona."
-reviewed_by:
-reviewed_date:
 ---
 
 # Reimann & Schilke (2025) - Disclosure Backfires

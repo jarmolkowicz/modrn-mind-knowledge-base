@@ -4,8 +4,6 @@ area: [risk, erosion]
 type: paper
 sources:
   - "Fang, C.M., Liu, A.R., Danry, V., Lee, E., Chan, S.W.T., Pataranutaporn, P., Maes, P., Phang, J., Lampe, M., Ahmad, L., & Agarwal, S. (2025). How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use: A Longitudinal Randomized Controlled Study. arXiv:2503.17473v1. MIT Media Lab & OpenAI."
-reviewed_by:
-reviewed_date:
 ---
 # AI Chatbot Effects on Loneliness: Longitudinal RCT
 

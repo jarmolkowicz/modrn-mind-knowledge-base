@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: article
 sources:
   - "Duncan, D. S. (2026). How Do Workers Develop Good Judgment in the AI Era? Harvard Business Review."
-reviewed_by:
-reviewed_date:
 ---
 
 # Duncan (2026) - How Do Workers Develop Good Judgment in the AI Era?

@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "Georganta et al. (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Affective Trust Deficit
@@ -45,3 +43,8 @@ If AI mediates team communication:
 - [[moral-crumple-zone]] - another AI trust dynamic
 - [[authenticity]] - what affective connection requires
 - [[transparency-paradox]] - how disclosure affects trust
+
+## Sources
+
+- [[georganta-team-trust-2024]] — Georganta et al. (2024)
+

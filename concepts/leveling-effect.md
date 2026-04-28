@@ -4,8 +4,6 @@ area: [risk, erosion]
 sources:
   - "Dell'Acqua et al. (2023)"
   - "Science Advances (2024)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Leveling Effect
@@ -50,3 +48,9 @@ If juniors use AI to produce senior-level work:
 - [[cognitive-debt]] - why skipping struggle has costs
 - [[desirable-difficulty]] - what gets bypassed
 - [[creativity-diversity-paradox]] - collective version of this
+
+## Sources
+
+- Dell'Acqua et al. (2023)
+- Science Advances (2024)
+

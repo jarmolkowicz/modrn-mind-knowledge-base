@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Passalacqua et al. (2024)"
   - "Scispace Literature Synthesis (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Partial Automation Principle
@@ -57,3 +55,9 @@ This is among the strongest findings in AI-human collaboration research. Multipl
 - [[cognitive-debt]] - what full automation accumulates
 - [[desirable-difficulty]] - why engagement matters
 - [[think-first]] - practice that applies this
+
+## Sources
+
+- Passalacqua et al. (2024)
+- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+

@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: paper
 sources:
   - "Tsim, F., & Gutoreva, A. (2025). SCAN: A Decision-Making Framework for Task Assignment with Generative AI."
-reviewed_by:
-reviewed_date:
 ---
 
 # Tsim & Gutoreva (2025) - SCAN Framework

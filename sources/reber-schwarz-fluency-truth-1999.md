@@ -4,8 +4,6 @@ area: [erosion, risk]
 type: paper
 sources:
   - "Reber, R., & Schwarz, N. (1999). Effects of perceptual fluency on judgments of truth. Consciousness and Cognition."
-reviewed_by:
-reviewed_date:
 ---
 
 # Reber & Schwarz (1999) - Fluency and Truth Judgments

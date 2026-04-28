@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Shaw & Nave (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Surrender
@@ -48,3 +46,8 @@ Two factors that partially protect:
 - [[metacognition]] - System 3 bypasses metacognitive monitoring that would trigger deliberation
 - [[capacity-erosion]] - surrender as a mechanism of erosion
 - [[fluency-bias]] - AI's fluent outputs lower the threshold for scrutiny, enabling surrender
+
+## Sources
+
+- [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
+

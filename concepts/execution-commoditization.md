@@ -4,8 +4,6 @@ area: [risk, preservation]
 sources:
   - "Mollick (2026)"
   - "Niederhoffer et al. (2025/2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Execution Commoditization
@@ -51,3 +49,9 @@ The survey also found a protective factor: workers with "competence and control 
 - [[leveling-effect]] - AI compresses the performance distribution
 - [[calibration]] - delegation decisions require ongoing calibration
 - [[workslop]] - empirical manifestation of commoditized execution without judgment
+
+## Sources
+
+- [[mollick-management-ai-superpower-2026]] — Mollick (2026)
+- Niederhoffer et al. (2025/2026)
+

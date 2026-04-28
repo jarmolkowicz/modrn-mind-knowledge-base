@@ -4,8 +4,6 @@ area: [erosion, preservation]
 type: article
 sources:
   - "Nosta, J. (2026). AI and the Slippery Slope of Frictionless Intelligence. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2026) - Frictionless Intelligence

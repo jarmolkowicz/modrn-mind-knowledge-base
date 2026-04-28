@@ -4,8 +4,6 @@ area: [erosion, risk, preservation]
 type: book
 sources:
   - "Singh Yadav, P. (2026). The AI Competency Paradox: Why AI Doesn't Replace Jobs, but Reshapes Organizational Competence. Springer. https://doi.org/10.1007/978-3-032-11748-9"
-reviewed_by:
-reviewed_date:
 ---
 
 # Singh Yadav — Competency Paradox 2026

@@ -4,8 +4,6 @@ area: [preservation]
 type: article
 sources:
   - "Nosta, J. (2025). Why AI Shouldn't Replace the Rough Draft. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - Rough Draft
@@ -52,4 +50,4 @@ Provides specific application of [[desirable-difficulty]] to writing. Supports [
 
 - [[think-first]] - why drafting before AI matters
 - [[desirable-difficulty]] - applied to creative work
-- [[five-stage-workflow]] - rationale for human-first creating stage
+- five-stage workflow - rationale for human-first creating stage

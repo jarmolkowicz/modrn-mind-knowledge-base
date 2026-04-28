@@ -4,8 +4,6 @@ area: [erosion]
 type: article
 sources:
   - "Nosta, J. (2025). AI Rebound: The Paradoxical Drop After the AI Lift. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - AI Rebound

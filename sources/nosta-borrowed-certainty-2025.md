@@ -4,8 +4,6 @@ area: [erosion]
 type: article
 sources:
   - "Nosta, J. (2025). Borrowed Certainty and the Cost of AI's Perfect Answers. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2025) - Borrowed Certainty

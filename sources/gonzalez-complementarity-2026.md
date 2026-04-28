@@ -4,8 +4,6 @@ area: [preservation, risk]
 type: paper
 sources:
   - "Gonzalez, C., Donahue, K., Goldstein, D. G., Heidari, H., Jalali, M. S., Schelble, B., Singh, A., & Woolley, A. W. (2026). Toward a Science of Human–AI Teaming for Decision-making: A Complementarity Framework. PNAS Nexus."
-reviewed_by:
-reviewed_date:
 ---
 
 # Gonzalez et al. — Complementarity Framework (2026)
@@ -34,5 +32,5 @@ Provides the strongest multi-institutional, multi-disciplinary synthesis to date
 - [[automation-bias]] - identified as primary barrier to complementarity
 - [[judgment]] - human ethical authority and contextual judgment as non-delegable
 - [[metacognition]] - metacognitive oversight as essential for error detection in teams
-- [[accountability]] - human accountability cannot be delegated to AI
+- accountability - human accountability cannot be delegated to AI
 - [[calibration]] - team calibration section built on the five design principles

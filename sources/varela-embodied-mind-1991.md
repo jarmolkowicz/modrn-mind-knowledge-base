@@ -4,8 +4,6 @@ area: [preservation]
 type: book
 sources:
   - "Varela, F. J., Thompson, E., & Rosch, E. (1991). The Embodied Mind. MIT Press."
-reviewed_by:
-reviewed_date:
 ---
 
 # Varela, Thompson & Rosch (1991) - The Embodied Mind

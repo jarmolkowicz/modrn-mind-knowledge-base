@@ -3,8 +3,6 @@ status: emerging
 area: [erosion, risk]
 sources:
   - "Duncan (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Judgment Development Paradox
@@ -36,3 +34,8 @@ Duncan calls this "the defining challenge of the AI era" — and it requires del
 - [[desirable-difficulty]] - what gets eliminated
 - [[leveling-effect]] - AI compresses performance distribution while hollowing development
 - [[judgment]] - what's at stake
+
+## Sources
+
+- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
+

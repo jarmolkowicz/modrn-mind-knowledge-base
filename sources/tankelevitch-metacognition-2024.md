@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Tankelevitch, L., et al. (2024). The Metacognitive Demands and Opportunities of Generative AI. CHI 2024."
-reviewed_by:
-reviewed_date:
 ---
 
 # Tankelevitch et al. (2024) - Metacognitive Demands

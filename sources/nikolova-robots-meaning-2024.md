@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Nikolova, M., et al. (2024). Robots, Meaning, and Self-Determination. Research Policy."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nikolova et al. (2024) - Robots, Meaning, and Self-Determination

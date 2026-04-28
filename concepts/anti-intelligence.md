@@ -4,8 +4,6 @@ area: [erosion]
 sources:
   - "Nosta, Anti-Intelligence (2026)"
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Anti-Intelligence
@@ -57,10 +55,16 @@ Some areas remain resistant because they require irreversibility:
 
 ## Related
 
-- [[accountability]] - what anti-intelligence removes
-- [[authorship-levels]] - connection to ownership
+- accountability - what anti-intelligence removes
+- authorship levels - connection to ownership
 - [[capacity-erosion]] - mechanism through abdication
 - [[cognitive-offloading]] - related phenomenon
 - [[amathia-drift]] - the process by which anti-intelligence reshapes users
 - [[minimum-cognitive-integrity]] - threshold concept for anti-intelligence's effects
 - [[fluency-bias]] - vapid brilliance as mechanism
+
+## Sources
+
+- Nosta, Anti-Intelligence (2026)
+- Nosta, The Borrowed Mind (2026)
+

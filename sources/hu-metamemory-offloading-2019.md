@@ -4,8 +4,6 @@ area: [erosion]
 type: paper
 sources:
   - "Hu, X., Luo, L., & Fleming, S. M. (2019). A role for metamemory in cognitive offloading. Cognition, 193, 104012. https://doi.org/10.1016/j.cognition.2019.104012"
-reviewed_by:
-reviewed_date:
 ---
 
 # A Role for Metamemory in Cognitive Offloading

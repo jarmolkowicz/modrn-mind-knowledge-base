@@ -48,8 +48,7 @@ KB_ROOT = _SELF.parents[2]
 
 ENTRY_DIRS: dict[str, Path] = {
     "concept": KB_ROOT / "concepts",
-    "framework": KB_ROOT / "frameworks",
-    "practice": KB_ROOT / "practices",
+    "method": KB_ROOT / "methods",
     "source": KB_ROOT / "sources",
 }
 
@@ -66,8 +65,6 @@ class Entry:
     status: str | None
     area: list[str]
     sources: list[str]
-    reviewed_by: str | None
-    reviewed_date: str | None
     title: str
     body: str
     wikilinks: set[str] = field(default_factory=set)
@@ -123,8 +120,6 @@ def _parse_file(path: Path, entry_type: str) -> Entry | None:
         status=fm.get("status"),
         area=_coerce_list(fm.get("area")),
         sources=_coerce_list(fm.get("sources")),
-        reviewed_by=(fm.get("reviewed_by") or None),
-        reviewed_date=(str(fm.get("reviewed_date")) if fm.get("reviewed_date") else None),
         title=title,
         body=body,
         wikilinks=wikilinks,

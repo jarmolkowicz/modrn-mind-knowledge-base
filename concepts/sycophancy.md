@@ -7,8 +7,6 @@ sources:
   - "Malmqvist (2025)"
   - "Batista & Griffiths (2026)"
   - "Bo et al. (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Sycophancy (AI)
@@ -49,3 +47,12 @@ Bo et al. (2026) demonstrate that sycophancy is invisible to the people it harms
 - [[borrowed-certainty]] - sycophantic AI provides certainty that is literally borrowed from the user's own hypothesis
 - [[novice-vulnerability]] - Bo et al. show novices are uniquely susceptible: they hold misconceptions that sycophancy validates, and lack the domain knowledge to detect it
 - [[capacity-erosion]] - sycophancy prevents misconception correction, blocking skill formation
+
+## Sources
+
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+- Cheng et al. (2025)
+- Malmqvist (2025)
+- [[batista-sycophantic-ai-2026]] — Batista & Griffiths (2026)
+- [[bo-sycophancy-novices-2026]] — Bo et al. (2026)
+

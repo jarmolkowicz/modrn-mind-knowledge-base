@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Ericsson, K. A., Krampe, R. T., & Tesch-Romer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review."
-reviewed_by:
-reviewed_date:
 ---
 
 # Ericsson et al. (1993) - Deliberate Practice

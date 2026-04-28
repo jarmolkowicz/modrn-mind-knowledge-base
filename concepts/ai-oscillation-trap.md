@@ -3,8 +3,6 @@ status: emerging
 area: [erosion]
 sources:
   - "Nosta, Oscillation Trap (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # AI Oscillation Trap
@@ -48,3 +46,8 @@ The oscillation trap suggests [[strategic-alternation]] needs careful design:
 - [[strategic-alternation]] - the practice this complicates
 - [[capacity-erosion]] - oscillation-specific erosion mechanism
 - [[automation-bias]] - related phenomenon in automation research
+
+## Sources
+
+- Nosta, Oscillation Trap (2025)
+

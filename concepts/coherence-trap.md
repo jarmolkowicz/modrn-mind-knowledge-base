@@ -4,8 +4,6 @@ area: [erosion]
 sources:
   - "Nosta, Coherence Trap (2025)"
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Coherence Trap
@@ -58,3 +56,9 @@ The coherence trap extends [[fluency-bias]] into epistemological territory:
 - [[metacognition]] - doubt as protective factor
 - [[calibration]] - maintaining accurate self-assessment
 - [[amathia-drift]] - coherence trap as one driver of drift
+
+## Sources
+
+- Nosta, Coherence Trap (2025)
+- Nosta, The Borrowed Mind (2026)
+

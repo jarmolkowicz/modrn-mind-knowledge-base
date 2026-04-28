@@ -3,8 +3,6 @@ status: emerging
 area: [erosion]
 sources:
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 # Amathia Drift
 
@@ -37,3 +35,8 @@ The drift happens through sequence reversal. Where people once thought and then 
 - [[anti-intelligence]] - the structural condition that enables drift
 - [[fluency-bias]] - the perceptual bias that lubricates drift
 - [[minimum-cognitive-integrity]] - the threshold that drift can cross
+
+## Sources
+
+- Nosta, The Borrowed Mind (2026)
+

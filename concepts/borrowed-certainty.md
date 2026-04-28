@@ -5,8 +5,6 @@ sources:
   - "Nosta, Borrowed Certainty (2025)"
   - "Nosta, The Borrowed Mind (2026)"
   - "Guingrich, Mehta & Bhatt (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Borrowed Certainty
@@ -50,9 +48,16 @@ Additional test from Nosta (2026): "At its best, AI acts as a lens. But a lens i
 
 - [[fluency-bias]] - why AI output feels trustworthy
 - [[calibration]] - what drifts with borrowed certainty
-- [[accountability]] - you can't be accountable for borrowed conclusions
-- [[authorship-levels]] - borrowed certainty = low authorship
+- accountability - you can't be accountable for borrowed conclusions
+- authorship levels - borrowed certainty = low authorship
 - [[belief-offloading]] - deeper form: not just borrowed confidence but offloaded conviction (Guingrich et al. 2026)
 - [[amathia-drift]] - borrowed certainty as symptom of drift
 - [[minimum-cognitive-integrity]] - excessive borrowing can cross MCI threshold
 - [[sycophancy]] - sycophantic AI provides literally borrowed certainty
+
+## Sources
+
+- Nosta, Borrowed Certainty (2025)
+- Nosta, The Borrowed Mind (2026)
+- [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
+

@@ -4,8 +4,6 @@ area: [preservation]
 sources:
   - "Nosta, Cognitive Grit (2026)"
   - "Nosta, The Borrowed Mind (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Cognitive Grit
@@ -64,3 +62,9 @@ Nosta (2026) offers additional practical guidance:
 - [[think-first]] - specific application
 - [[amathia-drift]] - the smoothness trap as driver of drift
 - [[minimum-cognitive-integrity]] - cognitive grit protects against falling below MCI
+
+## Sources
+
+- Nosta, Cognitive Grit (2026)
+- Nosta, The Borrowed Mind (2026)
+

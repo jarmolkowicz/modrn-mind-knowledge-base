@@ -4,8 +4,6 @@ area: [preservation]
 type: book
 sources:
   - "Lakoff, G., & Johnson, M. (1999). Philosophy in the Flesh. Basic Books."
-reviewed_by:
-reviewed_date:
 ---
 
 # Lakoff & Johnson (1999) - Philosophy in the Flesh

@@ -4,8 +4,6 @@ area: [preservation]
 type: paper
 sources:
   - "Flavell, J. H. (1979). Metacognition and cognitive monitoring. American Psychologist."
-reviewed_by:
-reviewed_date:
 ---
 
 # Flavell (1979) - Metacognition and Cognitive Monitoring

@@ -4,8 +4,6 @@ area: [erosion]
 type: article
 sources:
   - "Nosta, J. (2026). Anti-Intelligence: When Thinking Has No Consequence. Psychology Today."
-reviewed_by:
-reviewed_date:
 ---
 
 # Nosta (2026) - Anti-Intelligence
@@ -39,10 +37,10 @@ Intelligence stripped of the obligations that normally give thinking its meaning
 
 ## Relevance
 
-Reframes AI risk as "relief from responsibility" rather than replacement. Connects to [[accountability]] and [[authorship-levels]].
+Reframes AI risk as "relief from responsibility" rather than replacement. Connects to accountability and authorship levels.
 
 ## Supports
 
 - [[anti-intelligence]] - defines the concept
-- [[accountability]] - why consequence matters
+- accountability - why consequence matters
 - [[capacity-erosion]] - mechanism through abdication

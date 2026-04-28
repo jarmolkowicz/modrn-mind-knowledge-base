@@ -11,8 +11,8 @@ OUTFILE="$OUTDIR/modern-mind-kb.md"
 mkdir -p "$OUTDIR"
 
 # Sections to include (order matters)
-SECTIONS=("concepts" "frameworks" "practices" "sources")
-LABELS=("Concepts" "Frameworks" "Practices" "Sources")
+SECTIONS=("concepts" "methods" "sources")
+LABELS=("Concepts" "Methods" "Sources")
 
 # --- Header ---
 cat > "$OUTFILE" << 'HEADER'

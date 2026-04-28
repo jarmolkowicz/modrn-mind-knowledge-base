@@ -3,8 +3,6 @@ status: emerging
 area: [risk]
 sources:
   - "Hohenstein & Jung (2020)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Moral Crumple Zone
@@ -44,4 +42,9 @@ From experimental research:
 
 - [[transparency-paradox]] - when AI involvement is known
 - [[affective-trust-deficit]] - what's lost in AI mediation
-- [[accountability]] - what shifts
+- accountability - what shifts
+
+## Sources
+
+- [[hohenstein-crumple-zone-2020]] — Hohenstein & Jung (2020)
+

@@ -7,8 +7,6 @@ sources:
   - "de Mello et al. (2026)"
   - "Alessandro et al. (2025)"
   - "Keshky (2026)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Professional Identity Threat
@@ -82,3 +80,12 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[ai-self-efficacy-erosion]] - self-objectification through AI evaluation as identity threat mechanism
 - [[confidence-competence-gap]] - Keshky shows the gap mediates identity distortion
 - [[amathia-drift]] - intellectual identity distortion as endpoint of drift
+
+## Sources
+
+- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+- [[nikolova-robots-meaning-2024]] — Nikolova et al. (2024)
+- de Mello et al. (2026)
+- [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
+- [[keshky-illusory-competence-2026]] — Keshky (2026)
+

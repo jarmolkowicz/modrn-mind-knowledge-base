@@ -1,53 +1,96 @@
-# CLAUDE.md - Modrn Mind Knowledge Base
+# CLAUDE.md — Modrn Mind Knowledge Base
 
-## Project Overview
+Operating instructions for Claude Code working in this repo.
 
-**What**: Curated knowledge base for the "human thinking with AI" domain—maintaining cognitive sovereignty while using AI productively.
+## What this repo is
 
-**Purpose**: Research, practice, and professional insight translated into concepts you can teach from, apply, and verify. For anyone teaching about or navigating AI use.
+The Modrn Mind Knowledge Base — a curated, public-facing reference for the domain "human thinking with AI." Maintaining cognitive sovereignty while using AI productively.
 
-**Audience — two personas:**
-- **Educator** — Corporate trainers, L&D professionals, workshop facilitators, professors, and content creators who build learning experiences about AI and human thinking.
-- **Practitioner** — Professionals who use AI daily — consultants, strategists, designers, developers, leaders, and anyone navigating AI in their work — who want to preserve their thinking, judgment, and expertise.
+This is the **central trunk** for the broader Modrn Mind project. Books, public writing, and workshop materials are downstream artifacts that draw from and contribute back to this KB. The KB outlives any single project.
 
-**Researcher = Collaborator, not audience.** Academics and scientists who review entries, validate claims, and contribute sources. We translate their work for practitioners. They don't need us to explain their own field.
+**Audience:**
+- **Educators** — Corporate trainers, L&D professionals, professors, content creators
+- **Practitioners** — Consultants, strategists, leaders navigating AI in professional work
+- **Researchers** — Collaborators (not audience), who review entries and contribute sources
 
-## Repository Structure
+## Repository structure
 
 ```
 Modrn Mind - Knowledge Base/
 │
-├── concepts/          # Ideas, phenomena, terms
-├── frameworks/        # Coherent systems from authors
-├── practices/         # Actionable guidance
-├── sources/           # Evidence base (papers, books, articles)
+├── concepts/           # Atomic named phenomena (cognitive offloading, fluency bias, ...)
+├── methods/            # Structured guidance: descriptive models AND prescriptive practices
+├── sources/            # Per-source distillations with key passages, relevance, open questions
 │
-├── workspace/         # Working area (gitignored, not curated content)
-│   ├── inbox/         # New sources awaiting screening
-│   ├── processing/    # Drafts in flight
-│   ├── archive/       # Processed sources
-│   └── feedback/      # Reviewer notes by month
+├── raw/                # Source files + ingestion lifecycle (gitignored contents, tracked structure)
+│   ├── inbox/          # New arrivals, awaiting screening + distillation
+│   ├── processing/     # In-flight drafts (per-source folder during ingestion)
+│   ├── papers/         # Academic papers (post-ingestion)
+│   ├── articles/       # Web articles, blog posts
+│   ├── books/          # Books and book chapters
+│   ├── transcripts/    # Video / podcast / talk transcripts
+│   ├── decks/          # Slide decks
+│   └── other/          # Anything that doesn't fit
 │
-├── tooling/           # Plumbing — visible but separate from content
-│   ├── scripts/       # CLI tools (kb_search, linter, contradiction_scan, build-bundle)
-│   ├── workflows/     # Ready prompts: scout, screener, processor, verifier
-│   └── templates/     # Entry templates: concept, framework, practice, source
+├── private/          # Reviewer feedback and personal notes (gitignored — tools must NOT write here)
+├── dist/              # Build artifacts: bundle + tool reports (gitignored)
 │
-├── dist/              # Bundle output (built by tooling/scripts/build-bundle.sh)
+├── index.md            # Auto-generated catalog: one row per entry, scannable
+├── log.md              # Chronological record of ingests and changes
 │
-├── README.md
-├── CLAUDE.md          # This file
-├── CONTRIBUTING.md    # How to contribute
+├── tooling/            # Plumbing
+│   ├── scripts/        # kb_search, linter, build-index, sync-source-links, build-bundle
+│   └── templates/      # Entry templates: concept, method, source
 │
-└── .github/workflows/
-    └── build-kb-bundle.yml  # Auto-bundles on push to main
+├── .claude/            # Claude Code agents and slash commands
+│   ├── agents/         # scout, screener, researcher, verifier
+│   └── commands/       # /scout-sources, /screen-source, /distill-source, /verify-draft, /integrate-draft, /update-index, /log
+│
+└── .github/workflows/  # build-kb-bundle.yml
 ```
 
-## Knowledge Pack
+## Required plugins (one-time per contributor)
 
-A single concatenated markdown file containing the full KB, auto-generated via GitHub Actions on every push to `main` that changes content files. Published as a GitHub Release at `releases/latest`. Users download this file and upload it to Claude Projects, NotebookLM, Custom GPTs, or any AI assistant to use the KB as context.
+Ingestion agents call Anthropic skills for non-trivial source formats. Install once:
 
-## Metadata Schema
+```
+/plugin install anthropic-skills
+```
+
+Provides `anthropic-skills:pdf`, `anthropic-skills:docx`, `anthropic-skills:pptx`. Installation is per-user, not per-project.
+
+Without these, the agents still handle plain markdown and short PDFs (≤10 pages) via the built-in Read tool, but will fail or degrade on longer PDFs, DOCX, and PPTX inputs.
+
+## Two modes Claude Code operates in here
+
+### Maintenance mode (you are *editing* the KB)
+
+When the user asks to ingest a source, refine an entry, run health checks, or restructure content:
+
+- Use the slash commands (`/scout-sources`, `/screen-source`, `/distill-source`, `/verify-draft`, `/integrate-draft`, `/update-index`, `/log`) and the sub-agents in `.claude/agents/`
+- Drafts always land in `raw/processing/[source-slug]/`, never directly in `concepts/`, `methods/`, or `sources/`
+- After ingestion, update `index.md` (`/update-index`) and append to `log.md` (`/log`)
+- Run `python tooling/scripts/linter.py` after structural changes to catch broken wikilinks, orphans, frontmatter drift
+
+### Consumer mode (you are *using* the KB as context)
+
+When this repo is referenced from another project (e.g., a downstream writing project drawing on Modrn Mind concepts), or when a user uploads the bundle to Claude Projects:
+
+- `index.md` is the entry point. Read it first to find relevant entries — don't bulk-load every file
+- Use `[[wikilinks]]` to follow connections; entry stems match filenames
+- For a topic-focused query, run `python tooling/scripts/kb_search.py search "<topic>"` to find ranked relevant entries
+- Cite entries by stem (`[[cognitive-offloading]]`) when synthesizing — don't restate the whole entry
+
+## Content guardrails (non-negotiable)
+
+- **No hype, no urgency triggers, no fear-mongering**
+- **No alarmist framing.** AI is augmentation, not replacement
+- **No AI-as-replacement language.** Frame AI as augmenting thinking, intuition, judgment, and responsibility
+- **Label uncertainty.** Use `[Inference]` or `[Speculation]` when synthesizing beyond what sources support
+- **No fabricated citations.** If a citation isn't in `sources/`, don't invent one
+- **Match the audience.** Plain language. Specific. Useful at 7am before a client meeting
+
+## Metadata schema
 
 Every entry requires YAML frontmatter:
 
@@ -57,57 +100,74 @@ status: solid | emerging | speculative
 area: [risk, erosion, preservation]
 sources:
   - "Citation"
-reviewed_by:
-reviewed_date:
 ---
 ```
 
-### Status Levels
+Source entries also have `type: paper | book | article | video | talk`.
+
+### Status levels
 - **solid** — Peer-reviewed support, teach with confidence
 - **emerging** — Supported but developing, or from thought leaders
-- **speculative** — Hypothesis, needs evidence
+- **speculative** — Hypothesis, needs more evidence
 
-### Area Tags
-- **risk** — What capabilities are threatened
-- **erosion** — Why and how capacity degrades
+### Area tags
+- **risk** — Capabilities threatened
+- **erosion** — How and why capacity degrades
 - **preservation** — What to do about it
 
-## Naming Conventions
+## Naming conventions
 
-- Files: lowercase with hyphens (`cognitive-offloading.md`)
-- Sources: `author-keyword-year.md` (`bjork-desirable-difficulties-2011.md`)
-- Use `[[wikilinks]]` for internal references
+**KB entries** (`concepts/`, `methods/`, `sources/`): lowercase, hyphens, code-friendly.
+- Concepts: `cognitive-offloading.md`
+- Methods: `think-first.md`
+- Sources: `<author(s)>-<keyword>-<year>.md` — e.g., `bjork-desirable-difficulties-2011.md`
 
-## Workflow
+**Raw files** (`raw/<type>/`): descriptive, human-readable, for browsing.
+- Pattern: `<Author(s)> (<Year>) - <Short Title>.<ext>`
+- Single author: `Bjork (2011) - Desirable Difficulties.pdf`
+- Two authors: `Risko & Gilbert (2016) - Cognitive Offloading.pdf`
+- Three+ authors: `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
 
-All content goes through human review:
+The raw file (browse-friendly) and the source entry (code-friendly slug) both reference the same source. Pairing example: `raw/papers/Bjork (2011) - Desirable Difficulties.pdf` ↔ `sources/bjork-desirable-difficulties-2011.md`.
+
+**Wikilinks**: `[[wikilinks]]` for internal references — by entry stem, no path prefix. Sources are wikilinked via the slug (`[[bjork-desirable-difficulties-2011]]`), not by raw filename.
+
+## Ingestion workflow
 
 ```
-Source → Screener → Processor → Verifier → Human Review → AI Integration → KB
+Drop source in raw/inbox/
+  ↓
+/screen-source       (optional triage — INCLUDE / SKIP / DEFER)
+  ↓
+/distill-source      (researcher writes drafts to raw/processing/[slug]/)
+  ↓
+/verify-draft        (optional — 3-lens panel produces VERIFICATION.md)
+  ↓
+human review
+  ↓
+/integrate-draft     (move drafts → KB folders, rename raw file → raw/<type>/,
+                      run sync-source-links + build-index, append to log)
 ```
 
-### Guardrails
+The user reviews drafts during the session. There's no separate review queue — the LLM proposes, the user edits, and the entry exists because the user committed it.
 
-- **Never** write directly to `concepts/`, `frameworks/`, `practices/`, `sources/`
-- **Always** output to `workspace/processing/[source-slug]/` for review
-- **Leave** `reviewed_by` and `reviewed_date` empty—reviewer fills these
+Source files and the entire ingestion lifecycle (incoming, in-flight drafts, processed) live in `raw/`. New arrivals go to `raw/inbox/`, distillation work happens in `raw/processing/[slug]/`, and after ingestion sources move to `raw/<type>/` based on their `type:` frontmatter. Tool-generated reports (linter, contradiction scan) write to `dist/`. Reviewer feedback and personal notes live in `private/` — tools must not write there.
 
 ## Templates
 
-Use templates in `tooling/templates/` for new entries:
-- `concept.md`
-- `framework.md`
-- `practice.md`
-- `source.md`
+In `tooling/templates/`:
+- `concept.md` — atomic phenomena
+- `method.md` — structured guidance (frameworks and practices, merged)
+- `source.md` — per-source distillation
 
 ## Tools
 
 On-demand CLI tools in `tooling/scripts/`:
-- `kb_search.py` — search/list/get/similar/stats over the KB
-- `linter.py` — pure-Python health check (broken wikilinks, orphans, stale reviews, frontmatter drift, etc.) → writes `workspace/lint-report.md`
-- `contradiction_scan.py` — LLM coherence pass over wikilinked entry pairs → writes `workspace/contradiction-report.md` (costs ~$0.50/run, requires `ANTHROPIC_API_KEY` in `.env`)
+- `kb_search.py` — search / list / get / similar / stats over the KB
+- `linter.py` — pure-Python health checks (broken wikilinks, orphans, uncited sources, missing-related, frontmatter drift)
+- `build-index.py` — regenerates `index.md` from current entries (mechanical, fast)
 - `build-bundle.sh` — concatenates KB content into `dist/modern-mind-kb.md`
 
 ## Contributing
 
-See `CONTRIBUTING.md` for full guidelines.
+See `CONTRIBUTING.md` for the contributor-facing version of this guide (humans who want to suggest sources or write entries via PR).

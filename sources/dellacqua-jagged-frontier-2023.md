@@ -4,8 +4,6 @@ area: [risk, preservation]
 type: paper
 sources:
   - "Dell'Acqua, F., et al. (2023). Navigating the Jagged Technological Frontier. Harvard Business School Working Paper."
-reviewed_by:
-reviewed_date:
 ---
 
 # Dell'Acqua et al. (2023) - Jagged Frontier

@@ -5,8 +5,6 @@ sources:
   - "Tsim & Gutoreva (2025)"
   - "Shukla et al. (2025)"
   - "Krook (2025)"
-reviewed_by:
-reviewed_date:
 ---
 
 # Upskilling-Deskilling Paradox
@@ -39,3 +37,10 @@ The paradox: the same task can move in either direction based on your choices.
 - [[capacity-erosion]] - deskilling over time
 - [[desirable-difficulty]] - mechanism for upskilling
 - [[strategic-alternation]] - prevents deskilling through deliberate practice
+
+## Sources
+
+- [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
+- Shukla et al. (2025)
+- Krook (2025)
+
