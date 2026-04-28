@@ -2,7 +2,7 @@
 
 Mechanical, deterministic. No LLM calls. Run via:
 
-    python tooling/scripts/build-index.py
+    uv run python tooling/scripts/build-index.py
 
 Output: index.md at the repo root, with one row per entry grouped by type.
 For each entry, a short one-liner is extracted from the appropriate section

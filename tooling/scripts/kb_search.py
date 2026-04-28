@@ -11,12 +11,12 @@ no indexing, no RAG.
 
 ## CLI examples
 
-    python tooling/scripts/kb_search.py search "cognitive offloading"
-    python tooling/scripts/kb_search.py search "trust calibration" --type concept --status emerging
-    python tooling/scripts/kb_search.py list --status speculative --json
-    python tooling/scripts/kb_search.py similar accountability
-    python tooling/scripts/kb_search.py get cognitive-offloading
-    python tooling/scripts/kb_search.py exists fluency-bias
+    uv run python tooling/scripts/kb_search.py search "cognitive offloading"
+    uv run python tooling/scripts/kb_search.py search "trust calibration" --type concept --status emerging
+    uv run python tooling/scripts/kb_search.py list --status speculative --json
+    uv run python tooling/scripts/kb_search.py similar accountability
+    uv run python tooling/scripts/kb_search.py get cognitive-offloading
+    uv run python tooling/scripts/kb_search.py exists fluency-bias
 
 ## Python API
 

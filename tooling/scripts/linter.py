@@ -16,11 +16,11 @@ free, deterministic.
 
 ## Usage
 
-    python tooling/scripts/linter.py                  # summary table to stdout (no file)
-    python tooling/scripts/linter.py --check orphans  # filter to one check
-    python tooling/scripts/linter.py --stdout         # full markdown report to stdout
-    python tooling/scripts/linter.py --json           # JSON to stdout (for programmatic use)
-    python tooling/scripts/linter.py --out lint.md    # write full report to a file
+    uv run python tooling/scripts/linter.py                  # summary table to stdout (no file)
+    uv run python tooling/scripts/linter.py --check orphans  # filter to one check
+    uv run python tooling/scripts/linter.py --stdout         # full markdown report to stdout
+    uv run python tooling/scripts/linter.py --json           # JSON to stdout (for programmatic use)
+    uv run python tooling/scripts/linter.py --out lint.md    # write full report to a file
 """
 
 from __future__ import annotations
