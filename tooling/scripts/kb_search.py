@@ -48,8 +48,7 @@ KB_ROOT = _SELF.parents[2]
 
 ENTRY_DIRS: dict[str, Path] = {
     "concept": KB_ROOT / "concepts",
-    "framework": KB_ROOT / "frameworks",
-    "practice": KB_ROOT / "practices",
+    "method": KB_ROOT / "methods",
     "source": KB_ROOT / "sources",
 }
 
