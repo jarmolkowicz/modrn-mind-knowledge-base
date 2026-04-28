@@ -1,18 +1,16 @@
-<!-- This template is referenced by tooling/workflows/processor.md. Keep them in sync. -->
+<!-- This template is referenced by .claude/agents/researcher.md. Keep them in sync. -->
 ---
 status: emerging
 area: []
 sources:
   - ""
-reviewed_by:
-reviewed_date:
 ---
 
 # [Concept Name]
 
 ## What It Is
 
-[1-2 sentences. Plain definition.]
+[1-2 sentences. Plain definition of the named phenomenon.]
 
 ## Why It Matters
 
@@ -25,4 +23,4 @@ reviewed_date:
 ## Related
 
 - [[concept]] - [brief relationship]
-- [[practice]] - [if applicable]
+- [[method]] - [if a method addresses this concept]
