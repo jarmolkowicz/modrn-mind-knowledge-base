@@ -27,7 +27,7 @@ This repo is referenced from another project (e.g., `still-you` book chapters), 
 
 Key rules:
 - Read `index.md` first. It's the entry point — don't bulk-load entries.
-- For a topic query: `python tooling/scripts/kb_search.py search "<topic>"`
+- For a topic query: `uv run python tooling/scripts/kb_search.py search "<topic>"`
 - Follow `[[wikilinks]]` to navigate; cite entries by stem (`[[cognitive-offloading]]`).
 
 ## Common asks → what to run
@@ -35,12 +35,12 @@ Key rules:
 | User says | Action |
 |---|---|
 | "Ingest this paper" / "Distill this source" | `/screen-source <path>` (optional) → `/distill-source <path>` → `/integrate-draft <slug>` |
-| "Run the linter" / "KB health check" | `python tooling/scripts/linter.py` |
-| "Update the index" | `/update-index` (or `python tooling/scripts/build-index.py`) |
-| "Refresh source links" | `python tooling/scripts/sync-source-links.py` |
-| "What does the KB say about X?" | `python tooling/scripts/kb_search.py search "X"` |
-| "Show me entry X" | `python tooling/scripts/kb_search.py get <stem>` |
-| "Find broken wikilinks" | `python tooling/scripts/linter.py --check broken_wikilinks --stdout` |
+| "Run the linter" / "KB health check" | `uv run python tooling/scripts/linter.py` |
+| "Update the index" | `/update-index` (or `uv run python tooling/scripts/build-index.py`) |
+| "Refresh source links" | `uv run python tooling/scripts/sync-source-links.py` |
+| "What does the KB say about X?" | `uv run python tooling/scripts/kb_search.py search "X"` |
+| "Show me entry X" | `uv run python tooling/scripts/kb_search.py get <stem>` |
+| "Find broken wikilinks" | `uv run python tooling/scripts/linter.py --check broken_wikilinks --stdout` |
 | "Build the bundle" | `bash tooling/scripts/build-bundle.sh` |
 | "Log this change" | `/log "<category> | <message>"` |
 
@@ -136,7 +136,20 @@ LLM proposes; user edits in real time during the session; entry exists because t
 
 ## Setup (one-time per contributor)
 
-Document-handling skills for PDF, DOCX, PPTX live in `.claude/skills/` and load automatically — no `/plugin install` needed.
+### Python tooling: invoke via `uv run`
+
+KB tooling scripts (`tooling/scripts/*.py`) **must be invoked with `uv run python ...`**, never with system Python. `uv` reads `pyproject.toml`, manages `.venv/` automatically, and ensures every contributor runs the same dependency versions.
+
+```bash
+uv run python tooling/scripts/linter.py          # ✓ correct
+python tooling/scripts/linter.py                 # ✗ wrong — uses system Python
+```
+
+If `uv` isn't installed: https://docs.astral.sh/uv/getting-started/installation/
+
+### Document-handling skills
+
+PDF, DOCX, PPTX skills live in `.claude/skills/` and load automatically — no `/plugin install` needed.
 
 System binaries the skills depend on (install on the contributor's machine):
 - **pandoc** — DOCX text extraction

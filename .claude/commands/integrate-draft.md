@@ -87,8 +87,8 @@ If the original isn't in `raw/inbox/` (already moved manually, or never there), 
 Run two scripts in sequence:
 
 ```bash
-python tooling/scripts/sync-source-links.py
-python tooling/scripts/build-index.py
+uv run python tooling/scripts/sync-source-links.py
+uv run python tooling/scripts/build-index.py
 ```
 
 `sync-source-links.py` updates the Sources section in entries that cite this source via wikilinks. `build-index.py` regenerates `index.md` to include the new entries.

@@ -2,7 +2,7 @@
 description: Regenerate index.md from current KB entries. Mechanical and fast.
 ---
 
-Run `python tooling/scripts/build-index.py` to regenerate the KB index.
+Run `uv run python tooling/scripts/build-index.py` to regenerate the KB index.
 
 After the script completes:
 - Confirm `index.md` was written

@@ -13,9 +13,9 @@ If a citation can't be matched (ambiguous or no source entry), it's
 written as plain text with a TODO marker.
 
 Usage:
-    python tooling/scripts/sync-source-links.py            # update all entries
-    python tooling/scripts/sync-source-links.py --dry-run  # preview, no writes
-    python tooling/scripts/sync-source-links.py --entry scan  # single entry
+    uv run python tooling/scripts/sync-source-links.py            # update all entries
+    uv run python tooling/scripts/sync-source-links.py --dry-run  # preview, no writes
+    uv run python tooling/scripts/sync-source-links.py --entry scan  # single entry
 """
 
 from __future__ import annotations
