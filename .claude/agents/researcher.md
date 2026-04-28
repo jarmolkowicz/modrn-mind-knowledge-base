@@ -169,26 +169,7 @@ raw/processing/[source-slug]/
 
 The user reviews drafts in real time during the session, edits as needed, then either:
 
-**Approves → Integration:**
-1. Move drafts from `raw/processing/[source-slug]/new/` to the appropriate KB folders (`concepts/`, `methods/`, `sources/`)
-2. Apply update drafts manually into existing entries
-3. **Move and rename the raw source file** from `raw/inbox/<original-name>` to `raw/<type>/<descriptive-name>.<ext>`:
-
-   - Pick the destination subfolder based on the source entry's `type:` frontmatter:
-     - `paper` → `raw/papers/`
-     - `book` → `raw/books/`
-     - `article` → `raw/articles/`
-     - `video` or `talk` → `raw/transcripts/`
-     - other → `raw/other/`
-   - Rename the file to a human-readable descriptive name in the form: `<Author(s)> (<Year>) - <Short Title>.<ext>`
-     - Single author: `Bjork (2011) - Desirable Difficulties.pdf`
-     - Two authors: `Risko & Gilbert (2016) - Cognitive Offloading.pdf`
-     - Three+ authors: `Lodge et al. (2026) - Cognitive Offloading and Education.pdf`
-   - This makes raw files browseable in the file system; the corresponding source entry in `sources/` keeps its slug name (`bjork-desirable-difficulties-2011.md`)
-4. Run `tooling/scripts/sync-source-links.py` to update Sources sections in entries that cite this source
-5. Run `tooling/scripts/build-index.py` (or `/update-index`) to refresh `index.md`
-6. Append a log entry: `## [YYYY-MM-DD] ingest | <source title>` to `log.md` (or `/log "ingest | <title>"`)
-7. Remove the now-empty `raw/processing/[source-slug]/` directory
+**Approves:** the user runs `/integrate-draft <slug>` (or asks Claude to). That command handles the full integration: moving drafts into KB folders, renaming and relocating the raw source file under `raw/<type>/`, refreshing `sync-source-links.py` and `build-index.py`, and appending to `log.md`. See `.claude/commands/integrate-draft.md`.
 
 **Asks for revisions:** revise the drafts in place.
 

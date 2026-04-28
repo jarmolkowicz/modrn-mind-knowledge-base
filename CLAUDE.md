@@ -44,7 +44,7 @@ Modrn Mind - Knowledge Base/
 │
 ├── .claude/            # Claude Code agents and slash commands
 │   ├── agents/         # scout, screener, researcher, verifier
-│   └── commands/       # /scout-sources, /screen-source, /distill-source, /verify-draft, /update-index, /log
+│   └── commands/       # /scout-sources, /screen-source, /distill-source, /verify-draft, /integrate-draft, /update-index, /log
 │
 └── .github/workflows/  # build-kb-bundle.yml
 ```
@@ -67,7 +67,7 @@ Without these, the agents still handle plain markdown and short PDFs (≤10 page
 
 When the user asks to ingest a source, refine an entry, run health checks, or restructure content:
 
-- Use the slash commands (`/scout-sources`, `/screen-source`, `/distill-source`, `/verify-draft`, `/update-index`, `/log`) and the sub-agents in `.claude/agents/`
+- Use the slash commands (`/scout-sources`, `/screen-source`, `/distill-source`, `/verify-draft`, `/integrate-draft`, `/update-index`, `/log`) and the sub-agents in `.claude/agents/`
 - Drafts always land in `raw/processing/[source-slug]/`, never directly in `concepts/`, `methods/`, or `sources/`
 - After ingestion, update `index.md` (`/update-index`) and append to `log.md` (`/log`)
 - Run `python tooling/scripts/linter.py` after structural changes to catch broken wikilinks, orphans, frontmatter drift
@@ -135,15 +135,18 @@ The raw file (browse-friendly) and the source entry (code-friendly slug) both re
 ## Ingestion workflow
 
 ```
-Drop source in raw/inbox/  →  /screen-source  →  /distill-source  →  (optional) /verify-draft
-                                                                                  ↓
-                                                                          human review
-                                                                                  ↓
-                                                                          integrate:
-                                                                          - drafts → concepts/methods/sources
-                                                                          - source: raw/inbox/ → raw/<type>/
-                                                                          - /update-index
-                                                                          - /log "ingest | <title>"
+Drop source in raw/inbox/
+  ↓
+/screen-source       (optional triage — INCLUDE / SKIP / DEFER)
+  ↓
+/distill-source      (researcher writes drafts to raw/processing/[slug]/)
+  ↓
+/verify-draft        (optional — 3-lens panel produces VERIFICATION.md)
+  ↓
+human review
+  ↓
+/integrate-draft     (move drafts → KB folders, rename raw file → raw/<type>/,
+                      run sync-source-links + build-index, append to log)
 ```
 
 The user reviews drafts during the session. There's no separate review queue — the LLM proposes, the user edits, and the entry exists because the user committed it.
