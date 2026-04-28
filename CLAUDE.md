@@ -49,17 +49,23 @@ Modrn Mind - Knowledge Base/
 └── .github/workflows/  # build-kb-bundle.yml
 ```
 
-## Required plugins (one-time per contributor)
+## Required setup (one-time per contributor)
 
-Ingestion agents call Anthropic skills for non-trivial source formats. Install once:
+Document-handling skills for PDF, DOCX, and PPTX are committed in `.claude/skills/` and load automatically when this repo opens — no `/plugin install` needed.
 
-```
-/plugin install anthropic-skills
-```
+The skills depend on system binaries you'll need installed on your machine:
 
-Provides `anthropic-skills:pdf`, `anthropic-skills:docx`, `anthropic-skills:pptx`. Installation is per-user, not per-project.
+- **pandoc** — text extraction from .docx (https://pandoc.org/installing.html)
+- **Python 3** — runs validation/conversion scripts
+- **LibreOffice** (`soffice`) — DOC↔DOCX conversion, DOCX→PDF rendering
+- **poppler** (`pdftoppm`) — PDF→image rendering
+- **Node.js** + `npm install -g docx` — only if creating new .docx files
 
-Without these, the agents still handle plain markdown and short PDFs (≤10 pages) via the built-in Read tool, but will fail or degrade on longer PDFs, DOCX, and PPTX inputs.
+For the typical research-ingestion flow (papers as PDF, articles as web text → markdown distillations), pandoc + Python + LibreOffice + poppler is the practical minimum.
+
+Without these binaries, ingestion agents still handle plain markdown and short PDFs (≤10 pages) via the built-in Read tool, but will fail or degrade on longer PDFs, .docx, and .pptx inputs.
+
+The skill bundles are pinned snapshots — refresh them periodically by re-copying from your local `~/.claude/plugins/cache/anthropic-agent-skills/` cache when the upstream plugin updates.
 
 ## Two modes Claude Code operates in here
 
