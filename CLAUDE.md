@@ -1,68 +1,48 @@
 # CLAUDE.md — Modrn Mind Knowledge Base
 
-Operating instructions for Claude Code working in this repo.
+Operating instructions for Claude Code in this repo.
 
 ## What this is
 
-Public, curated reference on "human thinking with AI" — cognitive sovereignty, capacity preservation, professional judgment under AI. Content lives in `concepts/`, `methods/`, `sources/`.
+Public, curated reference on how AI reshapes human thinking, identity, and agency. Atomic entries in `concepts/`, `methods/`, `sources/`. Status-tagged (`solid` / `emerging` / `speculative`).
 
-This is the **central trunk** of the broader Modrn Mind project. Books, public writing, and workshop materials are downstream artifacts that draw from this KB and contribute back. The KB outlives any single project.
+The KB is the central trunk of the broader Modrn Mind project — downstream artifacts (books, writing, workshops) draw from it and contribute back.
 
-External users download `dist/modern-mind-kb.md` (the bundle) and upload it to Claude Projects, NotebookLM, or similar.
+## How to operate
 
-## Two modes Claude Code operates in
+This repo gets used two ways. Notice which mode you're in.
 
-### Editing the KB
+**Editing the KB** — user asks to ingest a source, refine an entry, restructure content.
 
-User asks to ingest a source, refine an entry, run health checks, or restructure content.
-
-- Use slash commands in `.claude/commands/`. Each command's frontmatter describes what it does and when to invoke it.
-- Sub-agents in `.claude/agents/` are invoked by commands; don't run them directly unless asked.
+- Use slash commands in `.claude/commands/`. Frontmatter says when each fires.
 - Drafts always land in `raw/processing/[slug]/`. **Never** write to `concepts/`, `methods/`, or `sources/` directly — only `/integrate-draft` does, after human review.
-- After structural changes, run the linter.
+- Tools never write to `private/` (gitignored).
 
-### Using the KB as context
+**Using the KB as context** — downstream project references it, or the bundle was loaded into an AI tool.
 
-User in a downstream project references this KB, or someone uploaded the bundle to an AI tool.
-
-- Read `index.md` first — it's the entry point. Don't bulk-load entries.
+- Read `index.md` first. Don't bulk-load entries.
 - For topic search: `uv run python tooling/scripts/kb_search.py search "<topic>"`
-- Cite by stem: `[[cognitive-offloading]]`. Don't restate full entries.
+- Cite by stem: `[[cognitive-offloading]]`. Don't restate entries.
 
-## Setup (one-time per contributor with write access)
+## Voice
 
-KB tooling scripts run via `uv`:
+The repo is about this — embody it.
 
-```bash
-uv run python tooling/scripts/<script>.py    # ✓ correct
-python tooling/scripts/<script>.py           # ✗ wrong — uses system Python
-```
-
-`uv` reads `pyproject.toml` and manages `.venv/` automatically. Install: https://docs.astral.sh/uv/getting-started/installation/
-
-The PDF/DOCX/PPTX skills in `.claude/skills/` shell out to system binaries — install them once on your machine for non-trivial document ingestion:
-
-- `pandoc` — DOCX text extraction
-- `libreoffice` (`soffice`) — DOC↔DOCX, DOCX→PDF
-- `poppler` (`pdftoppm`) — PDF→image
-- `node` + `npm install -g docx` — only if creating new .docx files
-
-Without them, ingestion still works for plain markdown and short PDFs (≤10 pages); fails on long PDFs, DOCX, PPTX.
-
-## Universal guardrails
-
-- No hype, urgency triggers, fear-mongering, or alarmist framing. AI is augmentation, never replacement.
+- No hype, urgency triggers, fear-mongering. AI as augmentation, never replacement.
 - Label uncertainty as `[Inference]` or `[Speculation]` when synthesizing beyond what sources support.
 - No fabricated citations — match author + year to a real `sources/` entry.
 - Plain language. Useful at 7am before a client meeting.
-- Tools NEVER write to `private/` (reviewer feedback, gitignored).
 
-## Where specifics live
+## Python tooling
+
+`uv run python tooling/scripts/<script>.py` — never bare `python`. uv reads `pyproject.toml` and manages `.venv/` automatically.
+
+## Where things live
 
 | For | Look at |
 |---|---|
-| Slash commands and what each does | `.claude/commands/` |
+| Slash commands | `.claude/commands/` |
 | Sub-agent system prompts | `.claude/agents/` |
-| Entry schema (status, area, sources) and templates | `tooling/templates/` |
-| Tooling scripts (each has its own docstring) | `tooling/scripts/` |
-| External-contributor onboarding (issues, PRs, fork flow) | `CONTRIBUTING.md` |
+| Entry schema and templates | `tooling/templates/` |
+| Tooling scripts (each has a docstring) | `tooling/scripts/` |
+| External-contributor onboarding | `CONTRIBUTING.md` |
