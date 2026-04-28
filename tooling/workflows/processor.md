@@ -4,7 +4,7 @@
 
 **NEVER write directly to KB folders (concepts/, sources/, practices/, frameworks/).**
 
-All outputs go to `_workspace/processing/[source-slug]/`. Human approval required before any entry enters the KB.
+All outputs go to `workspace/processing/[source-slug]/`. Human approval required before any entry enters the KB.
 
 **Do NOT:**
 - Write to KB folders directly
@@ -19,7 +19,7 @@ Extract KB elements from approved source. Create new entries or draft updates to
 
 ## Input
 
-- Approved source from `_workspace/inbox/`
+- Approved source from `workspace/inbox/`
 - Current KB state (all entries in concepts/, frameworks/, practices/, sources/)
 
 ## Process
@@ -59,28 +59,28 @@ For each extracted element:
 ### 3. Create Outputs
 
 #### For NEW items
-Create draft entries in `_workspace/processing/[source-slug]/new/`
+Create draft entries in `workspace/processing/[source-slug]/new/`
 
-Follow the structure in `_guide/templates/` for each entry type. Fill all fields. Set `status: emerging` unless source is highly authoritative.
+Follow the structure in `tooling/templates/` for each entry type. Fill all fields. Set `status: emerging` unless source is highly authoritative.
 
-**Concept** (template: `_guide/templates/concept.md`):
+**Concept** (template: `tooling/templates/concept.md`):
 - Frontmatter: `status`, `area`, `sources`, `reviewed_by`, `reviewed_date`
 - Sections: `What It Is`, `Why It Matters`, `Key Insight`, `Related`
 
-**Framework** (template: `_guide/templates/framework.md`):
+**Framework** (template: `tooling/templates/framework.md`):
 - Frontmatter: `status`, `area`, `sources`, `reviewed_by`, `reviewed_date`
 - Sections: `Overview`, `Author`, `Core Idea`, `Key Components`, `Strengths`, `Limitations`, `Related`
 
-**Practice** (template: `_guide/templates/practice.md`):
+**Practice** (template: `tooling/templates/practice.md`):
 - Frontmatter: `status`, `area`, `sources`, `reviewed_by`, `reviewed_date`
 - Sections: `What To Do`, `How To Do It` (numbered steps), `Why It Works`, `Related`
 
-**Source** (template: `_guide/templates/source.md`):
+**Source** (template: `tooling/templates/source.md`):
 - Frontmatter: `status`, `area`, `type` (paper|book|article|video|talk), `sources`, `reviewed_by`, `reviewed_date`
 - Sections: `Citation`, `Type`, `Key Insight`, `Relevance`, `Supports`
 
 #### For UPDATE items
-Create update drafts in `_workspace/processing/[source-slug]/updates/`
+Create update drafts in `workspace/processing/[source-slug]/updates/`
 
 Format:
 ```markdown
@@ -102,13 +102,13 @@ Format:
 ```
 
 #### For source entry itself
-Create `_workspace/processing/[source-slug]/new/source-[slug].md`
+Create `workspace/processing/[source-slug]/new/source-[slug].md`
 
 Every processed source gets a sources/ entry.
 
 ### 4. Create Summary
 
-Create `_workspace/processing/[source-slug]/SUMMARY.md`:
+Create `workspace/processing/[source-slug]/SUMMARY.md`:
 
 ```markdown
 # Processing Summary: [Source Title]
@@ -147,7 +147,7 @@ For each entry type, list what was extracted or explain why nothing was found.
 ## Output Structure
 
 ```
-_workspace/processing/[source-slug]/
+workspace/processing/[source-slug]/
 ├── SUMMARY.md
 ├── new/
 │   ├── concept-name.md
@@ -167,4 +167,4 @@ Human reviews:
 
 Approved new entries move to KB folders.
 Approved updates get manually merged.
-Source moves to `_workspace/archive/`.
+Source moves to `workspace/archive/`.

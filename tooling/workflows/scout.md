@@ -32,7 +32,7 @@ Find new sources relevant to the Modern Mind KB domain: human thinking with AI.
 
 ## Output Format
 
-For each promising source, create `_workspace/inbox/[source-slug].md`:
+For each promising source, create `workspace/inbox/[source-slug].md`:
 
 ```markdown
 # [Source Title]

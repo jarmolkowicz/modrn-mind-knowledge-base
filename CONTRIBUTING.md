@@ -15,25 +15,25 @@ The quickest way to contribute — no git knowledge needed. [Open an issue](http
 To write and submit a KB entry:
 
 1. **Fork** the repository
-2. **Create** your entry using templates in `_guide/templates/`
+2. **Create** your entry using templates in `tooling/templates/`
 3. **Submit** a pull request
 
 All contributions require human review before merging.
 
 ### AI-Assisted Workflows
 
-For processing sources into KB entries, use the workflow prompts in `_workflows/`. These are structured prompts designed for AI agents — not scripts, not fully automated pipelines.
+For processing sources into KB entries, use the workflow prompts in `tooling/workflows/`. These are structured prompts designed for AI agents — not scripts, not fully automated pipelines.
 
 **Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
 
 **4-stage pipeline:**
 
-1. **Scout** (`_workflows/scout.md`) — Discover new sources relevant to the KB domain. Outputs go to `_workspace/inbox/`.
-2. **Screener** (`_workflows/screener.md`) — Assess a source for relevance and quality. Recommends include, partial, skip, or defer.
-3. **Processor** (`_workflows/processor.md`) — Extract concepts, frameworks, practices, and source entries from approved sources.
-4. **Verifier** (`_workflows/verifier.md`) — 7-expert panel reviews processed entries for accuracy, fit, and integrity. Produces a verification report with Pass/Flag/Block verdicts. Mechanical fixes applied automatically; content decisions reserved for human review.
+1. **Scout** (`tooling/workflows/scout.md`) — Discover new sources relevant to the KB domain. Outputs go to `workspace/inbox/`.
+2. **Screener** (`tooling/workflows/screener.md`) — Assess a source for relevance and quality. Recommends include, partial, skip, or defer.
+3. **Processor** (`tooling/workflows/processor.md`) — Extract concepts, frameworks, practices, and source entries from approved sources.
+4. **Verifier** (`tooling/workflows/verifier.md`) — 7-expert panel reviews processed entries for accuracy, fit, and integrity. Produces a verification report with Pass/Flag/Block verdicts. Mechanical fixes applied automatically; content decisions reserved for human review.
 
-**Guardrail:** All workflow outputs go to `_workspace/` — never directly to KB folders (`concepts/`, `frameworks/`, `practices/`, `sources/`). A human reviews and approves every entry before it moves into the KB. After approval, the AI agent executes mechanical integration (moving files, merging updates, archiving sources).
+**Guardrail:** All workflow outputs go to `workspace/` — never directly to KB folders (`concepts/`, `frameworks/`, `practices/`, `sources/`). A human reviews and approves every entry before it moves into the KB. After approval, the AI agent executes mechanical integration (moving files, merging updates, archiving sources).
 
 Each stage hands off to the next after human review. The prompts are open so you can see exactly how content is processed. See the individual workflow files for detailed instructions.
 

@@ -6,7 +6,7 @@ Assess a source for relevance and quality. Recommend whether to include in KB.
 
 ## Input
 
-- Source file (PDF, URL, or pasted text) from `_workspace/inbox/`
+- Source file (PDF, URL, or pasted text) from `workspace/inbox/`
 
 ## Process
 

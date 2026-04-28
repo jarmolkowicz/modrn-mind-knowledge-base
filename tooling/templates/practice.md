@@ -1,4 +1,4 @@
-<!-- This template is referenced by _workflows/processor.md. Keep them in sync. -->
+<!-- This template is referenced by tooling/workflows/processor.md. Keep them in sync. -->
 ---
 status: emerging
 area: [preservation]

@@ -1,4 +1,4 @@
-# CLAUDE.md - Modern Mind Knowledge Base
+# CLAUDE.md - Modrn Mind Knowledge Base
 
 ## Project Overview
 
@@ -15,33 +15,32 @@
 ## Repository Structure
 
 ```
-Modern Mind Knowledge Base/
+Modrn Mind - Knowledge Base/
 │
 ├── concepts/          # Ideas, phenomena, terms
 ├── frameworks/        # Coherent systems from authors
 ├── practices/         # Actionable guidance
 ├── sources/           # Evidence base (papers, books, articles)
 │
-├── _guide/
-│   ├── contributing.md
-│   └── templates/
+├── workspace/         # Working area (gitignored, not curated content)
+│   ├── inbox/         # New sources awaiting screening
+│   ├── processing/    # Drafts in flight
+│   ├── archive/       # Processed sources
+│   └── feedback/      # Reviewer notes by month
 │
-├── _workflows/        # Agent processing prompts
-│   ├── scout.md
-│   ├── screener.md
-│   ├── processor.md
-│   └── verifier.md
+├── tooling/           # Plumbing — visible but separate from content
+│   ├── scripts/       # CLI tools (kb_search, linter, contradiction_scan, build-bundle)
+│   ├── workflows/     # Ready prompts: scout, screener, processor, verifier
+│   └── templates/     # Entry templates: concept, framework, practice, source
 │
-├── _workspace/        # Working area (not curated content)
-│   ├── inbox/
-│   ├── processing/
-│   └── archive/
+├── dist/              # Bundle output (built by tooling/scripts/build-bundle.sh)
 │
-├── _scripts/
-│   └── build-bundle.sh    # Concatenates KB into single file
+├── README.md
+├── CLAUDE.md          # This file
+├── CONTRIBUTING.md    # How to contribute
 │
 └── .github/workflows/
-    └── build-kb-bundle.yml # Auto-generates knowledge pack on push
+    └── build-kb-bundle.yml  # Auto-bundles on push to main
 ```
 
 ## Knowledge Pack
@@ -90,17 +89,25 @@ Source → Screener → Processor → Verifier → Human Review → AI Integrati
 ### Guardrails
 
 - **Never** write directly to `concepts/`, `frameworks/`, `practices/`, `sources/`
-- **Always** output to `_workspace/processing/[source-slug]/` for review
+- **Always** output to `workspace/processing/[source-slug]/` for review
 - **Leave** `reviewed_by` and `reviewed_date` empty—reviewer fills these
 
 ## Templates
 
-Use templates in `_guide/templates/` for new entries:
+Use templates in `tooling/templates/` for new entries:
 - `concept.md`
 - `framework.md`
 - `practice.md`
 - `source.md`
 
+## Tools
+
+On-demand CLI tools in `tooling/scripts/`:
+- `kb_search.py` — search/list/get/similar/stats over the KB
+- `linter.py` — pure-Python health check (broken wikilinks, orphans, stale reviews, frontmatter drift, etc.) → writes `workspace/lint-report.md`
+- `contradiction_scan.py` — LLM coherence pass over wikilinked entry pairs → writes `workspace/contradiction-report.md` (costs ~$0.50/run, requires `ANTHROPIC_API_KEY` in `.env`)
+- `build-bundle.sh` — concatenates KB content into `dist/modern-mind-kb.md`
+
 ## Contributing
 
-See `_guide/contributing.md` for full guidelines.
+See `CONTRIBUTING.md` for full guidelines.
