@@ -32,7 +32,7 @@ Modrn Mind - Knowledge Base/
 │   ├── decks/          # Slide decks
 │   └── other/          # Anything that doesn't fit
 │
-├── workspace/          # Generated reports + reviewer feedback (gitignored)
+├── private/          # Generated reports + reviewer feedback (gitignored)
 │
 ├── index.md            # Auto-generated catalog: one row per entry, scannable
 ├── log.md              # Chronological record of ingests and changes
@@ -148,7 +148,7 @@ Drop source in raw/inbox/  →  /screen-source  →  /distill-source  →  (opti
 
 The user reviews drafts during the session. There's no separate review queue — the LLM proposes, the user edits, and the entry exists because the user committed it.
 
-Source files and the entire ingestion lifecycle (incoming, in-flight drafts, processed) live in `raw/`. New arrivals go to `raw/inbox/`, distillation work happens in `raw/processing/[slug]/`, and after ingestion sources move to `raw/<type>/` based on their `type:` frontmatter. Generated reports (linter output, contradiction scan results) and reviewer feedback live in `workspace/`.
+Source files and the entire ingestion lifecycle (incoming, in-flight drafts, processed) live in `raw/`. New arrivals go to `raw/inbox/`, distillation work happens in `raw/processing/[slug]/`, and after ingestion sources move to `raw/<type>/` based on their `type:` frontmatter. Generated reports (linter output, contradiction scan results) and reviewer feedback live in `private/`.
 
 ## Templates
 
@@ -161,8 +161,8 @@ In `tooling/templates/`:
 
 On-demand CLI tools in `tooling/scripts/`:
 - `kb_search.py` — search / list / get / similar / stats over the KB
-- `linter.py` — pure-Python health checks (broken wikilinks, orphans, uncited sources, missing-related, frontmatter drift) → writes `workspace/lint-report.md`
-- `contradiction_scan.py` — LLM coherence pass over wikilinked entry pairs → writes `workspace/contradiction-report.md` (costs ~$0.50/run, requires `ANTHROPIC_API_KEY` in `.env`)
+- `linter.py` — pure-Python health checks (broken wikilinks, orphans, uncited sources, missing-related, frontmatter drift) → writes `private/lint-report.md`
+- `contradiction_scan.py` — LLM coherence pass over wikilinked entry pairs → writes `private/contradiction-report.md` (costs ~$0.50/run, requires `ANTHROPIC_API_KEY` in `.env`)
 - `build-index.py` — regenerates `index.md` from current entries (mechanical, fast)
 - `build-bundle.sh` — concatenates KB content into `dist/modern-mind-kb.md`
 

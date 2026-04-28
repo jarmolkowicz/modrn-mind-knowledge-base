@@ -1,5 +1,5 @@
-# Working directory (not curated content)
-workspace/
+# Private working directory — reviewer feedback, generated reports, personal notes
+private/
 
 # macOS
 .DS_Store
