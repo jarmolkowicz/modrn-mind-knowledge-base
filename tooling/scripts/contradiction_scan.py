@@ -10,7 +10,7 @@ For each pair of non-source entries where one [[wikilinks]] to the other,
 ask Haiku: "do these two entries contradict each other?"
 
 Verdicts: clear / partial / none. Non-"none" pairs are written to
-`private/contradiction-report.md` with the reasoning.
+`dist/contradiction-report.md` with the reasoning.
 
 ## Cost
 
@@ -54,9 +54,9 @@ MODEL = "claude-haiku-4-5-20251001"
 INPUT_PRICE_PER_MTOK = 0.80
 OUTPUT_PRICE_PER_MTOK = 4.00
 
-PRIVATE_DIR = KB_ROOT / "private"
-REPORT_PATH = PRIVATE_DIR / "contradiction-report.md"
-LOG_PATH = PRIVATE_DIR / "contradiction-scan.log.json"
+DIST_DIR = KB_ROOT / "dist"
+REPORT_PATH = DIST_DIR / "contradiction-report.md"
+LOG_PATH = DIST_DIR / "contradiction-scan.log.json"
 
 
 SYSTEM_PROMPT = """\

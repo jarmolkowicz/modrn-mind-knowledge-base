@@ -1,7 +1,7 @@
 """KB Linter — whole-KB health check over the Modern Mind Knowledge Base.
 
 Runs a suite of pure-Python checks over every entry, aggregates findings into
-a markdown report written to `private/lint-report.md`. No LLM calls — fast,
+a markdown report written to `dist/lint-report.md`. No LLM calls — fast,
 free, deterministic. Contradiction detection lives in a separate script
 (`contradiction_scan.py`) because that one costs money.
 
@@ -47,8 +47,8 @@ from kb_search import (  # noqa: E402
     load_entries,
 )
 
-PRIVATE_DIR = KB_ROOT / "private"
-REPORT_PATH = PRIVATE_DIR / "lint-report.md"
+DIST_DIR = KB_ROOT / "dist"
+REPORT_PATH = DIST_DIR / "lint-report.md"
 
 
 @dataclass
