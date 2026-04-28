@@ -39,7 +39,7 @@ Modrn Mind - Knowledge Base/
 ├── log.md              # Chronological record of ingests and changes
 │
 ├── tooling/            # Plumbing
-│   ├── scripts/        # kb_search, linter, contradiction_scan, build-index, build-bundle
+│   ├── scripts/        # kb_search, linter, build-index, sync-source-links, build-bundle
 │   └── templates/      # Entry templates: concept, method, source
 │
 ├── .claude/            # Claude Code agents and slash commands
@@ -161,8 +161,7 @@ In `tooling/templates/`:
 
 On-demand CLI tools in `tooling/scripts/`:
 - `kb_search.py` — search / list / get / similar / stats over the KB
-- `linter.py` — pure-Python health checks (broken wikilinks, orphans, uncited sources, missing-related, frontmatter drift) → writes `dist/lint-report.md`
-- `contradiction_scan.py` — LLM coherence pass over wikilinked entry pairs → writes `dist/contradiction-report.md` (costs ~$0.50/run, requires `ANTHROPIC_API_KEY` in `.env`)
+- `linter.py` — pure-Python health checks (broken wikilinks, orphans, uncited sources, missing-related, frontmatter drift)
 - `build-index.py` — regenerates `index.md` from current entries (mechanical, fast)
 - `build-bundle.sh` — concatenates KB content into `dist/modern-mind-kb.md`
 

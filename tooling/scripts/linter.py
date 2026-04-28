@@ -2,8 +2,7 @@
 
 Runs a suite of pure-Python checks over every entry, aggregates findings into
 a markdown report written to `dist/lint-report.md`. No LLM calls — fast,
-free, deterministic. Contradiction detection lives in a separate script
-(`contradiction_scan.py`) because that one costs money.
+free, deterministic.
 
 ## Checks
 
