@@ -4,7 +4,7 @@ This is a curated public KB on "human thinking with AI." Contributions welcome.
 
 ## Suggest via issue
 
-Easiest path — no git or local setup needed. [Open an issue](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/issues) to:
+The quickest way to contribute — no git knowledge needed. [Open an issue](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/issues) to:
 
 - Suggest a source or paper
 - Flag an error or misinterpretation
