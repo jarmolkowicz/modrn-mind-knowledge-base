@@ -8,7 +8,7 @@ The quickest way to contribute — no git knowledge needed. [Open an issue](http
 
 - Suggest a source or paper
 - Flag an error or misinterpretation
-- Propose a new concept or practice
+- Propose a new concept or method
 
 ### Add an Entry Directly
 
@@ -20,31 +20,30 @@ To write and submit a KB entry:
 
 All contributions require human review before merging.
 
-### AI-Assisted Workflows
+### AI-Assisted Workflows (for collaborators using Claude Code)
 
-For processing sources into KB entries, use the workflow prompts in `tooling/workflows/`. These are structured prompts designed for AI agents — not scripts, not fully automated pipelines.
+For ingesting sources, use the agents and slash commands in `.claude/`. These are designed for Claude Code — not scripts, not fully automated pipelines.
 
 **Why semi-automated?** AI handles discovery and extraction. Humans make every editorial decision — what gets in, how it's framed, what it connects to.
 
 **4-stage pipeline:**
 
-1. **Scout** (`tooling/workflows/scout.md`) — Discover new sources relevant to the KB domain. Outputs go to `workspace/inbox/`.
-2. **Screener** (`tooling/workflows/screener.md`) — Assess a source for relevance and quality. Recommends include, partial, skip, or defer.
-3. **Processor** (`tooling/workflows/processor.md`) — Extract concepts, frameworks, practices, and source entries from approved sources.
-4. **Verifier** (`tooling/workflows/verifier.md`) — 7-expert panel reviews processed entries for accuracy, fit, and integrity. Produces a verification report with Pass/Flag/Block verdicts. Mechanical fixes applied automatically; content decisions reserved for human review.
+1. **`/scout-sources`** — Discover new sources relevant to the KB domain. Outputs go to `workspace/inbox/`. (Agent: `.claude/agents/scout.md`)
+2. **`/screen-source <path>`** — Assess a source for relevance and quality. Recommends INCLUDE, PARTIAL, SKIP, or DEFER. (Agent: `.claude/agents/screener.md`)
+3. **`/distill-source <path>`** — Extract concepts, methods, and source distillation from an approved source into `workspace/processing/[source-slug]/`. (Agent: `.claude/agents/researcher.md`)
+4. **`/verify-draft <path>`** — Run a 3-lens panel (Evidence, Practitioner, Adversarial) over drafts as additional input for review. Optional but recommended for substantive entries. (Agent: `.claude/agents/verifier.md`)
 
-**Guardrail:** All workflow outputs go to `workspace/` — never directly to KB folders (`concepts/`, `frameworks/`, `practices/`, `sources/`). A human reviews and approves every entry before it moves into the KB. After approval, the AI agent executes mechanical integration (moving files, merging updates, archiving sources).
+After integration, run **`/update-index`** to regenerate `index.md`, and **`/log "ingest | <source name>"`** to record the change in `log.md`.
 
-Each stage hands off to the next after human review. The prompts are open so you can see exactly how content is processed. See the individual workflow files for detailed instructions.
+**Guardrail:** All workflow outputs go to `workspace/` — never directly to KB folders (`concepts/`, `methods/`, `sources/`). The user reviews drafts during the session and approves before any entry moves into the KB.
 
 ## Templates
 
-Use the appropriate template:
+Use the appropriate template in `tooling/templates/`:
 
-- `concept.md` — Ideas, phenomena, terms
-- `framework.md` — Coherent systems
-- `practice.md` — Actionable guidance
-- `source.md` — Evidence (papers, books, articles)
+- `concept.md` — Atomic named phenomena (cognitive offloading, fluency bias)
+- `method.md` — Structured guidance: descriptive models, prescriptive practices, or both
+- `source.md` — Per-source distillation with citation, key passages, relevance, supports, contradicts/extends, open questions
 
 ## Required Metadata
 
@@ -56,19 +55,17 @@ status: solid | emerging | speculative
 area: [risk, erosion, preservation]
 sources:
   - "Citation or reference"
-reviewed_by:
-reviewed_date:
 ---
 ```
 
-Leave `reviewed_by` and `reviewed_date` empty — whoever reviews the entry fills these.
+Source entries also include `type: paper | book | article | video | talk`.
 
 ## Quality Standards
 
 - **One concept per entry** — Keep entries focused
 - **Plain language** — Accessible to non-academics
 - **Source everything** — No unsourced claims
-- **Connect entries** — Use `[[wikilinks]]` to relate concepts
+- **Connect entries** — Use `[[wikilinks]]` to relate concepts and methods
 
 ## Naming Conventions
 
@@ -80,11 +77,11 @@ Leave `reviewed_by` and `reviewed_date` empty — whoever reviews the entry fill
 
 Good contributions:
 - Research papers with clear implications
-- Frameworks from domain experts
-- Practices with evidence or strong reasoning
+- Frameworks or methods from domain experts
+- Methods (descriptive models or prescriptive practices) with evidence or strong reasoning
 - Corrections or clarifications to existing entries
 
 Not a fit:
 - Opinion without evidence
 - Content outside the "human thinking with AI" domain
-- Duplicates of existing concepts
+- Duplicates of existing concepts (check `index.md` first)
