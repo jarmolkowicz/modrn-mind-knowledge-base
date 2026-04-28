@@ -46,11 +46,8 @@ TYPE_LABEL = {
     "practice": "Practices",
 }
 
-ONELINER_MAX_CHARS = 140
-
-
 def _extract_oneliner(body: str, section_headers: list[str]) -> str:
-    """Find the first matching section header and return its first sentence."""
+    """Find the first matching section header and return its first sentence (full)."""
     for header in section_headers:
         pattern = rf"^##\s+{re.escape(header)}\s*\n+(.+?)(?=^##\s+|\Z)"
         m = re.search(pattern, body, re.MULTILINE | re.DOTALL)
@@ -65,8 +62,6 @@ def _extract_oneliner(body: str, section_headers: list[str]) -> str:
         text = re.sub(r"\s+", " ", text).strip()
         # Escape pipe characters so they don't break the markdown table
         text = text.replace("|", "\\|")
-        if len(text) > ONELINER_MAX_CHARS:
-            text = text[: ONELINER_MAX_CHARS - 3].rstrip() + "..."
         return text
     return ""
 
