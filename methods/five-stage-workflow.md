@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
 ---
 
 # Five-Stage Workflow
@@ -77,5 +77,5 @@ The five stages are universal cognitive patterns. By applying calibration at eac
 
 ## Sources
 
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 

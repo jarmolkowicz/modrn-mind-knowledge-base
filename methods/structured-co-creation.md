@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
 ---
 
 # Structured Co-Creation Mode
@@ -54,5 +54,5 @@ You maintain control of direction. AI expands specific aspects, but the architec
 
 ## Sources
 
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 

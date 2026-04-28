@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
   - "Alessandro et al. (2025)"
   - "Guingrich, Mehta & Bhatt (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
@@ -55,7 +55,7 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 
 ## Sources
 
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 - [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)

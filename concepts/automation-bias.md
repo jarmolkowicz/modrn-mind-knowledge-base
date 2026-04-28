@@ -4,7 +4,7 @@ area: [erosion]
 sources:
   - "Parasuraman & Riley (1997)"
   - "Goddard et al. (2012)"
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
   - "Gonzalez et al. (2026)"
   - "Shaw & Nave (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
@@ -58,7 +58,7 @@ Han et al. (2025) add a trust-dynamics dimension: AI usage boosts self-efficacy 
 
 - [[parasuraman-riley-automation-1997]] — Parasuraman & Riley (1997)
 - [[goddard-automation-bias-2012]] — Goddard et al. (2012)
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 - [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)

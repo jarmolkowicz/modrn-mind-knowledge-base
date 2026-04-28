@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
 ---
 
 # Emergency Protocol
@@ -48,5 +48,5 @@ The key is the commitment to restoration. Without it, emergency becomes excuse.
 
 ## Sources
 
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 

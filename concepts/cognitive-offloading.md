@@ -5,7 +5,7 @@ sources:
   - "Risko & Gilbert (2016)"
   - "Storm & Stone (2015)"
   - "Tsim & Gutoreva (2025)"
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
   - "MIT Media Lab (2025)"
   - "Lodge & Loble (2026)"
   - "Shaw & Nave (2026)"
@@ -85,7 +85,7 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 - [[risko-gilbert-cognitive-offloading-2016]] — Risko & Gilbert (2016)
 - [[storm-stone-saving-memory-2015]] — Storm & Stone (2015)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 - [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
 - [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)

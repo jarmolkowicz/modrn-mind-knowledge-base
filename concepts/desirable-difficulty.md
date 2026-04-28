@@ -4,7 +4,7 @@ area: [preservation]
 sources:
   - "Bjork & Bjork (2011)"
   - "Nosta, Frictionless Intelligence (2026)"
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
   - "Duncan (2026)"
   - "Lodge & Loble (2026)"
   - "Shen & Tamkin (2026)"
@@ -56,7 +56,7 @@ When friction disappears, speed replaces insight and confidence arrives without 
 
 - [[bjork-desirable-difficulties-2011]] — Bjork & Bjork (2011)
 - Nosta, Frictionless Intelligence (2026)
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 - [[duncan-judgment-ai-era-2026]] — Duncan (2026)
 - [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - [[shen-skill-formation-2026]] — Shen & Tamkin (2026)

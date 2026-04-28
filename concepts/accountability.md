@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
 ---
 
 # Accountability
@@ -43,5 +43,5 @@ Different depths enable different levels of genuine accountability.
 
 ## Sources
 
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 

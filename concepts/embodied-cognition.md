@@ -4,7 +4,7 @@ area: [preservation]
 sources:
   - "Varela, Thompson & Rosch (1991)"
   - "Lakoff & Johnson (1999)"
-  - "Jarmołkowicz (2025)"
+  - "Modrn Mind (2025)"
 ---
 
 # Embodied Cognition
@@ -43,5 +43,5 @@ This is why [[three-core-capacities]] includes "Where Your Ideas Come From"—or
 
 - [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)
 - [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
-- Jarmołkowicz (2025)
+- Modrn Mind (2025)
 
