@@ -6,7 +6,7 @@ Operating instructions for Claude Code working in this repo.
 
 The Modrn Mind Knowledge Base — a curated, public-facing reference for the domain "human thinking with AI." Maintaining cognitive sovereignty while using AI productively.
 
-This is the **central trunk** for the broader Modrn Mind project. Books (still-you and future works), LinkedIn writing, and workshop materials are downstream artifacts that draw from and contribute back to this KB. The KB outlives any single project.
+This is the **central trunk** for the broader Modrn Mind project. Books, public writing, and workshop materials are downstream artifacts that draw from and contribute back to this KB. The KB outlives any single project.
 
 **Audience:**
 - **Educators** — Corporate trainers, L&D professionals, professors, content creators
@@ -73,7 +73,7 @@ When the user asks to ingest a source, refine an entry, run health checks, or re
 
 ### Consumer mode (you are *using* the KB as context)
 
-When this repo is referenced from another project (e.g., still-you book chapters need to draw on Modrn Mind concepts), or when a user uploads the bundle to Claude Projects:
+When this repo is referenced from another project (e.g., a downstream writing project drawing on Modrn Mind concepts), or when a user uploads the bundle to Claude Projects:
 
 - `index.md` is the entry point. Read it first to find relevant entries — don't bulk-load every file
 - Use `[[wikilinks]]` to follow connections; entry stems match filenames
@@ -86,7 +86,6 @@ When this repo is referenced from another project (e.g., still-you book chapters
 - **No alarmist framing.** AI is augmentation, not replacement
 - **No AI-as-replacement language.** Frame AI as augmenting thinking, intuition, judgment, and responsibility
 - **Label uncertainty.** Use `[Inference]` or `[Speculation]` when synthesizing beyond what sources support
-- **No client material.** Confidential client work from other projects must never enter this KB, even if accessible from the local environment
 - **No fabricated citations.** If a citation isn't in `sources/`, don't invent one
 - **Match the audience.** Plain language. Specific. Useful at 7am before a client meeting
 
