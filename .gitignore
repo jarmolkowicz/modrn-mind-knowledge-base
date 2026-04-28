@@ -47,3 +47,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# PR body scratch files (used to work around shell quoting in `gh pr create`)
+.pr-body*.md
