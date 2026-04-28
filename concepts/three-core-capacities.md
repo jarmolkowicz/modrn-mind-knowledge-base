@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
 ---
 
 # Three Core Capacities
@@ -48,5 +48,5 @@ These capacities are what make your work valuable. AI can produce output, but it
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 

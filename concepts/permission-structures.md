@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
 ---
 
 # Permission Structures
@@ -46,5 +46,5 @@ The framework can feel like a source of guilt rather than guidance. Practitioner
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 

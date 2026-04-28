@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
 ---
 
 # Dual Development Paths
@@ -58,5 +58,5 @@ Many professionals assume that being expert in their domain makes them expert at
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 

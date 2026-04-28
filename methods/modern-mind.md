@@ -2,7 +2,7 @@
 status: emerging
 area: [risk, erosion, preservation]
 sources:
-  - "Modrn Mind Framework v3.0 (2026)"
+  - "Modern Mind Framework v3.0 (Jarmołkowicz, 2026)"
 ---
 
 # Modern Mind Framework
@@ -13,7 +13,7 @@ A practical system for preserving critical thinking, judgment, and cognitive cap
 
 ## Author
 
-Modrn Mind Initiative, 2026
+Paweł Jarmołkowicz, Modern Mind Initiative, 2026
 
 ## Core Idea
 
@@ -62,5 +62,5 @@ Your professional value lives in your capacity for agency—the ability to origi
 
 ## Sources
 
-- Modrn Mind Framework v3.0 (2026)
+- Modern Mind Framework v3.0 (Jarmołkowicz, 2026)
 

@@ -2,7 +2,7 @@
 status: solid
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
 ---
 
 # Continuous Improvement Loop
@@ -63,5 +63,5 @@ This isn't one-time learning—it's ongoing refinement that compounds over time.
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 

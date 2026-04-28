@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
 ---
 
 # Authorship Levels
@@ -39,5 +39,5 @@ Knowing your actual authorship level enables honesty with yourself and others. C
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 

@@ -2,7 +2,7 @@
 status: emerging
 area: [preservation]
 sources:
-  - "Modrn Mind (2025)"
+  - "Jarmołkowicz (2025)"
   - "Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2."
 ---
 
@@ -45,6 +45,6 @@ Your brain does the cognitive work. AI scaffolds and challenges but doesn't repl
 
 ## Sources
 
-- Modrn Mind (2025)
+- Jarmołkowicz (2025)
 - [[shen-skill-formation-2026]] — Shen, J.H. & Tamkin, A. (2026). How AI Impacts Skill Formation. arXiv:2601.20245v2.
 
