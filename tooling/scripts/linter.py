@@ -401,9 +401,15 @@ def check_distillation_quality(entries: dict[str, Entry]) -> list[Finding]:
             ))
         # 3. Frontmatter citation has author names (heuristic: not just journal/year)
         for src_str in entry.sources:
-            # Citation is "vague" if it lacks any letter sequence followed by a 4-digit year
-            # in close proximity (i.e. an author-year pair).
-            has_author_year = bool(re.search(r"[A-Za-z]{3,}[\s,&]+(19|20)\d{2}", src_str))
+            # Citation is "vague" if it lacks any letter sequence followed (in close
+            # proximity) by a 4-digit year. The gap between letters and year may
+            # include the punctuation typical of academic citations: spaces, commas,
+            # ampersands, periods (initials), parens around the year, apostrophes
+            # (e.g., Dell'Acqua), hyphens (e.g., Tesch-Romer), or interleaved letters
+            # (multi-author "& Author").
+            has_author_year = bool(
+                re.search(r"[A-Za-z]{3,}[\s,&.()'\-A-Za-z]*(19|20)\d{2}", src_str)
+            )
             if not has_author_year:
                 findings.append(Finding(
                     check="distillation_quality",
