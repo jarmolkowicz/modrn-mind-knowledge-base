@@ -7,8 +7,13 @@
   "hash": "bc884487f90a880ae9e01cf9883c3bfeaf6d9d8a5802e2f479b60df0fc9a3834",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:18Z",
-  "decisions": [],
+  "decisions": [
+    {"stage": "triage", "outcome": "INCLUDE", "date": "2026-04-29", "reason": "Relevance=HIGH, Quality=HIGH (experimental study N=221, CHB Reports 2026). Distributed Cognition framing of proximal collaboration as distinct construct."},
+    {"stage": "distill", "outcome": "PROCEED_TO_INTEGRATE", "date": "2026-04-29", "reason": "Source distillation only; no NEW concepts (proximal-collaboration construct held for second-source corroboration)."},
+    {"stage": "validated", "outcome": "READY", "date": "2026-04-29", "reason": "validate_drafts.py: 0 findings. All wikilinks resolve, frontmatter clean, slug-year matches source."},
+    {"stage": "integrate", "outcome": "INTEGRATED", "date": "2026-04-29", "reason": "sources/mascanero-proximal-collaboration-2026.md created."}
+  ],
   "pages": 10
 }

@@ -1,0 +1,37 @@
+{
+  "slug": "liu-persistence-2026",
+  "original_filename": "Liu et al. (2026) - AI Assistance Reduces Persistence.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12907,
+  "hash": "123655dba8fb03c3a2dde9c520fc928f0310f10fd7721680f8eb914ce3f62815",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T20:00:17Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29",
+      "reason": "Relevance=HIGH, Quality=HIGH (3 RCTs, N=1222). Brief-exposure persistence-loss finding."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "validated",
+      "outcome": "READY",
+      "date": "2026-04-29",
+      "reason": "validate_drafts.py: 1 finding (missing_related on cognitive-surrender) caught and fixed pre-integrate."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29"
+    }
+  ],
+  "pages": 29
+}
