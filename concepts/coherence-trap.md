@@ -4,6 +4,7 @@ area:
 - erosion
 sources:
 - Nosta, The Borrowed Mind (2026)
+- Nosta, The Tragic Flaw in AI (2026)
 ---
 
 # Coherence Trap
@@ -43,6 +44,14 @@ Embrace [[cognitive-friction|cognitive friction]]: "patience, context, and doubt
 
 Nosta (2026) names the three components of the cognitive immune system explicitly: "patience, because complexity takes time to show itself. Context, some sense of history and circumstance. And doubt, the willingness to question what arrives too smoothly. These three things work together like an immune system for the mind. Without them, you absorb whatever comes your way."
 
+## Architectural Cause
+
+Nosta (2026, *The Tragic Flaw in AI*) traces the coherence trap upstream from the user's perceptual side to the system's structural side. LLMs are built on a presupposition of completion: every prompt is treated as an incomplete pattern that has, by structural assumption, a fillable answer. There is no representational state for genuine unknowing — only "incomplete pattern; complete it." When users encounter coherent AI output and read coherence as truth, they're not just falling for fluency on the receiving end; they're inheriting the system's structural inability to distinguish "no answer exists" from "answer not yet known."
+
+This deepens the coherence trap from a perceptual bias (smooth output feels true) into a structural one (the producing system *cannot* signal its own unknowing). The user-side fix — verification, calibration, [[think-first]] — is necessary because the system can't supply the "I don't know" the user might otherwise wait for.
+
+See [[nosta-tragic-flaw-2026]] for the architectural argument in full.
+
 ## Relationship to Fluency Bias
 
 The coherence trap extends [[fluency-bias]] into epistemological territory:
@@ -56,8 +65,10 @@ The coherence trap extends [[fluency-bias]] into epistemological territory:
 - [[metacognition]] - doubt as protective factor
 - [[calibration]] - maintaining accurate self-assessment
 - [[amathia-drift]] - coherence trap as one driver of drift
+- [[nosta-tragic-flaw-2026]] - names the architectural absence of unknowing as upstream cause
 
 ## Sources
 
 - Nosta, The Borrowed Mind (2026)
+- Nosta, The Tragic Flaw in AI (2026)
 

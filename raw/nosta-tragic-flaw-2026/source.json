@@ -1,0 +1,33 @@
+{
+  "slug": "nosta-tragic-flaw-2026",
+  "original_filename": "Nosta (2026) - The Tragic Flaw in AI _ Psychology Today.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 1145,
+  "hash": "9183bc01195ffc078e5d086c559afd80a0da3bc1faab2c76deb2b8e379aaae89",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T18:07:14Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29",
+      "reason": "Relevance=HIGH (preservation/erosion); Quality=MEDIUM (well-argued opinion essay, no empirical data); not a duplicate. Article-branch: source distillation only + optional UPDATE to coherence-trap."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29",
+      "reason": "Article-branch produced 1 source distillation + 1 UPDATE proposal (coherence-trap), no new concepts. Per auto rubric: high confidence + no near-duplicate flags → skip Stage 4."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29",
+      "reason": "sources/nosta-tragic-flaw-2026.md created; coherence-trap updated with Architectural Cause section + Nosta (2026) added to sources frontmatter; sync-source-links + build-index ran clean; linter shows no new findings."
+    }
+  ],
+  "pages": 9
+}
