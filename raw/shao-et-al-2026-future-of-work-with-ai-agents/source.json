@@ -7,8 +7,15 @@
   "hash": "c5a455d77adf6ccb52dbe00aa1bf052217ce9826239719afd57b6dc0787a5f96",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:34Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Shao et al. (Stanford/Brynjolfsson 2026) - automation/augmentation across US workforce. Defer for next session."
+    }
+  ],
   "pages": 44
 }

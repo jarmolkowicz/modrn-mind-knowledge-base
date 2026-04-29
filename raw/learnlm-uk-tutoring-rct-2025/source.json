@@ -7,8 +7,15 @@
   "hash": "64bcc6a60e4977642a353b3cf17975321242e7dbe43ba59aa236594b2b4c475c",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:15Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "LearnLM Team Google + Eedi UK RCT. Defer."
+    }
+  ],
   "pages": 30
 }

@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 6})
 - Word count: 2452
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Holiday (2026, LinkedIn). Practitioner essay. Defer.

@@ -7,8 +7,15 @@
   "hash": "438c36be6255502f91e616b794d803685cb76237c1c5d1b28ec2e47b577235c0",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:29Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Stanford Tutor CoPilot - application/system. Defer."
+    }
+  ],
   "pages": 33
 }

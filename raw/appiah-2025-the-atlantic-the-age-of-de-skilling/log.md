@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 8})
 - Word count: 4952
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Appiah (2025, The Atlantic). Themes covered by Bastani/Liu/Mascareno. Defer.

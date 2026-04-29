@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 8})
 - Word count: 5797
 - Heuristic source_type: paper
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (MIT) - sycophantic chatbots cause delusional spiraling. High-priority for next session.

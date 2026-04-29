@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 30})
 - Word count: 21187
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Wu et al. (2025) - Human-GenAI collab + intrinsic motivation. High-priority for next session.

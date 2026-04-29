@@ -7,8 +7,15 @@
   "hash": "f31bcd05f793097a74c2f0733f6702997ae18ed4819c55b57083a01a5be69b48",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:25Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Nosta (2026). Defer."
+    }
+  ],
   "pages": 10
 }

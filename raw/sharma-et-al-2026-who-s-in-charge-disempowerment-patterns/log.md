@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 73})
 - Word count: 55113
 - Heuristic source_type: paper
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Sharma et al. (2026) disempowerment patterns. High-priority for next session.

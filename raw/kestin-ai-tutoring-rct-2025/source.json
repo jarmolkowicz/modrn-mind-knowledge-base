@@ -7,8 +7,15 @@
   "hash": "afa6965dfd885fccdeb7ba48bec6a9e8293886db12a02860bbc388fa93e7ff72",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:32Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Kestin et al. (Sci Rep 2025) - tutoring RCT. Defer."
+    }
+  ],
   "pages": 10
 }

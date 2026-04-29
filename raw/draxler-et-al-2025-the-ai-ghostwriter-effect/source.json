@@ -7,8 +7,15 @@
   "hash": "233f997e9de73d9819fbc49c2d97b3654e3b9557833d64cad904431eabd54503",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:53Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "AI Ghostwriter Effect on ownership perception. Adjacent to Lee-relying. Defer."
+    }
+  ],
   "pages": 40
 }

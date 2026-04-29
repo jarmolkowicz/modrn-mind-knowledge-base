@@ -7,8 +7,15 @@
   "hash": "747d82159696e0dde60f97b087e316559c60627df63b691ce94ef559f79ed147",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:22Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Nosta (2026, Psychology Today). KB already has 5 Nosta sources. Selectively ingest later if needed."
+    }
+  ],
   "pages": 12
 }

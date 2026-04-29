@@ -7,8 +7,15 @@
   "hash": "bfab7f46cafcb4904b323c5617c56f081ed71dc9587ebbb31ba3c0f63622ede9",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:00Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Hermann et al. (2025) - comprehensive review of GenAI psychology of work. High-priority for next session."
+    }
+  ],
   "pages": 12
 }

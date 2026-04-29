@@ -7,8 +7,15 @@
   "hash": "5160b498f24045400a26db5eb492a96da2ff2ad5092329f2432c31273cf2e70e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:27Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Perry (2026, Science) - In defense of social friction. High-priority for next session."
+    }
+  ],
   "pages": 3
 }

@@ -7,8 +7,15 @@
   "hash": "083eeecdced0a8a4781118361e9b8eee3843a99e86b479774b56f2efac794d02",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:22Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Renamed Nosta workbench. Defer."
+    }
+  ],
   "pages": 11
 }

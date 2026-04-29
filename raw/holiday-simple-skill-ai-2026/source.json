@@ -7,8 +7,15 @@
   "hash": "9023af14bee6fdc3fb7ccae73832767a98bd07f925c436268ef8f8126176f50a",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:01Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Holiday (2026, LinkedIn). Practitioner essay. Defer."
+    }
+  ],
   "pages": 6
 }

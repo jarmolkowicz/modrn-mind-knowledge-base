@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 11})
 - Word count: 1983
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Nosta (2025) on Zhao & He paper. Defer; selectively ingest if needed.

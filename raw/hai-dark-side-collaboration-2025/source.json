@@ -7,8 +7,15 @@
   "hash": "858afca94c6fce67e31fb7bc87177927b0e79e55674548689006485dc20d4505",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:58Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Hai et al. (2025) work alienation in AI collab. High-priority for next session."
+    }
+  ],
   "pages": 11
 }

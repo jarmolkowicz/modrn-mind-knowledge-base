@@ -7,8 +7,15 @@
   "hash": "8fa341f6e7805ed9df46ceee3ff9c4c6c7d3fb58030e76b5f1fbbb17152ceec0",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:42Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Wu et al. (2025) - Human-GenAI collab + intrinsic motivation. High-priority for next session."
+    }
+  ],
   "pages": 30
 }

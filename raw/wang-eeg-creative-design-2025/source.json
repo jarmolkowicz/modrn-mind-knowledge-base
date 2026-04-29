@@ -7,8 +7,15 @@
   "hash": "3cdf5ee94f86f267e1c3473b3366e95fb51e6d26474f82efd8826ce2529cc612",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:56Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Wang et al. (Frontiers in Psych) - niche EEG study. Defer."
+    }
+  ],
   "pages": 15
 }

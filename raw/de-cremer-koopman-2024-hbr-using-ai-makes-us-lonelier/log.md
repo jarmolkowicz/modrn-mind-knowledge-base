@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 9})
 - Word count: 11017
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- HBR practitioner article on loneliness. Defer.

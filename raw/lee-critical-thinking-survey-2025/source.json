@@ -7,8 +7,15 @@
   "hash": "4f241a87e3b5383ff1d08311bb55d932237937e038d8c9c2e9e5bd792355709a",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:16Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Lee, Sarkar, Tankelevitch et al. (CHI 2025) - critical thinking knowledge-worker survey. High-priority for next session."
+    }
+  ],
   "pages": 23
 }

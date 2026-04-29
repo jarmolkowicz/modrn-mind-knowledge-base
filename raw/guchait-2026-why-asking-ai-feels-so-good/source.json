@@ -7,8 +7,15 @@
   "hash": "08b8779dc8f1b40d0760b4f787edec297fe3d57016357c180cece876cfecbed5",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:58Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Guchait (2026, Psychology Today). Mechanism covered by fluency-bias / coherence-trap. Defer."
+    }
+  ],
   "pages": 11
 }

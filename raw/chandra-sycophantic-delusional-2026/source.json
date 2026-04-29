@@ -7,8 +7,15 @@
   "hash": "016343ef584e8e88afdc554dcae82ce926a476ccad18d4754a88eec4cc5596cb",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:33Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (MIT) - sycophantic chatbots cause delusional spiraling. High-priority for next session."
+    }
+  ],
   "pages": 8
 }

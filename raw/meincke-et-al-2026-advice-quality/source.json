@@ -7,8 +7,15 @@
   "hash": "0e863d0f1afaf4a0200ec3d67c8f6120301333fd7fe9d99ceb51d27c3a1ace0b",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:20Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Meincke, Nave & Terwiesch (Wharton 2026) - trust in AI ethical advice. High-priority for next session."
+    }
+  ],
   "pages": 11
 }

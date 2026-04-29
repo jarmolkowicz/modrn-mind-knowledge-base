@@ -7,8 +7,15 @@
   "hash": "c26e783264416b90fcd31b25142693e08e7ec4e6c1cb8d2a370ac8705b3ceff6",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:32Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Fang et al. (MIT/OpenAI 2025) - longitudinal RCT on extended chatbot use. High-priority for next session."
+    }
+  ],
   "pages": 70
 }

@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 10})
 - Word count: 7323
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Kestin et al. (Sci Rep 2025) - tutoring RCT. Defer.

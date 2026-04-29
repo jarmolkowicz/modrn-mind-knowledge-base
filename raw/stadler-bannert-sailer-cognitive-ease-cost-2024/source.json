@@ -7,8 +7,15 @@
   "hash": "52ddc11f65527671b64b1debfa4bc7beb3282ff9473cdf69074db56b6eba5028",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:27Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Stadler et al. (CHB 2024) - Cognitive ease at a cost. High-priority for next session."
+    }
+  ],
   "pages": 7
 }

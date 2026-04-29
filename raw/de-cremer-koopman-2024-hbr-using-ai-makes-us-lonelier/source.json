@@ -7,8 +7,15 @@
   "hash": "ceeadc6d9823d45d5f67a1db7273f31a96bcc785651f9c0ccf2c6dc97cb82020",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:46Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "HBR practitioner article on loneliness. Defer."
+    }
+  ],
   "pages": 9
 }

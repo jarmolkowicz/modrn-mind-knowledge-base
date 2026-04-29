@@ -7,8 +7,15 @@
   "hash": "9fdc07368b5d040e5198bdc0ae2e1aeaf9d647cb95a9f90f7c94a9b22ff59a4e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:55Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Folk & Dunn (Psychological Science 2026). High-priority Tier-1 INCLUDE for next session."
+    }
+  ],
   "pages": 11
 }

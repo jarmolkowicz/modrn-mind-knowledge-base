@@ -7,8 +7,15 @@
   "hash": "1cfed57bf745136aa36ac48ac63dcb167b1e236ed65a6fd6cda9a525a67c7963",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:26Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "O Brien (2026). Practitioner article. Defer."
+    }
+  ],
   "pages": 5
 }

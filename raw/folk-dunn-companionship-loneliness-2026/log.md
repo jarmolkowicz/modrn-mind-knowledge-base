@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 11})
 - Word count: 8098
 - Heuristic source_type: paper
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Folk & Dunn (Psychological Science 2026). High-priority Tier-1 INCLUDE for next session.

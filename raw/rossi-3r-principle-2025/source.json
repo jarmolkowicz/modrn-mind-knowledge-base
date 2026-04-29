@@ -7,8 +7,15 @@
   "hash": "67a9adcf933bc008b8b7de317ddec40206e0f9efef3cd431bbfb5ea04ea41aa0",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:33Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Rossi et al. (2025, npj AI Comment) - short comment piece. Defer."
+    }
+  ],
   "pages": 3
 }

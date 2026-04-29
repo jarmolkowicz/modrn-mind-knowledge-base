@@ -7,8 +7,15 @@
   "hash": "368ba483cd877a29169ccc9e098c18df6ec6ede00d57a3a6a4e15ad7b73fb110",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:28Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "fMRI study of children + ChatGPT. Defer."
+    }
+  ],
   "pages": 40
 }

@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 51})
 - Word count: 15023
 - Heuristic source_type: paper
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- World Bank Nigerian classrooms. Defer.

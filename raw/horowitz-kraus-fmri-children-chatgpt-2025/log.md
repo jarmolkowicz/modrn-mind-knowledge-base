@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 40})
 - Word count: 12840
 - Heuristic source_type: paper
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- fMRI study of children + ChatGPT. Defer.

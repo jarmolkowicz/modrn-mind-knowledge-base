@@ -7,8 +7,15 @@
   "hash": "9af8d144fc58c0db532aa0b3529fa8077deef2f2a8c6007355bca20c05cb788c",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:00Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Bedard et al. (2026, HBR) - AI Brain Fry. Mollick (2026) covers similar territory. Defer."
+    }
+  ],
   "pages": 15
 }

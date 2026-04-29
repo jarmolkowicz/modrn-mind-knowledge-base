@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 13})
 - Word count: 1800
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Nosta (2026, Psychology Today). Defer.

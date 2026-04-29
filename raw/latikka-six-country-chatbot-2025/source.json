@@ -7,8 +7,15 @@
   "hash": "a916fb865dbb97a9cc936986dd664abbd1592874bd5cada7c2ddf7f01975ac7b",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:14Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Latikka et al. (J Soc Pers Rel 2025) six-country study. High-priority for next session."
+    }
+  ],
   "pages": 25
 }

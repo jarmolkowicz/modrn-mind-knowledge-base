@@ -7,8 +7,15 @@
   "hash": "9183bc01195ffc078e5d086c559afd80a0da3bc1faab2c76deb2b8e379aaae89",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:23Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Auto-ingested earlier as nosta-tragic-flaw-2026 (canonical workbench). This longer-slug workbench is from initial extraction; defer."
+    }
+  ],
   "pages": 9
 }

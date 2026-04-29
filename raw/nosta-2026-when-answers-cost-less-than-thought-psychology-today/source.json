@@ -7,8 +7,15 @@
   "hash": "04cbe263ba68c2fa129ba24b9682dc8695ea1ee5793dc9333efb104f3a4ff6df",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:25Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Nosta (2026). Theme overlaps nosta-frictionless-intelligence-2026. Defer."
+    }
+  ],
   "pages": 10
 }

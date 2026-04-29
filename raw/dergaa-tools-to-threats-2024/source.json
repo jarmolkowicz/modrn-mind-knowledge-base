@@ -7,8 +7,15 @@
   "hash": "5259baed747419a3d111d23e93cc3785da5a50c58e7ecc691ffca0c29ba61557",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:56Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Dergaa et al. (2024, Frontiers Opinion). Conjectural; defer for empirical sources of same claims."
+    }
+  ],
   "pages": 8
 }

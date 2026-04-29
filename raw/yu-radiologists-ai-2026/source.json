@@ -7,8 +7,15 @@
   "hash": "0271f0af8690bdf742790b4cc78ab560699b956b76e93f735267710f5f4f4d7e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:43Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Yu et al. (Nature Medicine 2024) - heterogeneity of AI in radiology. High-priority for next session."
+    }
+  ],
   "pages": 27
 }

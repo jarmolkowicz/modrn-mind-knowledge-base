@@ -7,8 +7,15 @@
   "hash": "45b261a4f7bc7654bd554ce3ff5669c20fc98228ec6444829f38d75fc22196bd",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:30Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Yin et al. (npj Sci Learning 2025) - chatbot feedback brain activity. Defer."
+    }
+  ],
   "pages": 14
 }

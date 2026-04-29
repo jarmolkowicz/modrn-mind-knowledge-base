@@ -7,8 +7,15 @@
   "hash": "1283f1d9855d471dc181680064037b1172916bdde93d909f674b60d979712023",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:29Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Pew Research (2025) - AI impact survey. Defer for next session."
+    }
+  ],
   "pages": 46
 }

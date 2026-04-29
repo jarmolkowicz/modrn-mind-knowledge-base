@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 9})
 - Word count: 1145
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Auto-ingested earlier as nosta-tragic-flaw-2026 (canonical workbench). This longer-slug workbench is from initial extraction; defer.

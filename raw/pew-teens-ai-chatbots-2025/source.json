@@ -7,8 +7,15 @@
   "hash": "6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:28Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Pew Research (Dec 2025) - Teens / chatbots. Defer for next session."
+    }
+  ],
   "pages": 32
 }

@@ -7,8 +7,15 @@
   "hash": "7dc9a9b67fbd4ce877f79a4ec190c3d5b934dbf0c05106894dbe2e69c608c97d",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:31Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Folk, Heine & Dunn (Sci Rep 2025). High-priority Tier-1 INCLUDE for next session."
+    }
+  ],
   "pages": 7
 }

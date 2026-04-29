@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 27})
 - Word count: 16056
 - Heuristic source_type: article
+
+## 2026-04-29T23:15:00Z - triaged: DEFER
+- Yu et al. (Nature Medicine 2024) - heterogeneity of AI in radiology. High-priority for next session.

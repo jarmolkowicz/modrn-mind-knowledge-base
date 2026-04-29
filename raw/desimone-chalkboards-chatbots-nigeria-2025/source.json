@@ -7,8 +7,15 @@
   "hash": "62cd8dcc1b7cf3e308323e120be3adc3b7ef23758e2b52148661ee67a2d5f92f",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:04Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "World Bank Nigerian classrooms. Defer."
+    }
+  ],
   "pages": 51
 }
