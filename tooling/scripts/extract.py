@@ -673,6 +673,8 @@ def main() -> int:
     # 5. Write source.md
     (out_dir / "source.md").write_text(body, encoding="utf-8")
 
+    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
     # 6. Write source.json
     meta = {
         "slug": slug,

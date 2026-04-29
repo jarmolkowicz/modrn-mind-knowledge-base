@@ -1,0 +1,20 @@
+{
+  "slug": "fernandes-metacognition-2025",
+  "original_filename": "fernandes-metacognition-2025.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 18682,
+  "hash": "fdcd6cb595b2a328054e7963c21e0a9baef1c98743c9227db9e636b4b1dfd748",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T22:44:01Z",
+  "decisions": [
+    {"stage": "triage", "outcome": "INCLUDE", "date": "2026-04-30", "auto": true},
+    {"stage": "distill", "outcome": "PROCEED_TO_CRITIQUE", "date": "2026-04-30"},
+    {"stage": "critique", "outcome": "PROCEED_TO_INTEGRATE", "date": "2026-04-30"},
+    {"stage": "validate", "outcome": "READY", "date": "2026-04-30", "fixes": ["missing_related: artificial-certainty"]},
+    {"stage": "integrate", "outcome": "completed", "date": "2026-04-30", "files": ["sources/fernandes-metacognition-2025.md", "concepts/confidence-competence-gap.md (UPDATE)", "concepts/metacognition.md (UPDATE)"]}
+  ],
+  "pages": 18
+}

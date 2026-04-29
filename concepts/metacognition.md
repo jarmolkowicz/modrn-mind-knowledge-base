@@ -12,6 +12,7 @@ sources:
 - He, Kuiper, & Gadiraju (2023)
 - Gilbert et al. (2023)
 - Hu, Luo & Fleming (2019)
+- Fernandes et al. (2026)
 ---
 
 # Metacognition
@@ -48,6 +49,8 @@ Gilbert et al. (2023) establish that metacognitive confidence is the primary dri
 Hu et al. (2019) demonstrate experimentally that metamemory — specifically, confidence in future memory performance — drives cognitive offloading decisions. Their Bayesian computational model shows that the perceived benefit of offloading is negatively coupled to memory self-evaluation: lower memory confidence leads to more offloading. This is not just a correlational finding — the model quantitatively characterizes how metacognitive beliefs shape the decision to rely on external storage. The implication for AI: if AI availability itself reduces memory confidence (a plausible hypothesis given the "Google effect"), it could trigger a self-reinforcing offloading spiral.
 
 He et al. (2023) provide empirical evidence that a specific metacognitive bias — the Dunning-Kruger Effect — directly shapes AI reliance. In their study (N = 249), participants with inflated self-assessment under-relied on accurate AI predictions. A tutorial revealing actual performance improved metacognitive calibration for overestimators but hurt underestimators. This adds an important nuance to metacognitive monitoring in AI contexts: the metacognitive question is not only "Am I thinking or accepting?" but also "Am I accurately assessing my own competence relative to the AI?"
+
+Fernandes et al. (2026) extend this with direct empirical evidence that metacognitive *sensitivity* — not just bias — is degraded in human–AI interaction. In two large studies on logical-reasoning tasks (Study 1 N = 246; Study 2 N = 452 randomized), participants' mean AUC (a measure of how well their confidence ratings distinguished correct from incorrect answers) fell to ~.62 — significantly below the conventional .70 acceptable benchmark, for both AI and no-AI groups. People felt confident regardless of whether they were right. A monetary incentive for accurate metacognition (+£0.50 in Study 2) did not improve calibration, suggesting low effort is not the primary driver. The authors frame this through Tankelevitch et al.'s (2024) observation that high-quality AI assistance can overshadow the internal cues people normally use to monitor their own knowledge (Koriat, 1997). The metacognitive monitoring problem is not only that confidence is inflated globally — it is also that confidence ratings, trial by trial, no longer track correctness reliably. The "Did I actually evaluate this AI output?" question depends on a metacognitive signal that is increasingly noisy.
 
 Metacognition also means recognizing what kind of reasoning you're doing. Gentner & Markman (1997) distinguish surface similarity (shared features) from structural similarity (shared relations). A key metacognitive question when using AI: "Am I making a genuine cross-domain connection, or am I accepting a surface-level association from AI?"
 
@@ -109,4 +112,5 @@ This extends the KB's existing metacognitive questions with a team-level variant
 - [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)
 - [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)
 - [[hu-metamemory-offloading-2019]] — Hu, Luo & Fleming (2019)
+- Fernandes et al. (2026)
 

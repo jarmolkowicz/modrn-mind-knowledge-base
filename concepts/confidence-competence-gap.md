@@ -10,6 +10,7 @@ sources:
   - "Reich & Teeny (2026)"
   - "Keshky (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
+  - "Fernandes et al. (2026)"
 ---
 
 # Confidence-Competence Gap
@@ -25,6 +26,10 @@ This is the hidden erosion mechanism. You don't notice capability degrading beca
 Shaw & Nave (2026) provide direct experimental evidence of this gap in real-time. AI access inflated confidence by ~12 percentage points (Study 1: 77.0% AI-assisted vs 65.3% brain-only, Hedges' g = 0.54), despite approximately half of AI outputs being deliberately wrong. Critically, confidence did not decline as the number of faulty trials increased — participants remained confident even as they accumulated errors. Per-item confidence in Study 3 was higher on AI-assisted trials (82.2%) than brain-only trials (77.5%), and did not vary between AI-accurate and AI-faulty trials. People felt equally confident whether AI helped or hurt them.
 
 He et al. (2023) demonstrate a specific instance of the confidence-competence gap: the Dunning-Kruger Effect in AI-assisted decision making. In their study (N = 249), participants who overestimated their own competence (bottom performance quartile with inflated self-assessment) under-relied on AI — dismissing accurate AI predictions because they overrated their own ability. This shows the gap operates in both directions: AI can inflate confidence (Shaw & Nave, 2026), but pre-existing overconfidence can also cause people to dismiss AI when they should rely on it.
+
+Fernandes et al. (2026) provide the first computational-model decomposition of the gap under generative-AI use, across two large studies on logical-reasoning tasks (Study 1 N = 246; Study 2 N = 452 randomized with monetary incentives). AI use improved task performance by ~3 points (out of 20) but inflated self-estimates by ~4 points — an overconfidence net of ~1 point that *doubled* the metacognitive bias of the no-AI Jansen et al. (2021) benchmark. A Bayesian model separated bias (*b_k*, uniform overestimation) from noise (*σ_k*, skill-scaled miscalibration). Under AI use, the noise parameter collapsed to ~1 (95% HDI [0.84, 1.19]) while the no-AI group's σ remained at 1.78 — meaning AI does not correct overconfidence for low performers; it raises them to a uniform high baseline so that everyone overestimates roughly equally. The classic Dunning–Kruger gradient disappears under AI, replaced by uniform overestimation across skill levels.
+
+Fernandes et al. also report a counterintuitive moderation finding: higher self-rated AI literacy correlated with *lower* metacognitive accuracy (overall SNAIL × overestimation: *r* = .21 in Study 1, *r* = .20 in Study 2; both *p* < .01). The Technical Understanding subscale (familiarity with prompting, parameters, API workflows) carried the strongest effect, while Critical Appraisal and Practical Application subscales correlated with higher mean confidence without improving discrimination (AUC). The authors interpret this through the illusion of explanatory depth (Fisher & Oppenheimer, 2021): procedural fluency provides a misleading sense of ability. This challenges the assumption that AI-literacy training is uniformly protective against the gap. A monetary incentive for accurate metacognition (+£0.50, ~8% of compensation) in Study 2 did not reduce overestimation — effort is not the bottleneck.
 
 Leonardi & Leavell (2026) extend the confidence-competence gap to the organizational level through the concept of [[artificial-certainty]]. In their comparative ethnography, non-expert stakeholders who encountered AI-generated simulations believed they fully understood complex urban planning dynamics — "knowing enough to be dangerous." The gap was not between a user's confidence and their ability to use AI, but between stakeholders' confidence in understanding complex systems and their actual domain expertise. When process experts amplified AI capabilities (enhancement mode), stakeholders mistook detailed representations for reality and questioned whether expert guidance was necessary at all.
 
@@ -93,4 +98,5 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 - [[reich-artificial-confidence-2026]] — Reich & Teeny (2026)
 - [[keshky-illusory-competence-2026]] — Keshky (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+- Fernandes et al. (2026)
 
