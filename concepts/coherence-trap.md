@@ -1,9 +1,9 @@
 ---
 status: emerging
-area: [erosion]
+area:
+- erosion
 sources:
-  - "Nosta, Coherence Trap (2025)"
-  - "Nosta, The Borrowed Mind (2026)"
+- Nosta, The Borrowed Mind (2026)
 ---
 
 # Coherence Trap
@@ -39,7 +39,7 @@ Historically, coherence was a "reasonable proxy for truth" — if a story held t
 
 ## Solution
 
-Embrace cognitive friction: "patience, context, and doubt" as distinctly human safeguards. Deliberately tolerate discomfort and uncertainty.
+Embrace [[cognitive-friction|cognitive friction]]: "patience, context, and doubt" as distinctly human safeguards. Deliberately tolerate discomfort and uncertainty.
 
 Nosta (2026) names the three components of the cognitive immune system explicitly: "patience, because complexity takes time to show itself. Context, some sense of history and circumstance. And doubt, the willingness to question what arrives too smoothly. These three things work together like an immune system for the mind. Without them, you absorb whatever comes your way."
 
@@ -59,6 +59,5 @@ The coherence trap extends [[fluency-bias]] into epistemological territory:
 
 ## Sources
 
-- Nosta, Coherence Trap (2025)
 - Nosta, The Borrowed Mind (2026)
 

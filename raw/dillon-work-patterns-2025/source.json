@@ -1,0 +1,29 @@
+{
+  "slug": "dillon-work-patterns-2025",
+  "original_filename": "Dillon et al. (2025) - Shifting Work Patterns.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 11310,
+  "hash": "4fe665f235db66813461c87ca823a3d494d8446e7ad08f73a5400260640e1dc2",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:17Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:17Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:34Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 24
+}

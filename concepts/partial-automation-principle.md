@@ -58,6 +58,6 @@ This is among the strongest findings in AI-human collaboration research. Multipl
 
 ## Sources
 
-- Passalacqua et al. (2024)
-- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+- [[passalacqua-less-ai-2024]] — Passalacqua et al. (2024)
+- Scispace Literature Synthesis (2025)
 

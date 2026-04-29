@@ -1,0 +1,29 @@
+{
+  "slug": "hatano-inagaki-adaptive-expertise-1986",
+  "original_filename": "hatano-inagaki-adaptive-expertise-1986.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 5136,
+  "hash": "0d727d61ff928356432047ce0f241b87fc55351781a049a04e7fd3009d734720",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:49:34Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill, downloaded externally)",
+      "at": "2026-04-29T13:49:53Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source PDF downloaded from public mirror and placed in raw/inbox/ by user, then catalogued. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 5)",
+      "at": "2026-04-29T15:36:03Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, supports wikilinks."
+    }
+  ],
+  "pages": 11
+}

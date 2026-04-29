@@ -3,38 +3,73 @@ status: solid
 area: [risk]
 type: paper
 sources:
-  - "Science Advances (2024). Generative AI Enhances Individual Creativity but Reduces Collective Diversity."
+  - "Doshi, A. R., & Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances, 10(28), eadn5290. doi:10.1126/sciadv.adn5290"
 ---
 
-# Science Advances (2024) - Creativity Diversity Paradox
+# Doshi & Hauser (2024) — Creativity-Diversity Paradox
 
 ## Citation
 
-Science Advances. (2024). Generative AI Enhances Individual Creativity but Reduces Collective Diversity. *Science Advances*, doi:10.1126/sciadv.adn5290.
+Doshi, A. R., & Hauser, O. P. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. *Science Advances*, 10(28), eadn5290.
 
-**URL:** [Science Advances](https://www.science.org/doi/10.1126/sciadv.adn5290)
+**DOI:** [10.1126/sciadv.adn5290](https://doi.org/10.1126/sciadv.adn5290)
 
 ## Type
 
-Paper (experimental study)
+Paper (preregistered two-phase online experiment, N=293 writers + N=600 evaluators)
 
 ## Key Insight
 
-Writers using AI showed 8-9% individual creativity improvements, but their stories were more similar to each other than human-only stories. AI enhances individual quality while homogenizing collective output—a tragedy of the commons.
+Doshi & Hauser's preregistered study tests whether AI-assisted writing increases or decreases creativity. Three conditions: human-only, human + 1 AI idea, human + up to 5 AI ideas. Stories evaluated by independent raters (N=600) on novelty and usefulness.
 
-## Key Findings
+The finding is structurally important: **individual creativity rises, collective diversity falls.** The "creativity-diversity paradox":
 
-- Individual: +8.1% novelty, +9.0% usefulness
-- Low performers: Up to +26.6% quality
-- Collective: Increased similarity between outputs
-- Mechanism: Convergence toward "sophisticated average"
+- **Individual gains:** stories with AI access were judged 8.1% more novel (with 5 ideas) and 9.0% more useful than human-only stories. Less-creative writers gained the most (up to +26.6% on quality).
+- **Collective loss:** AI-assisted stories were significantly more *similar to each other* than human-only stories. The convergence is toward a "sophisticated average" — better than the worst human stories but more uniform than the human distribution.
+
+This is a **social dilemma**: each individual writer is better off using AI; the collective is worse off because the variability that produces breakthrough novelty is compressed. AI is a tragedy-of-the-commons for creative production.
+
+The leveling pattern (low performers gain more) connects to [[dellacqua-jagged-frontier-2023]]'s leveling effect at consulting tasks: AI raises the floor disproportionately. Whether this is good depends on whether floor-raising comes at the cost of ceiling-flattening, which Doshi & Hauser's collective-similarity finding suggests it does.
+
+For human thinking with AI: this is the foundational empirical anchor for the [[creativity-diversity-paradox]] concept. The KB's argument that collective and individual outcomes can diverge under AI substitution has its strongest evidence here.
+
+## Key Passages
+
+> "We find that access to generative AI ideas causes stories to be evaluated as more creative, better written, and more enjoyable, especially among less creative writers. However, generative AI–enabled stories are more similar to each other than stories by humans alone."
+> — Doshi & Hauser, [p.1] (abstract)
+
+> "These results point to an increase in individual creativity at the risk of losing collective novelty. This dynamic resembles a social dilemma: With generative AI, writers are individually better off, but collectively a narrower scope of novel content is produced."
+> — Doshi & Hauser, [p.1]
+
+> "Writers in the Human with five GenAI ideas condition show an increase in novelty of 8.1% (b = 0.311, P < 0.001) over writers without generative AI access."
+> — Doshi & Hauser, [p.2-3]
+
+> "Having access to up to five AI ideas increases usefulness by 9.0% (b = 0.453, P < 0.001) over those with no generative AI access."
+> — Doshi & Hauser, [p.3]
 
 ## Relevance
 
-Demonstrates that individual and collective effects of AI can diverge. Rational individual use may produce harmful collective outcomes.
+The KB's clearest empirical demonstration that **individual benefits and collective costs of AI can diverge**. Three contributions:
+
+- **Quantifies the divergence.** Same intervention, opposite signs at individual vs. collective level. Hard to dismiss as a value-laden interpretation; the numbers are clean.
+- **Identifies the mechanism.** Convergence toward AI's "sophisticated average" — writers anchor on AI's starting points and produce variations of the same template. The same mechanism that raises the floor flattens the ceiling.
+- **Practical/policy hook.** Decisions about AI deployment that look beneficial at the individual level may be net-negative at the population level. This is structurally hard for organizations to address because each individual user's incentives point toward AI use.
 
 ## Supports
 
-- [[creativity-diversity-paradox]] - primary source
-- [[leveling-effect]] - same mechanism
-- [[cognitive-debt]] - explains convergence
+- [[creativity-diversity-paradox]] — primary source for the construct
+- [[leveling-effect]] — the floor-raising / ceiling-flattening pattern
+- [[anderson-homogenization-2024]] — converging evidence at the cognitive level (Anderson et al. show same homogenization at group rather than individual level)
+- [[capacity-erosion]] — collective diversity loss is a population-level capacity erosion
+- [[runco-jaeger-creativity-2012]] — the bipartite definition of creativity (originality + effectiveness) clarifies *what* AI is enhancing (both) and *what* it's eroding (collective novelty)
+
+## Contradicts / Extends
+
+- Companion to [[anderson-homogenization-2024]] (Anderson, Shah & Kreminski) — same finding, different methodology (idea generation rather than story writing). Two independent studies converge.
+- Extends Mollick's "leveling" observations from his own work and from [[dellacqua-jagged-frontier-2023]] — Mollick & co. saw novices gain more; Doshi & Hauser show the cost of that gain at population level.
+
+## Open Questions
+
+- The "sophisticated average" is the average of the LLM's training distribution. As LLMs train on AI-generated content, does the average converge further? Recursive collapse of diversity is a worried prediction; not yet measured.
+- The study is short stories. Does the paradox extend to longer creative work where human revision dominates? Maybe AI is most homogenizing in the *initial* idea phase, and human revision rebuilds diversity downstream.
+- Practically: can interventions (prompt diversity, randomized seeds, deliberate "go further" instructions) recover collective diversity while preserving individual gains? Operational question for designers.

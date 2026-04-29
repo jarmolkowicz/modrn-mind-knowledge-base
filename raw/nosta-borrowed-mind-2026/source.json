@@ -1,0 +1,22 @@
+{
+  "slug": "nosta-borrowed-mind-2026",
+  "original_filename": "Nosta (2026) - The Borrowed Mind.epub",
+  "format": "epub",
+  "source_type": "book",
+  "word_count": 56452,
+  "hash": "d2431fbd7bfd25a4a61aaacd7ba3e7c0ff5557e23383846c47d1586c75cb93ad",
+  "extractor": "ebooklib",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:50Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:50Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    }
+  ],
+  "chapters": 32
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "keshky-illusory-competence-2026",
+  "original_filename": "El Keshky (2026) - Illusory Competence Inflation.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 22331,
+  "hash": "e087a0187df6fb58bb00bebe7465047cc1e16ce023012576946858469d71095f",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:29:02Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill)",
+      "at": "2026-04-29T13:29:28Z",
+      "reason": "KB entry pre-existed without per-source workbench. Inbox binary identified and backfilled. Audit trail (triage/distill/critique) not available \u2014 entry was distilled before the new pipeline."
+    }
+  ],
+  "pages": 61
+}

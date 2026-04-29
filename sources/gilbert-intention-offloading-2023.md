@@ -3,35 +3,77 @@ status: solid
 area: [erosion]
 type: paper
 sources:
-  - "Gilbert, S. J., Boldt, A., Sachdeva, C., Scarampi, C., & Tsai, P.-C. (2023). Outsourcing Memory to External Tools: A Review of 'Intention Offloading'. Psychonomic Bulletin & Review, 30, 60-76. https://doi.org/10.3758/s13423-022-02139-4"
+  - "Gilbert, S. J., Boldt, A., Sachdeva, C., Scarampi, C., & Tsai, P.-C. (2023). Outsourcing Memory to External Tools: A Review of 'Intention Offloading'. Psychonomic Bulletin & Review, 30, 60–76. doi:10.3758/s13423-022-02139-4"
 ---
 
-# Outsourcing Memory to External Tools: Intention Offloading
+# Gilbert et al. (2023) — Outsourcing Memory: A Review of Intention Offloading
 
 ## Citation
 
-Gilbert, S. J., Boldt, A., Sachdeva, C., Scarampi, C., & Tsai, P.-C. (2023). Outsourcing Memory to External Tools: A Review of 'Intention Offloading'. *Psychonomic Bulletin & Review*, 30, 60-76. https://doi.org/10.3758/s13423-022-02139-4
+Gilbert, S. J., Boldt, A., Sachdeva, C., Scarampi, C., & Tsai, P.-C. (2023). Outsourcing Memory to External Tools: A Review of 'Intention Offloading'. *Psychonomic Bulletin & Review*, 30, 60–76.
+
+**DOI:** [10.3758/s13423-022-02139-4](https://doi.org/10.3758/s13423-022-02139-4)
 
 ## Type
 
-Paper (Review)
+Paper (theoretical review of 5–10 years of intention-offloading research)
 
 ## Key Insight
 
-Intention offloading — using external cues to trigger delayed intentions rather than relying on internal memory — is highly effective, experimentally tractable, and guided by metacognitive processes. Individuals have systematic biases in their offloading strategies that are stable over time, and individual differences in offloading are driven at least in part by metacognitive confidence in memory ability.
+Gilbert et al. review the systematic study of **intention offloading** — using external cues (calendars, sticky notes, smartphone alerts, strategically placed objects) to trigger delayed intentions rather than relying on internal prospective memory. The review's central finding: intention offloading is **highly effective, experimentally tractable, and guided by metacognitive processes**.
+
+The empirical paradigm Gilbert developed (numbered-circle drag task with embedded delayed intentions) lets researchers measure offloading systematically in the lab. Across many studies using this and similar paradigms:
+
+- **Offloading is widespread.** When given a free choice, most participants set external reminders, often even when objective task difficulty doesn't warrant it.
+- **Metacognitive confidence drives offloading decisions.** People set reminders based on their *confidence* in their own memory — not just objective difficulty. Lower-confidence individuals offload more, even after controlling for actual ability. This relationship holds *domain-generally*: confidence calibrated on a perceptual judgment task predicts offloading on a memory task.
+- **Systematic biases are stable.** Individual differences in offloading propensity are stable over time — a trait-like dimension. Some people consistently over-offload; others consistently under-offload.
+- **Lifespan changes.** Offloading patterns change across child development and aging, linked to metacognitive development (children under-use offloading; older adults often over-rely on it as memory confidence drops).
+
+The practical conclusion: because metacognitive accuracy gates offloading decisions, **anything that distorts metacognitive accuracy will distort offloading**. AI's [[fluency-bias]] is exactly such a distortion — fluent AI output makes confidence in AI-aided memory feel higher than it warrants. Gilbert's framework predicts AI-era over-offloading specifically through this mechanism.
+
+For human thinking with AI: this is the most rigorous review of the metacognitive control of offloading. The KB's larger argument — that AI use becomes maladaptive when metacognitive monitoring fails — has its experimental anchor in Gilbert's research program.
+
+## Key Passages
+
+> "Intention offloading is highly effective, experimentally tractable, and guided by metacognitive processes. Individuals have systematic biases in their offloading strategies that are stable over time."
+> — Gilbert et al., [p.1] (abstract)
+
+> "Evidence also suggests that individual differences and developmental changes in offloading strategies are driven at least in part by metacognitive processes. Therefore, metacognitive interventions could play an important role in promoting individuals' adaptive use of cognitive tools."
+> — Gilbert et al., [p.1]
+
+> "Diary studies suggest that 50–70% of everyday memory failures reflect a failure to remember delayed intentions, rather than other forms of memory."
+> — Gilbert et al., [p.1] (citing Crovitz & Daniel, Terry)
+
+> "Laboratory studies of prospective memory have tended to consider intention offloading as a source of unwanted noise that obscures 'real' prospective memory processes. However, an alternative viewpoint is that intention offloading plays a key role in our ability to fulfil intentions in everyday life."
+> — Gilbert et al., [p.2-3]
+
+> "Phenomenon of intention offloading is an example of 'extended' or 'scaffolded' cognition. It provides a testbed for understanding the interrelations between numerous cognitive processes that are typically studied in isolation."
+> — Gilbert et al., [p.2]
 
 ## Relevance
 
-Provides the foundational review for understanding how people decide between internal memory and external tools. The metacognitive mechanism — confidence in future memory performance drives offloading decisions — is directly relevant to understanding AI-era [[cognitive-offloading]]. If metacognitive confidence is the gate that controls offloading, then anything that distorts metacognitive accuracy (including AI's [[fluency-bias]]) will distort offloading decisions.
+Three load-bearing contributions for the KB:
 
-## Key Mechanisms
-
-- **Metacognitive control**: People set reminders based on their confidence in their own memory, not just objective difficulty
-- **Systematic biases**: Individuals consistently over- or under-offload relative to what would be optimal
-- **Stability**: Offloading strategies are stable individual differences, suggesting trait-like patterns
-- **Lifespan changes**: Offloading patterns change across development and aging, linked to metacognitive development
+- **Empirical anchor for the metacognition-drives-offloading claim.** Gilbert's experimental paradigms operationalize the abstract concept that "people decide to offload based on metacognitive confidence." The result is robust, replicated, and quantifiable.
+- **Trait-like stability finding.** Offloading propensity varies systematically across individuals and is stable over time. This means AI-era offloading patterns aren't temporary adjustments — they're likely durable shifts in cognitive style. KB methods like [[scan]] and [[strategic-alternation]] need to address trait-level differences, not just situational ones.
+- **Intervention space.** The review explicitly proposes that metacognitive interventions can promote adaptive offloading. This validates the KB's preservation-cluster theory of change: improve metacognitive monitoring → improve offloading decisions → adaptive AI use.
 
 ## Supports
 
-- [[cognitive-offloading]] - intention offloading as a specific, well-studied form of cognitive offloading
-- [[metacognition]] - metacognitive confidence as the driver of offloading decisions
+- [[cognitive-offloading]] — intention offloading is one of the most experimentally tractable forms
+- [[metacognition]] — metacognitive confidence as the gate that controls offloading
+- [[risko-gilbert-cognitive-offloading-2016]] — companion paper from same author on broader offloading
+- [[hu-metamemory-offloading-2019]] — Hu et al. provide convergent confirmation of the metacognition-drives-offloading mechanism
+- [[fluency-bias]] — fluency distorts metacognitive confidence, which distorts offloading decisions
+- [[calibration]] — metacognitive interventions = calibration practice
+- [[tankelevitch-metacognitive-demands-2023]] — Tankelevitch et al. extend the metacognitive-demand framing into the GenAI domain
+
+## Contradicts / Extends
+
+- Companion to [[risko-gilbert-cognitive-offloading-2016]] (broader offloading review) and [[hu-metamemory-offloading-2019]] (specific metamemory mechanism). The three together form the KB's strongest evidence base for the metacognition-drives-offloading claim.
+
+## Open Questions
+
+- The review predates LLMs. Does intention offloading to AI ("remind me to do X") behave the same as offloading to a calendar, or does AI's responsiveness change the metacognitive calculation?
+- Trait-like stability of offloading propensity: can it be shifted by deliberate intervention, or is it sticky? Practical implication for KB methods.
+- Confidence-driven offloading and AI: AI tends to *increase* confidence (per Sparrow/Fisher findings on Google use). If AI use systematically inflates confidence, offloading propensity should *decrease*, but actual AI-use patterns suggest the opposite. What reconciles this?

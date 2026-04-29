@@ -1,15 +1,15 @@
 ---
-status: emerging
-area: [erosion]
-sources:
-  - "Nosta, Oscillation Trap (2025)"
+status: speculative
+area:
+- erosion
+sources: []
 ---
 
 # AI Oscillation Trap
 
 ## What It Is
 
-The cognitive friction and performance degradation that occurs from repeatedly switching between AI-assisted and manual work. This is distinct from simple skill atrophy—the switching itself creates harm.
+The [[cognitive-friction|cognitive friction]] and performance degradation that occurs from repeatedly switching between AI-assisted and manual work. This is distinct from simple skill atrophy—the switching itself creates harm.
 
 ## Why It Matters
 
@@ -36,6 +36,10 @@ The oscillation trap suggests [[strategic-alternation]] needs careful design:
 - Longer periods in each mode may be better than frequent switching
 - Transition protocols may help (warm-up before manual work)
 - Hybrid modes that keep humans engaged throughout
+
+## Sources
+
+_(Primary source — Nosta (2025) "AI Oscillation Trap" Psychology Today essay — was removed from the KB pending verifiable access. Concept retained as `status: speculative` because the dynamic is observable in practice but not yet evidenced in the KB.)_
 
 ## Key Quote
 

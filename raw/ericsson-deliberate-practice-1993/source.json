@@ -1,0 +1,43 @@
+{
+  "slug": "ericsson-deliberate-practice-1993",
+  "original_filename": "Ericsson et al. (1993) - Deliberate Practice.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 42981,
+  "hash": "3f87e3c1621ef9b57dcccea07337e332dbef27482c3774933e5d1c0d26b25634",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:19Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:19Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:37Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T12:34:20Z",
+      "reason": "Re-extracted with opendataloader-pdf (was opendataloader-pdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 1)",
+      "at": "2026-04-29T12:40:02Z",
+      "reason": "Re-distilled from the correct Ericsson 1993 PDF (the prior binary was Macnamara & Maitra 2019, a failed-replication paper). Added Key Passages with locators, expanded Key Insight with work/play/deliberate-practice tripartition, noted Macnamara replication in Contradicts/Extends."
+    }
+  ],
+  "pages": 44
+}

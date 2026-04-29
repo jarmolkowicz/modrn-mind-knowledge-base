@@ -1,0 +1,29 @@
+{
+  "slug": "shen-skill-formation-2026",
+  "original_filename": "Shen & Tamkin (2026) - Skill Formation.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 13459,
+  "hash": "769399c218d2471cea9b348aa6d9b16c052652fa1e832d32a32e5825fc03b535",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:46Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:46Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:58Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 31
+}

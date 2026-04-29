@@ -1,8 +1,9 @@
 ---
-status: emerging
-area: [preservation, risk]
-sources:
-  - "Gonzalez et al. (2026)"
+status: speculative
+area:
+- preservation
+- risk
+sources: []
 ---
 
 # Human-AI Complementarity
@@ -30,5 +31,5 @@ Complementarity emerges from asymmetry, not similarity. Humans contribute contex
 
 ## Sources
 
-- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+_(Primary source — Gonzalez et al. (2026), Nature Reviews Psychology — was removed from the KB pending verifiable access. Concept retained because the broader human–AI complementarity literature still supports it; re-sourcing pending.)_
 

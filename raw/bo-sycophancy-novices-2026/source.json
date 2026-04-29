@@ -1,0 +1,29 @@
+{
+  "slug": "bo-sycophancy-novices-2026",
+  "original_filename": "Bo et al. (2026) - Invisible Saboteurs.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 21462,
+  "hash": "040f7a5c17424015ec00cec86ec9a0c11f18c7baea884626a893c277d02bc6d5",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:14Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:14Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:17Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 31
+}

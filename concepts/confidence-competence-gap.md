@@ -85,7 +85,7 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 
 ## Sources
 
-- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+- Scispace Literature Synthesis (2025)
 - [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)

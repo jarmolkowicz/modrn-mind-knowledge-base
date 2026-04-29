@@ -1,0 +1,36 @@
+{
+  "slug": "gentner-markman-analogy-1997",
+  "original_filename": "Gentner & Markman (1997) - Structure Mapping in Analogy.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 9779,
+  "hash": "ce79f8f8d8db869ca2841a015c680a9bb8e642bef3a8594d1d02ccdf0cde235e",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:22Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:22Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:44Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 2)",
+      "at": "2026-04-29T12:45:52Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, added supports wikilinks."
+    }
+  ],
+  "pages": 12
+}

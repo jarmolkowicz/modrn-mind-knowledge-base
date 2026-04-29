@@ -1,0 +1,22 @@
+{
+  "slug": "mollick-cointelligence-2024",
+  "original_filename": "Mollick (2024) - Co-Intelligence.epub",
+  "format": "epub",
+  "source_type": "book",
+  "word_count": 60106,
+  "hash": "798f470ac78b80dd116c6acc8e5ad7565d2948f25c4d65f65bc228cf52a4b827",
+  "extractor": "ebooklib",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:50Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:50Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    }
+  ],
+  "chapters": 23
+}

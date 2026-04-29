@@ -1,0 +1,29 @@
+{
+  "slug": "flavell-metacognition-1979",
+  "original_filename": "flavell-metacognition-1979.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 3973,
+  "hash": "4a87ff094d150df22b6ac8ad18f388e99e1e714b3d2a83ef6a13dcc5fcb63f7c",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:49:31Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill, downloaded externally)",
+      "at": "2026-04-29T13:49:53Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source PDF downloaded from public mirror and placed in raw/inbox/ by user, then catalogued. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 4)",
+      "at": "2026-04-29T15:29:34Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, supports wikilinks."
+    }
+  ],
+  "pages": 6
+}

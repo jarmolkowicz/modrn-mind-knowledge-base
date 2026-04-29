@@ -1,0 +1,22 @@
+{
+  "slug": "anderson-homogenization-2024",
+  "original_filename": "anderson-homogenization-2024.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12757,
+  "hash": "6ada2a98e4629b4ce666e66ca38c6bcdaa670931dc0d0a5af631130a4c5de7df",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:49:28Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill, downloaded externally)",
+      "at": "2026-04-29T13:49:53Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source PDF downloaded from public mirror and placed in raw/inbox/ by user, then catalogued. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    }
+  ],
+  "pages": 13
+}

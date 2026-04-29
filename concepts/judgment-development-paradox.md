@@ -1,8 +1,11 @@
 ---
 status: emerging
-area: [erosion, risk]
+area:
+- erosion
+- risk
 sources:
-  - "Duncan (2026)"
+- Ericsson, K. A., Krampe, R. T., & Tesch-Romer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3), 363-406.
+- Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way. Psychology and the Real World.
 ---
 
 # Judgment Development Paradox
@@ -37,5 +40,6 @@ Duncan calls this "the defining challenge of the AI era" — and it requires del
 
 ## Sources
 
-- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
+- [[ericsson-deliberate-practice-1993]] — Ericsson, K. A., Krampe, R. T., & Tesch-Romer, C. (1993). The role of deliberate practice in the acquisition of expert performance. Psychological Review, 100(3), 363-406.
+- [[bjork-desirable-difficulties-2011]] — Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way. Psychology and the Real World.
 

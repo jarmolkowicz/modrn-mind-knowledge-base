@@ -1,0 +1,36 @@
+{
+  "slug": "runco-jaeger-creativity-2012",
+  "original_filename": "Runco & Jaeger (2012) - Standard Definition of Creativity.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 3730,
+  "hash": "10d4deab7716295cd500ac73894077eb466e2b85b7be595c4bccf7b9a836e1b9",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:44Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:44Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:54Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 3)",
+      "at": "2026-04-29T12:58:17Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, added supports wikilinks."
+    }
+  ],
+  "pages": 6
+}

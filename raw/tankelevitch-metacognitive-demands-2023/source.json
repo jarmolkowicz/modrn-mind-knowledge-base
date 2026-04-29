@@ -1,0 +1,29 @@
+{
+  "slug": "tankelevitch-metacognitive-demands-2023",
+  "original_filename": "tankelevitch-metacognitive-demands-2023.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 25161,
+  "hash": "89142aaed1c2bbd9e552e006dc3970f95d54a758cc3a5db035d27af40d9d4aee",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:49:25Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill, downloaded externally)",
+      "at": "2026-04-29T13:49:53Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source PDF downloaded from public mirror and placed in raw/inbox/ by user, then catalogued. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 5)",
+      "at": "2026-04-29T15:36:03Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, supports wikilinks."
+    }
+  ],
+  "pages": 24
+}

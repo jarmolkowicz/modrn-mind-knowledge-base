@@ -28,7 +28,7 @@ raw/other/
 raw/processing/
 
 # In every per-source dir raw/<slug>/, ignore the source binary and the full extracted text
-raw/*/original.*
+raw/*/original*
 raw/*/source.md
 
 # Python build artifacts

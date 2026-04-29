@@ -43,7 +43,7 @@ AI disrupts four anchors of human meaning-making simultaneously:
 4. **Emotion** — AI simulates affect without interiority; distorts empathy calibration
 
 ### Smoothness Trap
-Distinct from coherence trap. While coherence trap is about accepting smooth-sounding information as true, the smoothness trap is about what happens to *the thinker* when cognitive friction is removed. "When the path to an idea becomes too smooth, the signals that once organized thought start to weaken." Flow states require challenge at the edge of skill; remove the strain and the generative state collapses.
+Distinct from coherence trap. While coherence trap is about accepting smooth-sounding information as true, the smoothness trap is about what happens to *the thinker* when [[cognitive-friction|cognitive friction]] is removed. "When the path to an idea becomes too smooth, the signals that once organized thought start to weaken." Flow states require challenge at the edge of skill; remove the strain and the generative state collapses.
 
 ### Indifference Engine
 AI's defining feature is not capability but indifference. "AI does not lie. It just does not care." It has no stake in whether it strengthens or erodes thinking. "The steady production of coherence without commitment." The risk: "we might adapt so thoroughly to the machine's way of producing thought that we forget what it feels like to produce our own."

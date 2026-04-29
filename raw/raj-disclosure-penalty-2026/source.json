@@ -1,0 +1,29 @@
+{
+  "slug": "raj-disclosure-penalty-2026",
+  "original_filename": "Raj et al. (2026) - AI Disclosure Penalty.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 17683,
+  "hash": "760ff042c859dab33417fd49d85b2749de75b70a586426bc3d967e09f8a51d57",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:42Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:42Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:41Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 21
+}

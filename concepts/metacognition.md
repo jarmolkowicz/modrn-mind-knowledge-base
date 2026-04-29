@@ -1,20 +1,17 @@
 ---
 status: solid
-area: [preservation, risk]
+area:
+- preservation
+- risk
 sources:
-  - "Flavell (1979)"
-  - "Dunlosky & Metcalfe (2009)"
-  - "Tankelevitch et al. (2023)"
-  - "Tsim & Gutoreva (2025)"
-  - "Gentner & Markman (1997)"
-  - "Lakoff & Johnson (1999)"
-  - "Varela, Thompson & Rosch (1991)"
-  - "Lodge & Loble (2026)"
-  - "Gonzalez et al. (2026)"
-  - "Shaw & Nave (2026)"
-  - "He, Kuiper, & Gadiraju (2023)"
-  - "Gilbert et al. (2023)"
-  - "Hu, Luo & Fleming (2019)"
+- Flavell (1979)
+- Tankelevitch et al. (2023)
+- Tsim & Gutoreva (2025)
+- Gentner & Markman (1997)
+- Shaw & Nave (2026)
+- He, Kuiper, & Gadiraju (2023)
+- Gilbert et al. (2023)
+- Hu, Luo & Fleming (2019)
 ---
 
 # Metacognition
@@ -74,7 +71,7 @@ Shaw & Nave's finding that incentives + item-level feedback partially reactivate
 
 Gonzalez et al. (2026) identify metacognitive oversight as essential for error detection in human-AI teams. The paper notes that "humans provide metacognitive oversight and contextual reasoning, though their vigilance degrades under fatigue and cognitive load." This positions metacognition not just as an individual self-monitoring skill, but as a team function — the human's role in layered defenses where AI handles systematic checks and humans provide the contextual, metacognitive layer.
 
-Key team-level metacognitive demands identified:
+Key team-level [[metacognitive-demand|metacognitive demand]]s identified:
 - **Interrogation over acceptance** — Teams perform best when humans actively interrogate AI rather than passively accept output. This requires ongoing metacognitive monitoring: "Am I questioning this, or am I accepting?"
 - **Trust calibration as metacognitive skill** — Recognizing when you are over-trusting or under-trusting AI requires awareness of your own reliance patterns. The framework calls for shared mental models of AI abilities and limitations — a metacognitive map of the AI partner.
 - **Detecting silent failures** — AI can "fail silently with high confidence when encountering unfamiliar conditions." Detecting these failures requires the human to monitor not just the AI output, but the conditions under which the AI is likely to be wrong — a second-order metacognitive task.
@@ -105,14 +102,9 @@ This extends the KB's existing metacognitive questions with a team-level variant
 ## Sources
 
 - [[flavell-metacognition-1979]] — Flavell (1979)
-- [[dunlosky-metcalfe-metacognition-2009]] — Dunlosky & Metcalfe (2009)
 - [[tankelevitch-metacognitive-demands-2023]] — Tankelevitch et al. (2023)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
 - [[gentner-markman-analogy-1997]] — Gentner & Markman (1997)
-- [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
-- [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)
-- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
-- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)
 - [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)

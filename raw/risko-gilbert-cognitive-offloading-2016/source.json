@@ -1,0 +1,36 @@
+{
+  "slug": "risko-gilbert-cognitive-offloading-2016",
+  "original_filename": "Risko & Gilbert (2016) - Cognitive Offloading.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 8962,
+  "hash": "a7aeb66d2155b76415c51e79c7fe4c78c077b18a3693f5ea0596285c2bedb8bd",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:44Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:44Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:52Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 1)",
+      "at": "2026-04-29T12:29:34Z",
+      "reason": "Re-distilled inline using opendataloader-pdf source.md. Added Key Passages with page locators, expanded Key Insight, added supports wikilinks."
+    }
+  ],
+  "pages": 13
+}

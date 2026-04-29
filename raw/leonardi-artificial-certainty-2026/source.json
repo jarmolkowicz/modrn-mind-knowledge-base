@@ -1,0 +1,22 @@
+{
+  "slug": "leonardi-artificial-certainty-2026",
+  "original_filename": "Leonardi & Leavell (2026) - Knowing Enough to Be Dangerous.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 21972,
+  "hash": "ec3253d352a0b3d2c9166a693383d50bb4014dcd3935bc4cd3e7be0948dbf4d5",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:30:31Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill)",
+      "at": "2026-04-29T13:31:15Z",
+      "reason": "KB entry pre-existed without workbench. Inbox binary identified (Leonardi & Leavell 2026, full title \"Knowing Enough to Be Dangerous: The Problem of Artificial Certainty\"). Backfilled."
+    }
+  ],
+  "pages": 29
+}

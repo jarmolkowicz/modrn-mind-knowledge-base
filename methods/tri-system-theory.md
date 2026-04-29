@@ -49,7 +49,7 @@ Modern decision-making unfolds within a triadic cognitive ecology, not a purely 
 - Lab-controlled single-session design — no evidence on how surrender dynamics evolve with repeated AI use over time
 - System 3 is defined broadly (any external algorithmic cognition) but tested only with ChatGPT/GPT-4o — may not generalize to different AI interfaces, modalities, or reliability profiles
 - The "system" metaphor inherits the well-known criticisms of dual-process theory itself (Melnikoff & Bargh, 2018; Keren & Schul, 2009) — whether these are truly distinct "systems" vs. points on a continuum remains debatable
-- Does not address embodied cognition, emotional reasoning, or the role of domain expertise in moderating surrender
+- Does not address [[embodied-cognition|embodied cognition]], emotional reasoning, or the role of domain expertise in moderating surrender
 - Framing AI as a "cognitive agent" may overstate AI's role — AI has no goals, no understanding, and no stake in outcomes; calling it a "system" alongside biological cognition risks anthropomorphizing
 - Preprint status (SSRN) — not yet peer-reviewed as of screening date
 

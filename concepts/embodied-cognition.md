@@ -1,9 +1,8 @@
 ---
-status: solid
-area: [preservation]
-sources:
-  - "Varela, Thompson & Rosch (1991)"
-  - "Lakoff & Johnson (1999)"
+status: speculative
+area:
+- preservation
+sources: []
 ---
 
 # Embodied Cognition
@@ -40,6 +39,5 @@ This is why three core capacities includes "Where Your Ideas Come From"—origin
 
 ## Sources
 
-- [[varela-embodied-mind-1991]] — Varela, Thompson & Rosch (1991)
-- [[lakoff-johnson-philosophy-flesh-1999]] — Lakoff & Johnson (1999)
+_(Foundational books — Varela et al. 1991, Lakoff & Johnson 1999 — were removed from the KB along with their dead wikilinks because we don't have verifiable access to the source binaries. The framing they support is referenced through downstream sources still in the KB.)_
 

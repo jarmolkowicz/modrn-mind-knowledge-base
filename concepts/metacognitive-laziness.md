@@ -1,10 +1,11 @@
 ---
 status: emerging
-area: [erosion, risk]
+area:
+- erosion
+- risk
 sources:
-  - "Fan et al. (2024)"
-  - "Lodge & Loble (2026)"
-  - "Wang & Lajoie (2023)"
+- Fan et al. (2024)
+- Wang & Lajoie (2023)
 ---
 
 # Metacognitive Laziness
@@ -35,6 +36,5 @@ Fan et al. (2024) found this in a randomised study — AI convenience undermined
 ## Sources
 
 - Fan et al. (2024)
-- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - Wang & Lajoie (2023)
 

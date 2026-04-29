@@ -1,15 +1,15 @@
 ---
 status: emerging
-area: [erosion, risk]
+area:
+- erosion
+- risk
 sources:
-  - "Nosta, AI Rebound (2025)"
-  - "Nikolova et al. (2024)"
-  - "Duncan (2026)"
-  - "Lodge & Loble (2026)"
-  - "Shaw & Nave (2026)"
-  - "Shen & Tamkin (2026)"
-  - "Huffstadt (2026)"
-  - "Singh Yadav (2026)"
+- Nosta, AI Rebound (2025)
+- Nikolova et al. (2024)
+- Shaw & Nave (2026)
+- Shen & Tamkin (2026)
+- Huffstadt (2026)
+- Singh Yadav (2026)
 ---
 
 # Capacity Erosion
@@ -78,10 +78,8 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 
 ## Sources
 
-- Nosta, AI Rebound (2025)
+- [[nosta-ai-rebound-2025]] — Nosta, AI Rebound (2025)
 - [[nikolova-robots-meaning-2024]] — Nikolova et al. (2024)
-- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
-- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)

@@ -1,8 +1,9 @@
 ---
-status: emerging
-area: [preservation, risk]
-sources:
-  - "Gonzalez et al. (2026)"
+status: speculative
+area:
+- preservation
+- risk
+sources: []
 ---
 
 # Complementarity Framework
@@ -71,5 +72,5 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 
 ## Sources
 
-- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
+_(Primary source — Gonzalez et al. (2026), Nature Reviews Psychology — was removed from the KB pending verifiable access. The framework's claims still draw on the broader human–AI complementarity literature; re-sourcing pending.)_
 

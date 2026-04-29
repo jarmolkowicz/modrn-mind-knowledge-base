@@ -1,0 +1,22 @@
+{
+  "slug": "shaw-cognitive-surrender-2026",
+  "original_filename": "Shaw & Nave (2026) - Thinking Fast, Slow, and Artificial.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 14704,
+  "hash": "9db353a1dcf7baacdfdca5e578bbe145e8d05f4980744d80ae0d7e27c6db09af",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:29:06Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill)",
+      "at": "2026-04-29T13:29:28Z",
+      "reason": "KB entry pre-existed without per-source workbench. Inbox binary identified and backfilled. Audit trail (triage/distill/critique) not available \u2014 entry was distilled before the new pipeline."
+    }
+  ],
+  "pages": 58
+}

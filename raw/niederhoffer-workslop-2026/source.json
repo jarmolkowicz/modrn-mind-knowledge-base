@@ -1,0 +1,27 @@
+{
+  "slug": "niederhoffer-workslop-2026",
+  "original_filename": "Niederhoffer et al. (2026) - HBR - Why People Create AI Workslop.pdf",
+  "additional_originals": [
+    "Neiderhoffer et al. (2026) - HBR - AI-Generated Workslop Destroying Productivity.pdf"
+  ],
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 4136,
+  "hash": "b0f2fefce05b3f424fc745327741b36cca0eb80d7bd6377cd8cd016c2f0cc9c3",
+  "additional_hashes": {
+    "original-2025.pdf": "bbb6626f6d418b3005c58f02908a5895b53c3c0683aa97e2719e55bb26af3697"
+  },
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:31:14Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill)",
+      "at": "2026-04-29T13:31:14Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source is a two-article HBR series (Niederhoffer et al. 2025 + 2026); both PDFs were in inbox. Backfilled with 2026 article as canonical original; 2025 article kept alongside as original-2025.pdf. source.md is the concatenated extraction of both. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    }
+  ]
+}

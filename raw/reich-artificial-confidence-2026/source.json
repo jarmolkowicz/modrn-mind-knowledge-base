@@ -1,0 +1,29 @@
+{
+  "slug": "reich-artificial-confidence-2026",
+  "original_filename": "Reich & Teeny (2026) - Artificial Confidence.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 16398,
+  "hash": "f88039f456eb87949703a1ca35baaa849d7a5170096e3aa235a7f91da92b0faf",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:43Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:43Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:46Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 23
+}

@@ -17,7 +17,7 @@ Niederhoffer, K., Robichaux, A., & Hancock, J. T. (2026). Why People Create AI "
 Article (two-part series, BetterUp Labs / Stanford Social Media Lab)
 
 ## Key Insight
-Workslop is AI-generated work content that "masquerades as good work, but lacks the substance to meaningfully advance a given task." Unlike traditional cognitive offloading (which outsources mental work to a machine), workslop uses machines to offload cognitive work to another human being — the recipient must decode, infer context, and often redo the work. It is not a technology failure but a management failure driven by vague AI mandates and overwhelmed teams.
+Workslop is AI-generated work content that "masquerades as good work, but lacks the substance to meaningfully advance a given task." Unlike traditional [[cognitive-offloading|cognitive offloading]] (which outsources mental work to a machine), workslop uses machines to offload cognitive work to another human being — the recipient must decode, infer context, and often redo the work. It is not a technology failure but a management failure driven by vague AI mandates and overwhelmed teams.
 
 ## Relevance
 Provides the first large-scale survey data (N=1,150) on the organizational cost of undiscerning AI use. Bridges individual cognitive risks (fluency bias, novice vulnerability) to organizational dynamics (trust erosion, collaboration breakdown). Directly relevant to workslop as a downstream consequence of the confidence-competence gap.

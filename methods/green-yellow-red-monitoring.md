@@ -66,5 +66,5 @@ Makes [[capacity-erosion]] visible before it's severe. Yellow is normal—the sk
 ## Sources
 
 - [[fang-ai-loneliness-2025]] — Fang, C.M. et al. (2025). How AI and Human Behaviors Shape Psychosocial Effects of Chatbot Use. arXiv:2503.17473v1.
-- Nosta, J. (2025). AI Rebound: The Paradoxical Drop After the AI Lift. Psychology Today.
+- [[nosta-ai-rebound-2025]] — Nosta, J. (2025). AI Rebound: The Paradoxical Drop After the AI Lift. Psychology Today.
 

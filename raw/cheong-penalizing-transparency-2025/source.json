@@ -1,0 +1,36 @@
+{
+  "slug": "cheong-penalizing-transparency-2025",
+  "original_filename": "Cheong et al. (2025) - Penalizing Transparency.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 3656,
+  "hash": "e66902515cf758199b0b12bd14e24ba26fade70ba6a5b8b8fc06d3aaa83539cf",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:14Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:14Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:24Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 2)",
+      "at": "2026-04-29T12:45:52Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, added supports wikilinks."
+    }
+  ],
+  "pages": 6
+}

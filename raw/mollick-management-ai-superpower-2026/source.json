@@ -1,0 +1,29 @@
+{
+  "slug": "mollick-management-ai-superpower-2026",
+  "original_filename": "mollick-management-ai-superpower-2026.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 2247,
+  "hash": "b94e8f3f7d8bd4e749de7b6c3267ee25f2b8a99b129680ea15fa076698719c99",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T13:49:37Z",
+  "decisions": [
+    {
+      "stage": "gap-fill",
+      "outcome": "workbench_backfilled",
+      "by": "human (Pass 1 gap-fill, downloaded externally)",
+      "at": "2026-04-29T13:49:53Z",
+      "reason": "KB entry pre-existed without per-source workbench. Source PDF downloaded from public mirror and placed in raw/inbox/ by user, then catalogued. Audit trail (triage/distill/critique) not available \u2014 pre-pipeline ingestion."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 4)",
+      "at": "2026-04-29T15:29:34Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, supports wikilinks."
+    }
+  ],
+  "pages": 6
+}

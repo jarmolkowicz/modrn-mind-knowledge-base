@@ -17,7 +17,7 @@ Book
 Frames AI not as a tool but as a "co-intelligence" — an alien mind that augments human thinking. Proposes four principles for working with AI: always invite AI to the table, be the human in the loop, treat AI like a person (but define what kind), and assume this is the worst AI you will ever use. Introduces a practical task taxonomy (Just Me, Delegated, Automated, Centaur, Cyborg) grounded in the [[jagged-frontier]] concept from the BCG/Harvard study.
 
 ## Relevance
-Foundational practitioner text. Mollick's framework is widely cited and provides accessible vocabulary for AI collaboration patterns. His treatment of education, expertise, and the leveling effect offers early evidence for several KB concepts. The book predates the 2025-2026 wave of empirical erosion research but anticipates many of its findings — particularly around novice vulnerability, the importance of being "the human in the loop," and the risk of "falling asleep at the wheel."
+Foundational practitioner text. Mollick's framework is widely cited and provides accessible vocabulary for AI collaboration patterns. His treatment of education, expertise, and the [[leveling-effect|leveling effect]] offers early evidence for several KB concepts. The book predates the 2025-2026 wave of empirical erosion research but anticipates many of its findings — particularly around novice vulnerability, the importance of being "the human in the loop," and the risk of "falling asleep at the wheel."
 
 ## Key Claims and Evidence
 

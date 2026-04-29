@@ -1,0 +1,22 @@
+{
+  "slug": "boyd-markowitz-human-connection-2026",
+  "original_filename": "boyd-markowitz-2026-artificial-intelligence-and-the-psychology-of-human-connection.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 19609,
+  "hash": "b4d260d2170e2ffe2a57b9fb1daf59e98ac7c188e5313832aea5eeeeffc0d1b2",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T09:08:18Z",
+  "decisions": [
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:21Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    }
+  ],
+  "pages": 29
+}

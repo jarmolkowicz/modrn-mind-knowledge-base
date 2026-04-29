@@ -1,9 +1,9 @@
 ---
 status: emerging
-area: [preservation]
+area:
+- preservation
 sources:
-  - "Nosta, Oscillation Trap (2025)"
-  - "Runco & Jaeger (2012)"
+- Runco & Jaeger (2012)
 ---
 
 # Strategic Alternation
@@ -51,6 +51,5 @@ This suggests alternation design matters:
 
 ## Sources
 
-- Nosta, Oscillation Trap (2025)
 - [[runco-jaeger-creativity-2012]] — Runco & Jaeger (2012)
 

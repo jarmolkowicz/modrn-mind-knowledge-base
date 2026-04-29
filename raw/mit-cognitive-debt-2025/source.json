@@ -1,0 +1,36 @@
+{
+  "slug": "mit-cognitive-debt-2025",
+  "original_filename": "MIT Media Lab (2025) - Cognitive Debt.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 58831,
+  "hash": "9b84e8dff3e5a9eaca8d5cdcbdeef3dfb1ef32c2455eda2ed56d0079c9b45790",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:36Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:36Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:50:23Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 6)",
+      "at": "2026-04-29T15:41:22Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, supports wikilinks."
+    }
+  ],
+  "pages": 216
+}

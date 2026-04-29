@@ -1,10 +1,10 @@
 ---
 status: emerging
-area: [risk, preservation]
+area:
+- risk
+- preservation
 sources:
-  - "Duncan (2026)"
-  - "Gonzalez et al. (2026)"
-  - "Leonardi & Leavell (2026)"
+- Leonardi & Leavell (2026)
 ---
 
 # Judgment
@@ -72,7 +72,5 @@ Borrowed from high-stakes fields (medicine, military):
 
 ## Sources
 
-- [[duncan-judgment-ai-era-2026]] — Duncan (2026)
-- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
 - [[leonardi-artificial-certainty-2026]] — Leonardi & Leavell (2026)
 

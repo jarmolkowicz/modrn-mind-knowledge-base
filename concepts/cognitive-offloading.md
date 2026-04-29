@@ -1,18 +1,17 @@
 ---
 status: solid
-area: [erosion]
+area:
+- erosion
 sources:
-  - "Risko & Gilbert (2016)"
-  - "Storm & Stone (2015)"
-  - "Tsim & Gutoreva (2025)"
-  - "MIT Media Lab (2025)"
-  - "Lodge & Loble (2026)"
-  - "Shaw & Nave (2026)"
-  - "Shen & Tamkin (2026)"
-  - "Gilbert et al. (2023)"
-  - "Hu, Luo & Fleming (2019)"
-  - "Guingrich, Mehta & Bhatt (2026)"
-  - "Huffstadt (2026)"
+- Risko & Gilbert (2016)
+- Tsim & Gutoreva (2025)
+- MIT Media Lab (2025)
+- Shaw & Nave (2026)
+- Shen & Tamkin (2026)
+- Gilbert et al. (2023)
+- Hu, Luo & Fleming (2019)
+- Guingrich, Mehta & Bhatt (2026)
+- Huffstadt (2026)
 ---
 
 # Cognitive Offloading
@@ -82,10 +81,8 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 ## Sources
 
 - [[risko-gilbert-cognitive-offloading-2016]] — Risko & Gilbert (2016)
-- [[storm-stone-saving-memory-2015]] — Storm & Stone (2015)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
 - [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
-- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
 - [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)

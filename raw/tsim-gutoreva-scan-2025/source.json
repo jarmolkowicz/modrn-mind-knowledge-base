@@ -1,0 +1,36 @@
+{
+  "slug": "tsim-gutoreva-scan-2025",
+  "original_filename": "Tsim & Gutoreva (2025) - SCAN Framework.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 13284,
+  "hash": "b0df2d0cb4b1c31b55b45ce076381d14e26276a905dbe1b61eb2a7bcd35758e8",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:47Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:47Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:51:16Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 batch 3)",
+      "at": "2026-04-29T12:58:17Z",
+      "reason": "Re-distilled inline. Added Key Passages with locators, expanded Key Insight, added supports wikilinks."
+    }
+  ],
+  "pages": 31
+}

@@ -1,11 +1,12 @@
 ---
 status: emerging
-area: [erosion, risk]
+area:
+- erosion
+- risk
 sources:
-  - "Lodge & Loble (2026)"
-  - "Bastani et al. (2025)"
-  - "Yan et al. (2025)"
-  - "Singh Yadav (2026)"
+- Bastani et al. (2025)
+- Yan et al. (2025)
+- Singh Yadav (2026)
 ---
 
 # Performance Paradox
@@ -49,7 +50,6 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 
 ## Sources
 
-- [[lodge-cognitive-offloading-education-2026]] — Lodge & Loble (2026)
 - Bastani et al. (2025)
 - Yan et al. (2025)
 - [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)

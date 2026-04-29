@@ -83,7 +83,7 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 
 ## Sources
 
-- [[scispace-synthesis-2025]] — Scispace Literature Synthesis (2025)
+- Scispace Literature Synthesis (2025)
 - [[nikolova-robots-meaning-2024]] — Nikolova et al. (2024)
 - de Mello et al. (2026)
 - [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)

@@ -1,12 +1,12 @@
 ---
 status: emerging
-area: [preservation]
+area:
+- preservation
 sources:
-  - "Tsim & Gutoreva (2025)"
-  - "Tankelevitch et al. (2024)"
-  - "Gonzalez et al. (2026)"
-  - "Mollick (2024)"
-  - "He, Kuiper, & Gadiraju (2023)"
+- Tsim & Gutoreva (2025)
+- Tankelevitch et al. (2024)
+- Mollick (2024)
+- He, Kuiper, & Gadiraju (2023)
 ---
 
 # Calibration Practice
@@ -110,7 +110,6 @@ His "falling asleep at the wheel" finding (Dell'Acqua study, N=181) offers a cau
 
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
 - [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
-- [[gonzalez-complementarity-2026]] — Gonzalez et al. (2026)
 - [[mollick-cointelligence-2024]] — Mollick (2024)
 - [[he-illusion-competence-2023]] — He, Kuiper, & Gadiraju (2023)
 

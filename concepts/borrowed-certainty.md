@@ -1,10 +1,10 @@
 ---
 status: emerging
-area: [erosion]
+area:
+- erosion
 sources:
-  - "Nosta, Borrowed Certainty (2025)"
-  - "Nosta, The Borrowed Mind (2026)"
-  - "Guingrich, Mehta & Bhatt (2026)"
+- Nosta, The Borrowed Mind (2026)
+- Guingrich, Mehta & Bhatt (2026)
 ---
 
 # Borrowed Certainty
@@ -57,7 +57,6 @@ Additional test from Nosta (2026): "At its best, AI acts as a lens. But a lens i
 
 ## Sources
 
-- Nosta, Borrowed Certainty (2025)
 - Nosta, The Borrowed Mind (2026)
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
 

@@ -1,0 +1,36 @@
+{
+  "slug": "bjork-desirable-difficulties-2011",
+  "original_filename": "Bjork & Bjork (2011) - Desirable Difficulties.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 4003,
+  "hash": "aa461a9767f64eb890c8fd9416f64b016bde0570564d512eb097f50d543a36f0",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T10:29:13Z",
+  "decisions": [
+    {
+      "stage": "backfill",
+      "outcome": "structurally_backfilled",
+      "by": "tooling/scripts/backfill.py",
+      "at": "2026-04-29T10:29:13Z",
+      "reason": "Source ingested before the new pipeline. Audit trail (triage/distill/critique) is permanently incomplete; only structural metadata + extracted text are recorded."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T10:49:14Z",
+      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+    },
+    {
+      "stage": "redistill",
+      "outcome": "integrated_v2",
+      "by": "human (Pass 2 pilot)",
+      "at": "2026-04-29T11:22:48Z",
+      "reason": "Re-distilled inline using opendataloader-pdf-extracted source.md. Added Key Passages section (5 verbatim quotes with page locators), expanded Key Insight with storage/retrieval framework, added 3 supports wikilinks (fluency-bias, metacognition, judgment-development-paradox), added Open Questions."
+    }
+  ],
+  "pages": 10
+}
