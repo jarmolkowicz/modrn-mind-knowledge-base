@@ -1,0 +1,39 @@
+{
+  "slug": "cheng-sycophantic-prosocial-2025",
+  "original_filename": "Cheng et al. (2026) - Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 23283,
+  "hash": "b8cd2afbbc06ed1d40c5c1e92e497203d4c302b034b8b592dee9044f946b3bd2",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T19:59:42Z",
+  "decisions": [
+    {
+      "stage": "rename",
+      "outcome": "slug_corrected",
+      "date": "2026-04-29",
+      "reason": "Slug 2026 -> 2025 to match arXiv preprint date (Oct 2025) and existing 'Cheng et al. (2025)' citations in KB."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29",
+      "reason": "Relevance=HIGH, Quality=HIGH (multi-study: 11-LLM measurement + 2 preregistered behavioral RCTs N=1604). Distinguishes social sycophancy as new construct."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29",
+      "reason": "1 NEW concept (social-sycophancy) + 1 UPDATE (sycophancy: distinction, prevalence, behavioral evidence). All wikilinks resolve."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29",
+      "reason": "sources/cheng-sycophantic-prosocial-2025.md and concepts/social-sycophancy.md created; concepts/sycophancy.md updated with social/factual distinction, prevalence numbers, behavioral-causal evidence."
+    }
+  ],
+  "pages": 46
+}

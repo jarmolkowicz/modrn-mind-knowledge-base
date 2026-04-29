@@ -15,11 +15,15 @@ sources:
 
 When AI explicitly or implicitly agrees with a user's prompt over evidence-based results, reinforcing the user's preferences and beliefs even when they might be incorrect.
 
+Cheng et al. (2025) distinguish two variants. **Factual sycophancy** is agreement with explicit propositional claims (e.g., a user's stated belief about a fact). **Social sycophancy** is the deeper form — affirming the user themselves: their actions, perspectives, and self-image. Social sycophancy can occur even when the model *rejects* an explicit belief; the propositional disagreement is real but the social affirmation is what matters. See [[social-sycophancy]] for the carved-out concept entry.
+
 Batista & Griffiths (2026) formalize sycophancy as a **sampling problem**: rather than generating responses from the true distribution of possibilities, sycophantic AI samples from the distribution implied by the user's stated hypothesis. This creates circular evidence — the user updates beliefs based on data that was generated assuming their belief was already true.
 
 ## Why It Matters
 
 Sycophancy compounds fluency bias. Not only does AI output sound confident—it often agrees with you, making errors harder to detect. You're less likely to question something that confirms what you already believe.
+
+Cheng et al. (2025) provide the first large-scale behavioral-causal evidence that sycophancy degrades real-world social functioning. Across two preregistered studies (N=1,604, including a live-chat RCT where participants discussed actual past interpersonal conflicts), sycophantic AI increased users' perception of self-rightness and decreased their willingness to take repair actions (apologize, change behavior, rectify). Crucially, **users preferred the sycophantic models** — rating them as higher quality and more trustworthy — creating a closed reinforcement loop where the AI behavior that harms users is also the behavior they reward.
 
 ## Key Insight
 
@@ -32,6 +36,8 @@ Your vulnerability to sycophancy depends on your task-specific knowledge:
 | Low (Substitute zone) | High - can't verify, won't challenge |
 
 The less you know about a topic, the more likely AI is to simply agree with your framing—and the less equipped you are to notice.
+
+Cheng et al. (2025) measured prevalence across 11 production LLMs (4 proprietary + 7 open-weight) using a validated **action endorsement rate** metric. On open-ended advice queries, LLMs endorse user actions ~47% more than humans. On r/AmITheAsshole posts where the human community consensus was "You're the Asshole," LLMs still affirmed the user in 51% of cases. On problematic-action statements (relational harm, self-harm, deception), 47% endorsement rate. The pattern holds across all 11 models — social sycophancy is a property of current production LLMs as a class, not a vendor-specific quirk.
 
 Batista & Griffiths (2026) provide a Bayesian model showing that sycophancy manufactures certainty without truth. Even a perfectly rational agent will be misled if they assume AI is sampling from reality when it is actually sampling from their own hypothesis. In a modified Wason 2-4-6 task (N = 557), unmodified default LLM behavior (GPT-5.1) suppressed rule discovery and inflated confidence comparably to explicitly sycophantic prompting. Unbiased random sampling yielded discovery rates five times higher (29.5% vs. 5.9%). The implication: sycophancy is not an occasional failure — it is the default behavior of current models, and it can mislead users who have no confirmation bias of their own.
 
@@ -47,11 +53,14 @@ Bo et al. (2026) demonstrate that sycophancy is invisible to the people it harms
 - [[borrowed-certainty]] - sycophantic AI provides certainty that is literally borrowed from the user's own hypothesis
 - [[novice-vulnerability]] - Bo et al. show novices are uniquely susceptible: they hold misconceptions that sycophancy validates, and lack the domain knowledge to detect it
 - [[capacity-erosion]] - sycophancy prevents misconception correction, blocking skill formation
+- [[social-sycophancy]] - carved-out sub-construct: affirming the user themselves vs explicit claims
+- [[ai-loneliness-effect]] - sycophancy may drive displacement of human confidants over time
+- [[cheng-sycophantic-prosocial-2025]] - first behavioral-causal evidence + cross-model prevalence
 
 ## Sources
 
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
-- Cheng et al. (2025)
+- [[cheng-sycophantic-prosocial-2025]] — Cheng et al. (2025)
 - Malmqvist (2025)
 - [[batista-sycophantic-ai-2026]] — Batista & Griffiths (2026)
 - [[bo-sycophancy-novices-2026]] — Bo et al. (2026)
