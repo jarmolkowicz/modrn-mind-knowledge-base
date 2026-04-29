@@ -3,9 +3,9 @@
   "original_filename": "Parasuraman & Riley (1997) - Humans and Automation.pdf",
   "format": "pdf",
   "source_type": "paper",
-  "word_count": 0,
+  "word_count": 15931,
   "hash": "e6b127cb604120059f4fc814abda99177844db5a735d3a6d284c074f2def2bba",
-  "extractor": "failed",
+  "extractor": "ocr",
   "extractor_script_version": "0.1.0",
   "status": "integrated",
   "ingested_at": "2026-04-29T10:31:33Z",
@@ -16,8 +16,14 @@
       "by": "manual",
       "at": "2026-04-29T10:31:33Z",
       "reason": "Pre-2000 scanned PDF; pypdf and pdfplumber extracted under 200 chars. KB entry already exists. Re-extract with OCR (tesseract) when available."
+    },
+    {
+      "stage": "reextract",
+      "outcome": "extractor_upgraded",
+      "by": "tooling/scripts/extract.py --reextract",
+      "at": "2026-04-29T19:26:17Z",
+      "reason": "Re-extracted with ocr (was failed). source.md replaced; lifecycle state preserved."
     }
   ],
-  "pages": 0,
-  "extraction_failed": true
+  "pages": 12
 }

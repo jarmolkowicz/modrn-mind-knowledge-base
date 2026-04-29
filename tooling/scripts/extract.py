@@ -140,6 +140,71 @@ def extract_pdf_pdfplumber(path: Path) -> tuple[str, dict]:
     return body, {"pages": page_count}
 
 
+def _find_tesseract_cmd() -> str | None:
+    """Locate tesseract.exe on Windows even when not on PATH (winget installs
+    don't always update the parent shell's PATH). Returns None if found via
+    PATH or if not found at all (let pytesseract handle it)."""
+    import os
+    import shutil
+
+    if shutil.which("tesseract"):
+        return None  # PATH lookup will work
+    if os.name != "nt":
+        return None
+    candidates = [
+        Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe"),
+        Path(os.environ.get("LOCALAPPDATA", "")) / "Programs" / "Tesseract-OCR" / "tesseract.exe",
+        Path(r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"),
+    ]
+    for c in candidates:
+        if c.exists():
+            return str(c)
+    return None
+
+
+def _find_poppler_path() -> str | None:
+    """Locate Poppler's bin dir on Windows. Returns None if not found or on
+    POSIX (where Poppler is on PATH via package manager)."""
+    import os
+
+    if os.name != "nt":
+        return None
+    winget_pkgs = Path(os.environ.get("LOCALAPPDATA", "")) / "Microsoft" / "WinGet" / "Packages"
+    if winget_pkgs.exists():
+        for pkg in winget_pkgs.glob("oschwartz10612.Poppler_*"):
+            for bin_dir in pkg.glob("poppler-*/Library/bin"):
+                if (bin_dir / "pdftoppm.exe").exists():
+                    return str(bin_dir)
+    scoop = Path(os.environ.get("USERPROFILE", "")) / "scoop" / "apps" / "poppler" / "current" / "Library" / "bin"
+    if (scoop / "pdftoppm.exe").exists():
+        return str(scoop)
+    return None
+
+
+def extract_pdf_ocr(path: Path) -> tuple[str, dict]:
+    """Last-resort PDF extractor for scanned image PDFs. Renders each page to
+    an image with pdf2image (Poppler) and runs tesseract OCR via pytesseract.
+    Requires the `tesseract` and Poppler binaries plus the `ocr` extras
+    installed (`uv sync --extra ocr`). On Windows, auto-detects winget-style
+    install paths when PATH isn't set.
+    """
+    from pdf2image import convert_from_path
+    import pytesseract
+
+    tess_cmd = _find_tesseract_cmd()
+    if tess_cmd:
+        pytesseract.pytesseract.tesseract_cmd = tess_cmd
+
+    poppler_path = _find_poppler_path()
+    images = convert_from_path(str(path), poppler_path=poppler_path)
+    pages: list[str] = []
+    for i, img in enumerate(images, start=1):
+        text = pytesseract.image_to_string(img).strip()
+        pages.append(f"\n\n[p.{i}]\n\n{text}")
+    body = "\n".join(pages).strip()
+    return body, {"pages": len(images)}
+
+
 def extract_pdf_opendataloader(path: Path) -> tuple[str, dict]:
     """Primary PDF extractor when Java is available. Preserves bounding
     boxes, page numbers, heading hierarchy, element types via the
@@ -245,6 +310,7 @@ EXTRACTOR_CHAIN: dict[str, list[tuple[str, Callable[[Path], tuple[str, dict]]]]]
         ("opendataloader-pdf", extract_pdf_opendataloader),
         ("pypdf", extract_pdf_pypdf),
         ("pdfplumber", extract_pdf_pdfplumber),
+        ("ocr", extract_pdf_ocr),
     ],
     "docx": [("python-docx", extract_docx)],
     "epub": [("ebooklib", extract_epub)],
