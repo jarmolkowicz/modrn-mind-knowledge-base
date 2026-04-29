@@ -7,15 +7,30 @@
   "hash": "b4d260d2170e2ffe2a57b9fb1daf59e98ac7c188e5313832aea5eeeeffc0d1b2",
   "extractor": "opendataloader-pdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "integrated",
   "ingested_at": "2026-04-29T09:08:18Z",
   "decisions": [
     {
-      "stage": "reextract",
-      "outcome": "extractor_upgraded",
-      "by": "tooling/scripts/extract.py --reextract",
-      "at": "2026-04-29T10:49:21Z",
-      "reason": "Re-extracted with opendataloader-pdf (was pypdf). source.md replaced; lifecycle state preserved."
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "validated",
+      "outcome": "READY",
+      "date": "2026-04-29",
+      "reason": "Stage 4.5 caught broken wikilink hancock-mediated-comm-2020, fixed pre-integrate."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29",
+      "reason": "sources/boyd-markowitz-human-connection-2026.md + methods/mira-model.md created."
     }
   ],
   "pages": 29
