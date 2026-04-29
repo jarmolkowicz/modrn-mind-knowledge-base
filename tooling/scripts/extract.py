@@ -61,8 +61,9 @@ def detect_format(path: Path) -> str:
 
 def slugify(name: str) -> str:
     """Turn a filename like 'Cheng et al. (2026) - Sycophantic AI.pdf' into
-    'cheng-et-al-2026-sycophantic-ai'. Non-rigorous; the librarian may
-    rename to a canonical author-keyword-year stem at integration time."""
+    'cheng-et-al-2026-sycophantic-ai'. Non-rigorous fallback used as Tier 3
+    when derive_canonical_slug can't produce a cleaner author-keyword-year
+    stem from filename or PDF content."""
     stem = Path(name).stem
     # Remove parentheses contents but keep year if present
     stem = re.sub(r"\((\d{4})\)", r"\1", stem)
@@ -74,6 +75,226 @@ def slugify(name: str) -> str:
     stem = re.sub(r"[^a-z0-9-]+", "-", stem)
     stem = re.sub(r"-+", "-", stem).strip("-")
     return stem
+
+
+# -------- Canonical slug derivation (three tiers) --------
+
+# Stopwords excluded from keyword extraction. Common English + a few academic
+# filler words. Kept short so the tail of a title still has signal.
+_TITLE_STOPWORDS = frozenset({
+    "a", "an", "and", "as", "at", "be", "but", "by", "do", "for", "from",
+    "how", "if", "in", "into", "is", "it", "its", "of", "on", "or", "so",
+    "that", "the", "their", "this", "to", "was", "were", "when", "which",
+    "with", "without", "you", "your", "are", "we", "our", "us",
+    "ai", "artificial", "intelligence", "study", "studies", "evidence",
+    "based", "using", "use", "uses", "used", "via", "between", "among",
+    "across", "new", "first", "preregistered", "experiment", "experimental",
+    "analysis", "investigation", "field", "results",
+    "et", "al",
+    "human", "humans",  # too generic for KB-scope titles
+})
+
+
+def _extract_keyword(text: str, *, want: int = 2) -> str:
+    """Pick `want` content-words from `text` and join them with hyphens.
+
+    Heuristic: lowercase, strip punctuation, drop stopwords, keep words
+    in original order, pick the first `want` distinct words. If `text` is
+    empty after filtering, returns "" so the caller can fall back."""
+    if not text:
+        return ""
+    # Normalize: split on non-letter chars
+    words = [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z'-]*", text)]
+    picked: list[str] = []
+    seen: set[str] = set()
+    for w in words:
+        if w in _TITLE_STOPWORDS or w in seen or len(w) < 3:
+            continue
+        seen.add(w)
+        picked.append(w)
+        if len(picked) >= want:
+            break
+    return "-".join(picked)
+
+
+# Filename like "Cheng et al. (2026) - Sycophantic AI..." or "Bastani (2025) - Title"
+_FILENAME_AUTHOR_YEAR_RE = re.compile(
+    r"""^(?P<author>[A-Z][A-Za-z'\-]+(?:\s*(?:&|and)\s*[A-Z][A-Za-z'\-]+)?(?:\s+et\s+al\.?)?)
+        \s*\(?(?P<year>(?:19|20)\d{2})\)?\s*[-–—.,]?\s*(?P<rest>.*)$""",
+    re.VERBOSE,
+)
+
+
+def _slug_from_filename(filename: str, source_type: str) -> str | None:
+    """Tier 1: parse filename for "Author (Year) - Title" pattern."""
+    stem = Path(filename).stem
+    m = _FILENAME_AUTHOR_YEAR_RE.match(stem)
+    if not m:
+        return None
+    author = m.group("author")
+    year = m.group("year")
+    rest = (m.group("rest") or "").strip(" -.,")
+    # Normalize author: strip "et al", lowercase, replace & or "and" with "-"
+    author = re.sub(r"\s+et\s+al\.?", "", author, flags=re.IGNORECASE).strip()
+    author = re.sub(r"\s*(?:&|and)\s*", "-", author, flags=re.IGNORECASE)
+    author = re.sub(r"\s+", "-", author).lower()
+    author = re.sub(r"[^a-z\-]", "", author).strip("-")
+    if not author:
+        return None
+    keyword = _extract_keyword(rest, want=2)
+    if not keyword:
+        return None
+    return f"{author}-{keyword}-{year}"
+
+
+# First-page heuristics for cryptic filenames.
+_AUTHOR_BLOCK_RE = re.compile(
+    r"^([A-Z][A-Za-zÀ-ž'\-]+(?:[\s,]+(?:[A-Z]\.?\s*)+[A-Z][A-Za-zÀ-ž'\-]+)*)",
+    re.MULTILINE,
+)
+
+
+def _first_page(body: str) -> str:
+    """Return the [p.1] segment of an extracted source.md, or first 3000
+    chars if no page markers exist."""
+    m = re.search(r"\[p\.1\](.*?)(?=\[p\.2\]|\Z)", body, re.DOTALL)
+    if m:
+        return m.group(1)
+    return body[:3000]
+
+
+def _slug_from_content(
+    filename: str, first_page: str, source_type: str
+) -> str | None:
+    """Tier 2: derive slug from PDF first-page content, type-aware.
+
+    Templates per source_type:
+    - paper / article: <author-surname>-<keyword>-<year>
+    - report (named org): <org-or-author>-<topic>-<year>
+    - book: <author>-<title-keyword>-<year>
+    - transcript: <speaker>-<topic>-<year>
+    """
+    if not first_page:
+        return None
+
+    # Year: grab the most-frequent (19|20)YY in the first page; tie-break to
+    # the last one (publication year tends to come after received/accepted).
+    years = re.findall(r"\b(?:19|20)\d{2}\b", first_page)
+    if not years:
+        return None
+    year = max(set(years), key=lambda y: (years.count(y), years[::-1].index(y)))
+
+    # Author/byline: try lines near the top that look like name lists.
+    # Two byline formats are common in academic papers:
+    #   (A) "Surname, F. M., Surname, F. M., ..."  — surname-first, comma-separated
+    #   (B) "FirstName MiddleName Surname, FirstName Surname, ..."  — given-name-first
+    # We try (A) first by looking for "Word, X." patterns; if that fails, fall
+    # back to (B) and pick the LAST capitalized word of the first author's name
+    # (which is the surname under that convention).
+    lines = [ln.strip() for ln in first_page.splitlines() if ln.strip()]
+    author_token: str | None = None
+    skip_words = {"the", "this", "that", "abstract", "introduction", "downloaded",
+                  "received", "accepted", "published", "fig", "figure", "table"}
+    for line in lines[:25]:
+        if len(line) > 200:
+            continue
+        if re.search(r"@|http|doi:|arxiv:|©|abstract|received|accepted", line, re.IGNORECASE):
+            continue
+        # Format A: "Surname, F." or "Surname, F.M.,"
+        m = re.match(
+            r"^([A-Z][A-Za-zÀ-ž'\-]{2,}),\s+[A-Z]\.",
+            line,
+        )
+        if m:
+            candidate = m.group(1).lower()
+            if candidate not in skip_words:
+                author_token = candidate
+                break
+        # Format B: "FirstName [Middle ...] Surname" — pick the last token of
+        # the first author. Stop at first comma/&/and to isolate first author.
+        m = re.match(
+            r"^([A-Z][A-Za-zÀ-ž'\-]+(?:\s+[A-Z][A-Za-zÀ-ž'\-]+){1,3})(?:\s*,|\s+&|\s+and\b|$)",
+            line,
+        )
+        if m:
+            first_author = m.group(1).strip()
+            # Last word is the surname
+            surname = first_author.split()[-1].lower()
+            if surname not in skip_words and len(surname) >= 3:
+                author_token = surname
+                break
+
+    # For institutional reports without a clear author, try to recognize the
+    # publishing org from the first lines or filename.
+    org_token: str | None = None
+    fn_lower = filename.lower()
+    org_hints = [
+        ("pew", "pew research"),
+        ("worldbank", "world bank"),
+        ("oecd", "oecd"),
+        ("wef", "world economic forum"),
+        ("imf", "imf"),
+        ("iea", "international energy"),
+        ("anthropic", "anthropic"),
+        ("openai", "openai"),
+        ("google", "google"),
+        ("microsoft", "microsoft"),
+        ("deloitte", "deloitte"),
+        ("pwc", "pwc"),
+        ("ey", "ernst & young"),
+        ("kpmg", "kpmg"),
+    ]
+    for tok, marker in org_hints:
+        if marker in fn_lower or marker in first_page.lower()[:1000]:
+            org_token = tok
+            break
+
+    # Title / topic keyword: take the first big-looking line (heuristic: not
+    # all caps, not too short, not the author block itself)
+    title_line = ""
+    for line in lines[:15]:
+        if author_token and author_token in line.lower():
+            continue
+        if len(line) < 12 or len(line) > 250:
+            continue
+        if line.isupper():
+            continue
+        if re.search(r"@|http|doi:|arxiv:|©|abstract|introduction|received|accepted|keyword", line, re.IGNORECASE):
+            continue
+        title_line = line
+        break
+    keyword = _extract_keyword(title_line, want=2)
+
+    # Type-specific assembly
+    if source_type == "report" and org_token:
+        # Reports prefer org-prefix when the org is named
+        if not keyword:
+            keyword = _extract_keyword(Path(filename).stem, want=2) or "report"
+        return f"{org_token}-{keyword}-{year}"
+
+    if author_token and keyword:
+        return f"{author_token}-{keyword}-{year}"
+
+    return None
+
+
+def derive_canonical_slug(
+    filename: str,
+    first_page: str,
+    source_type: str,
+) -> str:
+    """Three-tier slug derivation. Always returns a non-empty slug.
+
+    Tier 1: filename parses cleanly as "Author (Year) - Title"
+    Tier 2: PDF first page yields author + year + title keyword (type-aware)
+    Tier 3: fall back to slugify(filename) — produces an ugly but
+            functional slug for truly anonymous / non-English sources
+    """
+    return (
+        _slug_from_filename(filename, source_type)
+        or _slug_from_content(filename, first_page, source_type)
+        or slugify(filename)
+    )
 
 
 def heuristic_source_type(filename: str, format: str, first_chars: str) -> str:
@@ -427,29 +648,32 @@ def main() -> int:
         return 2
 
     fmt = detect_format(src)
-    slug = args.slug or slugify(src.name)
 
+    # 1. Run extraction first (against the source path; no copy yet) so we
+    #    can use the extracted content to derive a canonical slug.
+    extractor_used, body, extra_meta = run_extractor_chain(fmt, src, args.extractor)
+
+    # 2. Detect source_type and derive slug (filename → content → fallback).
+    word_count = len(re.findall(r"\b\w+\b", body))
+    first_chars = body[:2000]
+    src_type = heuristic_source_type(src.name, fmt, first_chars)
+    slug = args.slug or derive_canonical_slug(src.name, _first_page(body), src_type)
+
+    # 3. Create the workbench dir
     out_dir = (args.kb_root / "raw" / slug).resolve()
     if out_dir.exists() and not args.force:
         print(f"error: {out_dir} already exists (use --force to overwrite, or --reextract to upgrade in place)", file=sys.stderr)
         return 3
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # 1. Copy original
+    # 4. Copy original into the workbench
     original = out_dir / f"original{src.suffix.lower()}"
     shutil.copy2(src, original)
 
-    # 2. Run extraction
-    extractor_used, body, extra_meta = run_extractor_chain(fmt, original, args.extractor)
-
-    # 3. Write source.md
+    # 5. Write source.md
     (out_dir / "source.md").write_text(body, encoding="utf-8")
 
-    # 4. Write source.json
-    word_count = len(re.findall(r"\b\w+\b", body))
-    first_chars = body[:2000]
-    src_type = heuristic_source_type(src.name, fmt, first_chars)
-    now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # 6. Write source.json
     meta = {
         "slug": slug,
         "original_filename": src.name,
