@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Ahmad & Arshad (2025, Research Journal of Psychology Pakistan). AI dependency + academic self-efficacy + impostor phenomenon. Theme well-covered; redundant. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

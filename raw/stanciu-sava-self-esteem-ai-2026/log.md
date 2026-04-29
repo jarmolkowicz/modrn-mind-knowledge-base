@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Stanciu & Sava (2026, New Trends in Psychology — Romanian journal). Self-esteem and AI in academic settings. Redundant with self-efficacy cluster. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

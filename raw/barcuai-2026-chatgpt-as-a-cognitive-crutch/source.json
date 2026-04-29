@@ -7,7 +7,7 @@
   "hash": "97cdddfbd655d319e5c3c1e05daf99245df7520a3bca2c89227fdb87ed0d44a5",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:37Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Barcaui (2026, Heliyon) — RCT on ChatGPT as cognitive crutch + knowledge retention. Same finding shape as Liu (2026) and Bastani (2025) which are stronger and now in KB. Skip in favor of those."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Barcaui (2026, Heliyon) — RCT on ChatGPT crutch behavior + knowledge retention. Brazilian-context replication of the same finding shape as Liu and Bastani; corroborating evidence at different population. Defer."
     }
   ],
   "pages": 13

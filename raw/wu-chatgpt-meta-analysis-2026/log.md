@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Wu et al. (2026) meta-analysis of 35 ChatGPT-on-learning studies. Same topic as Deng; superseded by Bartos meta-meta-analysis. Skip in favor of meta-meta.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

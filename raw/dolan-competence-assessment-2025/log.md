@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:15:00Z — triaged: SKIP
 - PsyPost news article summarizing an underlying primary study (likely Yakura et al. or similar). Not the primary source itself; the underlying paper should be ingested separately if accessible.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

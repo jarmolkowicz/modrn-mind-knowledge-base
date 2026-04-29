@@ -7,7 +7,7 @@
   "hash": "92853aff1588e5fa58a2f0f78e793542c8b26326feedbb7727fa41f4078f8899",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:44Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Zhang et al. (2024). AI dependency + self-efficacy + academic stress. Redundant with self-efficacy cluster. Skip."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Zhang et al. (2024) — AI dependency + self-efficacy + academic stress. Defer for corroboration."
     }
   ],
   "pages": 14

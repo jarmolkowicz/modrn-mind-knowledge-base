@@ -7,7 +7,7 @@
   "hash": "dc9fe03d5924eeeb681460f64b43d631f072216258808423aefef16b7226dffa",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:12Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Jia, Pan & Neary (2025). GenAI dependency + self-efficacy moderation in Chinese university students. Same family as ahmad/arif/zhang/kim-lee — diminishing marginal value in KB. Skip."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Jia, Pan & Neary (2025) — Chinese university students; GenAI dependency + self-efficacy moderation + perceived teacher caring. Chinese-context evidence + caring-relationship moderator. Defer for corroboration."
     }
   ],
   "pages": 20

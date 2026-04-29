@@ -7,7 +7,7 @@
   "hash": "f91030feb6c60fcf3c3f1cc5e5648dda95bbe84a70099d49be6294e98aa92aba",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:52Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Domingo (2025, Asian Journal of English Language Studies). Niche: AI tools and ESL student impostor syndrome in Philippines. Tangential to KB's broader human-thinking focus. Skip."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Domingo (2025, AJELS) — Filipino ESL students + AI tools + impostor syndrome. Population-specific evidence (ESL learners) that may add cultural/educational context. Defer for corroboration."
     }
   ],
   "pages": 28

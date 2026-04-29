@@ -7,7 +7,7 @@
   "hash": "3672fb2934b11cbc5e7569e993a94a55da9ba766e5f4d0a43e6c681012170846",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:51Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "PsyPost news article summarizing an underlying primary study (likely Yakura et al. or similar). Not the primary source itself; the underlying paper should be ingested separately if accessible."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Re-promoted to DEFER. PsyPost article summarizes a primary study: Fernandes, Villa, Nicholls, Haavisto, Buschek, Schmidt, Kosch, Shen & Welsch — 'AI makes you smarter but none the wiser: The disconnect between performance and metacognition' in Computers in Human Behavior. ACTION ITEM: download the primary Fernandes et al. paper and ingest THAT instead of (or in addition to) this PsyPost summary. The primary covers: 2 studies including N=452 replication, AI use flattens Dunning-Kruger, AI literacy correlates with MORE overconfidence (counterintuitive), monetary incentives don't correct overestimation, AUC metacognitive sensitivity reduced. High-priority primary source for the KB's confidence-competence-gap and metacognition cluster."
     }
   ],
   "pages": 8

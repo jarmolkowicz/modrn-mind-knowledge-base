@@ -7,7 +7,7 @@
   "hash": "c5660b864be8debd3e81f5397b7d581561cb291b912457c932aa62aa5e8d9b64",
   "extractor": "copy",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:53Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Internal book-project meta-summary of Anthropic's Economic Index + Education Report. Not an original research source — it's a synthesis FOR a forthcoming book. The underlying Anthropic studies (Handa et al. 2025, Education Report 2025) should be ingested as separate primary sources if not already present."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Re-promoted to DEFER. The summary itself contains rich KB-relevant synthesized data (concern percentages, light-and-shade tensions, regional variation, user quotes) that have value as a secondary source. Underlying primary materials: (a) Handa et al. (Anthropic 2025) - already in raw/handa-economic-tasks-claude-2025/ DEFER; (b) Anthropic 81K Interviews (https://www.anthropic.com/features/81k-interviews) - feature page, no formal paper; (c) possibly an Anthropic Education Report. Recommend: ingest the 81K Interviews feature-page content as a primary source if accessible; ingest Handa from existing workbench; selectively integrate this summary as additional reference."
     }
   ],
   "lines": 175

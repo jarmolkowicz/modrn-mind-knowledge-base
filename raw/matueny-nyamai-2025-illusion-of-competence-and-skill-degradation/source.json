@@ -7,7 +7,7 @@
   "hash": "569335421be9e12fc11b142d74ab59d23fecd954ed60a511a3d01f6e3d4d9447",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:19Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Matueny & Nyamai (2025) — 'Illusion of competence and skill degradation in AI dependency'. Low-tier journal; theme already well-covered by KB's confidence-competence-gap, capacity-erosion, illusion-of-competence entries (He et al. 2023, Keshky 2026, Bo 2026). Skip."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Matueny & Nyamai (2025) — illusion of competence + skill degradation in AI dependency. Defer for selective integration as corroborating evidence to existing he-illusion-competence / keshky / bo-sycophancy cluster."
     }
   ],
   "pages": 20

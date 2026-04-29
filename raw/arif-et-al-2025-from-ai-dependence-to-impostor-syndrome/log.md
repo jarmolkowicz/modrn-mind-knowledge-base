@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Arif et al. (2025, Journal of Media Horizons). AI dependence → impostor syndrome with fear-of-negative-evaluation mediator. Same theme cluster as Ahmad-Arshad; low-tier journal. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

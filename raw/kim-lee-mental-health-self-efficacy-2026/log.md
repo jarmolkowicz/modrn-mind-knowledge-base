@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Kim & Lee (2026) — AI adoption + mental health implications + self-efficacy mediation. Self-efficacy theme already well-anchored by Han, Lee-relying, Alessandro. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

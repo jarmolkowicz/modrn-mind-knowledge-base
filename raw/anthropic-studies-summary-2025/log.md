@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:15:00Z — triaged: SKIP
 - Internal book-project meta-summary of Anthropic's Economic Index + Education Report. Not an original research source — it's a synthesis FOR a forthcoming book. The underlying Anthropic studies (Handa et al. 2025, Education Report 2025) should be ingested as separate primary sources if not already present.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

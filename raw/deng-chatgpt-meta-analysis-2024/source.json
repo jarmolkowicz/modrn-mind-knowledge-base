@@ -7,7 +7,7 @@
   "hash": "64119ef1547576e10878d8ffa4d06fac6151f0c7b3388e4c30d4e77becacd4cf",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:27Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Deng et al. (2024) meta-analysis on ChatGPT and student learning. Bartos et al. (2026) meta-meta-analysis covers this layer; defer in favor of the higher-aggregation source."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Deng et al. (2024) — meta-analysis of ChatGPT and student learning. Even though Bartos (2026) provides a meta-meta layer, this meta-analysis remains valuable as primary aggregation evidence at its own layer. Defer for selective integration."
     }
   ],
   "pages": 35

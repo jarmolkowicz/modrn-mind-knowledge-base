@@ -10,3 +10,8 @@ Reason: Domingo (2025, Asian Journal of English Language Studies). Niche: AI too
 - **Outcome**: SKIP
 - **Date**: 2026-04-29
 - **Reason**: Domingo (2025, Asian Journal of English Language Studies). Niche: AI tools and ESL student impostor syndrome in Philippines. Tangential to KB's broader human-thinking focus. Skip.
+
+
+## Revision (2026-04-30): SKIP → DEFER
+
+Domingo (2025, AJELS) — Filipino ESL students + AI tools + impostor syndrome. Population-specific evidence (ESL learners) that may add cultural/educational context. Defer for corroboration.

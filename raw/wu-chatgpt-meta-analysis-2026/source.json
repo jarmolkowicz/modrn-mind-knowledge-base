@@ -7,7 +7,7 @@
   "hash": "394c4f376ccd80fd87f6ecb561ed671bb2366afef032916b09a3669c76d1c00d",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "skipped",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:33Z",
   "decisions": [
     {
@@ -15,6 +15,12 @@
       "outcome": "SKIP",
       "date": "2026-04-29",
       "reason": "Wu et al. (2026) meta-analysis of 35 ChatGPT-on-learning studies. Same topic as Deng; superseded by Bartos meta-meta-analysis. Skip in favor of meta-meta."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "DEFER",
+      "date": "2026-04-30",
+      "reason": "Re-promoted from SKIP to DEFER per user feedback (corroborating sources strengthen the KB). Wu et al. (2026) — meta-analysis of 35 ChatGPT-on-learning experiments. Same reasoning as Deng: corroborates the layer below Bartos meta-meta. Defer for selective integration."
     }
   ],
   "pages": 68

@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Jia, Pan & Neary (2025). GenAI dependency + self-efficacy moderation in Chinese university students. Same family as ahmad/arif/zhang/kim-lee — diminishing marginal value in KB. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.

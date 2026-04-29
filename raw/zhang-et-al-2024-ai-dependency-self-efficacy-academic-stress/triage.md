@@ -10,3 +10,8 @@ Reason: Zhang et al. (2024). AI dependency + self-efficacy + academic stress. Re
 - **Outcome**: SKIP
 - **Date**: 2026-04-29
 - **Reason**: Zhang et al. (2024). AI dependency + self-efficacy + academic stress. Redundant with self-efficacy cluster. Skip.
+
+
+## Revision (2026-04-30): SKIP → DEFER
+
+Zhang et al. (2024) — AI dependency + self-efficacy + academic stress. Defer for corroboration.

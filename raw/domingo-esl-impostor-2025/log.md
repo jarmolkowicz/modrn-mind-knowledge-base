@@ -8,3 +8,6 @@
 
 ## 2026-04-29T22:45:00Z — triaged: SKIP
 - Domingo (2025, Asian Journal of English Language Studies). Niche: AI tools and ESL student impostor syndrome in Philippines. Tangential to KB's broader human-thinking focus. Skip.
+
+## 2026-04-30T08:00:00Z - triage revised: skipped -> deferred
+- Per user feedback: don't SKIP for redundancy; corroborating sources strengthen the KB.
