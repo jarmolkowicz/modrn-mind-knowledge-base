@@ -253,20 +253,6 @@ def summarize(entry: Entry, body_chars: int = 500) -> dict:
     }
 
 
-def format_for_prompt(entries: list[Entry], body_chars: int = 500) -> str:
-    """Format a list of entries as a text block suitable for a system prompt."""
-    if not entries:
-        return "(no closely related existing entries found)"
-    parts: list[str] = []
-    for e in entries:
-        s = summarize(e, body_chars=body_chars)
-        header = f"### {s['stem']}  ({s['type']}, status={s['status'] or '?'})"
-        if s["area"]:
-            header += f", area={','.join(s['area'])}"
-        parts.append(f"{header}\n{s['snippet']}")
-    return "\n\n".join(parts)
-
-
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
