@@ -7,8 +7,15 @@
   "hash": "6ee63710591b933725618ea3d8877133853ff7a0dd47554c90c733bef3e94fac",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:41Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Vendrell & Johnston (2026, CAEAI Journal pre-proof) — scaffolding critical thinking with GenAI; design principles. Practitioner-oriented; defer for later inclusion if prescriptive method coverage needs filling."
+    }
+  ],
   "pages": 28
 }

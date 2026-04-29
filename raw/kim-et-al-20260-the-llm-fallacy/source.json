@@ -7,8 +7,15 @@
   "hash": "1098f9765baa495578661c7eb8e0a73a497160aedbf1de367b1417cb0852f04a",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:14Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Kim et al. (2026, ddai Inc.) — 'The LLM Fallacy: Misattribution in AI-assisted cognitive workflows'. Small commercial-ish paper; weak venue; theme overlaps existing attribution-error material. Skip."
+    }
+  ],
   "pages": 13
 }

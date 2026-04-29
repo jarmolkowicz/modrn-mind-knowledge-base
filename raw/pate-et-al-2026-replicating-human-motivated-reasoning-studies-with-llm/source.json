@@ -7,8 +7,15 @@
   "hash": "afbd24ef998a5ecbc13554686302460a7ee83c20d6a37e65f1d917e7b38c3f9f",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:27Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Pate et al. (2026) — replicating motivated reasoning studies WITH LLMs (LLMs as participants/proxies, not subjects). Methodological paper for cognitive science research; tangential to human-AI interaction direct. Defer."
+    }
+  ],
   "pages": 24
 }

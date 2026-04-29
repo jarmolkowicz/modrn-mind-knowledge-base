@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 28})
 - Word count: 13181
 - Heuristic source_type: paper
+
+## 2026-04-29T22:45:00Z — triaged: SKIP
+- Domingo (2025, Asian Journal of English Language Studies). Niche: AI tools and ESL student impostor syndrome in Philippines. Tangential to KB's broader human-thinking focus. Skip.

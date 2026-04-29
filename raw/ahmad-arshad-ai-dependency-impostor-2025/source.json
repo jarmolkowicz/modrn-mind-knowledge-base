@@ -7,8 +7,15 @@
   "hash": "7c3649c3642436bc55ed3e9c3e2679d118cecaf48b2fb9912bb0012ade5762d6",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:33Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Ahmad & Arshad (2025, Research Journal of Psychology Pakistan). AI dependency + academic self-efficacy + impostor phenomenon. Theme well-covered; redundant. Skip."
+    }
+  ],
   "pages": 21
 }

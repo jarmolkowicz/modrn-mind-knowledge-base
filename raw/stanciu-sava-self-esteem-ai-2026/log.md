@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 7})
 - Word count: 1989
 - Heuristic source_type: paper
+
+## 2026-04-29T22:45:00Z — triaged: SKIP
+- Stanciu & Sava (2026, New Trends in Psychology — Romanian journal). Self-esteem and AI in academic settings. Redundant with self-efficacy cluster. Skip.

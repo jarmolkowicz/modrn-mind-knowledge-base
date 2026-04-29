@@ -7,8 +7,15 @@
   "hash": "ec8e8fe579055a47a8e2a75e9bef71037f8b793c2014e57eed8328c3d82a3a34",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:35Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Arif et al. (2025, Journal of Media Horizons). AI dependence → impostor syndrome with fear-of-negative-evaluation mediator. Same theme cluster as Ahmad-Arshad; low-tier journal. Skip."
+    }
+  ],
   "pages": 9
 }

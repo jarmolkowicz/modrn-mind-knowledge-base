@@ -7,8 +7,15 @@
   "hash": "f91030feb6c60fcf3c3f1cc5e5648dda95bbe84a70099d49be6294e98aa92aba",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:52Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Domingo (2025, Asian Journal of English Language Studies). Niche: AI tools and ESL student impostor syndrome in Philippines. Tangential to KB's broader human-thinking focus. Skip."
+    }
+  ],
   "pages": 28
 }

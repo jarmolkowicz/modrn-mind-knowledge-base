@@ -7,8 +7,15 @@
   "hash": "f884f31f492294f3f44df6541de3dc4a98d927ec5cb882874864569424e03fa5",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:13Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Kim & Lee (2026) — AI adoption + mental health implications + self-efficacy mediation. Self-efficacy theme already well-anchored by Han, Lee-relying, Alessandro. Skip."
+    }
+  ],
   "pages": 15
 }

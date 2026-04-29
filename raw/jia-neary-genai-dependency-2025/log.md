@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 20})
 - Word count: 11328
 - Heuristic source_type: paper
+
+## 2026-04-29T22:45:00Z — triaged: SKIP
+- Jia, Pan & Neary (2025). GenAI dependency + self-efficacy moderation in Chinese university students. Same family as ahmad/arif/zhang/kim-lee — diminishing marginal value in KB. Skip.

@@ -7,8 +7,15 @@
   "hash": "d63b3da63a77138366cd0fcad1dbb19a90c4dfb62f59cfe0fb76fee8b8231755",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:36Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Shukla et al. (2026) — work-in-progress paper on de-skilling in AI-assisted design (CHI EA?). Theme well-covered; preliminary. Skip."
+    }
+  ],
   "pages": 8
 }

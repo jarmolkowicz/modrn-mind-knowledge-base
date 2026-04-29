@@ -7,8 +7,15 @@
   "hash": "dc43347a2daf0f43113657146fb2f8616676b9b7510ce6e6fbc35fa9757630b7",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:03Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Hruschka & Appel (2026, accepted manuscript) — AI conversations to reduce political polarization. Specific to political-polarization domain; KB scope question. Defer."
+    }
+  ],
   "pages": 46
 }

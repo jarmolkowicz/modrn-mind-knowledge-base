@@ -1,0 +1,12 @@
+# Triage: arif-et-al-2025-from-ai-dependence-to-impostor-syndrome
+
+## Recommendation
+**SKIP**
+
+Reason: Arif et al. (2025, Journal of Media Horizons). AI dependence → impostor syndrome with fear-of-negative-evaluation mediator. Same theme cluster as Ahmad-Arshad; low-tier journal. Skip.
+
+## Decision
+
+- **Outcome**: SKIP
+- **Date**: 2026-04-29
+- **Reason**: Arif et al. (2025, Journal of Media Horizons). AI dependence → impostor syndrome with fear-of-negative-evaluation mediator. Same theme cluster as Ahmad-Arshad; low-tier journal. Skip.

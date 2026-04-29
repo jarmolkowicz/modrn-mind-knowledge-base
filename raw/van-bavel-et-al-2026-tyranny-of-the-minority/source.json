@@ -7,8 +7,15 @@
   "hash": "c0f41c5a7192961b9f0bc86786d31133ee16d8d9d6d4ca298e44320f8ae0e9c3",
   "extractor": "python-docx",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:40Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Van Bavel et al. (2026) — book review of DiResta's 'Invisible Rulers'. Review of secondary source; defer to evaluate against the original DiResta book separately."
+    }
+  ],
   "paragraphs": 65
 }

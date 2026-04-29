@@ -7,8 +7,15 @@
   "hash": "2137e2fbe0548d421a0917ee9a1a30e509c2fd9e85af80baadfd18d01abe7343",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:44Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Zindulka, Goller et al. (2025) — 'AI Memory Gap: users misremember what they created with AI or without'. Interesting empirical finding on attribution/memory. Defer to evaluate against existing memory-related entries."
+    }
+  ],
   "pages": 22
 }

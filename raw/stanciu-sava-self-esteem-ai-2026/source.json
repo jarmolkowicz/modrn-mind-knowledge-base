@@ -7,8 +7,15 @@
   "hash": "377a6ada5971f9683a1c18a9cf1f9cc19c86ed2e6c946f316c2822411c54061c",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:37Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Stanciu & Sava (2026, New Trends in Psychology — Romanian journal). Self-esteem and AI in academic settings. Redundant with self-efficacy cluster. Skip."
+    }
+  ],
   "pages": 7
 }

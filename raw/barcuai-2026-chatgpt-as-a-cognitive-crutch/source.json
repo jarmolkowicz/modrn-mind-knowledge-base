@@ -7,8 +7,15 @@
   "hash": "97cdddfbd655d319e5c3c1e05daf99245df7520a3bca2c89227fdb87ed0d44a5",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:37Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Barcaui (2026, Heliyon) — RCT on ChatGPT as cognitive crutch + knowledge retention. Same finding shape as Liu (2026) and Bastani (2025) which are stronger and now in KB. Skip in favor of those."
+    }
+  ],
   "pages": 13
 }

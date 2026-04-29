@@ -7,8 +7,15 @@
   "hash": "92853aff1588e5fa58a2f0f78e793542c8b26326feedbb7727fa41f4078f8899",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:44Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Zhang et al. (2024). AI dependency + self-efficacy + academic stress. Redundant with self-efficacy cluster. Skip."
+    }
+  ],
   "pages": 14
 }
