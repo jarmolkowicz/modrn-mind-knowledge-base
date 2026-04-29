@@ -1,0 +1,14 @@
+{
+  "slug": "cyfrowy-menedzer-2026",
+  "original_filename": "Cyfrowy-Menedzer-2026-.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 39218,
+  "hash": "9c3ac29815695f0601b0777bbbc9c73dc2a1e11e79e38e242edb554c31bae36c",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:45Z",
+  "decisions": [],
+  "pages": 104
+}

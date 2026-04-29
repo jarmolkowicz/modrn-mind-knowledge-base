@@ -1,0 +1,14 @@
+{
+  "slug": "hai-dark-side-collaboration-2025",
+  "original_filename": "Hai et al. (2025) - The dark side of employee-generative AI collaboration in the workplace.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12023,
+  "hash": "858afca94c6fce67e31fb7bc87177927b0e79e55674548689006485dc20d4505",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:58Z",
+  "decisions": [],
+  "pages": 11
+}

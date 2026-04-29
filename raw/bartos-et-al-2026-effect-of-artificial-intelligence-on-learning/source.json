@@ -1,0 +1,14 @@
+{
+  "slug": "bartos-et-al-2026-effect-of-artificial-intelligence-on-learning",
+  "original_filename": "Bartos et al. (2026) Effect of Artificial Intelligence on Learning.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12646,
+  "hash": "e718db0db420e75ae82314ae91a91707420dc06b94923ac57de97f2062ca5a58",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:38Z",
+  "decisions": [],
+  "pages": 43
+}

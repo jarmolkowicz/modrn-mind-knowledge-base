@@ -1,0 +1,14 @@
+{
+  "slug": "dolan-competence-assessment-2025",
+  "original_filename": "Dolan (2025) - Users of generative AI struggle to accurately assess their own competence.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 1979,
+  "hash": "3672fb2934b11cbc5e7569e993a94a55da9ba766e5f4d0a43e6c681012170846",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:51Z",
+  "decisions": [],
+  "pages": 8
+}

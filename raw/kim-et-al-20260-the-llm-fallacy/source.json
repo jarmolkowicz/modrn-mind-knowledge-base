@@ -1,0 +1,14 @@
+{
+  "slug": "kim-et-al-20260-the-llm-fallacy",
+  "original_filename": "Kim et al., (20260 - The LLM Fallacy.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 7145,
+  "hash": "1098f9765baa495578661c7eb8e0a73a497160aedbf1de367b1417cb0852f04a",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:14Z",
+  "decisions": [],
+  "pages": 13
+}

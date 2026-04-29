@@ -1,0 +1,14 @@
+{
+  "slug": "hbr-ai-brain-fry-2026",
+  "original_filename": "HBR (2026) - AI Brain Fry.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 3834,
+  "hash": "9af8d144fc58c0db532aa0b3529fa8077deef2f2a8c6007355bca20c05cb788c",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:00Z",
+  "decisions": [],
+  "pages": 15
+}

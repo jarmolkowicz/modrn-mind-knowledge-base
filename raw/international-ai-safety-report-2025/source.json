@@ -1,0 +1,14 @@
+{
+  "slug": "international-ai-safety-report-2025",
+  "original_filename": "International AI Safety Report.pdf",
+  "format": "pdf",
+  "source_type": "report",
+  "word_count": 126281,
+  "hash": "e2a35f439cafade360e4df4a2f91f217a16174bd1231f97e64f7208ffa93e225",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:11Z",
+  "decisions": [],
+  "pages": 220
+}

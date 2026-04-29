@@ -1,0 +1,14 @@
+{
+  "slug": "pew-ai-impact-2025",
+  "original_filename": "PS_2025.9.15_AI-and-its-impact_report.pdf",
+  "format": "pdf",
+  "source_type": "report",
+  "word_count": 10902,
+  "hash": "1283f1d9855d471dc181680064037b1172916bdde93d909f674b60d979712023",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:29Z",
+  "decisions": [],
+  "pages": 46
+}

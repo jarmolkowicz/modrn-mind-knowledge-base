@@ -1,0 +1,14 @@
+{
+  "slug": "liu-et-al-2026-ai-assistance-reduces-persistence",
+  "original_filename": "Liu et al. (2026) - AI Assistance Reduces Persistence.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12907,
+  "hash": "123655dba8fb03c3a2dde9c520fc928f0310f10fd7721680f8eb914ce3f62815",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:17Z",
+  "decisions": [],
+  "pages": 29
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "shao-et-al-2026-future-of-work-with-ai-agents",
+  "original_filename": "Shao et al. (2026) - Future of Work with AI Agents.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 19564,
+  "hash": "c5a455d77adf6ccb52dbe00aa1bf052217ce9826239719afd57b6dc0787a5f96",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:34Z",
+  "decisions": [],
+  "pages": 44
+}

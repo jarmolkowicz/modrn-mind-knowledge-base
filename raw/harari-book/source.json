@@ -1,0 +1,14 @@
+{
+  "slug": "harari-book",
+  "original_filename": "Harari book.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 2858,
+  "hash": "a16b7ac247f67f43a3b8b56810dbf38776d196cebd1cedc8b61a585ab4d9b79e",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:59Z",
+  "decisions": [],
+  "pages": 11
+}

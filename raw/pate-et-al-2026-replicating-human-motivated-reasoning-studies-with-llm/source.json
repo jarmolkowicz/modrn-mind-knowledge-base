@@ -1,0 +1,14 @@
+{
+  "slug": "pate-et-al-2026-replicating-human-motivated-reasoning-studies-with-llm",
+  "original_filename": "Pate et al. (2026) - Replicating Human Motivated Reasoning Studies with LLM.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 11636,
+  "hash": "afbd24ef998a5ecbc13554686302460a7ee83c20d6a37e65f1d917e7b38c3f9f",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:27Z",
+  "decisions": [],
+  "pages": 24
+}

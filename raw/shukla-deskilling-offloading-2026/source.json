@@ -1,0 +1,14 @@
+{
+  "slug": "shukla-deskilling-offloading-2026",
+  "original_filename": "Shukla et al. (2026) De-skilling, Cognitive Offloading, and Misplaced Responsibilities.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 6968,
+  "hash": "d63b3da63a77138366cd0fcad1dbb19a90c4dfb62f59cfe0fb76fee8b8231755",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:36Z",
+  "decisions": [],
+  "pages": 8
+}

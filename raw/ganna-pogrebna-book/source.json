@@ -1,0 +1,14 @@
+{
+  "slug": "ganna-pogrebna-book",
+  "original_filename": "Ganna Pogrebna Book.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 4158,
+  "hash": "b51f4a1ae81262effcf2794579fe939a8b836c9045e5caa91f288230f6832254",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:57Z",
+  "decisions": [],
+  "pages": 14
+}

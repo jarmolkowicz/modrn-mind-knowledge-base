@@ -1,0 +1,14 @@
+{
+  "slug": "draxler-et-al-2025-the-ai-ghostwriter-effect",
+  "original_filename": "Draxler et al. (2025) - The AI Ghostwriter Effect.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 18649,
+  "hash": "233f997e9de73d9819fbc49c2d97b3654e3b9557833d64cad904431eabd54503",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:53Z",
+  "decisions": [],
+  "pages": 40
+}

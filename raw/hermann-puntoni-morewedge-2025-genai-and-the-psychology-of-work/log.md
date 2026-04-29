@@ -1,0 +1,7 @@
+# Log: hermann-puntoni-morewedge-2025-genai-and-the-psychology-of-work
+
+## 2026-04-29T20:00:00Z — cataloged
+- Extractor: pypdf
+- Format: pdf ({'pages': 12})
+- Word count: 8982
+- Heuristic source_type: article

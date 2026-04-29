@@ -1,0 +1,14 @@
+{
+  "slug": "lee-relying-self-efficacy-2026",
+  "original_filename": "Lee at al. (2026) - Relying on AI at work reduces self-efficacy, ownership, and meaning.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 9050,
+  "hash": "8614f53f259629d405f80eafc34840521fe289e828534df7501d5948a6cf082d",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:15Z",
+  "decisions": [],
+  "pages": 24
+}

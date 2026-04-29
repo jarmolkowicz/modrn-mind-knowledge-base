@@ -1,0 +1,14 @@
+{
+  "slug": "amayreh-2025",
+  "original_filename": "Amayreh (2025).pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12230,
+  "hash": "2c739406f7b584d4edb07a873d80d5b9ea20e0bcc09c7d9f278bd34d158e6524",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T19:59:35Z",
+  "decisions": [],
+  "pages": 23
+}

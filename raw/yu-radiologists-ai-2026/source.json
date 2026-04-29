@@ -1,0 +1,14 @@
+{
+  "slug": "yu-radiologists-ai-2026",
+  "original_filename": "Yu et al. (2026) - Heterogeneity and predictors of the effects of AI assistance on radiologists.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 16056,
+  "hash": "0271f0af8690bdf742790b4cc78ab560699b956b76e93f735267710f5f4f4d7e",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "cataloged",
+  "ingested_at": "2026-04-29T20:00:43Z",
+  "decisions": [],
+  "pages": 27
+}
