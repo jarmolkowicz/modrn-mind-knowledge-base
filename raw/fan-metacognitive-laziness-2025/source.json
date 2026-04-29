@@ -7,8 +7,27 @@
   "hash": "be8299e7fb7ae744a3cee913bb2d5a23fa8242f6796242019be95911ef471a02",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "integrated",
   "ingested_at": "2026-04-29T19:59:40Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29",
+      "reason": "Relevance=HIGH, Quality=HIGH (peer-reviewed RCT). Resolves a missing-workbench reference: existing concept entry [[metacognitive-laziness]] cited Fan et al. without a source workbench."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29",
+      "reason": "Paper-branch produced 1 source distillation + 1 UPDATE proposal (metacognitive-laziness: emerging->solid + RCT details). No new concepts (the concept already exists; this paper is its origin source)."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29",
+      "reason": "sources/fan-metacognitive-laziness-2025.md created; concepts/metacognitive-laziness.md upgraded emerging->solid with empirical anchor, Fan definition, rubric-design observation, link to source distillation."
+    }
+  ],
   "pages": 42
 }

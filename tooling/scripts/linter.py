@@ -407,8 +407,11 @@ def check_distillation_quality(entries: dict[str, Entry]) -> list[Finding]:
             # ampersands, periods (initials), parens around the year, apostrophes
             # (e.g., Dell'Acqua), hyphens (e.g., Tesch-Romer), or interleaved letters
             # (multi-author "& Author").
+            # Unicode letter class via [^\W\d_] — Python 3's re is Unicode-aware
+            # by default, so this matches accented and non-Latin letters
+            # (e.g. Gašević, Müller, Józsa) while excluding digits and underscore.
             has_author_year = bool(
-                re.search(r"[A-Za-z]{3,}[\s,&.()'\-A-Za-z]*(19|20)\d{2}", src_str)
+                re.search(r"[^\W\d_]{3,}[\s,&.()'\-\w]*(19|20)\d{2}", src_str)
             )
             if not has_author_year:
                 findings.append(Finding(

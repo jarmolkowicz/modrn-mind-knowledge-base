@@ -1,10 +1,10 @@
 ---
-status: emerging
+status: solid
 area:
 - erosion
 - risk
 sources:
-- Fan et al. (2024)
+- Fan et al. (2025)
 - Wang & Lajoie (2023)
 ---
 
@@ -18,11 +18,17 @@ The tendency for AI's convenience to undermine learners' engagement in essential
 
 Metacognitive laziness is distinct from simply lacking metacognitive skill. It describes a situation where the capacity for self-regulation exists but goes unexercised because AI makes bypassing it the path of least resistance. This means the problem is not only about training metacognition — it is about designing environments that demand its use even when AI is present.
 
+Fan et al. (2025) provide the first RCT-grade empirical anchor. In a 4-arm randomised trial (N=117) comparing ChatGPT, human expert, writing-analytics checklist, and control, the AI group produced significantly higher essay scores than every other group (~2 points, all p<0.05) but showed no advantage on knowledge gain or knowledge transfer. Process-mining of self-regulated learning behaviour revealed the AI group's regulation was tightly entangled with ChatGPT prompts and showed *fewer* metacognitive transitions (orientation ↔ evaluation) than the human-expert group. This is performance/learning dissociation: AI users produced better outputs while learning less.
+
 ## Key Insight
 
 Self-regulated learning (planning, monitoring, revision) itself creates cognitive load (Wang & Lajoie 2023). When AI offers a cheaper path to task completion, learners rationally choose to offload these regulatory processes along with the task itself. The result is a double offloading: both the cognitive work and the metacognitive oversight of that work get delegated to AI.
 
-Fan et al. (2024) found this in a randomised study — AI convenience undermined engagement in SRL processes. Lodge & Loble (2026) note that simply adding SRL prompts failed when AI dominated the interaction (Darvishi et al. 2024); only integrated, non-optional metacognitive pauses successfully countered the effect.
+Fan et al. (2025) define metacognitive laziness as "learners' dependence on AI assistance, offloading metacognitive load and less effectively associating responsible metacognitive processes with learning tasks" — explicitly extending Risko & Gilbert's (2016) cognitive offloading from informational tasks to the metacognitive layer.
+
+A practical implication from the same study: ChatGPT's advantage was strongest on rubric-aligned scoring. The same property that makes AI useful for criterion-driven assessment is what enables metacognitive bypass — students discovered they could optimise the rubric via the AI without exercising the underlying skills. Assessment design that decouples performance from rubric-optimisability is a structural counter-measure.
+
+Lodge & Loble (2026) note that simply adding SRL prompts failed when AI dominated the interaction (Darvishi et al. 2024); only integrated, non-optional metacognitive pauses successfully countered the effect.
 
 ## Related
 
@@ -32,9 +38,10 @@ Fan et al. (2024) found this in a randomised study — AI convenience undermined
 - [[fluency-bias]] - AI fluency triggers the laziness
 - [[confidence-competence-gap]] - laziness widens the gap
 - [[desirable-difficulty]] - SRL effort is itself a desirable difficulty being bypassed
+- [[fan-metacognitive-laziness-2025]] - primary empirical source
 
 ## Sources
 
-- Fan et al. (2024)
+- [[fan-metacognitive-laziness-2025]] — Fan et al. (2025)
 - Wang & Lajoie (2023)
 
