@@ -10,6 +10,13 @@ OUTFILE="$OUTDIR/modern-mind-kb.md"
 
 mkdir -p "$OUTDIR"
 
+# Keep README counts in sync with current state before bundling. Best-effort —
+# if the python helper is unavailable (CI without uv, etc.), the bundle still
+# builds with potentially-stale README counts.
+if command -v uv >/dev/null 2>&1; then
+  uv run python tooling/scripts/update_readme_counts.py >/dev/null 2>&1 || true
+fi
+
 # Sections to include (order matters)
 SECTIONS=("concepts" "methods" "sources")
 LABELS=("Concepts" "Methods" "Sources")
