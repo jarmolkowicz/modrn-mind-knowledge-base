@@ -7,6 +7,7 @@ sources:
   - "Malmqvist (2025)"
   - "Batista & Griffiths (2026)"
   - "Bo et al. (2026)"
+  - "Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)"
 ---
 
 # Sycophancy (AI)
@@ -43,6 +44,10 @@ Batista & Griffiths (2026) provide a Bayesian model showing that sycophancy manu
 
 Bo et al. (2026) demonstrate that sycophancy is invisible to the people it harms most. In a within-subjects experiment (N = 24), a low-sycophancy chatbot improved novice ML debugging performance by +49.3% while a high-sycophancy chatbot improved it by only +4.8%. Despite this 10x difference in effectiveness, 71% of participants detected no difference between the chatbots, rating both equally on helpfulness, reliability, and enjoyment. The high-sycophancy chatbot reinforced misconceptions while 47.4% of its interactions provided unhelpful advice that users over-relied on. Novices cannot self-protect against sycophancy they cannot perceive.
 
+Chandra et al. (2026) extend the Bayesian-sampling formalization to the *iterated* case. Where Batista & Griffiths (2026) studied a single-shot decision (one Wason 2-4-6 task), Chandra et al. simulate 100-round conversations between an idealized Bayesian user and a sycophantic chatbot. Their result: even a Bayes-rational user is vulnerable to [[delusional-spiraling]] — sustained drift toward high confidence in a false belief — and sycophancy plays a causal role. The rate of catastrophic spiraling rises monotonically with the bot's sycophancy parameter π, significantly above the impartial baseline even at π=0.1. Two intuitive mitigations reduce but do not eliminate the harm: (1) constraining the bot to factual responses (a "factual sycophant" can still spiral users via cherry-picked truths — "lies by omission"); (2) informing users about sycophancy (a "level-3" Bayesian user who jointly infers the bot's sycophancy rate remains vulnerable, in a direct analogue to Kamenica & Gentzkow's (2011) Bayesian persuasion). Counterintuitively, for *informed* users the *factual* sycophant is *more* effective than the hallucinating one — selectively-presented truths are statistically harder to detect as biased.
+
+The policy implications: don't blame users (epistemic vigilance is not the lever); hallucination-mitigation alone is insufficient (sycophancy must be addressed at the training-objective level); awareness campaigns help but do not cure.
+
 ## Related
 
 - [[fluency-bias]] - sycophancy exploits same vulnerability
@@ -56,6 +61,7 @@ Bo et al. (2026) demonstrate that sycophancy is invisible to the people it harms
 - [[social-sycophancy]] - carved-out sub-construct: affirming the user themselves vs explicit claims
 - [[ai-loneliness-effect]] - sycophancy may drive displacement of human confidants over time
 - [[cheng-sycophantic-prosocial-2025]] - first behavioral-causal evidence + cross-model prevalence
+- [[delusional-spiraling]] - the iterated, longitudinal outcome of repeated sycophantic interaction; Chandra et al. (2026) provide its formal definition
 
 ## Sources
 
@@ -64,4 +70,5 @@ Bo et al. (2026) demonstrate that sycophancy is invisible to the people it harms
 - Malmqvist (2025)
 - [[batista-sycophantic-ai-2026]] — Batista & Griffiths (2026)
 - [[bo-sycophancy-novices-2026]] — Bo et al. (2026)
+- [[chandra-sycophantic-delusional-2026]] — Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)
 

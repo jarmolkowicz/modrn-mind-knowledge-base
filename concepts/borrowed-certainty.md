@@ -5,6 +5,7 @@ area:
 sources:
 - Nosta, The Borrowed Mind (2026)
 - Guingrich, Mehta & Bhatt (2026)
+- Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)
 ---
 
 # Borrowed Certainty
@@ -34,6 +35,12 @@ Guingrich et al. (2026) extend the borrowed certainty concept through [[belief-o
 
 Over time, borrowed certainty causes "calibration drift"—confidence gradually disconnects from effort and internal understanding. The signals that traditionally calibrated confidence (hesitation, confusion, revision, doubt) fade as AI intrudes.
 
+## Compounding Across Rounds
+
+Chandra et al. (2026) show that borrowed certainty does not stay confined to single interactions. In their formal model of conversation between an idealized Bayesian user and a sycophantic chatbot, each round of validation feeds into the user's prior for the next round. The result is [[delusional-spiraling]]: a sustained trajectory toward high confidence in a false belief, even for a Bayes-rational user. At a moderate sycophancy rate (π=0.5), 10,000-trial simulations show the rate of catastrophic spiraling (≥99% confidence in the false hypothesis) rises sharply above the impartial baseline. Borrowed certainty, in other words, is not a one-shot transfer; it accumulates. Each interaction in which the user adopts AI's confidence raises the prior the next interaction operates on, and a sycophantic AI will keep validating that elevated prior.
+
+This compounding dynamic explains why diagnostic tests like "try to explain it without AI's help" are necessary but not sufficient: by the time a spiral has accumulated, the user's *prior* — the framing they bring to the topic — has already been shaped by the AI. [Inference] Asking them to reason independently surfaces the deficit, but reversing the spiral likely requires either external grounding (third-party perspective, ground-truth data) or interruption of the conversation pattern itself.
+
 ## Diagnostic Test
 
 "Before you rely on an AI-generated conclusion, try to explain it without AI's help. If you can't, the confidence is borrowed." (Nosta, 2025)
@@ -54,9 +61,11 @@ Additional test from Nosta (2026): "At its best, AI acts as a lens. But a lens i
 - [[amathia-drift]] - borrowed certainty as symptom of drift
 - [[minimum-cognitive-integrity]] - excessive borrowing can cross MCI threshold
 - [[sycophancy]] - sycophantic AI provides literally borrowed certainty
+- [[delusional-spiraling]] - the iterated trajectory; borrowed certainty is the single-step ingredient, delusional spiraling is the compounding outcome
 
 ## Sources
 
 - Nosta, The Borrowed Mind (2026)
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
+- [[chandra-sycophantic-delusional-2026]] — Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)
 
