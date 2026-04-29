@@ -7,6 +7,8 @@ on:
       - 'concepts/**'
       - 'methods/**'
       - 'sources/**'
+      - 'tooling/scripts/build-bundle.sh'
+      - '.github/workflows/build-kb-bundle.yml'
 
   workflow_dispatch:
 
