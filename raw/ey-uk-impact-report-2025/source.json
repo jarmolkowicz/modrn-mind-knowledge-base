@@ -7,8 +7,15 @@
   "hash": "98cb094caf037104dacdc35723a04c3c02dd5b77a91493dfe1b34953e6ab5a4b",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:55Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "EY UK 2025 Impact Report — corporate impact/CSR document. Promotional, not research; no AI-and-human-thinking content beyond what's in dedicated AI papers."
+    }
+  ],
   "pages": 94
 }

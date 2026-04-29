@@ -7,8 +7,15 @@
   "hash": "08367e815ca1f1dab5ba520173eb3b440afe375ce79160c8531f71d614e80018",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:34Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Vanzara & Mallick (2026, IJIRT — low-tier journal). Correlational study; retreads established self-efficacy/metacognition findings without distinct empirical contribution. Skip."
+    }
+  ],
   "pages": 9
 }

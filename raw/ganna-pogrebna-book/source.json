@@ -7,8 +7,15 @@
   "hash": "b51f4a1ae81262effcf2794579fe939a8b836c9045e5caa91f288230f6832254",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:57Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Ganna Pogrebna, 'The Missing B in AI' (2025). Book — Readwise highlights. Defer to book-branch chapter-level work."
+    }
+  ],
   "pages": 14
 }

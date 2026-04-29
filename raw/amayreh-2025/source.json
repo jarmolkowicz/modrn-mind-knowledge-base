@@ -7,8 +7,15 @@
   "hash": "2c739406f7b584d4edb07a873d80d5b9ea20e0bcc09c7d9f278bd34d158e6524",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:35Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Amayreh, Ta'Amnha, Magableh, Mahrouq & Alfaiza (2025, Discover Sustainability). HR-management focused; AI in HR functions and employee engagement. Tangential to KB's human-thinking focus. Defer for later evaluation."
+    }
+  ],
   "pages": 23
 }

@@ -7,8 +7,15 @@
   "hash": "091425ac845f3ad69fb25911b3964f7559baf731813ef7de9e6be6856e6e8614",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:51Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Polish youth diagnosis report (health/education); not focused on human thinking with AI. Out of KB scope."
+    }
+  ],
   "pages": 449
 }

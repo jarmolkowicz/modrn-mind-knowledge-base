@@ -7,8 +7,15 @@
   "hash": "3b63f19d1653221a71a9ac2e6b072395a5c433393dfd276ad16fc13169d9e858",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:12Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Berman et al. (Irrational Labs, 2025) — behavioral-research firm report on AI workplace adoption. Likely useful empirical data. Defer for full-quality ingest in a later batch."
+    }
+  ],
   "pages": 14
 }

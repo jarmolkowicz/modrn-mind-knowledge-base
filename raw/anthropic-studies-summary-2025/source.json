@@ -7,8 +7,15 @@
   "hash": "c5660b864be8debd3e81f5397b7d581561cb291b912457c932aa62aa5e8d9b64",
   "extractor": "copy",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:53Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Internal book-project meta-summary of Anthropic's Economic Index + Education Report. Not an original research source — it's a synthesis FOR a forthcoming book. The underlying Anthropic studies (Handa et al. 2025, Education Report 2025) should be ingested as separate primary sources if not already present."
+    }
+  ],
   "lines": 175
 }

@@ -7,8 +7,29 @@
   "hash": "8614f53f259629d405f80eafc34840521fe289e828534df7501d5948a6cf082d",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:15Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "validated",
+      "outcome": "READY",
+      "date": "2026-04-29"
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29"
+    }
+  ],
   "pages": 24
 }

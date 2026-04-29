@@ -7,8 +7,15 @@
   "hash": "9c3ac29815695f0601b0777bbbc9c73dc2a1e11e79e38e242edb554c31bae36c",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:45Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Polish industry report on digital management trends. Out of KB scope (general IT-industry trends, not human-thinking-with-AI focused)."
+    }
+  ],
   "pages": 104
 }

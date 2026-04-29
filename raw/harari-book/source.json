@@ -7,8 +7,15 @@
   "hash": "a16b7ac247f67f43a3b8b56810dbf38776d196cebd1cedc8b61a585ab4d9b79e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:59Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Yuval Noah Harari, 'Nexus' (2024). Book — Readwise highlights export, not full text. Defer to book-branch chapter-level work later."
+    }
+  ],
   "pages": 11
 }

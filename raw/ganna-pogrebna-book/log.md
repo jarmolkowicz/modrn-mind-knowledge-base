@@ -5,3 +5,6 @@
 - Format: pdf ({'pages': 14})
 - Word count: 4158
 - Heuristic source_type: article
+
+## 2026-04-29T22:00:00Z — triaged: DEFER
+- Ganna Pogrebna, 'The Missing B in AI' (2025). Book — Readwise highlights. Defer to book-branch chapter-level work.

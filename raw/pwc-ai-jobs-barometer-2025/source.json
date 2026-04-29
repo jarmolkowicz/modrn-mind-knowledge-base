@@ -7,8 +7,15 @@
   "hash": "66653eefc1c3e811fad2951035a78147993d1361d23efd4715f62a936b37df8c",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T20:00:30Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "PwC 'The Fearless Future: 2025 Global AI Jobs Barometer' — Polish-language interface around English content; analyzes ~1B job ads. Could yield findings on AI's labor-market impact but retreads industry talking points. Defer for selective reading."
+    }
+  ],
   "pages": 28
 }

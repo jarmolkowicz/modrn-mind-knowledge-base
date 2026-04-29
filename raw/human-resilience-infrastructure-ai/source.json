@@ -7,8 +7,15 @@
   "hash": "7860b23171e8b7de9463c630f56123b8ad0706af9c51de7e4a28b4b5c1546258",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "deferred",
   "ingested_at": "2026-04-29T19:59:41Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Anderson & Rainie (2026, Pew/Imagining the Internet) — expert opinion synthesis on radical institutional change. Substantive but speculative; defer for selective reading once core empirical sources are integrated."
+    }
+  ],
   "pages": 17
 }

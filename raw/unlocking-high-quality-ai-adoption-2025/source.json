@@ -7,8 +7,15 @@
   "hash": "e5317e642d357cb0e79545b6f882c152b7162b7b8970ca8c5fbcbbe2853b2011",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T20:00:37Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "Meltwater consulting promotional report on 'Adoption Quality Score'. Industry consulting, not research. Out of scope."
+    }
+  ],
   "pages": 24
 }

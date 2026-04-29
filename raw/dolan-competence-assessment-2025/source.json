@@ -7,8 +7,15 @@
   "hash": "3672fb2934b11cbc5e7569e993a94a55da9ba766e5f4d0a43e6c681012170846",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "skipped",
   "ingested_at": "2026-04-29T19:59:51Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "SKIP",
+      "date": "2026-04-29",
+      "reason": "PsyPost news article summarizing an underlying primary study (likely Yakura et al. or similar). Not the primary source itself; the underlying paper should be ingested separately if accessible."
+    }
+  ],
   "pages": 8
 }
