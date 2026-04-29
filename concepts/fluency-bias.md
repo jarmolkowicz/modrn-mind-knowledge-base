@@ -54,7 +54,7 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 
 - [[oppenheimer-fluency-2008]] — Oppenheimer (2008)
 - [[reber-schwarz-fluency-truth-1999]] — Reber & Schwarz (1999)
-- [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
+- Tankelevitch et al. (2024)
 - [[reich-artificial-confidence-2026]] — Reich & Teeny (2026)
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
 

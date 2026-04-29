@@ -51,5 +51,5 @@ Metacognitive accuracy doesn't improve with AI experience because feedback is mi
 
 ## Sources
 
-- [[tankelevitch-metacognition-2024]] — Tankelevitch et al. (2024)
+- Tankelevitch et al. (2024)
 
