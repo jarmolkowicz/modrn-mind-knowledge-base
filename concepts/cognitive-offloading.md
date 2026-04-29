@@ -5,7 +5,7 @@ area:
 sources:
 - Risko & Gilbert (2016)
 - Tsim & Gutoreva (2025)
-- MIT Media Lab (2025)
+- Kosmyna et al. (2025)
 - Shaw & Nave (2026)
 - Shen & Tamkin (2026)
 - Gilbert et al. (2023)
@@ -30,7 +30,7 @@ Gilbert et al. (2023) review "intention offloading" — the specific form of cog
 
 With AI, offloading becomes dramatically more powerful and subtle. You can now offload thinking itself, not just memory or calculation. The question isn't whether to offload, but whether it's adaptive (strategic) or maladaptive (eroding capacity you need).
 
-MIT neuroscience research (2025) provides neural evidence: EEG monitoring showed LLM users had the weakest brain connectivity during writing tasks, while brain-only writers showed strongest engagement. LLM users also showed poorer recall of their own content—they literally learned less from the work they produced.
+Kosmyna et al. (2025) provide neural evidence from an EEG-instrumented study at MIT Media Lab: LLM users had the weakest brain connectivity during writing tasks, while brain-only writers showed strongest engagement. LLM users also showed poorer recall of their own content—they literally learned less from the work they produced.
 
 Lodge & Loble (2026) ground the beneficial/detrimental distinction in Cognitive Load Theory. Beneficial offloading delegates extraneous load (grammar checking, formatting) to free working memory for intrinsic learning tasks. Detrimental offloading bypasses intrinsic load — the effortful schema-construction process (generation, retrieval, analysis, synthesis) that builds durable knowledge. The same tool enables both; what determines the outcome is whether the offloaded work was extraneous or intrinsic to learning.
 
@@ -82,7 +82,7 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 
 - [[risko-gilbert-cognitive-offloading-2016]] — Risko & Gilbert (2016)
 - [[tsim-gutoreva-scan-2025]] — Tsim & Gutoreva (2025)
-- [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
+- [[kosmyna-cognitive-debt-2025]] — Kosmyna et al. (2025)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
 - [[gilbert-intention-offloading-2023]] — Gilbert et al. (2023)

@@ -1,4 +1,4 @@
-# Log: mit-cognitive-debt-2025
+# Log: kosmyna-cognitive-debt-2025
 
 ## 2026-04-29T10:29:36Z — cataloged
 - Extractor: pypdf

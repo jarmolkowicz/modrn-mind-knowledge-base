@@ -2,7 +2,7 @@
 status: emerging
 area: [erosion]
 sources:
-  - "MIT Media Lab (2025)"
+  - "Kosmyna et al. (2025)"
 ---
 
 # Cognitive Debt
@@ -17,7 +17,7 @@ Like financial debt, cognitive debt compounds. Each use of AI without engagement
 
 ## Key Insight
 
-MIT neuroscience study using EEG showed:
+Kosmyna et al. (2025) ran an EEG-instrumented study at MIT Media Lab:
 - **Brain-only writers**: Strongest brain connectivity, highest engagement
 - **Search engine users**: Moderate connectivity
 - **LLM users**: Weakest connectivity, minimal engagement
@@ -60,5 +60,5 @@ If you routinely use AI for research, drafting, and analysis, you may:
 
 ## Sources
 
-- [[mit-cognitive-debt-2025]] — MIT Media Lab (2025)
+- [[kosmyna-cognitive-debt-2025]] — Kosmyna et al. (2025)
 

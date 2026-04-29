@@ -2,7 +2,7 @@
 status: solid
 area: [risk]
 sources:
-  - "Science Advances (2024)"
+  - "Doshi & Hauser (2024)"
   - "Runco & Jaeger (2012)"
   - "Anderson, Shah & Kreminski (2024)"
 ---
@@ -21,7 +21,7 @@ Innovation often emerges from diverse approaches, unusual perspectives, and "int
 
 ## Key Insight
 
-From experimental study on short story writing:
+From Doshi & Hauser (2024) experimental study on short story writing:
 - **Individual level**: 8-9% increase in novelty and usefulness ratings
 - **Low performers**: Up to 26.6% quality increase
 - **Collective level**: AI-enabled stories more similar to each other
@@ -62,7 +62,7 @@ AI removes:
 
 ## Sources
 
-- Science Advances (2024)
+- [[doshi-hauser-creativity-diversity-2024]] — Doshi & Hauser (2024)
 - [[runco-jaeger-creativity-2012]] — Runco & Jaeger (2012)
 - [[anderson-homogenization-2024]] — Anderson, Shah & Kreminski (2024)
 
