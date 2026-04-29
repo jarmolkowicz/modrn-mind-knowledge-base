@@ -7,6 +7,7 @@ sources:
 - Bastani et al. (2025)
 - Yan et al. (2025)
 - Singh Yadav (2026)
+- Bartoš et al. (2026)
 ---
 
 # Performance Paradox
@@ -29,6 +30,8 @@ Lodge & Loble (2026) argue this is not a measurement error but a structural feat
 
 Singh Yadav (2026) provides a historical grounding through the concept of the "augmentation illusion." Every wave of cognitive technology — writing systems, calculators, GPS, internet search — created the same pattern: performance capability decoupled from underlying competence. AI is the latest and most comprehensive manifestation. The book maps the illusion through four mechanisms: cognitive offloading (reduced internal investment), fluency confusion (ease of performance mistaken for understanding), attribution errors (success credited to self rather than tool), and reduced metacognitive awareness (less confrontation with one's own knowledge gaps). The historical pattern suggests the performance paradox is not unique to AI but a universal principle of cognitive augmentation — AI simply operates across more cognitive domains simultaneously than any previous technology.
 
+Bartoš et al. (2026) provide an umbrella-level statistical anchor. Pooling 1,840 effect sizes from 67 meta-analyses on AI/LLMs and learning, they find that the publication-bias-unadjusted average effect (SMD ≈ 0.629) collapses to SMD = 0.196 [0.000, 0.323] once corrected — about one-third the published magnitude. Crucially, after RoBMA-PSMA correction, **0 out of 44 meta-analyses with at least 10 effect sizes retain strong evidence for the effect** of AI/LLMs on learning, vs. 41/44 in the unadjusted analysis [pp.20-21]. The umbrella does not contradict the performance-paradox framing; it shows that the bulk of "AI improves learning" claims in the published meta-analytic record are scaffolded-performance findings whose effects do not consolidate under bias correction. The Discussion explicitly invokes "task stewardship" (Lee et al. 2025), cognitive offloading mediation (Gerlich 2025), and reduced engagement under LLM-assisted writing (Kosmyna et al. 2025) as the mechanisms behind the non-consolidation [pp.22-23].
+
 ## The Vicious Cycle
 
 Lodge & Loble (2026) describe how the paradox self-reinforces:
@@ -49,10 +52,12 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - [[capacity-erosion]] - the long-term consequence
 - [[novice-vulnerability]] - who is most affected; Singh Yadav's augmentation illusion is most pronounced at early Dreyfus stages
 - [[desirable-difficulty]] - Singh Yadav traces a historical arc showing each cognitive technology bypassed the productive struggle that built competence
+- [[bartos-ai-learning-meta-meta-2026]] - umbrella-level evidence anchor: published "AI improves learning" effects collapse ~3× under publication-bias correction, supporting the paradox at the field level
 
 ## Sources
 
 - [[bastani-guardrails-math-rct-2025]] — Bastani et al. (2025)
 - Yan et al. (2025)
 - [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
+- [[bartos-ai-learning-meta-meta-2026]] — Bartoš et al. (2026)
 

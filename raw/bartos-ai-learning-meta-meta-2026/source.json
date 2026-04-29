@@ -1,0 +1,57 @@
+{
+  "slug": "bartos-ai-learning-meta-meta-2026",
+  "previous_slug": "bartos-et-al-2026-effect-of-artificial-intelligence-on-learning",
+  "original_filename": "Bartos et al. (2026) Effect of Artificial Intelligence on Learning.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12646,
+  "hash": "e718db0db420e75ae82314ae91a91707420dc06b94923ac57de97f2062ca5a58",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T19:59:38Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Bartos et al. (2026) - meta-meta-analysis of AI on learning. High-priority for next session."
+    },
+    {
+      "stage": "triage_revision",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triggered from DEFER. Highest-tier evidence on AI-and-learning effects: bias-adjusted SMD = 0.196 vs. unadjusted 0.629; extreme heterogeneity; no subgroup shows consistent benefit. UPDATE proposals to performance-paradox, novice-vulnerability, metacognitive-laziness, cognitive-debt, leveling-effect."
+    },
+    {
+      "stage": "rename",
+      "date": "2026-04-30",
+      "reason": "Workbench renamed from bartos-et-al-2026-effect-of-artificial-intelligence-on-learning to bartos-ai-learning-meta-meta-2026 for citability and to match KB slug convention."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO-mode high-confidence distillation. 1 source distillation + 5 UPDATE proposals (performance-paradox, novice-vulnerability, metacognitive-laziness, cognitive-debt, leveling-effect). No NEW concepts (umbrella reviews calibrate existing literatures rather than naming new constructs). Stage 4 self-critique skipped per high-confidence rubric."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "Abbreviated critique per high-confidence rubric. AI failure checklist clean: no hallucinated citations, no statistical drift, no false novelty (no NEW concept proposed)."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py exit 0 on second pass. First pass surfaced 5 broken_wikilinks (resolved by renaming workbench dir to canonical slug bartos-ai-learning-meta-meta-2026) and 1 missing_related (cognitive-offloading link added to source distillation Supports section)."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "integrated",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/bartos-ai-learning-meta-meta-2026.md. 5 UPDATE proposals applied to performance-paradox, novice-vulnerability, metacognitive-laziness, cognitive-debt, leveling-effect (each: 1 paragraph in body + 1 Related link + 1 frontmatter source line + 1 Sources section line). Auxiliary scripts run (sync-source-links, build-index, update_readme_counts: sources 60→61, total 124→125)."
+    }
+  ],
+  "pages": 43
+}
