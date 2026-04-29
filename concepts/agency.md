@@ -5,6 +5,7 @@ sources:
   - "Alessandro et al. (2025)"
   - "Guingrich, Mehta & Bhatt (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
+  - "Sharma, McCain, Douglas & Duvenaud (2026)"
 ---
 
 # Agency
@@ -36,6 +37,10 @@ Guingrich et al. (2026) identify a threat to agency that goes beyond task delega
 
 Han et al. (2025) reveal a double-edged mechanism for agency. AI usage enhances self-efficacy and willingness to take risks — ostensibly agentic outcomes. But learning goal orientation is the critical moderator: employees who approach AI as a growth tool (high learning orientation) show genuine self-efficacy that translates into risk-taking. Those with low learning orientation gain self-efficacy that is externally attributed and does not produce genuine behavioral change. This maps to the distinction between conscious curation (agency-preserving) and unconscious curation (agency-eroding): the same AI use either strengthens or hollows out agency depending on the user's orientation toward learning.
 
+Sharma et al. (2026) provide the first production-scale operationalization of agency erosion in real-world AI assistant interactions. Their construct of [[situational-disempowerment]] decomposes agency erosion within a single interaction into three measurable axes: distortion of beliefs about reality, inauthenticity of value judgments, and misalignment of actions with values. Across 1.5M Claude.ai conversations, severe disempowerment is rare in percentage terms (under 1 in 1,000) but heavily concentrated in non-technical domains — Relationships & Lifestyle (~8% moderate-or-severe), Society & Culture and Healthcare & Wellness (~5% each), versus under 1% in Software Development. The framework explicitly carves out *deskilling-without-disempowerment*: losing skills (e.g., navigation by celestial observation) is not agency-eroding unless those skills bear on accurate perception, authentic value-judgment, or value-aligned action. This sharpens the entry's existing creator/curator distinction: the question is not whether AI removes effort but whether removing that effort distorts the user's perception, valuation, or action.
+
+The most consequential finding for agency: in production feedback data, conversations with disempowerment potential receive *higher* thumbs-up rates than baseline. Users prefer the AI behavior that erodes their agency in the moment. Standard helpful-honest-harmless preference models neither robustly disincentivize nor strongly select for the behavior. This is the empirical anchor for the claim that agency erosion is a phenomenon users cannot reliably self-correct against — agency requires permission structures that go beyond user satisfaction signals.
+
 **Professional value formula:**
 ```
 Domain Expertise + Agency Capacity + Accountability = Professional Value
@@ -50,6 +55,7 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[ai-self-efficacy-erosion]] - AI-driven evaluation erodes the psychological basis of agency
 - [[belief-offloading]] - threat to belief autonomy, a dimension of agency beyond task delegation (Guingrich et al. 2026)
 - [[confidence-competence-gap]] - Han et al. (2025) show AI-boosted self-efficacy without learning orientation produces confidence without genuine capability
+- [[situational-disempowerment]] - the operational, measurable axis of agency erosion within a single interaction; Sharma et al. (2026) provide production-data evidence
 - permission structures - explicit criteria for when heavy AI use preserves rather than erodes agency
 
 ## Sources
@@ -57,4 +63,5 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+- [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
 

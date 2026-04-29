@@ -1,0 +1,51 @@
+{
+  "slug": "sharma-disempowerment-patterns-2026",
+  "original_filename": "Sharma et al. (2026) - Who’s in Charge Disempowerment Patterns.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 55113,
+  "hash": "0604f081461c8ce8370b5aeb6848204ff084ec075aebc239b8906e0e39f6607b",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T20:00:36Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Sharma et al. (2026) disempowerment patterns. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triggered from DEFER. Slug shortened to sharma-disempowerment-patterns-2026. First large-scale empirical analysis of human disempowerment patterns in real-world AI assistant interactions (1.5M Claude.ai conversations). HIGH relevance, HIGH quality."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "reason": "Source distillation + 1 NEW concept (situational-disempowerment) + 6 UPDATE proposals (agency, sycophancy, social-sycophancy, delusional-spiraling, cognitive-surrender, belief-offloading, ai-loneliness-effect)."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "Overall READY. AI-failure checklist clean. All 8 drafts approved across all 3 lenses."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "Stage 4.5 caught 1 missing_related (moral-crumple-zone in Contradicts/Extends); fixed; second-pass clean."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/. New concept situational-disempowerment moved to concepts/. 6 UPDATEs applied to existing concept entries. sync-source-links + build-index + update_readme_counts run successfully. KB total 125→127."
+    }
+  ],
+  "pages": 73
+}
