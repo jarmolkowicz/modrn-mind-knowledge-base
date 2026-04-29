@@ -6,6 +6,7 @@ area:
 sources:
 - Fan et al. (2025)
 - Wang & Lajoie (2023)
+- Bastani et al. (2025)
 ---
 
 # Metacognitive Laziness
@@ -19,6 +20,8 @@ The tendency for AI's convenience to undermine learners' engagement in essential
 Metacognitive laziness is distinct from simply lacking metacognitive skill. It describes a situation where the capacity for self-regulation exists but goes unexercised because AI makes bypassing it the path of least resistance. This means the problem is not only about training metacognition — it is about designing environments that demand its use even when AI is present.
 
 Fan et al. (2025) provide the first RCT-grade empirical anchor. In a 4-arm randomised trial (N=117) comparing ChatGPT, human expert, writing-analytics checklist, and control, the AI group produced significantly higher essay scores than every other group (~2 points, all p<0.05) but showed no advantage on knowledge gain or knowledge transfer. Process-mining of self-regulated learning behaviour revealed the AI group's regulation was tightly entangled with ChatGPT prompts and showed *fewer* metacognitive transitions (orientation ↔ evaluation) than the human-expert group. This is performance/learning dissociation: AI users produced better outputs while learning less.
+
+Bastani et al. (2025) replicate Fan's lab finding at field scale. In a preregistered RCT with ~1,000 high school math students in Turkey, students given vanilla GPT-4 during practice scored 17% lower than controls on a subsequent unassisted exam. Two analyses (per-problem error-rate × student performance correlation, plus engagement-message classification) jointly support **crutch behavior as the dominant harm pathway** — students treat the AI as a way to bypass the metacognitive work of struggling with problems, not just as an information source that occasionally misleads them via hallucination. Importantly, students did not perceive that they had learned less, indicating the metacognitive layer remained absent rather than triggering self-correction.
 
 ## Key Insight
 
@@ -39,9 +42,11 @@ Lodge & Loble (2026) note that simply adding SRL prompts failed when AI dominate
 - [[confidence-competence-gap]] - laziness widens the gap
 - [[desirable-difficulty]] - SRL effort is itself a desirable difficulty being bypassed
 - [[fan-metacognitive-laziness-2025]] - primary empirical source
+- [[bastani-guardrails-math-rct-2025]] - field-scale replication with crutch-mechanism evidence
 
 ## Sources
 
 - [[fan-metacognitive-laziness-2025]] — Fan et al. (2025)
 - Wang & Lajoie (2023)
+- [[bastani-guardrails-math-rct-2025]] — Bastani et al. (2025)
 

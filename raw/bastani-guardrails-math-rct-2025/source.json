@@ -2,13 +2,32 @@
   "slug": "bastani-guardrails-math-rct-2025",
   "original_filename": "bastani-et-al-2025-generative-ai-without-guardrails-can-harm-learning-evidence-from-high-school-mathematics.pdf",
   "format": "pdf",
-  "source_type": "article",
+  "source_type": "paper",
   "word_count": 7555,
   "hash": "3ee7024553e9f6f95f7cc913aa7fd81592118ef5461edd463b130e00dece975b",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "cataloged",
+  "status": "integrated",
   "ingested_at": "2026-04-29T19:59:39Z",
-  "decisions": [],
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-29",
+      "reason": "Relevance=HIGH, Quality=HIGH (preregistered field RCT, PNAS). Source_type heuristic was 'article' due to short PDF; corrected to 'paper'."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-29",
+      "reason": "Paper-branch produced 1 source distillation + 3 UPDATE proposals (performance-paradox, novice-vulnerability, metacognitive-laziness). All wikilinks verified resolve. No NEW concepts (existing entries cover the phenomena)."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-29",
+      "reason": "sources/bastani-guardrails-math-rct-2025.md created; 3 concepts updated with concrete effect-size numbers and locator citations."
+    }
+  ],
   "pages": 8
 }
