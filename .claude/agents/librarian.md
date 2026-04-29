@@ -283,7 +283,9 @@ Then write `raw/<slug>/distill.md`:
 Update `source.json: status` to `drafted`. Append log.md.
 
 **HITL:** present the drafts and the extraction ledger; ask for review and the Decision.
-**AUTO:** if confidence is HIGH on every NEW classification (no near-duplicates flagged), set Decision to `PROCEED_TO_INTEGRATE` and skip Stage 4. If any draft has low confidence (suspected near-duplicate, ambiguous classification), proceed to Stage 4 self-critique.
+**AUTO:** if confidence is HIGH on every NEW classification (no near-duplicates flagged), set Decision to `PROCEED_TO_INTEGRATE` and skip Stage 4 (proceed directly to Stage 4.5 validation). If any draft has low confidence (suspected near-duplicate, ambiguous classification), proceed to Stage 4 self-critique.
+
+Either way, Stage 4.5 (mechanical validation) **always runs** before Stage 5 — the auto-skip applies only to the editorial Stage 4, not the syntactic gate.
 
 ---
 
@@ -392,7 +394,43 @@ Write `raw/<slug>/critique.md`:
 Update `source.json: status` to `critiqued`. Append log.md.
 
 **HITL:** present critique.md; ask the user to review and decide.
-**AUTO:** if Overall is READY, proceed to Stage 5. If FLAGS, escalate (write the Decision section noting "auto-paused at critique flags"). If BLOCKED, set Decision Outcome=`escalated` and stop.
+**AUTO:** if Overall is READY, proceed to Stage 4.5 (always runs). If FLAGS, escalate (write the Decision section noting "auto-paused at critique flags"). If BLOCKED, set Decision Outcome=`escalated` and stop.
+
+---
+
+## Stage 4.5 — Mechanical pre-integrate validation (always runs)
+
+**Goal:** Catch the recurring class of mechanical mistakes — broken wikilinks, alias-form typos, body-vs-Related drift, slug-year mismatches, missing Key Passages — *before* they make it into `concepts/`, `methods/`, `sources/`. Runs unconditionally regardless of Stage 4's verdict.
+
+This is a cheap, deterministic gate. It complements Stage 4: where Stage 4 is the *editorial* critique (3 lenses + AI failure checklist), Stage 4.5 is the *syntactic* sanity check.
+
+Run:
+
+```bash
+uv run python tooling/scripts/validate_drafts.py raw/<slug>/
+```
+
+The script reports findings in 6 categories:
+
+| Check | What it catches |
+|---|---|
+| `broken_wikilinks` | `[[link]]` targets that don't resolve in the existing KB or among the new drafts |
+| `alias_form` | Backwards `[[old\|new]]` where `old` doesn't exist as a slug but `new` does — typically the result of writing the alias in the wrong order after a slug rename |
+| `missing_related` | Draft body mentions an existing KB entry's title (case-insensitive) without a `[[wikilink]]` to it |
+| `frontmatter` | Status not in (solid/emerging/speculative), area not in (risk/erosion/preservation), or non-source entries with empty `sources:` (allowed only for speculative) |
+| `slug_year_mismatch` | The 4-digit year in the workbench slug doesn't match any year on the first page of `source.md` (catches Cheng 2026→2025 cases at draft time) |
+| `key_passages_missing` | The source distillation draft (drafts/source.md) lacks a `## Key Passages` or `## Key Findings` section |
+
+Exit code: 0 if clean, 1 if findings.
+
+**Decision logic (both HITL and AUTO):**
+
+- If validate_drafts.py exits 0: update `source.json: status` to `validated`, append log.md, proceed to Stage 5.
+- If it reports findings: **fix them in the drafts** (`raw/<slug>/drafts/...`), not in the integrated entries. Re-run validate_drafts.py. Repeat until clean. Only then update status to `validated` and proceed.
+
+The fix-and-rerun loop is the point of this stage. It catches problems while they're still cheap to fix (in scratch drafts) rather than after they've been wikilinked into the wider KB and require a multi-file untangle.
+
+In **AUTO mode**, the librarian fixes its own findings: re-read the offending draft file, apply the fix the validator suggested (replace `[[old|new]]` with `[[new]]`, add the missing `[[wikilink]]` to the Related section, etc.), re-run, continue until clean. If the librarian can't make the validator pass after 3 fix attempts, escalate: set `source.json: status=escalated_validation`, write a note in log.md, stop.
 
 ---
 
@@ -411,11 +449,17 @@ Mechanical, but important to do all of it:
    ```bash
    uv run python tooling/scripts/sync-source-links.py
    uv run python tooling/scripts/build-index.py
+   uv run python tooling/scripts/update_readme_counts.py
    ```
 3. **Append the KB-wide log:** add an entry to `log.md` at the KB root noting the integration (date, slug, what was added).
 4. **Update `source.json`:** set `status` to `integrated`, append a final entry to the per-source `decisions[]` ledger.
 5. **Append per-source `log.md`:** record the integration event with timestamps and what moved where.
-6. **Clean up empty `drafts/` subdirs:** remove `concepts/`, `methods/`, and the moved `source.md` from `drafts/`. Keep `drafts/updates/` (evidence) if it has content.
+6. **Clean up empty `drafts/` subdirs:** after moving files out, remove the now-empty subdirs:
+   ```bash
+   rmdir raw/<slug>/drafts/concepts 2>/dev/null
+   rmdir raw/<slug>/drafts/methods 2>/dev/null
+   ```
+   Keep `drafts/updates/` (evidence trail) if it has content. If `updates/` is empty too, remove `drafts/` itself. Empty subdirs that survive prior integrations clutter the audit trail; remove them when they become empty.
 
 After this, the source is integrated. `raw/<slug>/` retains: `original.<ext>`, `source.md`, `source.json`, `triage.md`, `distill.md`, `critique.md` (if Stage 4 ran), `log.md`, and possibly `drafts/updates/`.
 
@@ -431,9 +475,11 @@ The source's state is on disk. To resume work on `<slug>`, read `raw/<slug>/sour
 | triaged + Decision INCLUDE/PARTIAL | Stage 3 (distill) |
 | triaged + Decision SKIP/DEFER | done; no further work |
 | triaged + Decision escalated | wait for human input on triage.md Decision |
-| drafted | Stage 4 (critique) — or Stage 5 if Decision says PROCEED_TO_INTEGRATE |
-| critiqued + Decision PROCEED_TO_INTEGRATE | Stage 5 (integrate) |
+| drafted | Stage 4 (critique) — or Stage 4.5 if Decision says PROCEED_TO_INTEGRATE |
+| critiqued + Decision PROCEED_TO_INTEGRATE | Stage 4.5 (validate) |
 | critiqued + Decision REVISE | rerun Stage 3 with feedback from critique.md |
+| validated | Stage 5 (integrate) |
+| escalated_validation | wait for human to fix validate_drafts.py findings |
 | integrated | done |
 | skipped | done |
 | deferred | done (until user re-triggers) |

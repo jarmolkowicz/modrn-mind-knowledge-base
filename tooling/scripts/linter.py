@@ -37,8 +37,7 @@ import argparse
 import json
 import re
 import sys
-import unicodedata
-from dataclasses import asdict, dataclass
+from dataclasses import asdict
 from datetime import date
 from pathlib import Path
 
@@ -55,15 +54,17 @@ from kb_search import (  # noqa: E402
     Entry,
     load_entries,
 )
-
-
-
-@dataclass
-class Finding:
-    check: str
-    entry: str
-    issue: str
-    fix: str = ""
+from lint_checks import (  # noqa: E402
+    Finding,
+    HAS_AUTHOR_YEAR_RE,
+    SLUG_RE,
+    check_frontmatter_fields,
+    check_slug_against_format,
+    find_alias_form_mistakes,
+    find_broken_wikilinks,
+    find_missing_related,
+    normalize_for_match as _normalize,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -72,18 +73,17 @@ class Finding:
 
 
 def check_broken_wikilinks(entries: dict[str, Entry]) -> list[Finding]:
+    target_pool = set(entries.keys())
     findings: list[Finding] = []
     for stem, entry in entries.items():
-        for link in sorted(entry.wikilinks):
-            if link not in entries:
-                findings.append(
-                    Finding(
-                        check="broken_wikilinks",
-                        entry=stem,
-                        issue=f"links to [[{link}]] which does not exist",
-                        fix=f"create '{link}' entry or fix typo in {Path(entry.path).name}",
-                    )
-                )
+        findings.extend(
+            find_broken_wikilinks(
+                entry.body,
+                target_pool,
+                entry_label=stem,
+                file_hint=Path(entry.path).name,
+            )
+        )
     return findings
 
 
@@ -109,13 +109,6 @@ def check_orphans(entries: dict[str, Entry]) -> list[Finding]:
                 )
             )
     return findings
-
-
-def _normalize(s: str) -> str:
-    """Lowercase + strip diacritics for robust substring matching."""
-    return "".join(
-        c for c in unicodedata.normalize("NFKD", s.lower()) if not unicodedata.combining(c)
-    )
 
 
 def check_uncited_sources(entries: dict[str, Entry]) -> list[Finding]:
@@ -176,83 +169,40 @@ def check_missing_related(entries: dict[str, Entry]) -> list[Finding]:
 
     findings: list[Finding] = []
     for stem, entry in entries.items():
-        body_lc = entry.body.lower()
-        for title_lc, target_stem in title_to_stem.items():
-            if target_stem == stem:
-                continue
-            if target_stem in entry.wikilinks:
-                continue
-            if title_lc in body_lc:
-                findings.append(
-                    Finding(
-                        check="missing_related",
-                        entry=stem,
-                        issue=f"body mentions '{title_lc}' but has no [[{target_stem}]] link",
-                        fix=f"add [[{target_stem}]] to Related section",
-                    )
-                )
+        findings.extend(
+            find_missing_related(
+                entry.body,
+                set(entry.wikilinks),
+                title_to_stem,
+                entry_label=stem,
+                self_stem=stem,
+            )
+        )
     return findings
 
 
 def check_frontmatter(entries: dict[str, Entry]) -> list[Finding]:
     findings: list[Finding] = []
+    valid_statuses = set(VALID_STATUSES)
+    valid_areas = set(VALID_AREAS)
     for stem, entry in entries.items():
-        if not entry.status:
-            findings.append(
-                Finding(
-                    check="frontmatter",
-                    entry=stem,
-                    issue="missing status field",
-                    fix=f"set status to one of {VALID_STATUSES}",
-                )
+        findings.extend(
+            check_frontmatter_fields(
+                entry_label=stem,
+                entry_type=entry.type,
+                status=entry.status,
+                area=entry.area,
+                sources=entry.sources,
+                valid_statuses=valid_statuses,
+                valid_areas=valid_areas,
             )
-        elif entry.status not in VALID_STATUSES:
-            findings.append(
-                Finding(
-                    check="frontmatter",
-                    entry=stem,
-                    issue=f"invalid status: {entry.status!r}",
-                    fix=f"use one of {VALID_STATUSES}",
-                )
-            )
-        if not entry.area:
-            findings.append(
-                Finding(
-                    check="frontmatter",
-                    entry=stem,
-                    issue="missing area field",
-                    fix=f"add area tag from {VALID_AREAS}",
-                )
-            )
-        else:
-            for a in entry.area:
-                if a not in VALID_AREAS:
-                    findings.append(
-                        Finding(
-                            check="frontmatter",
-                            entry=stem,
-                            issue=f"invalid area: {a!r}",
-                            fix=f"use one or more of {VALID_AREAS}",
-                        )
-                    )
-        # Empty `sources:` is allowed for status=speculative entries — speculative
-        # concepts may name a phenomenon practitioners recognize before any
-        # KB-verifiable source exists. `solid` and `emerging` still require at
-        # least one source.
-        if entry.type != "source" and not entry.sources and entry.status != "speculative":
-            findings.append(
-                Finding(
-                    check="frontmatter",
-                    entry=stem,
-                    issue="no sources cited in frontmatter (allowed only when status=speculative)",
-                    fix="add at least one source citation, or demote status to speculative if the concept is named but not yet evidenced in the KB",
-                )
-            )
+        )
     return findings
 
 
 VALID_SOURCE_STATUSES = {
-    "cataloged", "triaged", "drafted", "critiqued", "integrated", "skipped", "deferred"
+    "cataloged", "triaged", "drafted", "critiqued", "validated",
+    "integrated", "skipped", "deferred", "escalated_validation",
 }
 VALID_SOURCE_TYPES = {
     "paper", "book", "article", "report", "transcript", "unknown"
@@ -339,13 +289,15 @@ def check_source_json(_: dict[str, Entry]) -> list[Finding]:
             required_artifacts = {"integrated": ["source.md", "log.md"]}
         else:
             required_artifacts = {
-                "cataloged":  ["source.md", "log.md"],
-                "triaged":    ["source.md", "log.md", "triage.md"],
-                "drafted":    ["source.md", "log.md", "triage.md", "distill.md"],
-                "critiqued":  ["source.md", "log.md", "triage.md", "distill.md", "critique.md"],
-                "integrated": ["source.md", "log.md", "triage.md", "distill.md"],
-                "skipped":    ["source.md", "log.md", "triage.md"],
-                "deferred":   ["source.md", "log.md", "triage.md"],
+                "cataloged":             ["source.md", "log.md"],
+                "triaged":               ["source.md", "log.md", "triage.md"],
+                "drafted":               ["source.md", "log.md", "triage.md", "distill.md"],
+                "critiqued":             ["source.md", "log.md", "triage.md", "distill.md", "critique.md"],
+                "validated":             ["source.md", "log.md", "triage.md", "distill.md"],
+                "escalated_validation":  ["source.md", "log.md", "triage.md", "distill.md"],
+                "integrated":            ["source.md", "log.md", "triage.md", "distill.md"],
+                "skipped":               ["source.md", "log.md", "triage.md"],
+                "deferred":              ["source.md", "log.md", "triage.md"],
             }
         for art in required_artifacts.get(status, []):
             if not (slug_dir / art).is_file():
@@ -359,21 +311,14 @@ def check_source_json(_: dict[str, Entry]) -> list[Finding]:
     return findings
 
 
-_SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*-(19|20)\d{2}$")
-
-
 def check_slug_format(entries: dict[str, Entry]) -> list[Finding]:
+    """Combines two slug-shape checks: kebab-case-with-year format AND
+    advisory institution-prefix detection (mit-, hbr-, pnas-, etc.)."""
     findings: list[Finding] = []
     for stem, entry in entries.items():
         if entry.type != "source":
             continue
-        if not _SLUG_RE.match(stem):
-            findings.append(Finding(
-                check="slug_format",
-                entry=stem,
-                issue="slug doesn't match <author(s)>-<keyword(s)>-<year> pattern",
-                fix="rename to <lead-author>-<keyword>-<4-digit-year>; update wikilinks across KB",
-            ))
+        findings.extend(check_slug_against_format(stem))
     return findings
 
 
@@ -400,20 +345,9 @@ def check_distillation_quality(entries: dict[str, Entry]) -> list[Finding]:
                 fix="re-distill via /ingest <slug> with locator-linked verbatim quotes",
             ))
         # 3. Frontmatter citation has author names (heuristic: not just journal/year)
+        # HAS_AUTHOR_YEAR_RE handles Unicode-letter authors (Gašević, Müller, etc.).
         for src_str in entry.sources:
-            # Citation is "vague" if it lacks any letter sequence followed (in close
-            # proximity) by a 4-digit year. The gap between letters and year may
-            # include the punctuation typical of academic citations: spaces, commas,
-            # ampersands, periods (initials), parens around the year, apostrophes
-            # (e.g., Dell'Acqua), hyphens (e.g., Tesch-Romer), or interleaved letters
-            # (multi-author "& Author").
-            # Unicode letter class via [^\W\d_] — Python 3's re is Unicode-aware
-            # by default, so this matches accented and non-Latin letters
-            # (e.g. Gašević, Müller, Józsa) while excluding digits and underscore.
-            has_author_year = bool(
-                re.search(r"[^\W\d_]{3,}[\s,&.()'\-\w]*(19|20)\d{2}", src_str)
-            )
-            if not has_author_year:
+            if not HAS_AUTHOR_YEAR_RE.search(src_str):
                 findings.append(Finding(
                     check="distillation_quality",
                     entry=stem,
