@@ -1,9 +1,22 @@
 [project]
 name = "modern-mind-kb-tools"
-version = "0.3.0"
-description = "On-demand CLI tools for the Modern Mind Knowledge Base (search, lint, index)"
+version = "0.4.0"
+description = "On-demand CLI tools for the Modern Mind Knowledge Base (search, lint, index, ingest)"
 requires-python = ">=3.13"
 license = "MIT"
 dependencies = [
     "pyyaml>=6.0",
+    # Source extraction (Stage 1 of the ingestion pipeline)
+    "pypdf>=5.0",
+    "pdfplumber>=0.11",
+    "python-docx>=1.1",
+    "ebooklib>=0.18",
+    "python-pptx>=1.0",
 ]
+
+[project.optional-dependencies]
+# Better PDF extraction with bounding boxes and structure preservation.
+# Requires Java 11+ at runtime. Install with: uv sync --extra pdf-pro
+pdf-pro = ["opendataloader-pdf>=2.3"]
+# OCR fallback for scanned PDFs. Requires tesseract binary at runtime.
+ocr = ["pdf2image>=1.17", "pytesseract>=0.3"]

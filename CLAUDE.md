@@ -14,8 +14,9 @@ This repo gets used two ways. Notice which mode you're in.
 
 **Editing the KB** — user asks to ingest a source, refine an entry, restructure content.
 
-- Use slash commands in `.claude/commands/`. Frontmatter says when each fires.
-- Drafts always land in `raw/processing/[slug]/`. **Never** write to `concepts/`, `methods/`, or `sources/` directly — only `/integrate-draft` does, after human review.
+- For new sources: `/ingest <path>` (HITL) or `/ingest <path> --auto` (autonomous). The librarian agent (`.claude/agents/librarian.md`) drives the full 5-stage pipeline (catalog → triage → distill → critique → integrate) out of `raw/<slug>/`.
+- Drafts always land in `raw/<slug>/drafts/`. **Never** write to `concepts/`, `methods/`, or `sources/` directly — only Stage 5 of the librarian does, after Decision is recorded.
+- Per-source directory `raw/<slug>/` is the durable audit trail (binary + extracted text + every stage's artifact + log.md). Never delete it.
 - Tools never write to `private/` (gitignored).
 
 **Using the KB as context** — downstream project references it, or the bundle was loaded into an AI tool.
@@ -36,6 +37,8 @@ The repo is about this — embody it.
 ## Python tooling
 
 `uv run python tooling/scripts/<script>.py` — never bare `python`. uv reads `pyproject.toml` and manages `.venv/` automatically.
+
+For PDF extraction (`extract.py`), the optional dependency `opendataloader-pdf` requires Java 11+ on `PATH`. Without it, extraction falls back to `pypdf`/`pdfplumber` (text-only, weaker on multi-column or scanned PDFs). To enable: install OpenJDK 21+ and ensure `java` is on `PATH`, then `uv sync --extra pdf-pro`. The extractor used is recorded per source in `raw/<slug>/source.json: extractor`.
 
 ## Where things live
 

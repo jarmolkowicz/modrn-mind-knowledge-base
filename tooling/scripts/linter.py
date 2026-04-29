@@ -6,13 +6,21 @@ free, deterministic.
 
 ## Checks
 
-- broken_wikilinks  — [[links]] pointing to entries that don't exist
-- orphans           — entries with zero inbound AND zero outbound wikilinks
-                      (sources excluded — they're cited via frontmatter)
-- uncited_sources   — source entries not referenced by any concept/method
-- missing_related   — entry A mentions entry B's full title in body but
-                      doesn't [[link]] to it
-- frontmatter       — missing/invalid required fields
+- broken_wikilinks    — [[links]] pointing to entries that don't exist
+- orphans             — entries with zero inbound AND zero outbound wikilinks
+                        (sources excluded — they're cited via frontmatter)
+- uncited_sources     — source entries not referenced by any concept/method
+- missing_related     — entry A mentions entry B's full title in body but
+                        doesn't [[link]] to it
+- frontmatter         — missing/invalid required fields
+- source_json         — per-source raw/<slug>/source.json validity (schema +
+                        lifecycle artifacts present for the recorded status)
+- slug_format         — sources/<slug>.md slug doesn't end in 4-digit year
+- distillation_quality— source dist body too sparse, no Key Passages, or
+                        frontmatter citation lacks author names
+- missing_workbench   — sources/<slug>.md exists but raw/<slug>/ does not
+                        (no per-source audit trail; Pass 2 re-ingestion
+                        candidate)
 
 ## Usage
 
@@ -27,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import unicodedata
 from dataclasses import asdict, dataclass
@@ -226,15 +235,199 @@ def check_frontmatter(entries: dict[str, Entry]) -> list[Finding]:
                             fix=f"use one or more of {VALID_AREAS}",
                         )
                     )
-        if entry.type != "source" and not entry.sources:
+        # Empty `sources:` is allowed for status=speculative entries — speculative
+        # concepts may name a phenomenon practitioners recognize before any
+        # KB-verifiable source exists. `solid` and `emerging` still require at
+        # least one source.
+        if entry.type != "source" and not entry.sources and entry.status != "speculative":
             findings.append(
                 Finding(
                     check="frontmatter",
                     entry=stem,
-                    issue="no sources cited in frontmatter",
-                    fix="add at least one source citation",
+                    issue="no sources cited in frontmatter (allowed only when status=speculative)",
+                    fix="add at least one source citation, or demote status to speculative if the concept is named but not yet evidenced in the KB",
                 )
             )
+    return findings
+
+
+VALID_SOURCE_STATUSES = {
+    "cataloged", "triaged", "drafted", "critiqued", "integrated", "skipped", "deferred"
+}
+VALID_SOURCE_TYPES = {
+    "paper", "book", "article", "report", "transcript", "unknown"
+}
+VALID_SOURCE_FORMATS = {"pdf", "docx", "epub", "pptx", "md", "txt"}
+REQUIRED_SOURCE_FIELDS = {
+    "slug", "original_filename", "format", "source_type",
+    "hash", "extractor", "status", "ingested_at", "decisions",
+}
+
+
+def check_source_json(_: dict[str, Entry]) -> list[Finding]:
+    """Validate every raw/<slug>/source.json against the schema and
+    confirm that lifecycle artifacts match the recorded status."""
+    findings: list[Finding] = []
+    raw_root = KB_ROOT / "raw"
+    if not raw_root.is_dir():
+        return findings
+
+    for source_json in raw_root.glob("*/source.json"):
+        slug_dir = source_json.parent
+        slug = slug_dir.name
+        # `inbox` and the legacy `processing/papers/articles/...` aren't per-source dirs
+        if slug in {"inbox", "processing", "papers", "articles", "books", "transcripts", "decks", "other"}:
+            continue
+        try:
+            data = json.loads(source_json.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            findings.append(Finding(
+                check="source_json",
+                entry=slug,
+                issue=f"source.json is invalid JSON: {e}",
+                fix="repair the JSON or re-run extract.py --force",
+            ))
+            continue
+
+        for field in REQUIRED_SOURCE_FIELDS:
+            if field not in data:
+                findings.append(Finding(
+                    check="source_json",
+                    entry=slug,
+                    issue=f"missing required field: {field}",
+                    fix="re-run extract.py --force, or hand-edit if backfilling a legacy source",
+                ))
+
+        status = data.get("status")
+        if status and status not in VALID_SOURCE_STATUSES:
+            findings.append(Finding(
+                check="source_json",
+                entry=slug,
+                issue=f"invalid status: {status!r}",
+                fix=f"set status to one of {sorted(VALID_SOURCE_STATUSES)}",
+            ))
+
+        st = data.get("source_type")
+        if st and st not in VALID_SOURCE_TYPES:
+            findings.append(Finding(
+                check="source_json",
+                entry=slug,
+                issue=f"invalid source_type: {st!r}",
+                fix=f"set source_type to one of {sorted(VALID_SOURCE_TYPES)}",
+            ))
+
+        fmt = data.get("format")
+        if fmt and fmt not in VALID_SOURCE_FORMATS:
+            findings.append(Finding(
+                check="source_json",
+                entry=slug,
+                issue=f"invalid format: {fmt!r}",
+                fix=f"set format to one of {sorted(VALID_SOURCE_FORMATS)}",
+            ))
+
+        # Backfilled sources skip the triage/distill/critique artifact check —
+        # they were ingested before the new pipeline existed and the audit
+        # trail is permanently incomplete by design. Two backfill paths:
+        # - structurally_backfilled: Pass 1 mass-migration of legacy raw/<type>/
+        # - workbench_backfilled: Pass 1 gap-fill of sources that lacked raw/<slug>/
+        decisions = data.get("decisions") or []
+        is_backfilled = any(
+            (d.get("outcome") or "").startswith(("structurally_backfilled", "workbench_backfilled"))
+            for d in decisions
+        )
+        if is_backfilled:
+            required_artifacts = {"integrated": ["source.md", "log.md"]}
+        else:
+            required_artifacts = {
+                "cataloged":  ["source.md", "log.md"],
+                "triaged":    ["source.md", "log.md", "triage.md"],
+                "drafted":    ["source.md", "log.md", "triage.md", "distill.md"],
+                "critiqued":  ["source.md", "log.md", "triage.md", "distill.md", "critique.md"],
+                "integrated": ["source.md", "log.md", "triage.md", "distill.md"],
+                "skipped":    ["source.md", "log.md", "triage.md"],
+                "deferred":   ["source.md", "log.md", "triage.md"],
+            }
+        for art in required_artifacts.get(status, []):
+            if not (slug_dir / art).is_file():
+                findings.append(Finding(
+                    check="source_json",
+                    entry=slug,
+                    issue=f"status={status} but {art} is missing",
+                    fix=f"either re-run the corresponding stage or correct the status field",
+                ))
+
+    return findings
+
+
+_SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*-(19|20)\d{2}$")
+
+
+def check_slug_format(entries: dict[str, Entry]) -> list[Finding]:
+    findings: list[Finding] = []
+    for stem, entry in entries.items():
+        if entry.type != "source":
+            continue
+        if not _SLUG_RE.match(stem):
+            findings.append(Finding(
+                check="slug_format",
+                entry=stem,
+                issue="slug doesn't match <author(s)>-<keyword(s)>-<year> pattern",
+                fix="rename to <lead-author>-<keyword>-<4-digit-year>; update wikilinks across KB",
+            ))
+    return findings
+
+
+def check_distillation_quality(entries: dict[str, Entry]) -> list[Finding]:
+    findings: list[Finding] = []
+    for stem, entry in entries.items():
+        if entry.type != "source":
+            continue
+        # 1. Body length: source distillations should be substantive
+        word_count = len(re.findall(r"\b\w+\b", entry.body))
+        if word_count < 200:
+            findings.append(Finding(
+                check="distillation_quality",
+                entry=stem,
+                issue=f"sparse distillation: only {word_count} words in body",
+                fix="re-distill via /ingest <slug> to produce a fuller source entry",
+            ))
+        # 2. Key Passages section presence
+        if "key passages" not in entry.body.lower() and "key findings" not in entry.body.lower():
+            findings.append(Finding(
+                check="distillation_quality",
+                entry=stem,
+                issue="no 'Key Passages' or 'Key Findings' section",
+                fix="re-distill via /ingest <slug> with locator-linked verbatim quotes",
+            ))
+        # 3. Frontmatter citation has author names (heuristic: not just journal/year)
+        for src_str in entry.sources:
+            # Citation is "vague" if it lacks any letter sequence followed by a 4-digit year
+            # in close proximity (i.e. an author-year pair).
+            has_author_year = bool(re.search(r"[A-Za-z]{3,}[\s,&]+(19|20)\d{2}", src_str))
+            if not has_author_year:
+                findings.append(Finding(
+                    check="distillation_quality",
+                    entry=stem,
+                    issue=f"vague citation in frontmatter: {src_str!r} (no author + year)",
+                    fix="rewrite citation as 'Author(s) (Year). Title. Venue.'",
+                ))
+                break  # one finding per entry is enough
+    return findings
+
+
+def check_missing_workbench(entries: dict[str, Entry]) -> list[Finding]:
+    findings: list[Finding] = []
+    raw_root = KB_ROOT / "raw"
+    for stem, entry in entries.items():
+        if entry.type != "source":
+            continue
+        if not (raw_root / stem).is_dir():
+            findings.append(Finding(
+                check="missing_workbench",
+                entry=stem,
+                issue=f"raw/{stem}/ does not exist",
+                fix="re-ingest the source via /ingest, or hand-place the binary and run extract.py",
+            ))
     return findings
 
 
@@ -244,6 +437,10 @@ CHECKS = {
     "uncited_sources": check_uncited_sources,
     "missing_related": check_missing_related,
     "frontmatter": check_frontmatter,
+    "source_json": check_source_json,
+    "slug_format": check_slug_format,
+    "distillation_quality": check_distillation_quality,
+    "missing_workbench": check_missing_workbench,
 }
 
 
@@ -253,6 +450,10 @@ CHECK_DESCRIPTIONS = {
     "uncited_sources": "Source entries not wikilinked from any concept/method",
     "missing_related": "Entries whose body mentions another entry's title without linking",
     "frontmatter": "Missing or invalid required frontmatter fields",
+    "source_json": "Per-source source.json schema and lifecycle artifact presence",
+    "slug_format": "Source slugs that don't follow <author>-<keyword>-<year>",
+    "distillation_quality": "Sparse, citation-incomplete, or unstructured source dists",
+    "missing_workbench": "Source dists with no per-source raw/<slug>/ workbench",
 }
 
 
