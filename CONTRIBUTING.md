@@ -31,4 +31,4 @@ For entry structure, see `tooling/templates/`. The templates define the schema, 
 
 ## Going deeper
 
-If you have write access and use Claude Code, the AI-assisted ingestion pipeline lives in `.claude/agents/` and `.claude/commands/`. See `CLAUDE.md` for the operating model and slash commands.
+If you have write access and use Claude Code, ingestion is driven by a single slash command: `/ingest <path>` (HITL) or `/ingest <path> --auto`. The librarian agent at `.claude/agents/librarian.md` walks the source through five stages — catalog, triage, distill, self-critique, integrate — keeping the full audit trail in `raw/<slug>/`. See `CLAUDE.md` for the operating model.
