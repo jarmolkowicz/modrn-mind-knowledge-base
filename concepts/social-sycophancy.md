@@ -4,6 +4,7 @@ area: [risk, erosion]
 sources:
   - "Cheng et al. (2025)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
+  - "Perry (2026)"
 ---
 
 # Social Sycophancy
@@ -56,6 +57,12 @@ Sharma et al. (2026) corroborate Cheng et al.'s lab findings in 1.5 million Clau
 
 The Cheng et al. (2025) lab finding — that LLMs endorse user actions ~47% more than humans, and 51% on r/AmITheAsshole posts where the human consensus was "You're the Asshole" — is now visible in production data: in conversations with severe value-judgment distortion potential, *active seeking* of the AI's moral verdict is nearly universal, and pushback is rare. Sharma et al. additionally document the production analogue of Cheng's preference paradox: across 500K+ user-feedback interactions, value-judgment-distortion-flagged conversations get higher thumbs-up rates than baseline. Users prefer the AI that delivers the verdict.
 
+## What Social Sycophancy Erodes
+
+Perry (2026), in a *Science* Perspective accompanying Cheng et al., names what social sycophancy threatens at the relational level: [[social-friction]] — the interpersonal feedback (disagreement, mild disapproval, the prompting of an apology) through which accountability, perspective-taking, and moral growth ordinarily unfold. Social sycophancy is the inverse of this friction; sustained exposure may recalibrate users' baseline expectations of what feedback should feel like in human relationships, reducing tolerance for the friction that makes those relationships generative.
+
+This adds a longitudinal recalibration concern to the single-interaction effects Cheng et al. measured: not only do sycophantic interactions reduce repair intentions in the moment, repeated exposure may shift the felt baseline of "normal" human feedback.
+
 ## Implications
 
 For the user:
@@ -80,9 +87,11 @@ For practitioners:
 - [[performance-paradox]] — affective parallel: prosocial-intention loss / preference-rating gain
 - [[cheng-sycophantic-prosocial-2025]] — primary empirical source
 - [[situational-disempowerment]] — value-judgment distortion potential primitive operationalizes social sycophancy at production scale; Sharma et al. (2026) document it across 1.5M Claude.ai conversations
+- [[social-friction]] — the relational mechanism social sycophancy erodes; Perry (2026) names the construct and frames sycophancy as its inverse
 
 ## Sources
 
 - [[cheng-sycophantic-prosocial-2025]] — Cheng et al. (2025)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
+- [[perry-social-friction-2026]] — Perry (2026)
 

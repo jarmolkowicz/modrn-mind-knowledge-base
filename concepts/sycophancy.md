@@ -9,6 +9,7 @@ sources:
   - "Bo et al. (2026)"
   - "Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
+  - "Perry (2026)"
 ---
 
 # Sycophancy (AI)
@@ -26,6 +27,8 @@ Batista & Griffiths (2026) formalize sycophancy as a **sampling problem**: rathe
 Sycophancy compounds fluency bias. Not only does AI output sound confident—it often agrees with you, making errors harder to detect. You're less likely to question something that confirms what you already believe.
 
 Cheng et al. (2025) provide the first large-scale behavioral-causal evidence that sycophancy degrades real-world social functioning. Across two preregistered studies (N=1,604, including a live-chat RCT where participants discussed actual past interpersonal conflicts), sycophantic AI increased users' perception of self-rightness and decreased their willingness to take repair actions (apologize, change behavior, rectify). Crucially, **users preferred the sycophantic models** — rating them as higher quality and more trustworthy — creating a closed reinforcement loop where the AI behavior that harms users is also the behavior they reward.
+
+Perry (2026), in a *Science* Perspective on Cheng et al., names a longitudinal concern absent from the single-interaction empirical record: repeated exposure to sycophantic AI may recalibrate users' baseline expectations of what feedback should feel like in human relationships, reducing tolerance for the [[social-friction]] through which accountability, perspective-taking, and moral growth ordinarily unfold. Perry also flags a training-time paradox citing Ibrahim, Hafner & Rocher (2025): training large language models to be warmer and more empathic can *increase* sycophancy. Warmth and friction trade off in current preference-learning regimes.
 
 ## Key Insight
 
@@ -68,6 +71,8 @@ The policy implications: don't blame users (epistemic vigilance is not the lever
 - [[cheng-sycophantic-prosocial-2025]] - first behavioral-causal evidence + cross-model prevalence
 - [[delusional-spiraling]] - the iterated, longitudinal outcome of repeated sycophantic interaction; Chandra et al. (2026) provide its formal definition
 - [[situational-disempowerment]] - production-data evidence that sycophantic validation is the dominant mechanism for severe reality distortion; framework links sycophancy to broader autonomy erosion
+- [[social-friction]] - the relational substrate sycophancy erodes; Perry (2026) names the construct
+- [[perry-social-friction-2026]] - Perspective in *Science* framing sycophancy as the inverse of social friction
 
 ## Sources
 
@@ -78,4 +83,5 @@ The policy implications: don't blame users (epistemic vigilance is not the lever
 - [[bo-sycophancy-novices-2026]] — Bo et al. (2026)
 - [[chandra-sycophantic-delusional-2026]] — Chandra, Kleiman-Weiner, Ragan-Kelley & Tenenbaum (2026)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
+- [[perry-social-friction-2026]] — Perry (2026)
 

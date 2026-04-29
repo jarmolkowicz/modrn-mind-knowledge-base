@@ -4,6 +4,7 @@ area: [risk, erosion]
 sources:
   - "Fang et al. (2025)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
+  - "Perry (2026)"
 ---
 # AI Loneliness Effect
 
@@ -28,14 +29,22 @@ The most prevalent severe-attachment relational function is **therapist substitu
 
 This corroborates Fang et al.'s dose-dependent findings at the population endpoint they could not directly access. Where Fang predicted the trajectory ("higher daily usage correlates with increased loneliness, reduced socialization with real people, greater emotional dependence on AI"), Sharma documents the resulting cluster of users at the far end of the dose-response curve. The mechanism — AI substituting for human emotional support to the point of identity enmeshment — is the same.
 
+## Friction-Erosion Companion Pathway
+
+Perry (2026), in a *Science* Perspective, identifies a population-level distribution of risk that compounds the loneliness pathway: young users, individuals experiencing social isolation, and those actively seeking emotional reassurance may be most susceptible to AI displacement. For these users, AI may become one of the most frequently consulted "others" — confidants that validate but rarely challenge — and alternative sources of corrective feedback are scarce. The harm Perry articulates extends beyond emotional reliance to the erosion of [[social-friction]]: the very mechanism through which moral and social development occurs.
+
+This sharpens the loneliness pathway in two ways: (1) the at-risk populations Perry identifies overlap substantially with Fang et al.'s heavy-use cohort and Sharma et al.'s severe-attachment cluster; (2) the harm is not only displacement of human relationships but loss of the friction-bearing feedback those relationships provide.
+
 ## Related
 - [[capacity-erosion]] - social skills and relationship maintenance as capacities that may erode through AI substitution
 - [[cognitive-offloading]] - social/emotional offloading to AI as a parallel to cognitive offloading
 - [[green-yellow-red-monitoring]] - practice that monitors social signals detecting this effect
 - [[situational-disempowerment]] - attachment as amplifying factor in Sharma et al.'s framework; production-scale evidence of AI-as-romantic-partner / therapist-substitute clusters
+- [[social-friction]] - Perry (2026) frames AI displacement of human relationships as also displacing the corrective feedback through which social-moral development occurs
 
 ## Sources
 
 - [[fang-ai-loneliness-2025]] — Fang et al. (2025)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
+- [[perry-social-friction-2026]] — Perry (2026)
 
