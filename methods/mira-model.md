@@ -3,6 +3,7 @@ status: solid
 area: [risk, preservation]
 sources:
   - "Boyd & Markowitz (2026)"
+  - "Folk, Heine & Dunn (2025)"
 ---
 
 # MIRA Model — Machine-Integrated Relational Adaptation
@@ -40,6 +41,8 @@ AI mirrors and adapts to user language patterns — lexical, syntactic, stylisti
 
 AI's adaptive responsiveness simulates closeness. The machine *feels* near — available, attentive, attuned — even when it isn't sentient. Proximity is constructed by interaction patterns, not by ontology.
 
+Folk, Heine & Dunn (2025) supply empirical evidence that this principle is *user-moderated*, not symmetric across users. Across two experiments (total N = 1,274), individual differences in [[anthropomorphism-of-technology]] predicted whether AI's adaptive responsiveness translated into felt connection: the same 6-minute conversation with the same warmly-prompted chatbot generated significantly more state social connection in higher anthropomorphizers (Study 2 within-condition r = .427) than in lower ones, with 58–72% of participants above the threshold at which the chatbot beat journaling. Behavioral mediators (warmth, self-disclosure) did not account for the interaction; the authors propose an interpretive mechanism — anthropomorphizers experience identical AI output as more genuinely understanding. For MIRA, this refines principle 2 from a property of the interaction to a moderator-driven mechanism: psychological proximity is constructed jointly by AI's responsiveness *and* the user's trait-level tendency to perceive a mind.
+
 ### 3. Interpersonal trust
 
 AI's verbal cues (warmth, consistency, vulnerability disclosure) calibrate trust formation similarly to human-human dynamics. People apply trust-formation heuristics to AI that were evolved for humans, and those heuristics fire on the linguistic surface alone.
@@ -69,7 +72,9 @@ The substitution/enhancement question is the most consequential for design and i
 ## Related
 
 - [[ai-loneliness-effect]] — MIRA provides the theoretical engine
+- [[anthropomorphism-of-technology]] — user-side moderator that calibrates whether MIRA principle 2 (psychological proximity) translates to felt connection
 - [[fang-ai-loneliness-2025]] — empirical evidence consistent with MIRA substitution
+- [[folk-heine-dunn-anthropomorphism-2025]] — empirical anchor for the user-moderator effect on principle 2
 - [[boyd-markowitz-human-connection-2026]] — primary source
 - [[social-sycophancy]] — special case of MIRA principle 4 in advice contexts
 - [[novice-vulnerability]] — relationship-skill capacity is a MIRA moderator
@@ -79,4 +84,5 @@ The substitution/enhancement question is the most consequential for design and i
 ## Sources
 
 - [[boyd-markowitz-human-connection-2026]] — Boyd & Markowitz (2026)
+- [[folk-heine-dunn-anthropomorphism-2025]] — Folk, Heine & Dunn (2025)
 

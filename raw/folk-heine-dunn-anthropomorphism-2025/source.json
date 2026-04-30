@@ -7,7 +7,7 @@
   "hash": "7dc9a9b67fbd4ce877f79a4ec190c3d5b934dbf0c05106894dbe2e69c608c97d",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:31Z",
   "decisions": [
     {
@@ -15,6 +15,30 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Folk, Heine & Dunn (Sci Rep 2025). High-priority Tier-1 INCLUDE for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Override prior DEFER. AUTO mode: peer-reviewed (Sci Rep), preregistered (Study 2), N=1274, HIGH relevance + HIGH quality, fills the individual-difference moderator gap in the AI-loneliness-effect cluster. Treating as paper-branch despite article heuristic."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode. 1 NEW concept (anthropomorphism-of-technology), 0 NEW methods, 2 UPDATEs (ai-loneliness-effect, mira-model). High confidence on classifications. Stage 4 critique skipped per high-confidence rubric; proceeding to Stage 4.5 validation."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py clean on first pass; 0 findings."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/folk-heine-dunn-anthropomorphism-2025.md; new concept moved to concepts/anthropomorphism-of-technology.md; 2 UPDATEs applied by hand to concepts/ai-loneliness-effect.md and methods/mira-model.md. Auxiliary scripts run (sync-source-links, build-index, update_readme_counts). KB-root log appended. KB counts: 67→68 sources, 56→57 concepts, 12 methods, 135→137 total."
     }
   ],
   "pages": 7
