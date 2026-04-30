@@ -7,7 +7,7 @@
   "hash": "4f241a87e3b5383ff1d08311bb55d932237937e038d8c9c2e9e5bd792355709a",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:16Z",
   "decisions": [
     {
@@ -15,6 +15,30 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Lee, Sarkar, Tankelevitch et al. (CHI 2025) - critical thinking knowledge-worker survey. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triage: HIGH relevance + HIGH quality. Peer-reviewed CHI '25 survey (N=319, 936 examples) with confidence-pair finding and 'task stewardship' framing already cited indirectly by KB via Bartoš et al. (2026). Override prior DEFER."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode, HIGH confidence on all classifications. No NEW concepts (report-type playbook); 1 source distillation + 2 narrow UPDATEs (metacognitive-laziness, confidence-competence-gap)."
+    },
+    {
+      "stage": "validate",
+      "outcome": "PASS",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py reported 0 findings; ready to integrate on first pass."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distilled to sources/lee-critical-thinking-survey-2025.md; 2 UPDATEs applied (metacognitive-laziness, confidence-competence-gap); aux scripts run; KB-root log appended; counts now 71 sources / 57 concepts / 12 methods / 140 total."
     }
   ],
   "pages": 23

@@ -11,6 +11,7 @@ sources:
   - "Keshky (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
   - "Fernandes et al. (2026)"
+  - "Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. CHI '25."
 ---
 
 # Confidence-Competence Gap
@@ -30,6 +31,8 @@ He et al. (2023) demonstrate a specific instance of the confidence-competence ga
 Fernandes et al. (2026) provide the first computational-model decomposition of the gap under generative-AI use, across two large studies on logical-reasoning tasks (Study 1 N = 246; Study 2 N = 452 randomized with monetary incentives). AI use improved task performance by ~3 points (out of 20) but inflated self-estimates by ~4 points — an overconfidence net of ~1 point that *doubled* the metacognitive bias of the no-AI Jansen et al. (2021) benchmark. A Bayesian model separated bias (*b_k*, uniform overestimation) from noise (*σ_k*, skill-scaled miscalibration). Under AI use, the noise parameter collapsed to ~1 (95% HDI [0.84, 1.19]) while the no-AI group's σ remained at 1.78 — meaning AI does not correct overconfidence for low performers; it raises them to a uniform high baseline so that everyone overestimates roughly equally. The classic Dunning–Kruger gradient disappears under AI, replaced by uniform overestimation across skill levels.
 
 Fernandes et al. also report a counterintuitive moderation finding: higher self-rated AI literacy correlated with *lower* metacognitive accuracy (overall SNAIL × overestimation: *r* = .21 in Study 1, *r* = .20 in Study 2; both *p* < .01). The Technical Understanding subscale (familiarity with prompting, parameters, API workflows) carried the strongest effect, while Critical Appraisal and Practical Application subscales correlated with higher mean confidence without improving discrimination (AUC). The authors interpret this through the illusion of explanatory depth (Fisher & Oppenheimer, 2021): procedural fluency provides a misleading sense of ability. This challenges the assumption that AI-literacy training is uniformly protective against the gap. A monetary incentive for accurate metacognition (+£0.50, ~8% of compensation) in Study 2 did not reduce overestimation — effort is not the bottleneck.
+
+Lee et al. (2025) extend the confidence-competence gap from lab to real-world workflows. In a survey of 319 knowledge workers (936 GenAI task examples, mixed-methods, CHI '25), a random-intercepts logistic regression revealed a confidence pair: **confidence in AI predicts less enaction of critical thinking** (β = −0.69, p < 0.001), while **confidence in self predicts more** (β = +0.26, p = 0.026; confidence in evaluating AI: β = +0.31, p = 0.046). Higher overall trust in GenAI also flattens perceived effort across four of six Bloom-level cognitive activities (Knowledge β = −0.12, Application β = −0.17, Analysis β = −0.12, Evaluation β = −0.24, all p < 0.05 corrected). At the qualitative level, 83 of 319 participants cite trust and reliance on GenAI as their primary critical-thinking inhibitor. The pair sharpens the gap mechanism: it is not just that AI inflates confidence regardless of accuracy (Shaw & Nave) or that AI use produces uniform high-baseline overestimation (Fernandes); the *direction* of confidence matters. Domain expertise (confidence-in-self) protects, AI-confidence undermines — and the two operate independently in the regression. Field-level evidence converges with the lab.
 
 Leonardi & Leavell (2026) extend the confidence-competence gap to the organizational level through the concept of [[artificial-certainty]]. In their comparative ethnography, non-expert stakeholders who encountered AI-generated simulations believed they fully understood complex urban planning dynamics — "knowing enough to be dangerous." The gap was not between a user's confidence and their ability to use AI, but between stakeholders' confidence in understanding complex systems and their actual domain expertise. When process experts amplified AI capabilities (enhancement mode), stakeholders mistook detailed representations for reality and questioned whether expert guidance was necessary at all.
 
@@ -87,6 +90,7 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 - [[borrowed-certainty]] - illusory self-efficacy dimension maps to borrowed certainty mechanism
 - [[agency]] - Han et al. (2025) show self-efficacy as mediator between AI use and behavioral risk-taking; inflated efficacy without learning orientation produces agency illusion
 - [[sycophancy]] - sycophantic AI widens the gap by validating misconceptions and inflating confidence
+- [[lee-critical-thinking-survey-2025]] - field-scale evidence for the directional confidence pair (confidence-in-AI undermines vs. confidence-in-self protects critical engagement)
 
 ## Sources
 
@@ -99,4 +103,5 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 - [[keshky-illusory-competence-2026]] — Keshky (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
 - Fernandes et al. (2026)
+- [[lee-critical-thinking-survey-2025]] — Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. CHI '25.
 
