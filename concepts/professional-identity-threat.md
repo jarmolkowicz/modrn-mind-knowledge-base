@@ -8,6 +8,7 @@ sources:
   - "Alessandro et al. (2025)"
   - "Keshky (2026)"
   - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
+  - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
 ---
 
 # Professional Identity Threat
@@ -56,6 +57,12 @@ Alessandro et al. (2025) add a self-objectification dimension to professional id
 
 Hermann, Puntoni & Morewedge (2025) embed professional identity threat in a fuller Self-Determination Theory frame: the three psychological needs (competence, autonomy, relatedness) are not independent risk axes but a single integrated structure (Basic Psychological Needs Theory; Ryan & Deci, 2017; meta-analytical support in Van den Broeck et al., 2016). Identity threat in this view is not a free-standing construct but a downstream consequence of need-frustration along one or more of the three axes — competence frustration (deskilling, feeling redundant), autonomy frustration (loss of control, "algorithmic cage," surveillance), and relatedness frustration (social isolation, dehumanization of coworkers). The review also documents the [[paradox-of-expertise]] — high-skilled workers disregard GenAI due to overestimated self-perceived expertise, marginalizing themselves in GenAI-augmented environments — as a senior-level mirror of the [[novice-vulnerability]] pattern, both rooted in misaligned self-assessment under GenAI-mediated work. Workers respond to these threats with five compensatory strategies (direct resolution, symbolic self-completion, dissociation, escapism, fluid compensation) — see the new method [[identity-threat-coping]].
 
+Hai et al. (2025) add the strongest available daily-field empirical anchor for the identity-threat-as-meaning-erosion thesis. Across 1,050 within-person observations from 229 service-industry employees in China, daily GenAI collaboration intensity predicted same-day work alienation (γ = .14, p < .001) — a felt disconnection from "events in my workplace," a wish to be "doing something else," and disillusionment with one's work. This is the same identity-and-meaning erosion the entry already describes, observed not as a chronic between-person syndrome but as **day-to-day within-person fluctuation tied to that day's GenAI collaboration intensity** (25.9% within-person variance in alienation, justifying multilevel modeling).
+
+The pathway is moderated by **digital job demands**: under high demands, the GenAI → alienation effect is large (γ = .34, p < .001); under low demands, it is non-significant (γ = .04, p > .05). This sharpens the deployment-context picture: identity threat is not a uniform consequence of GenAI use, but is amplified in environments where employees must continuously navigate digital tools, manage information overload, and operate under prolonged digital connectivity. Where digital demands are well-resourced and bounded, daily GenAI collaboration does not measurably erode meaning.
+
+Most consequentially for the entry, Hai et al. document a *behavioral downstream* of the identity-and-meaning erosion that prior KB sources have not captured: alienation predicts **employee expediency** (γ = .30, p < .01) — cutting corners, manipulating performance metrics, ignoring protocols, enforcing rules only when self-serving. The full indirect path (GenAI collaboration → alienation → expediency) is significant under high digital demands (estimate = .06, CI [.010, .118]) and non-significant under low demands. This adds a new face to the identity-threat construct: the threat does not only damage the worker (felt meaning, self-efficacy, ownership); it can channel into self-serving withdrawal of ethical engagement that damages the organization. The mechanism is recognizable from the entry's existing frame — when authorship and craftsmanship feel hollowed out, commitment to ethical standards may wane in parallel.
+
 ## Restorative Effect
 
 Unassisted work may restore sense of authorship:
@@ -85,6 +92,7 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[amathia-drift]] - intellectual identity distortion as endpoint of drift
 - [[paradox-of-expertise]] - senior-level mirror of identity threat: experts who refuse to adopt GenAI marginalize themselves
 - [[identity-threat-coping]] - the five compensatory strategies workers use in response
+- [[hai-dark-side-collaboration-2025]] - daily-ESM field evidence that identity-threat operates at within-person daily level and channels into expedient unethical behavior
 
 ## Sources
 
@@ -94,4 +102,5 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
 - [[keshky-illusory-competence-2026]] — Keshky (2026)
 - [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
+- [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
 

@@ -7,7 +7,7 @@
   "hash": "858afca94c6fce67e31fb7bc87177927b0e79e55674548689006485dc20d4505",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T19:59:58Z",
   "decisions": [
     {
@@ -15,6 +15,36 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Hai et al. (2025) work alienation in AI collab. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triggered from prior DEFER. HIGH-quality daily-ESM empirical evidence (N=229; 1,050 within-person observations) for GenAI->alienation->expediency pathway with digital-job-demands moderator. Override DEFER."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "reason": "Source distillation + 5 UPDATE proposals (professional-identity-threat, agency, workslop, cognitive-surrender, capacity-erosion). No NEW concepts (existing OB constructs); no NEW methods. Conservative classification."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "All 6 drafts pass evidence/practitioner/adversarial lenses + AI failure checklist. No revisions needed."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py exit 0 on first pass. No findings."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "DONE",
+      "date": "2026-04-30",
+      "reason": "Source moved to sources/hai-dark-side-collaboration-2025.md; 5 UPDATEs applied to existing concepts. Aux scripts (sync-source-links, build-index, update_readme_counts) ran clean."
     }
   ],
   "pages": 11

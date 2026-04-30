@@ -7,6 +7,7 @@ sources:
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
   - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
+  - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
 ---
 
 # Agency
@@ -44,6 +45,10 @@ The most consequential finding for agency: in production feedback data, conversa
 
 Hermann, Puntoni & Morewedge (2025) embed agency-erosion in a Self-Determination Theory frame: autonomy is one of three basic psychological needs, alongside competence and relatedness. The review names two specific autonomy-frustration mechanisms beyond what the entry currently covers. First, the **"algorithmic cage"** — when GenAI integration is mandatory rather than voluntary, GenAI-imposed workflows that standardize procedures and prioritize efficiency over flexibility erode workers' ability to tailor work to personal or situational needs. Second, **decoupled accountability** — situations where workers are held responsible for GenAI-driven outputs even when their personal contributions and control over those outputs are limited. The review identifies workplace **monitoring and surveillance** (keystroke tracking, idle-time logging) as the most serious autonomy-related psychological threat, citing measurable increases in worker stress and anxiety and reductions in job satisfaction. Together, these add a workplace-deployment lens to the agency entry that complements the per-interaction focus of [[situational-disempowerment]]: agency erosion can operate at the level of how GenAI is integrated organizationally, not only how it behaves in a single conversation.
 
+Hai et al. (2025) provide a workplace-deployment articulation of the agency entry's "conscious choice about how to engage" core. In a daily-ESM study (N = 229, 1,050 within-person observations), the authors frame the agency-eroding pattern as **employees becoming the subordinate within employee-GenAI teams** — deferring to GenAI on tasks previously requiring their own problem-solving, decision-making, and risk recognition, with a corresponding loss of "personal control over the work" and "sense of responsibility for work outcomes." Their practical recommendation reads as a direct expression of agency-preservation: organizations should *position employees as the superordinate*, delegate routine tasks to GenAI while reserving complex impactful tasks for humans, and design role structures that require employees to "exercise expertise and maintain control over critical work areas."
+
+The empirical leg — daily GenAI collaboration intensity predicts same-day work alienation, which channels into employee expediency (corner-cutting, metric manipulation, protocol violations) — is the behavioral evidence that *passive* engagement with GenAI (the unconscious-curation default the entry warns against) measurably degrades both the psychological substrate of agency and its expression in ethical conduct. The moderator is **digital job demands**: under high digital demands the alienation pathway is significant; under low demands it is not. This complements the [[hermann-genai-psychology-work-2025]] "algorithmic cage" finding — where Hermann et al. identify mandatory integration and surveillance as autonomy threats at the organizational-policy level, Hai et al. show that even *day-to-day collaboration intensity* operates as an autonomy threat when the digital environment is poorly resourced.
+
 **Professional value formula:**
 ```
 Domain Expertise + Agency Capacity + Accountability = Professional Value
@@ -62,6 +67,7 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - permission structures - explicit criteria for when heavy AI use preserves rather than erodes agency
 - [[paradox-of-expertise]] - agency under-exercise pattern: experts who refuse to adopt GenAI marginalize themselves rather than shape its integration
 - [[identity-threat-coping]] - five-strategy taxonomy of how workers respond when autonomy and other basic needs are frustrated
+- [[hai-dark-side-collaboration-2025]] - daily-ESM field evidence that passive GenAI engagement (employee as subordinate) erodes agency and channels into unethical shortcuts; humans-as-superordinate as preservation lever
 
 ## Sources
 
@@ -70,4 +76,5 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
 - [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
+- [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
 

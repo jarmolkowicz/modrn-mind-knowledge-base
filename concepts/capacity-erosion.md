@@ -10,6 +10,7 @@ sources:
 - Shen & Tamkin (2026)
 - Huffstadt (2026)
 - Singh Yadav (2026)
+- "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
 ---
 
 # Capacity Erosion
@@ -52,6 +53,10 @@ Singh Yadav (2026) maps erosion onto the Dreyfus expertise model, identifying wh
 
 Shen & Tamkin (2026) demonstrate that erosion is not only a long-term disuse phenomenon — it operates at the point of skill formation itself. In their RCT, developers who used AI while learning a new library failed to acquire the skills in the first place (17% lower quiz scores, d = 0.738). This is erosion by prevention rather than erosion by atrophy: AI doesn't just degrade existing skills, it can prevent new ones from forming. The control group's advantage came specifically from encountering and independently resolving errors — the productive struggle that AI bypasses.
 
+Hai et al. (2025) document a specific behavioral consequence of the meaning/identity dimension of capacity erosion. In a daily-ESM field study of 229 service-industry employees (1,050 within-person observations), daily GenAI collaboration intensity predicted same-day **work alienation** (γ = .14, p < .001) — the felt disconnection from work that the [[professional-identity-threat]] entry describes as "editor not creator." The novel finding for capacity erosion is the *behavioral downstream*: alienation predicts **employee expediency** (γ = .30, p < .01) — cutting corners, manipulating performance metrics, ignoring protocols. The indirect path (GenAI collaboration → alienation → expediency) is significant under high digital job demands and non-significant under low demands.
+
+This sharpens the capacity-erosion mechanism beyond the disuse-atrophy account. The paper's theoretical framing — drawing on Raisch & Krakowski's automation–augmentation paradox — describes the pathway: "GenAI adoption may lead to deskilling, complacency, and reduced responsibility among employees, as human expertise is diminished. Over time, employees may lose skills and a sense of ownership over their tasks, fostering a disconnect between themselves and their work." Hai et al. provide the empirical leg: not only does sustained collaboration erode the felt connection to work, the resulting psychological state channels into withdrawal of ethical engagement, which is itself a capacity-eroding behavior (corners cut today are corners cut from the practice of doing the work well).
+
 ## AI Rebound Effect
 
 Research cited by Nosta (2025): When gastroenterologists stopped using AI for polyp detection, their performance dropped **below their pre-AI baseline**—not just to where they started. This "AI rebound" suggests AI's performance boost comes at the cost of degraded underlying capabilities. Erosion isn't just skill pause—it's active degradation.
@@ -75,6 +80,7 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 - [[fluency-bias]] - Huffstadt (2026) shows reduced cognitive effort creates satisfaction that masks motivational decay
 - [[performance-paradox]] - AI improves efficiency metrics while undermining the motivation that sustains long-term performance (Huffstadt 2026)
 - [[novice-vulnerability]] - Singh Yadav maps erosion vulnerability to Dreyfus stages; amplification is greatest for novices
+- [[hai-dark-side-collaboration-2025]] - daily-ESM evidence of meaning-erosion → expediency pathway under sustained GenAI collaboration
 
 ## Sources
 
@@ -84,4 +90,5 @@ Research cited by Nosta (2025): When gastroenterologists stopped using AI for po
 - [[shen-skill-formation-2026]] — Shen & Tamkin (2026)
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
 - [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
+- [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
 

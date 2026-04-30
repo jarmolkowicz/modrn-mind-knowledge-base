@@ -4,6 +4,7 @@ area: [erosion, risk]
 sources:
   - "Shaw & Nave (2026)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
+  - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
 ---
 
 # Cognitive Surrender
@@ -46,6 +47,14 @@ The pattern matches Shaw & Nave's lab observation — bypassed System 2, transfe
 
 For practitioners advising on AI use: Shaw & Nave showed surrender is the predominant mode when AI is available for cognitive tasks; Sharma et al. show the same dynamic at value-laden decision points, where the cost of misalignment is interpersonal damage rather than wrong answers. Neither time pressure nor immediate feedback fully eliminates the dynamic.
 
+## Workplace-Behavior Extension
+
+Hai et al. (2025) extend the cognitive-surrender pattern into a third domain: **daily workplace behavior under sustained collaboration with GenAI**. In an experience-sampling study (229 employees; 1,050 within-person observations across 5 workdays), daily GenAI collaboration predicted same-day work alienation (γ = .14, p < .001), which channeled into **employee expediency** (γ = .30, p < .01) — cutting corners, altering performance numbers, ignoring protocols, enforcing rules only when self-serving.
+
+The mechanism the authors propose tracks the cognitive-surrender pattern closely: "employees may feel less involved in problem-solving or decision-making, diminishing their sense of responsibility for work outcomes. This can foster a separation between the self and the work, prompting employees to reduce effort or resort to shortcuts." Where Shaw & Nave (2026) showed cognitive surrender as bypassed System 2 and transferred agency on per-task lab problems, and Sharma et al. (2026) extended it to per-interaction value-laden decisions, Hai et al. document the same pattern at **the daily-behavior timescale of ongoing employment** — repeated collaboration accumulates into withdrawal of ethical engagement, not just task engagement.
+
+The moderator (digital job demands) suggests that surrender-as-expediency is amplified in under-resourced digital environments: when employees face high information load and prolonged connectivity demands, the withdrawal pathway is significant; when demands are bounded, it is not. This complements Shaw & Nave's individual-level moderators (need for cognition, fluid intelligence, cognitive reflection) with an environmental moderator that organizations can design.
+
 ## Related
 
 - [[cognitive-offloading]] - strategic version; surrender is the uncritical version
@@ -56,9 +65,11 @@ For practitioners advising on AI use: Shaw & Nave showed surrender is the predom
 - [[capacity-erosion]] - surrender as a mechanism of erosion
 - [[fluency-bias]] - AI's fluent outputs lower the threshold for scrutiny, enabling surrender
 - [[situational-disempowerment]] - action distortion potential primitive is cognitive surrender at the value-laden-decision level; Sharma et al. (2026) production-data evidence
+- [[hai-dark-side-collaboration-2025]] - daily-workplace-behavior extension of cognitive surrender; expediency as withdrawal of ethical engagement under sustained GenAI collaboration
 
 ## Sources
 
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
+- [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
 
