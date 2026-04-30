@@ -7,6 +7,7 @@ sources:
 - Goddard et al. (2012)
 - Shaw & Nave (2026)
 - Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+- "Yu, F., Moehring, A., Banerjee, O., Salz, T., Agarwal, N., & Rajpurkar, P. (2024). Heterogeneity and predictors of the effects of AI assistance on radiologists. Nature Medicine, 30, 837–849. https://doi.org/10.1038/s41591-024-02850-w"
 ---
 	
 # Automation Bias
@@ -22,6 +23,8 @@ Shaw & Nave (2026) position automation bias as a related but narrower mechanism 
 Automation bias directly undermines quality evaluation—the core capacity needed to use AI effectively. If you systematically trust AI over your own judgment, you lose the ability to catch AI errors. And AI errors in areas beyond your competence may never surface.
 
 Gonzalez et al. (2026) provide team-level evidence for automation bias as the primary barrier to human-AI complementarity. Their meta-analytic synthesis shows that poorly designed human-AI interaction — driven by overreliance on AI advice — can produce outcomes worse than either humans or AI working independently. This means automation bias doesn't just degrade individual performance; it can make the entire human-AI team worse than no collaboration at all.
+
+Yu et al. (2024) extend the team-level evidence into a specialist diagnostic context with an explicit dose-response. In a randomized two-design study of 140 board-certified radiologists across 324 chest X-ray cases and 15 pathologies, AI prediction error scaled the harm: more accurate AI yielded better radiologist treatment effects, and AI predictions with absolute error >80 (on a 0–100 probability scale) produced a treatment effect of −16.845 absolute-error points (95% CI: −24.288 to −9.403). Critically, the direction of AI error mattered too — predictions that *underestimated* ground-truth probabilities yielded better treatment effects than equally-erroneous predictions that *overestimated* them. Yu et al. interpret the underlying mechanism plainly: "radiologists struggle to consistently distinguish between accurate and inaccurate AI predictions and can be misled by inaccurate AI predictions" [p.11]. This is automation bias at expert scale: 140 specialists working in their domain, on their core task, still systematically followed AI into error.
 
 ## Key Insight
 
@@ -41,6 +44,8 @@ Teams perform best when humans actively interrogate AI recommendations rather th
 
 Han et al. (2025) add a trust-dynamics dimension: AI usage boosts self-efficacy (B=0.524, p<.001), which in turn increases willingness to take risks. For employees with low learning goal orientation, this self-efficacy boost does not translate into genuine capability — the mediated path is non-significant — suggesting they trust the machine's contribution while misattributing it to themselves. This creates conditions for automation bias: inflated self-trust, born from AI-assisted success, reduces the perceived need for verification.
 
+Yu et al. (2024) add a heterogeneity dimension to the feedback-loop description above. The same AI on the same tasks produced treatment effects ranging from −1.295 to +1.440 (IQR 0.797) on aggregated pathologies and up to −8.914 to +5.563 on individual high-prevalence tasks — meaning automation bias is not uniform across experts. Conventional predictors of who is most susceptible (years of experience, subspecialty, AI-tool familiarity, baseline diagnostic skill) all failed to identify which radiologists would be helped versus harmed. The practical implication: at the individual expert level, susceptibility to automation bias cannot be inferred from career stage or test scores; it must be measured per-radiologist under realistic deployment conditions before deciding who receives AI assistance. This is the strongest specialist-population evidence the KB has against the assumption that experts can self-calibrate their AI use.
+
 ## Related
 
 - [[fluency-bias]] - amplifies automation bias
@@ -52,6 +57,7 @@ Han et al. (2025) add a trust-dynamics dimension: AI usage boosts self-efficacy 
 - [[cognitive-surrender]] - broader phenomenon that automation bias sits within
 - [[tri-system-theory]] - framework that contextualizes automation bias as one dynamic among several
 - [[ai-self-efficacy-erosion]] - Han et al. (2025) show AI-as-tool inflates self-efficacy; the trust dynamics differ from AI-as-evaluator contexts
+- [[yu-radiologists-ai-2024]] — specialist dose-response evidence: AI absolute error >80 yields treatment effect of −16.845 in 140 board-certified radiologists; experience-based and skill-based predictors of automation-bias susceptibility all fail
 
 ## Sources
 
@@ -59,4 +65,5 @@ Han et al. (2025) add a trust-dynamics dimension: AI usage boosts self-efficacy 
 - [[goddard-automation-bias-2012]] — Goddard et al. (2012)
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+- [[yu-radiologists-ai-2024]] — Yu, F., Moehring, A., Banerjee, O., Salz, T., Agarwal, N., & Rajpurkar, P. (2024). Heterogeneity and predictors of the effects of AI assistance on radiologists. Nature Medicine, 30, 837–849. https://doi.org/10.1038/s41591-024-02850-w
 

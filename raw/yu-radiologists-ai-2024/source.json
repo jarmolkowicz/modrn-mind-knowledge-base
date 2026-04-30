@@ -1,0 +1,45 @@
+{
+  "slug": "yu-radiologists-ai-2024",
+  "original_filename": "Yu et al. (2026) - Heterogeneity and predictors of the effects of AI assistance on radiologists.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 16056,
+  "hash": "0271f0af8690bdf742790b4cc78ab560699b956b76e93f735267710f5f4f4d7e",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T20:00:43Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Yu et al. (Nature Medicine 2024) - heterogeneity of AI in radiology. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triggered from prior DEFER. AUTO-INCLUDE: Relevance=HIGH, Quality=HIGH, no duplicate. Specialist-context, large-N empirical evidence on heterogeneity of AI's effect on expert performance."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode, HIGH confidence on all classifications (0 NEW concepts; 4 UPDATE targets clear and well-attested). Skip Stage 4 per playbook."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "Stage 4.5 validate_drafts.py: 2 findings on first pass (missing_related leveling-effect + slug_year_mismatch 2026→2024). Workbench dir renamed; missing wikilink added. Clean on re-run."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "drafts/source.md moved to sources/yu-radiologists-ai-2024.md; 4 UPDATEs applied to concepts/automation-bias.md, concepts/human-ai-complementarity.md, concepts/novice-vulnerability.md, concepts/paradox-of-expertise.md. Aux scripts ran. KB counts: 72→73 sources, 57 concepts, 12 methods, 141→142 total."
+    }
+  ],
+  "pages": 27
+}
