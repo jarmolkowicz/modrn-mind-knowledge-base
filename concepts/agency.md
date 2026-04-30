@@ -8,6 +8,7 @@ sources:
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
   - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
   - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
+  - "Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2"
 ---
 
 # Agency
@@ -49,6 +50,10 @@ Hai et al. (2025) provide a workplace-deployment articulation of the agency entr
 
 The empirical leg — daily GenAI collaboration intensity predicts same-day work alienation, which channels into employee expediency (corner-cutting, metric manipulation, protocol violations) — is the behavioral evidence that *passive* engagement with GenAI (the unconscious-curation default the entry warns against) measurably degrades both the psychological substrate of agency and its expression in ethical conduct. The moderator is **digital job demands**: under high digital demands the alienation pathway is significant; under low demands it is not. This complements the [[hermann-genai-psychology-work-2025]] "algorithmic cage" finding — where Hermann et al. identify mandatory integration and surveillance as autonomy threats at the organizational-policy level, Hai et al. show that even *day-to-day collaboration intensity* operates as an autonomy threat when the digital environment is poorly resourced.
 
+Wu et al. (2025) supply pre-registered experimental causal evidence that GenAI's presence — not just task transitions — measurably erodes the sense of control core of agency. Across four experiments (total N = 3,562 Prolific UK), the four-condition design of Study 4 (N = 1,624) reveals a transition asymmetry: when participants moved from solo work into ChatGPT collaboration (Solo-Collab), their sense of control dropped by Δ = -1.01 (d = 0.84) — the single largest psychological effect across the paper. When they moved from collaboration back to solo work (Collab-Solo), their sense of control rose by Δ = 0.42 (d = -0.39). When they collaborated with ChatGPT in both tasks (Collab-Collab), their sense of control held steady but at the suppressed baseline established during initial collaboration. Sustained collaboration is not a recovery path; it is a continuation of the autonomy-suppressed state.
+
+The implication for the entry's "conscious choice about how to engage" core is direct: GenAI's default integration mode — receive prompt → produce output → human edits — measurably suppresses the worker's sense of being the primary agent of their actions. The authors' practical recommendation reads as a literal articulation of agency-preservation: "AI system designers should emphasize human agency in collaborative platforms, achieved by integrating user feedback, input, and customization, ensuring users retain a sense of control during collaborations with AI" [p.23]. Wu et al. complement [[hai-dark-side-collaboration-2025]] (within-person field ESM evidence of the same mechanism) with experimental causal evidence in the Prolific population. The two studies converge: passive engagement with GenAI degrades the psychological substrate of agency, regardless of whether the design family is field-correlational (Hai) or laboratory-experimental (Wu).
+
 **Professional value formula:**
 ```
 Domain Expertise + Agency Capacity + Accountability = Professional Value
@@ -68,6 +73,7 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[paradox-of-expertise]] - agency under-exercise pattern: experts who refuse to adopt GenAI marginalize themselves rather than shape its integration
 - [[identity-threat-coping]] - five-strategy taxonomy of how workers respond when autonomy and other basic needs are frustrated
 - [[hai-dark-side-collaboration-2025]] - daily-ESM field evidence that passive GenAI engagement (employee as subordinate) erodes agency and channels into unethical shortcuts; humans-as-superordinate as preservation lever
+- [[wu-collaboration-motivation-2025]] - pre-registered RCT evidence (N = 3,562) that GenAI's presence — particularly the Solo→Collab transition (d = 0.84) — measurably erodes sense of control; sustained collaboration maintains the suppressed baseline rather than restoring autonomy
 
 ## Sources
 
@@ -77,4 +83,5 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
 - [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 - [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
+- [[wu-collaboration-motivation-2025]] — Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2
 

@@ -7,7 +7,7 @@
   "hash": "8fa341f6e7805ed9df46ceee3ff9c4c6c7d3fb58030e76b5f1fbbb17152ceec0",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:42Z",
   "decisions": [
     {
@@ -15,6 +15,18 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Wu et al. (2025) - Human-GenAI collab + intrinsic motivation. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Override of prior DEFER. Sister-study to hai-dark-side-collaboration-2025. 4 pre-registered RCTs (N=3,562) provide experimental causal evidence for motivation/boredom face of psychological deprivation. Article-type: source distillation + UPDATEs to existing concepts."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/wu-collaboration-motivation-2025.md. 5 UPDATEs applied: agency, professional-identity-threat, ai-self-efficacy-erosion, strategic-alternation, performance-paradox. No NEW concepts. Aux scripts run (sync-source-links, build-index, update_readme_counts). KB counts: 71→72 sources, 140→141 total."
     }
   ],
   "pages": 30

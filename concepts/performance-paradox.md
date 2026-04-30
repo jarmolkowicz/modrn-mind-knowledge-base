@@ -9,6 +9,7 @@ sources:
 - Singh Yadav (2026)
 - Bartoš et al. (2026)
 - Stadler, Bannert & Sailer (2024)
+- "Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2"
 ---
 
 # Performance Paradox
@@ -35,6 +36,10 @@ Bartoš et al. (2026) provide an umbrella-level statistical anchor. Pooling 1,84
 
 Stadler, Bannert & Sailer (2024) operate at a different measurement level than Bastani: rather than scaffolded-vs-unassisted performance gap, they measure the during-task cognitive load and the same-session output quality. In their CHB RCT (N=91 university students, ChatGPT-3.5 vs. Google for a 20-minute socio-scientific search task), LLM users reported lower cognitive load on every facet (ECL η² = 0.09, ICL η² = 0.15, GCL η² = 0.27 — all p < .005) and produced lower-quality justifications (1.20 vs. 1.87 relevant arguments; F = 11.18, p = .001, η² = 0.11). The full mediation through germane cognitive load (β = 0.15, p = .020 indirect; direct path n.s.) names what is bypassed when AI makes the work easy: the active schema-construction processing that translates into output quality. The performance paradox is sharpened: it is not just that scaffolded performance and durable learning dissociate over time — even *within a single session*, when AI reduces effort, the dimension of the output that depends on active processing (depth of justification, integration of arguments) drops in lockstep.
 
+Wu et al. (2025) extend the paradox to the *post-AI* dimension that prior KB sources have not fully captured. Across four pre-registered experiments (total N = 3,562 Prolific UK), GenAI collaboration produced clear immediate-task augmentation: rater-assessed Facebook post quality improved by d = 0.23 (Study 1); LIWC-measured word count of performance reviews increased by d = 1.50 (Study 2) and welcome emails by d = 1.26 (Study 3); analytical content and prosocial/affiliation tone all rose with medium effect sizes. This is the standard "AI augments" finding the paradox sets up. But the spillover did not arrive. Three of four studies found *no* significant transfer of augmentation to subsequent unassisted tasks (Studies 2, 3, and 4 across idea quantity, novelty, usefulness, text length, analytical content, positive tone — all effect sizes |d| < 0.15, mostly non-significant). Study 4 found a small *negative* spillover on text length (Solo-Solo wrote slightly longer than Collab-Solo, d = 0.14, p = .048). Only Study 1 found positive spillover on idea quality (d = 0.29).
+
+This is the paradox's post-AI face: the worker performs better *with* AI but does not retain that performance in subsequent unassisted work. Where Bastani et al. show the gap *during* AI use (practice +48% but exam −17%), Wu et al. show the gap *after* AI use (immediate task gains do not transfer). The two findings together describe a fuller paradox: AI's performance benefit is bounded to its presence, with neither during-AI-learning nor post-AI-skill-transfer reliably operating in the worker's favor. The mechanism Wu et al. propose — that psychological deprivation effects (motivation decline, boredom increase) overshadow GenAI's potential cognitive benefits — converges with the Stadler "germane cognitive load" mediation: when AI removes effort, the active processing that would translate into transfer doesn't happen.
+
 ## The Vicious Cycle
 
 Lodge & Loble (2026) describe how the paradox self-reinforces:
@@ -57,6 +62,7 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - [[desirable-difficulty]] - Singh Yadav traces a historical arc showing each cognitive technology bypassed the productive struggle that built competence
 - [[bartos-ai-learning-meta-meta-2026]] - umbrella-level evidence anchor: published "AI improves learning" effects collapse ~3× under publication-bias correction, supporting the paradox at the field level
 - [[stadler-cognitive-ease-cost-2024]] — within-session paradox evidence: LLM-induced drop in cognitive load fully mediates the drop in justification quality
+- [[wu-collaboration-motivation-2025]] — pre-registered RCT evidence (N = 3,562) that the paradox extends post-AI: immediate-task augmentation is robust (d up to 1.50) but spillover to subsequent unassisted tasks is largely absent across three of four studies
 
 ## Sources
 
@@ -65,4 +71,5 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
 - [[bartos-ai-learning-meta-meta-2026]] — Bartoš et al. (2026)
 - [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
+- [[wu-collaboration-motivation-2025]] — Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2
 

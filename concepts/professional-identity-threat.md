@@ -10,6 +10,7 @@ sources:
   - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
   - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
   - "Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic."
+  - "Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2"
 ---
 
 # Professional Identity Threat
@@ -86,6 +87,10 @@ Three psychological needs affected:
 
 Nikolova et al. (2024) provide empirical evidence for this: automation reduces workers' sense of meaning and self-determination, even when job security is maintained. The effect persists across industries and roles. While Nikolova et al. studied industrial automation and robotics, the mechanism is consistent with reports from AI-assisted knowledge workers — suggesting the identity threat isn't just a feeling but a measurable psychological outcome of having meaningful work absorbed by automation.
 
+Wu et al. (2025) supply a pre-registered experimental anchor for the autonomy-and-motivation faces of identity threat. In four online experiments (total N = 3,562 Prolific UK), task transitions involving GenAI collaboration produced consistent effects on intrinsic motivation: Collab→Solo transitions reduced intrinsic motivation by d = -0.32 to -0.51 (medium effect across Studies 1–4), with replicating Task × Condition interactions in Studies 1, 3, and 4. Boredom rose by d = 0.32–0.51 across the same studies. Critically, Study 4 (N = 1,624) shows the autonomy frustration is not just a Collab→Solo effect: the Solo→Collab transition produced the steepest sense-of-control drop in the paper (Δ = -1.01, d = 0.84). The presence of GenAI suppresses autonomy regardless of transition direction, while transitioning out of collaboration restores it. Sustained collaboration (Collab-Collab) maintained stable but suppressed control and did not buffer motivation decline or boredom increases.
+
+This is the experimental causal counterpart to Hai et al.'s within-person field ESM evidence: where Hai shows daily collaboration intensity predicts same-day work alienation in real workplace data, Wu et al. show that pre-registered task-level manipulations of GenAI presence reproduce the autonomy- and motivation-frustration pattern under controlled conditions. Both anchor the BPNT-mediated identity-threat thesis in third-design-family evidence (lab RCT) beyond the SDT review (Hermann et al.), the within-person field ESM (Hai et al.), and the passive-vs-active mode-of-use experiment (Lee et al.).
+
 ## Related
 
 - [[cognitive-debt]] - capability dimension of this
@@ -101,6 +106,7 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[identity-threat-coping]] - the five compensatory strategies workers use in response
 - [[hai-dark-side-collaboration-2025]] - daily-ESM field evidence that identity-threat operates at within-person daily level and channels into expedient unethical behavior
 - [[handa-economic-tasks-claude-2025]] - production-scale breadth dimension: ~36% of occupations have ≥25% of tasks with AI usage but only ~4% have ≥75%; identity-threat pressure is task-shaped at scale, not role-shaped
+- [[wu-collaboration-motivation-2025]] - pre-registered RCT (N = 3,562) experimental causal evidence for the motivation-and-boredom face of identity threat: GenAI collaboration reduces intrinsic motivation (d = -0.32 to -0.51) and increases boredom (d = 0.32–0.51) across task transitions; sustained collaboration does not buffer the effect
 
 ## Sources
 
@@ -112,4 +118,5 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 - [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
 - [[handa-economic-tasks-claude-2025]] — Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic.
+- [[wu-collaboration-motivation-2025]] — Wu, S., Liu, Y., Ruan, M., Chen, S., & Xie, X.-Y. (2025). Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation. Scientific Reports, 15, 15105. https://doi.org/10.1038/s41598-025-98385-2
 
