@@ -8,6 +8,7 @@ sources:
 - Yan et al. (2025)
 - Singh Yadav (2026)
 - Bartoš et al. (2026)
+- Stadler, Bannert & Sailer (2024)
 ---
 
 # Performance Paradox
@@ -32,6 +33,8 @@ Singh Yadav (2026) provides a historical grounding through the concept of the "a
 
 Bartoš et al. (2026) provide an umbrella-level statistical anchor. Pooling 1,840 effect sizes from 67 meta-analyses on AI/LLMs and learning, they find that the publication-bias-unadjusted average effect (SMD ≈ 0.629) collapses to SMD = 0.196 [0.000, 0.323] once corrected — about one-third the published magnitude. Crucially, after RoBMA-PSMA correction, **0 out of 44 meta-analyses with at least 10 effect sizes retain strong evidence for the effect** of AI/LLMs on learning, vs. 41/44 in the unadjusted analysis [pp.20-21]. The umbrella does not contradict the performance-paradox framing; it shows that the bulk of "AI improves learning" claims in the published meta-analytic record are scaffolded-performance findings whose effects do not consolidate under bias correction. The Discussion explicitly invokes "task stewardship" (Lee et al. 2025), cognitive offloading mediation (Gerlich 2025), and reduced engagement under LLM-assisted writing (Kosmyna et al. 2025) as the mechanisms behind the non-consolidation [pp.22-23].
 
+Stadler, Bannert & Sailer (2024) operate at a different measurement level than Bastani: rather than scaffolded-vs-unassisted performance gap, they measure the during-task cognitive load and the same-session output quality. In their CHB RCT (N=91 university students, ChatGPT-3.5 vs. Google for a 20-minute socio-scientific search task), LLM users reported lower cognitive load on every facet (ECL η² = 0.09, ICL η² = 0.15, GCL η² = 0.27 — all p < .005) and produced lower-quality justifications (1.20 vs. 1.87 relevant arguments; F = 11.18, p = .001, η² = 0.11). The full mediation through germane cognitive load (β = 0.15, p = .020 indirect; direct path n.s.) names what is bypassed when AI makes the work easy: the active schema-construction processing that translates into output quality. The performance paradox is sharpened: it is not just that scaffolded performance and durable learning dissociate over time — even *within a single session*, when AI reduces effort, the dimension of the output that depends on active processing (depth of justification, integration of arguments) drops in lockstep.
+
 ## The Vicious Cycle
 
 Lodge & Loble (2026) describe how the paradox self-reinforces:
@@ -53,6 +56,7 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - [[novice-vulnerability]] - who is most affected; Singh Yadav's augmentation illusion is most pronounced at early Dreyfus stages
 - [[desirable-difficulty]] - Singh Yadav traces a historical arc showing each cognitive technology bypassed the productive struggle that built competence
 - [[bartos-ai-learning-meta-meta-2026]] - umbrella-level evidence anchor: published "AI improves learning" effects collapse ~3× under publication-bias correction, supporting the paradox at the field level
+- [[stadler-cognitive-ease-cost-2024]] — within-session paradox evidence: LLM-induced drop in cognitive load fully mediates the drop in justification quality
 
 ## Sources
 
@@ -60,4 +64,5 @@ Lodge & Loble (2026) describe how the paradox self-reinforces:
 - Yan et al. (2025)
 - [[singh-yadav-competency-paradox-2026]] — Singh Yadav (2026)
 - [[bartos-ai-learning-meta-meta-2026]] — Bartoš et al. (2026)
+- [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
 

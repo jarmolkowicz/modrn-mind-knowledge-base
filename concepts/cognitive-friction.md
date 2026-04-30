@@ -4,6 +4,7 @@ area: [preservation]
 sources:
   - "Nosta, Frictionless Intelligence (2026)"
   - "Bjork & Bjork (2011)"
+  - "Stadler, Bannert & Sailer (2024)"
 ---
 
 # Cognitive Friction
@@ -20,6 +21,8 @@ When friction disappears:
 - Speed replaces insight
 - Coherence substitutes for truth
 - Confidence arrives without being earned
+
+Stadler, Bannert & Sailer (2024) provide CLT-anchored evidence of what frictionlessness costs. In their RCT (N=91 university students, ChatGPT-3.5 vs. Google for a 20-minute socio-scientific search task), the search-engine condition produced significantly higher cognitive load on every facet (ECL η² = 0.09, ICL η² = 0.15, GCL η² = 0.27) — the felt friction of having to discriminate sources, integrate fragments, and evaluate claims. Justification quality scaled with that friction: search-engine users produced 1.87 relevant arguments on average vs. 1.20 for LLM users (F = 11.18, p = .001). The mediation analysis pins the mechanism on germane cognitive load specifically — the load devoted to active schema-construction. What disappears when AI makes work effortless is the load that produces understanding.
 
 ## Key Insight
 
@@ -44,9 +47,11 @@ Cognitive friction is the experiential side of [[desirable-difficulty]]. Desirab
 - [[strategic-alternation]] - how to preserve friction intentionally
 - [[think-first]] - practice that maintains friction
 - [[cognitive-grit]] - endurance capacity for sustained friction
+- [[stadler-cognitive-ease-cost-2024]] — CLT-mediator evidence: lower cognitive load (less friction) on LLM use fully mediates lower justification quality
 
 ## Sources
 
 - Nosta, Frictionless Intelligence (2026)
 - [[bjork-desirable-difficulties-2011]] — Bjork & Bjork (2011)
+- [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
 

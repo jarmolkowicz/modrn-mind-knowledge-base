@@ -8,6 +8,7 @@ sources:
 - Wang & Lajoie (2023)
 - Bastani et al. (2025)
 - Bartoš et al. (2026)
+- Stadler, Bannert & Sailer (2024)
 ---
 
 # Metacognitive Laziness
@@ -23,6 +24,8 @@ Metacognitive laziness is distinct from simply lacking metacognitive skill. It d
 Fan et al. (2025) provide the first RCT-grade empirical anchor. In a 4-arm randomised trial (N=117) comparing ChatGPT, human expert, writing-analytics checklist, and control, the AI group produced significantly higher essay scores than every other group (~2 points, all p<0.05) but showed no advantage on knowledge gain or knowledge transfer. Process-mining of self-regulated learning behaviour revealed the AI group's regulation was tightly entangled with ChatGPT prompts and showed *fewer* metacognitive transitions (orientation ↔ evaluation) than the human-expert group. This is performance/learning dissociation: AI users produced better outputs while learning less.
 
 Bastani et al. (2025) replicate Fan's lab finding at field scale. In a preregistered RCT with ~1,000 high school math students in Turkey, students given vanilla GPT-4 during practice scored 17% lower than controls on a subsequent unassisted exam. Two analyses (per-problem error-rate × student performance correlation, plus engagement-message classification) jointly support **crutch behavior as the dominant harm pathway** — students treat the AI as a way to bypass the metacognitive work of struggling with problems, not just as an information source that occasionally misleads them via hallucination. Importantly, students did not perceive that they had learned less, indicating the metacognitive layer remained absent rather than triggering self-correction.
+
+Stadler, Bannert & Sailer (2024) provide a CLT-anchored converging measurement. In their CHB RCT (N=91 university students, ChatGPT-3.5 vs. Google for a 20-minute socio-scientific research task), LLM users reported significantly lower germane cognitive load (η² = 0.27; M = 3.14 vs. 4.79) — the CLT construct for cognitive resources devoted to active processing, schema construction, and inference. Reduced germane load fully mediated the LLM group's lower justification quality (β = 0.15, p = .020 indirect; direct path n.s.). Where Fan et al. (2025) measure reduced metacognitive transitions through process-mining and Bastani et al. (2025) infer crutch behavior from interaction logs, Stadler et al. provide the during-task subjective load measure: the same disengagement, validated through Klepsch et al.'s (2017) CLT scale. Three independent operationalizations now converge on the same underlying phenomenon.
 
 ## Key Insight
 
@@ -47,6 +50,7 @@ Bartoš et al. (2026) position metacognitive laziness within a broader umbrella 
 - [[fan-metacognitive-laziness-2025]] - primary empirical source
 - [[bastani-guardrails-math-rct-2025]] - field-scale replication with crutch-mechanism evidence
 - [[bartos-ai-learning-meta-meta-2026]] - umbrella-level positioning: task stewardship, cognitive offloading, and metacognitive laziness cited as candidate mechanisms behind why the published "AI improves learning" effects fail to consolidate after bias correction
+- [[stadler-cognitive-ease-cost-2024]] — CLT-mediator evidence: reduced germane cognitive load fully mediates LLM-induced drops in justification quality (third operationalization of metacognitive disengagement, alongside Fan's process-mining and Bastani's interaction logs)
 
 ## Sources
 
@@ -54,4 +58,5 @@ Bartoš et al. (2026) position metacognitive laziness within a broader umbrella 
 - Wang & Lajoie (2023)
 - [[bastani-guardrails-math-rct-2025]] — Bastani et al. (2025)
 - [[bartos-ai-learning-meta-meta-2026]] — Bartoš et al. (2026)
+- [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
 

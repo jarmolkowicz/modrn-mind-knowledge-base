@@ -1,0 +1,51 @@
+{
+  "slug": "stadler-cognitive-ease-cost-2024",
+  "original_filename": "1-s2.0-S0747563224002541-main.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 7725,
+  "hash": "52ddc11f65527671b64b1debfa4bc7beb3282ff9473cdf69074db56b6eba5028",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T19:59:27Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Stadler et al. (CHB 2024) - Cognitive ease at a cost. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triage in AUTO mode: peer-reviewed CHB 2024 RCT (N=91) directly testing cognitive load + learning quality across LLM vs search-engine conditions. Exact empirical anchor for fluency-bias / desirable-difficulty / metacognitive-laziness cluster. Slug renamed from stadler-bannert-sailer-cognitive-ease-cost-2024 to stadler-cognitive-ease-cost-2024 for citability."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "reason": "Source distillation + 6 UPDATEs to fluency-bias, desirable-difficulty, cognitive-debt, metacognitive-laziness, performance-paradox, cognitive-friction. No NEW concepts (corroboration, not new constructs)."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "Overall READY. All 7 drafts pass three lenses + AI failure checklist."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py: 0 findings on first pass."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/stadler-cognitive-ease-cost-2024.md; 6 UPDATEs applied to concept entries; aux scripts run; KB-root log appended. KB counts: sources 65→66, concepts 56, methods 12, total 133→134."
+    }
+  ],
+  "pages": 7
+}
