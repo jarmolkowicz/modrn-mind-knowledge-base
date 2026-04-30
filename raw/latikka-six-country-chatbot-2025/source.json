@@ -7,7 +7,7 @@
   "hash": "a916fb865dbb97a9cc936986dd664abbd1592874bd5cada7c2ddf7f01975ac7b",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T20:00:14Z",
   "decisions": [
     {
@@ -15,6 +15,18 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Latikka et al. (J Soc Pers Rel 2025) six-country study. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "AUTO-mode override of prior DEFER. Relevance=HIGH (six-country evidence on chatbot use × distress/loneliness/self-esteem), Quality=HIGH (N=5,663 across six EU countries, validated scales, robust regression). UPDATE candidates: ai-loneliness-effect, anthropomorphism-of-technology. No NEW concepts."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "integrated",
+      "date": "2026-04-30",
+      "reason": "Source moved to sources/latikka-six-country-chatbot-2026.md (slug renamed to align with citation year (2026); workbench dir retained at -2025 for audit trail). Two UPDATEs applied to concepts/ai-loneliness-effect.md and concepts/anthropomorphism-of-technology.md. Stage 4 editorial skipped per high-confidence rubric; Stage 4.5 validate_drafts.py clean on first pass."
     }
   ],
   "pages": 25

@@ -6,6 +6,7 @@ sources:
   - "Folk, Wu & Heine (2025)"
   - "Epley, Waytz & Cacioppo (2007)"
   - "Waytz, Cacioppo & Epley (2010)"
+  - "Latikka, Bergdahl, Savolainen, Celuch & Oksanen (2026)"
 ---
 
 # Anthropomorphism of Technology
@@ -51,6 +52,7 @@ For consulting and educational work:
 - **For organizational deployment**: a chatbot pilot with mostly-high-anthropomorphizers will report higher initial connection and engagement scores than a deployment in a different population. Generalizing across populations requires accounting for this baseline.
 - **For one-on-one work**: when discussing AI-companion habits with a coachee or client, asking how human-like they perceive the AI to be (rather than how often they use it) may surface upstream variation that predicts both engagement and risk.
 - **Caveat against reading the trait as fixed**: the construct is psychometrically stable enough to function as a moderator (α = 0.88, two-study replication of moderating effect), but evidence that it is unchangeable is absent. It may shift with experience.
+- **Cross-cultural variation in chatbot uptake (without measuring anthropomorphism directly)**: Latikka et al. (2026) survey six European countries (N = 5,663) and find country-level prevalence of social-chatbot use ranging from 8.67% (Ireland) to 17.93% (Italy), with no clear tracking against digital-skills indicators. The well-being correlates also vary: psychological distress associates with chatbot use in every country, but loneliness only in 4/6 (France, Germany, Italy, Poland), and self-esteem only in France (positive). This six-country evidence does not measure anthropomorphism of technology directly, but supplies preliminary cross-cultural data on chatbot uptake and psychosocial correlates that any future cross-cultural test of the moderator effect needs to account for. For practitioners, it confirms that population-average framings (single-country experimental samples) under-describe the variability across European populations.
 
 ## Related
 
@@ -67,4 +69,5 @@ For consulting and educational work:
 - [[folk-heine-dunn-anthropomorphism-2025]] — Folk, Wu & Heine (2025)
 - Epley, Waytz & Cacioppo (2007)
 - Waytz, Cacioppo & Epley (2010)
+- [[latikka-six-country-chatbot-2026]] — Latikka, Bergdahl, Savolainen, Celuch & Oksanen (2026)
 
