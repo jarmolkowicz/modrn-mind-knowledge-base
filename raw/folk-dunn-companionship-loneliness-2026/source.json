@@ -7,7 +7,7 @@
   "hash": "9fdc07368b5d040e5198bdc0ae2e1aeaf9d647cb95a9f90f7c94a9b22ff59a4e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T19:59:55Z",
   "decisions": [
     {
@@ -15,6 +15,36 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Folk & Dunn (Psychological Science 2026). High-priority Tier-1 INCLUDE for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode override of prior DEFER. HIGH-relevance, HIGH-quality longitudinal study. No duplication. Conservative extraction: source distillation + 1 UPDATE."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode. Source draft and UPDATE complete. Stage 4 critique to pressure-test bidirectional framing and voice fit."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode. Overall READY: all AI-failure checklist items passed; both drafts APPROVE on Evidence/Practitioner/Adversarial lenses. Proceed to Stage 4.5 validation."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py: 0 findings on first pass."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "DONE",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/folk-dunn-companionship-loneliness-2026.md. UPDATE applied to concepts/ai-loneliness-effect.md (new Longitudinal Observational Evidence section, frontmatter source, Sources list). Auxiliary scripts run."
     }
   ],
   "pages": 11
