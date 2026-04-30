@@ -19,6 +19,8 @@ Steven D. Shaw & Gideon Nave, The Wharton School, University of Pennsylvania (20
 
 Modern decision-making unfolds within a triadic cognitive ecology, not a purely internal dual-process system. AI (System 3) is not merely a tool — it is a functional cognitive agent whose presence reshapes how and when humans engage their own faculties. The central question shifts from "Is this judgment fast or slow?" to "Whose cognition produced this judgment?"
 
+Note that Tri-System Theory is one of two sibling extensions of Kahneman's dual-process model published in this period. Chiriatti, Ganapini, Panai, Ubiali, and Riva (2024) propose **System 0** in *Nature Human Behaviour* — a foundational substrate operating *underneath* System 1 and System 2, preprocessing the inputs they receive. Where Shaw & Nave's **System 3** is positioned on the *output* side of decisions (a parallel cognitive agent that competes for or replaces internal reasoning), Chiriatti et al.'s **System 0** is positioned on the *input* side (a substrate that shapes what reaches the mind in the first place). The two framings are complementary rather than rivals — together they describe AI's effect on cognition at both ends of the decision pipeline. Neither paper cites the other; treating them as a unified picture is an integration left to the reader.
+
 ## Key Components
 
 - **System 1 (Fast)**: Internal, intuitive, heuristic-based. Fast, automatic, emotion-driven. Prone to bias but experientially grounded.
@@ -61,6 +63,7 @@ Modern decision-making unfolds within a triadic cognitive ecology, not a purely 
 - [[metacognition]] - the monitoring capacity that surrender bypasses
 - [[capacity-erosion]] - long-term consequence the theory implies but does not test
 - [[fluency-bias]] - mechanism that enables surrender (fluent AI output lowers scrutiny threshold)
+- [[system-0-thinking]] - sibling theoretical extension (Chiriatti et al. 2024); positions AI as a substrate *underneath* System 1/2 (input-side) rather than a parallel system *alongside* them (output-side, this framework)
 
 ## Sources
 

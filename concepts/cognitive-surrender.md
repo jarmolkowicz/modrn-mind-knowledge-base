@@ -5,6 +5,7 @@ sources:
   - "Shaw & Nave (2026)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
   - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
+  - "Chiriatti, Ganapini, Panai, Ubiali & Riva (2024)"
 ---
 
 # Cognitive Surrender
@@ -29,6 +30,8 @@ Three factors predict greater surrender:
 Two factors that partially protect:
 - Performance incentives combined with immediate feedback (override of faulty AI doubled from ~20% to ~42%)
 - Higher cognitive reflection ability
+
+Chiriatti et al. (2024) provide a complementary theoretical account from outside the experimental paradigm. In their *system 0* framework, surrender becomes the default because the AI substrate satisfies Heersmink's "trust" criterion at the cognitive-extension level — its outputs are accepted, in their words, "with the same ease and readiness with which we accept perceptual input or the content of our memory." This reframes the predictors Shaw & Nave identify (high trust in AI, low need for cognition, low fluid intelligence) as individual variation in how *tightly* a user has coupled with system 0; the structural pull toward surrender is built into the substrate, not solely into the moment-of-decision dynamics.
 
 ## Surrender vs. Offloading vs. Automation Bias
 
@@ -66,10 +69,12 @@ The moderator (digital job demands) suggests that surrender-as-expediency is amp
 - [[fluency-bias]] - AI's fluent outputs lower the threshold for scrutiny, enabling surrender
 - [[situational-disempowerment]] - action distortion potential primitive is cognitive surrender at the value-laden-decision level; Sharma et al. (2026) production-data evidence
 - [[hai-dark-side-collaboration-2025]] - daily-workplace-behavior extension of cognitive surrender; expediency as withdrawal of ethical engagement under sustained GenAI collaboration
+- [[system-0-thinking]] - Chiriatti et al. (2024) provide a substrate-level theoretical account of why surrender becomes the default; their "intellectual complacency" passage maps closely onto cognitive surrender
 
 ## Sources
 
 - [[shaw-cognitive-surrender-2026]] — Shaw & Nave (2026)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
 - [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
+- [[chiriatti-system-0-thinking-2024]] — Chiriatti, Ganapini, Panai, Ubiali & Riva (2024)
 

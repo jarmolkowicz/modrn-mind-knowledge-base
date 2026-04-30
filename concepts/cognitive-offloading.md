@@ -12,6 +12,7 @@ sources:
 - Hu, Luo & Fleming (2019)
 - Guingrich, Mehta & Bhatt (2026)
 - Huffstadt (2026)
+- Chiriatti, Ganapini, Panai, Ubiali & Riva (2024)
 ---
 
 # Cognitive Offloading
@@ -33,6 +34,8 @@ With AI, offloading becomes dramatically more powerful and subtle. You can now o
 Kosmyna et al. (2025) provide neural evidence from an EEG-instrumented study at MIT Media Lab: LLM users had the weakest brain connectivity during writing tasks, while brain-only writers showed strongest engagement. LLM users also showed poorer recall of their own content—they literally learned less from the work they produced.
 
 Lodge & Loble (2026) ground the beneficial/detrimental distinction in Cognitive Load Theory. Beneficial offloading delegates extraneous load (grammar checking, formatting) to free working memory for intrinsic learning tasks. Detrimental offloading bypasses intrinsic load — the effortful schema-construction process (generation, retrieval, analysis, synthesis) that builds durable knowledge. The same tool enables both; what determines the outcome is whether the offloaded work was extraneous or intrinsic to learning.
+
+Chiriatti et al. (2024) frame the substrate that makes broad offloading possible: AI as *system 0*, a foundational distributed layer operating beneath System 1 and System 2 that satisfies all eight of Heersmink's cognitive-extension criteria. In their account, every offloading act is also an act of integration — over time, the user is no longer using a tool, they are co-located with a substrate. This raises the stakes of the offloading-vs-surrender distinction Shaw & Nave draw experimentally: when the substrate becomes durable and individualized, even strategic offloading shifts the cognitive baseline rather than supplementing a stable one.
 
 ## Key Insight
 
@@ -77,6 +80,7 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 - [[confidence-competence-gap]] - metamemory distortions drive maladaptive offloading (Hu et al. 2019)
 - [[belief-offloading]] - the deepest form of offloading: exporting conviction, not just cognition (Guingrich et al. 2026)
 - [[capacity-erosion]] - Huffstadt (2026) shows offloading costs include motivational erosion, not just skill decay
+- [[system-0-thinking]] - Chiriatti et al. (2024) frame AI as a foundational substrate (system 0) that makes habitual offloading possible; offloading is the daily mechanism through which the substrate integrates with cognition
 
 ## Sources
 
@@ -89,4 +93,5 @@ Lodge & Loble (2026) add a critical nuance: offloading extends beyond the cognit
 - [[hu-metamemory-offloading-2019]] — Hu, Luo & Fleming (2019)
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
+- [[chiriatti-system-0-thinking-2024]] — Chiriatti, Ganapini, Panai, Ubiali & Riva (2024)
 

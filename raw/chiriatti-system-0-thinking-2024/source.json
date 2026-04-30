@@ -1,0 +1,46 @@
+{
+  "slug": "chiriatti-system-0-thinking-2024",
+  "original_filename": "The case for human_AI interaction as system 0 thinking.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 1452,
+  "hash": "d6ce3c20b0bc39c2a77ad42910ee2b26bca12693ecafa3ad0b6fa7e4e4a2b115",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-30T15:39:11Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "AUTO: Relevance=HIGH x Quality=HIGH x not a duplicate. Top-tier peer-reviewed Nature Human Behaviour Correspondence proposing a labeled construct (system 0) distinct from existing [[tri-system-theory]] (System 3) framing."
+    },
+    {
+      "stage": "rename",
+      "from": "the-case-for-human-ai-interaction-as-system-0-thinking",
+      "to": "chiriatti-system-0-thinking-2024",
+      "date": "2026-04-30",
+      "reason": "Renamed to canonical author-keyword-year stem after verifying authors (Chiriatti et al.) and year (2024) on page 1."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "AUTO: HIGH confidence on every classification. 1 source distillation + 1 NEW method (system-0-thinking) + 3 UPDATE proposals (tri-system-theory, cognitive-offloading, cognitive-surrender). Sibling-theory relationship to existing tri-system-theory handled explicitly via UPDATE rather than left implicit."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "Stage 4.5 validate_drafts.py: pass 1 reported 1 broken_wikilinks ([[extended-mind]] not a KB entry); fixed by replacing with plain-text reference. Pass 2 clean (0 findings)."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "integrated",
+      "date": "2026-04-30",
+      "reason": "Stage 5: copied drafts/source.md to sources/chiriatti-system-0-thinking-2024.md and drafts/methods/system-0-thinking.md to methods/system-0-thinking.md. Applied 3 UPDATEs in place (tri-system-theory: Core Idea cross-reference + Related bullet; cognitive-offloading: Why It Matters paragraph + Related bullet + frontmatter source; cognitive-surrender: Key Insight paragraph + Related bullet + frontmatter source). Ran sync-source-links.py, build-index.py, update_readme_counts.py. KB counts: 75 to 76 sources, 13 to 14 methods, 149 to 151 total."
+    }
+  ],
+  "pages": 2
+}
