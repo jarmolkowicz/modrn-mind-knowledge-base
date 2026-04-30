@@ -9,6 +9,7 @@ sources:
 - Reich & Teeny (2026)
 - Huffstadt (2026)
 - Stadler, Bannert & Sailer (2024)
+- Meincke, Nave & Terwiesch (2026)
 ---
 
 # Fluency Bias
@@ -30,6 +31,8 @@ Fluency-accuracy dissociation: fluent ≠ correct. AI's polished output lowers y
 Research identifies "processing fluency" as the specific mechanism: AI outputs are grammatically correct, well-formatted, and confident in tone. This smoothness creates ease of reading that signals truth. Users conflate "sounds good" with "is correct"—even sophisticated users struggle to overcome this bias.
 
 Stadler, Bannert & Sailer (2024) provide a CLT-anchored empirical demonstration in *Computers in Human Behavior*. In a between-subjects RCT (N=91, university students, randomized to ChatGPT-3.5 vs. Google for a 20-minute socio-scientific research task), LLM users reported significantly lower cognitive load on every facet — extraneous, intrinsic, and germane (η² = 0.09 / 0.15 / 0.27 respectively) — and produced lower-quality justifications (1.20 vs. 1.87 relevant arguments; F = 11.18, p = .001). Crucially, mediation analysis showed the entire group difference in justification quality flowed through reduced germane cognitive load (β = 0.15, p = .020 indirect; β = 0.19, p = .095 direct, n.s.). The paper's own framing — "cognitive ease at a cost" — names what fluency bias does in cognitive-load terms: the felt-easiness of LLM output is mechanistically the same thing as bypassed germane processing.
+
+Meincke, Nave & Terwiesch (2026) provide field-relevant evidence for fluency bias operating in a normatively loaded domain. In a Registered Report comparing GPT-4 ethical advice to NYT Ethicist columnist advice (N=642), participants rated AI advice equal to or *slightly higher* than expert advice when the source label was hidden — but rated expert advice higher than AI advice when sources were disclosed. Same content, evaluated identically by the same population on the same dilemmas, shifted ~7 percentage points in preference based purely on the source label. The authors' proposed mechanism is fluency: "Because LLMs communicate in natural language complete with reasoning, argumentation, and rhetorical nuance, their advice may appear more human and their thought processes more transparent. This linguistic familiarity may soften initial skepticism and accelerate the development of trust" [p.9]. When the source label is hidden, fluency does its work and AI is indistinguishable from or superior to a human expert in perceived usefulness. This is fluency bias operating in the ethical domain, where prior literature ([[ai-moralization]], algorithm aversion) had assumed structural resistance.
 
 ## Extended: The Coherence Trap
 
@@ -53,6 +56,8 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[capacity-erosion]] - Huffstadt (2026) shows fluency creates a satisfaction illusion that masks motivational erosion
 - [[effort-heuristic]] - inverse effect: AI's effortlessness makes solo effort feel like a bug
 - [[stadler-cognitive-ease-cost-2024]] — CLT-anchored evidence: reduced cognitive load on LLM use fully mediates the drop in justification quality
+- [[disclosure-penalty]] — Meincke et al. (2026) show source-disclosure can interrupt fluency-driven trust formation, but only partially: even with disclosure, AI ethical advice is preferred in 46.8% of choices
+- [[meincke-advice-quality-2026]] — fluency bias evidence in the ethical-advice domain: AI rated equal to or higher than NYT Ethicist when source is hidden; authors propose natural-language reasoning as the trust-formation pathway
 
 ## Sources
 
@@ -62,4 +67,5 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[reich-artificial-confidence-2026]] — Reich & Teeny (2026)
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
 - [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
+- [[meincke-advice-quality-2026]] — Meincke, Nave & Terwiesch (2026)
 

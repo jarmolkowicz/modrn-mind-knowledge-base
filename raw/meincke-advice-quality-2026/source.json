@@ -1,0 +1,45 @@
+{
+  "slug": "meincke-advice-quality-2026",
+  "original_filename": "Meincke et al. (2026) - Advice quality.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 9425,
+  "hash": "0e863d0f1afaf4a0200ec3d67c8f6120301333fd7fe9d99ceb51d27c3a1ace0b",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T20:00:20Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Meincke, Nave & Terwiesch (Wharton 2026) - trust in AI ethical advice. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triage in AUTO mode overrides prior DEFER. HIGH relevance (algorithm-aversion reduction + residual disclosure penalty in ethical domain) and HIGH quality (peer-reviewed Registered Report)."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "Article playbook: source distillation + UPDATE drafts for disclosure-penalty, transparency-paradox, fluency-bias, ai-moralization, social-sycophancy. No new concepts. HIGH confidence on all classifications."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py: 6 findings on first run (5 broken-wikilink to canonical slug; 1 broken howe-chatgpt-advice-2023 not in KB). Fix: renamed workbench dir to meincke-advice-quality-2026; replaced howe wikilink with non-link reference. validate_drafts.py: 0 findings on second run."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "Source distillation moved to sources/meincke-advice-quality-2026.md. 5 UPDATE drafts applied to disclosure-penalty, transparency-paradox, fluency-bias, ai-moralization, social-sycophancy. Aux scripts run: sync-source-links, build-index, update_readme_counts. KB counts: 73→74 sources, 57 concepts, 12 methods, 142→143 total."
+    }
+  ],
+  "pages": 11
+}

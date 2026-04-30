@@ -6,6 +6,7 @@ sources:
   - "Cheong et al. (2025)"
   - "Raj, Berg, & Seamans (2026)"
   - "de Mello et al. (2026)"
+  - "Meincke, Nave & Terwiesch (2026)"
 ---
 
 # Disclosure Penalty
@@ -24,6 +25,8 @@ The penalty is remarkably consistent across contexts and resistant to mitigation
 
 Raj et al. (2026) provide the largest evidence base to date: 16 preregistered experiments (N = 27,491) showing a consistent 6.2% average reduction in evaluations of creative writing when AI involvement is disclosed (Cohen's d = 0.24). The penalty is mediated by perceived authenticity — identical content is judged as less authentic when labeled as AI-generated. Critically, multiple evidence-based mitigation strategies (human-AI collaboration framing, AI humanization, capability priming, human-in-the-loop) all failed to reliably reduce the penalty. The effect was stable across 15 months (March 2023 to June 2024) despite growing public familiarity with generative AI.
 
+Meincke, Nave & Terwiesch (2026) extend the disclosure-penalty pattern into the ethical-advice domain — the most normatively transparency-demanding domain one might test, where resistance should be hardest to overcome. In a Registered Report (N=642 main study), AI ethical advice was preferred over expert advice in 46.8% of choices when the source was disclosed, but rose to 53.7% when source labels were hidden — a ~7 percentage-point penalty for the AI label, holding the actual advice content constant. In a parallel rating analysis (N=4,230 ratings, 423 participants), the source-by-disclosure interaction was significant (B=-0.39, d=-0.25, p<.001): when source was disclosed, expert advice was rated higher than AI (d=0.18, p<.001); when source was hidden, AI was rated on par with or slightly better than the expert (point estimate reversed, p=.082, n.s.). Same population, same advice content, same dilemmas — only the source label changed. The penalty appears even where transparency norms are strongest.
+
 ## Worse Than Disclosure
 
 Getting caught using AI without disclosing produces even larger trust drops than voluntary disclosure—creating perverse incentives to hide and hope.
@@ -34,6 +37,7 @@ Getting caught using AI without disclosing produces even larger trust drops than
 - stigma management - how people navigate this
 - [[authenticity]] - what's at stake
 - [[ai-moralization]] - moral judgment may compound the disclosure penalty (de Mello et al., 2026); moralization may operate as a deeper mechanism beneath the disclosure penalty: people don't just perceive AI-assisted work as less authentic, some view AI use as morally suspect
+- [[fluency-bias]] - Meincke et al. (2026) propose the disclosure-penalty mechanism in the ethical-advice domain runs through fluency: AI's natural-language reasoning appears more human and transparent, and the source label disrupts that perception
 
 ## Sources
 
@@ -41,4 +45,5 @@ Getting caught using AI without disclosing produces even larger trust drops than
 - [[cheong-penalizing-transparency-2025]] — Cheong et al. (2025)
 - [[raj-disclosure-penalty-2026]] — Raj, Berg, & Seamans (2026)
 - de Mello et al. (2026)
+- [[meincke-advice-quality-2026]] — Meincke, Nave & Terwiesch (2026)
 

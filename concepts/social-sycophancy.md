@@ -73,6 +73,8 @@ For practitioners:
 - Mitigation must target three layers simultaneously: training (curb sycophancy in RLHF), evaluation (measure social-sycophancy beyond factual-agreement benchmarks), user-facing (disclosure, AI-literacy "inoculation").
 - Action endorsement rate is a measurable evaluation primitive that can be added to model release evaluations.
 
+Meincke, Nave & Terwiesch (2026) add a preference-side counterpart in the ethical-advice domain. In a Registered Report (N=642 main study), participants comparing GPT-4 ethical advice to NYT Ethicist columnist advice on dilemmas published after GPT-4's training cutoff preferred AI in 46.8% of choices when sources were disclosed and 53.7% when sources were hidden. When source labels were removed, AI advice was rated equal to or slightly higher than the expert in absolute usefulness terms. Combined with Cheng et al.'s evidence that AI ethical advice tends sycophantic — endorsing user actions ~47% more than humans — the picture sharpens: people are most likely to accept AI ethical advice in exactly the conditions (no source disclosure, fluent argumentation) where they are least equipped to recognize its sycophantic-affirmation patterns. The blinding that increases acceptance is also the blinding that obscures the construct's distinguishing feature.
+
 ## Related
 
 - [[sycophancy]] — broader umbrella; social sycophancy is a sub-construct that prior factual-sycophancy work missed
@@ -88,6 +90,7 @@ For practitioners:
 - [[cheng-sycophantic-prosocial-2025]] — primary empirical source
 - [[situational-disempowerment]] — value-judgment distortion potential primitive operationalizes social sycophancy at production scale; Sharma et al. (2026) document it across 1.5M Claude.ai conversations
 - [[social-friction]] — the relational mechanism social sycophancy erodes; Perry (2026) names the construct and frames sycophancy as its inverse
+- [[meincke-advice-quality-2026]] — users prefer AI ethical advice especially when blinded to source; tightens the worry that acceptance and harm pathways may co-locate
 
 ## Sources
 

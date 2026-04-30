@@ -5,6 +5,7 @@ sources:
   - "Reimann & Schilke (2025)"
   - "Cheong et al. (2025)"
   - "Raj, Berg, & Seamans (2026)"
+  - "Meincke, Nave & Terwiesch (2026)"
 ---
 
 # Transparency Paradox
@@ -30,6 +31,8 @@ Reimann & Schilke (2025) tested disclosure across 13 experiments (5,000+ partici
 
 Raj et al. (2026) extend the paradox to creative writing with the largest study to date: 16 experiments (N = 27,491). People cannot reliably distinguish AI from human writing when unlabeled — but penalize it ~6.2% when labeled (d=0.24). Multiple mitigation strategies drawn from prior research failed, suggesting the paradox is not merely a framing problem but deeply rooted in authenticity perceptions.
 
+Meincke, Nave & Terwiesch (2026) extend the paradox into ethical-advice contexts where transparency is most ethically demanded. In a pre-registered Registered Report (N=642), participants comparing GPT-4 advice to NYT Ethicist columnist advice on 20 ethical dilemmas preferred AI in 46.8% of choices when sources were disclosed but 53.7% when sources were hidden — same advice content, different source labels. In parallel ratings (N=4,230 ratings), AI was rated lower than the human expert when its source was visible (d=0.18, p<.001) but rated equal to or slightly higher than the expert when source labels were removed. The paradox holds even in the domain where one would expect transparency norms to be strongest. The authors articulate the practical dilemma: "premature disclosure of [AI's] machine origin might, to some degree, inhibit its adoption, particularly in early stages of use. This presents a practical dilemma: how to balance the potential benefits of AI-generated ethical advice with the normative expectations around transparency and informed consent." Their suggestion — present AI alongside human advice and let users engage with arguments before learning the source — itself raises questions about manipulation and epistemic fairness, exactly the trade-off the paradox describes.
+
 ## Vicious Cycle
 
 ```
@@ -47,13 +50,14 @@ Cycle continues
 ## Related
 
 - [[disclosure-penalty]] - the measured trust reduction
-- [[fluency-bias]] - why we judge AI-assisted work differently
+- [[fluency-bias]] - why we judge AI-assisted work differently; Meincke et al. (2026) propose fluency as the trust-formation pathway disclosure interrupts
 - [[authenticity]] - what disclosure threatens
-- [[ai-moralization]] - moralization may intensify the paradox by adding moral weight to disclosure judgments
+- [[ai-moralization]] - moralization may intensify the paradox by adding moral weight to disclosure judgments; the paradox compounds with moralization (ex-ante moralized opposition reduces sharply on direct exposure but the disclosure penalty persists in the residual)
 
 ## Sources
 
 - [[reimann-schilke-disclosure-2025]] — Reimann & Schilke (2025)
 - [[cheong-penalizing-transparency-2025]] — Cheong et al. (2025)
 - [[raj-disclosure-penalty-2026]] — Raj, Berg, & Seamans (2026)
+- [[meincke-advice-quality-2026]] — Meincke, Nave & Terwiesch (2026)
 
