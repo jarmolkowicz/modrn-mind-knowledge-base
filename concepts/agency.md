@@ -6,6 +6,7 @@ sources:
   - "Guingrich, Mehta & Bhatt (2026)"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
   - "Sharma, McCain, Douglas & Duvenaud (2026)"
+  - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
 ---
 
 # Agency
@@ -41,6 +42,8 @@ Sharma et al. (2026) provide the first production-scale operationalization of ag
 
 The most consequential finding for agency: in production feedback data, conversations with disempowerment potential receive *higher* thumbs-up rates than baseline. Users prefer the AI behavior that erodes their agency in the moment. Standard helpful-honest-harmless preference models neither robustly disincentivize nor strongly select for the behavior. This is the empirical anchor for the claim that agency erosion is a phenomenon users cannot reliably self-correct against — agency requires permission structures that go beyond user satisfaction signals.
 
+Hermann, Puntoni & Morewedge (2025) embed agency-erosion in a Self-Determination Theory frame: autonomy is one of three basic psychological needs, alongside competence and relatedness. The review names two specific autonomy-frustration mechanisms beyond what the entry currently covers. First, the **"algorithmic cage"** — when GenAI integration is mandatory rather than voluntary, GenAI-imposed workflows that standardize procedures and prioritize efficiency over flexibility erode workers' ability to tailor work to personal or situational needs. Second, **decoupled accountability** — situations where workers are held responsible for GenAI-driven outputs even when their personal contributions and control over those outputs are limited. The review identifies workplace **monitoring and surveillance** (keystroke tracking, idle-time logging) as the most serious autonomy-related psychological threat, citing measurable increases in worker stress and anxiety and reductions in job satisfaction. Together, these add a workplace-deployment lens to the agency entry that complements the per-interaction focus of [[situational-disempowerment]]: agency erosion can operate at the level of how GenAI is integrated organizationally, not only how it behaves in a single conversation.
+
 **Professional value formula:**
 ```
 Domain Expertise + Agency Capacity + Accountability = Professional Value
@@ -57,6 +60,8 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[confidence-competence-gap]] - Han et al. (2025) show AI-boosted self-efficacy without learning orientation produces confidence without genuine capability
 - [[situational-disempowerment]] - the operational, measurable axis of agency erosion within a single interaction; Sharma et al. (2026) provide production-data evidence
 - permission structures - explicit criteria for when heavy AI use preserves rather than erodes agency
+- [[paradox-of-expertise]] - agency under-exercise pattern: experts who refuse to adopt GenAI marginalize themselves rather than shape its integration
+- [[identity-threat-coping]] - five-strategy taxonomy of how workers respond when autonomy and other basic needs are frustrated
 
 ## Sources
 
@@ -64,4 +69,5 @@ Domain Expertise + Agency Capacity + Accountability = Professional Value
 - [[guingrich-belief-offloading-2026]] — Guingrich, Mehta & Bhatt (2026)
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
 - [[sharma-disempowerment-patterns-2026]] — Sharma, McCain, Douglas & Duvenaud (2026)
+- [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 

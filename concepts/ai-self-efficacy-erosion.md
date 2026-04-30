@@ -4,6 +4,7 @@ area: [erosion, risk]
 sources:
   - "Alessandro, G., Federica, D., Baldissarri, C., Manfredi, A., Sterlicchio, A., & Romano, S. (2025). Artificial intelligence in the workplace: Effects on self-efficacy, self-objectification and beliefs in free will. Journal of Community & Applied Social Psychology, 35, e70107. https://doi.org/10.1002/casp.70107"
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
+  - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
 ---
 
 # AI Self-Efficacy Erosion
@@ -29,6 +30,8 @@ The causal chain is: AI interaction --> reduced self-efficacy --> increased self
 
 **Counterpoint — Han et al. (2025)**: A three-wave longitudinal study (N=442) found that AI usage as a work tool *enhanced* self-efficacy (B=0.524, p<.001) rather than eroding it. The apparent contradiction resolves through interaction mode: being evaluated *by* AI (Alessandro) erodes self-efficacy through objectification, while using AI *as a tool* (Han) boosts it through perceived competence enhancement. However, for employees with low learning goal orientation, the self-efficacy boost did not translate into genuine behavioral outcomes (mediated path non-significant), suggesting the efficacy gain may be superficial — externally attributed rather than internalized. This aligns with the concern about self-perception attacks: AI can simultaneously inflate and erode self-efficacy depending on whether the person is the user or the subject.
 
+Hermann, Puntoni & Morewedge (2025) embed self-efficacy erosion in the broader competence-need frustration of Self-Determination Theory: GenAI's "creative, analytical, and communicative affordances can foster a sense of professional inadequacy and make workers feel less competent" [p.4]. The review identifies two distinct mechanisms beyond the evaluative-context pathway documented by Alessandro et al. — (a) **comparison threat**: GenAI's visible capability on tasks workers used to perform well makes their own contributions feel diminished, even when those contributions remain objectively valuable; and (b) **deskilling-by-offloading**: as workers outsource tasks to GenAI without fully mastering them, the foundational skills that ground self-efficacy beliefs erode, eventually leaving workers unable to perform without AI assistance. This connects self-efficacy erosion to the [[performance-paradox]] (Bastani et al. 2025) and [[cognitive-debt]] (Kosmyna et al. 2025) clusters: the subjective experience of declining self-efficacy is the inside view of the same offloading dynamics those entries describe from the outside.
+
 ## Related
 
 - [[professional-identity-threat]] - self-objectification is an identity threat mechanism
@@ -36,9 +39,12 @@ The causal chain is: AI interaction --> reduced self-efficacy --> increased self
 - [[capacity-erosion]] - self-efficacy erosion as a dimension of capacity loss
 - [[confidence-competence-gap]] - Han et al. show AI-inflated self-efficacy without learning orientation maps to confidence without competence
 - [[novice-vulnerability]] - learning goal orientation as moderator suggests those without growth mindsets are most vulnerable to shallow efficacy gains
+- [[paradox-of-expertise]] - at the senior end, self-efficacy is over-protected: experts cling to existing efficacy beliefs and refuse to update with GenAI-collaboration skills, marginalizing themselves
+- [[identity-threat-coping]] - direct resolution (skill-building) is the productive response to self-efficacy erosion; symbolic self-completion and dissociation are common defensive responses
 
 ## Sources
 
 - [[alessandro-self-efficacy-2025]] — Alessandro, G., Federica, D., Baldissarri, C., Manfredi, A., Sterlicchio, A., & Romano, S. (2025). Artificial intelligence in the workplace: Effects on self-efficacy, self-objectification and beliefs in free will. Journal of Community & Applied Social Psychology, 35, e70107. https://doi.org/10.1002/casp.70107
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
+- [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 

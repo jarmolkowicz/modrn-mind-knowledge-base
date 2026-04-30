@@ -1,0 +1,51 @@
+{
+  "slug": "hermann-genai-psychology-work-2025",
+  "original_filename": "Hermann, Puntoni & Morewedge (2025) - GenAI and the psychology of work.pdf",
+  "format": "pdf",
+  "source_type": "article",
+  "word_count": 8982,
+  "hash": "bfab7f46cafcb4904b323c5617c56f081ed71dc9587ebbb31ba3c0f63622ede9",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-29T20:00:00Z",
+  "decisions": [
+    {
+      "stage": "triage",
+      "outcome": "DEFER",
+      "date": "2026-04-29",
+      "reason": "Hermann et al. (2025) - comprehensive review of GenAI psychology of work. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "Re-triggered from DEFER. Review article from TiCS supplies BPNT/SDT umbrella, five-strategy coping taxonomy, and paradox-of-expertise. Workbench renamed from hermann-puntoni-morewedge-2025-genai-and-the-psychology-of-work to hermann-genai-psychology-work-2025 for citability."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "reason": "1 NEW concept (paradox-of-expertise) + 1 NEW method (identity-threat-coping) + 4 UPDATEs (professional-identity-threat, agency, novice-vulnerability, ai-self-efficacy-erosion). Conservative on new entries; held to 1+1+4 cap."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "reason": "All 7 drafts passed Evidence + Practitioner + Adversarial lenses. AI Failure Checklist clean. Minor revision: added [Inference] flag to identity-threat-coping What-To-Do section."
+    },
+    {
+      "stage": "validate",
+      "outcome": "PASS",
+      "date": "2026-04-30",
+      "reason": "validate_drafts.py: 0 findings on first pass. Clean."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "reason": "1 source + 1 concept + 1 method + 4 UPDATEs landed. KB counts: 64 sources / 56 concepts / 12 methods / 132 total."
+    }
+  ],
+  "pages": 12
+}

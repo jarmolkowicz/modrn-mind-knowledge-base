@@ -7,6 +7,7 @@ sources:
   - "de Mello et al. (2026)"
   - "Alessandro et al. (2025)"
   - "Keshky (2026)"
+  - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
 ---
 
 # Professional Identity Threat
@@ -53,6 +54,8 @@ de Mello et al. (2026) add an external dimension to professional identity threat
 
 Alessandro et al. (2025) add a self-objectification dimension to professional identity threat. In three experiments (~571 participants), being evaluated by an AI system (vs. a human) increased self-objectification — participants attributed fewer mental states to themselves. The mechanism: AI evaluation reduces self-efficacy, which triggers self-objectification (seeing oneself as data/object rather than agent). This is distinct from the "editor not creator" dynamic — here, the person is not using AI but being processed *by* it, yet the identity erosion follows a similar pattern.
 
+Hermann, Puntoni & Morewedge (2025) embed professional identity threat in a fuller Self-Determination Theory frame: the three psychological needs (competence, autonomy, relatedness) are not independent risk axes but a single integrated structure (Basic Psychological Needs Theory; Ryan & Deci, 2017; meta-analytical support in Van den Broeck et al., 2016). Identity threat in this view is not a free-standing construct but a downstream consequence of need-frustration along one or more of the three axes — competence frustration (deskilling, feeling redundant), autonomy frustration (loss of control, "algorithmic cage," surveillance), and relatedness frustration (social isolation, dehumanization of coworkers). The review also documents the [[paradox-of-expertise]] — high-skilled workers disregard GenAI due to overestimated self-perceived expertise, marginalizing themselves in GenAI-augmented environments — as a senior-level mirror of the [[novice-vulnerability]] pattern, both rooted in misaligned self-assessment under GenAI-mediated work. Workers respond to these threats with five compensatory strategies (direct resolution, symbolic self-completion, dissociation, escapism, fluid compensation) — see the new method [[identity-threat-coping]].
+
 ## Restorative Effect
 
 Unassisted work may restore sense of authorship:
@@ -80,6 +83,8 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[ai-self-efficacy-erosion]] - self-objectification through AI evaluation as identity threat mechanism
 - [[confidence-competence-gap]] - Keshky shows the gap mediates identity distortion
 - [[amathia-drift]] - intellectual identity distortion as endpoint of drift
+- [[paradox-of-expertise]] - senior-level mirror of identity threat: experts who refuse to adopt GenAI marginalize themselves
+- [[identity-threat-coping]] - the five compensatory strategies workers use in response
 
 ## Sources
 
@@ -88,4 +93,5 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - de Mello et al. (2026)
 - [[alessandro-self-efficacy-2025]] — Alessandro et al. (2025)
 - [[keshky-illusory-competence-2026]] — Keshky (2026)
+- [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 
