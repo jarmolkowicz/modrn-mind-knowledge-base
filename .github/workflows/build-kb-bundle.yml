@@ -73,6 +73,9 @@ jobs:
           - **Custom GPTs** — Upload to the knowledge section of your Custom GPT
           - **Any LLM** — Paste relevant sections into your conversation for grounded answers
 
+          ### Bundle composition
+          The bundle is the **compact** view of the KB: concept and method entries are full-fidelity; source distillations omit the heaviest sections (`Key Passages`, `Open Questions`, `Contradicts / Extends`) to keep the bundle within reasonable token budgets. Citation, Key Insight, Key Findings, Relevance, and Supports remain. The canonical full-fat source files live in [`sources/`](https://github.com/jarmolkowicz/modrn-mind-knowledge-base/tree/main/sources) in the repo.
+
           Built automatically from the latest commit on `main`.
           EOF
           )"

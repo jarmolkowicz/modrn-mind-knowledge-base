@@ -3,7 +3,36 @@
 # Builds a single concatenated markdown file from the Knowledge Base.
 # Output: dist/modern-mind-kb.md
 #
+# Default (compact mode): strips three heavy sections from each source distillation —
+#   `## Key Passages`, `## Open Questions`, `## Contradicts / Extends` —
+# while leaving concept and method entries untouched. Source files in `sources/`
+# are not modified; the canonical content stays full-fat. Compaction lives only
+# at bundle-build time.
+#
+# Pass `--full` to bypass the compaction and produce a full-fidelity bundle
+# (matches pre-2026-04-30 behavior, byte-for-byte modulo the helper notice).
+#
 set -euo pipefail
+
+# --- Flags ---
+FULL=0
+for arg in "$@"; do
+  case "$arg" in
+    --full) FULL=1 ;;
+    -h|--help)
+      cat <<USAGE
+Usage: $0 [--full]
+
+  --full   produce a full-fidelity bundle (no source-section compaction)
+USAGE
+      exit 0
+      ;;
+    *)
+      echo "unknown flag: $arg" >&2
+      exit 2
+      ;;
+  esac
+done
 
 OUTDIR="dist"
 OUTFILE="$OUTDIR/modern-mind-kb.md"
@@ -20,6 +49,45 @@ fi
 # Sections to include (order matters)
 SECTIONS=("concepts" "methods" "sources")
 LABELS=("Concepts" "Methods" "Sources")
+
+# --- Awk filters ---
+#
+# Frontmatter-only: strip the YAML frontmatter, print everything else.
+# Used for concept and method entries (and for source entries when --full).
+read -r -d '' AWK_FRONTMATTER_ONLY <<'AWK' || true
+  BEGIN { in_frontmatter=0; frontmatter_done=0 }
+  /^---$/ && !frontmatter_done {
+    if (in_frontmatter) { frontmatter_done=1; next }
+    else { in_frontmatter=1; next }
+  }
+  frontmatter_done || !in_frontmatter { print }
+AWK
+
+# Frontmatter + heavy-source-section strip. Used for source entries in compact mode.
+# Drops the entire body of these H2 sections (until the next H2 or H1):
+#   ## Key Passages
+#   ## Open Questions
+#   ## Contradicts / Extends
+read -r -d '' AWK_COMPACT_SOURCE <<'AWK' || true
+  BEGIN { in_frontmatter=0; frontmatter_done=0; skip_section=0 }
+  /^---$/ && !frontmatter_done {
+    if (in_frontmatter) { frontmatter_done=1; next }
+    else { in_frontmatter=1; next }
+  }
+  in_frontmatter && !frontmatter_done { next }
+  /^## / {
+    t = $0
+    sub(/[[:space:]]+$/, "", t)
+    if (t == "## Key Passages" || t == "## Open Questions" || t == "## Contradicts / Extends") {
+      skip_section = 1
+      next
+    } else {
+      skip_section = 0
+    }
+  }
+  /^# / { skip_section = 0 }
+  !skip_section { print }
+AWK
 
 # --- Header ---
 cat > "$OUTFILE" << 'HEADER'
@@ -81,15 +149,13 @@ for i in "${!SECTIONS[@]}"; do
     echo "<a id=\"${anchor}\"></a>" >> "$OUTFILE"
     echo "" >> "$OUTFILE"
 
-    # Include file content (strip YAML frontmatter)
-    awk '
-      BEGIN { in_frontmatter=0; frontmatter_done=0 }
-      /^---$/ && !frontmatter_done {
-        if (in_frontmatter) { frontmatter_done=1; next }
-        else { in_frontmatter=1; next }
-      }
-      frontmatter_done || !in_frontmatter { print }
-    ' "$file" >> "$OUTFILE"
+    # Include file content (strip YAML frontmatter; in compact mode also strip
+    # heavy H2 sections from source entries).
+    if [ "$section" = "sources" ] && [ "$FULL" = "0" ]; then
+      awk "$AWK_COMPACT_SOURCE" "$file" >> "$OUTFILE"
+    else
+      awk "$AWK_FRONTMATTER_ONLY" "$file" >> "$OUTFILE"
+    fi
 
     echo "" >> "$OUTFILE"
     echo "---" >> "$OUTFILE"
@@ -104,4 +170,12 @@ for section in "${SECTIONS[@]}"; do
   TOTAL=$((TOTAL + COUNT))
 done
 
-echo "Bundle built: $OUTFILE ($TOTAL entries)"
+if [ "$FULL" = "1" ]; then
+  MODE="full"
+else
+  MODE="compact (sources stripped of Key Passages / Open Questions / Contradicts-Extends)"
+fi
+
+BYTES=$(wc -c < "$OUTFILE" | tr -d ' ')
+KB=$(awk "BEGIN { printf \"%.1f\", $BYTES / 1024 }")
+echo "Bundle built: $OUTFILE ($TOTAL entries, ${KB} KB, mode=$MODE)"
