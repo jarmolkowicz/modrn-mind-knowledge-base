@@ -9,6 +9,7 @@ sources:
   - "Keshky (2026)"
   - "Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009"
   - "Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905"
+  - "Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic."
 ---
 
 # Professional Identity Threat
@@ -20,6 +21,12 @@ Heavy AI use can erode professional identity—the sense of being a creator, cra
 ## Why It Matters
 
 Professional identity is tied to psychological well-being, not just capability. Even if output quality is maintained, the loss of authorship and craftsmanship affects motivation, satisfaction, and sense of meaning in work.
+
+Handa et al. (2025) supply the breadth dimension to identity-threat claims. In ~4M Claude.ai conversations mapped to U.S. Department of Labor O*NET tasks, **~36% of occupations show AI usage in at least 25% of their associated tasks**; **~11% see usage in at least half their tasks**; only ~4% see usage across at least 75% of tasks [p.7]. This puts a quantitative floor on which professions face identity-mediation pressure today: roughly a third of occupations have meaningful AI penetration into their task portfolios, but deep penetration across most tasks remains rare. Handa et al. summarize: "Rather than completely automating entire job roles, present-day AI appears to be primarily used for specific tasks within occupations" [p.7].
+
+The professional-identity implication is partial-but-not-wholesale: the entry's "editor not creator" pattern is not (yet) the experience of practitioners across most of their work. It is the experience of practitioners on specific tasks — predominantly writing, content generation, and software development tasks where Directive (full-delegation) patterns dominate [p.9–10]. This refines the entry's framing: identity threat at scale is task-shaped, not role-shaped, and most acute in the specific bachelor's-degree-level cognitive work that Job Zone 4 captures (peak usage band per Handa et al. [p.8–9]).
+
+[Inference] The narrowing matters because identity threat may be more manageable when localized to specific tasks (the practitioner retains the rest of their role to anchor identity in) than when it permeates an occupation. The Handa data are consistent with the Hai et al. (2025) within-person finding that identity threat fluctuates day-to-day with collaboration intensity — both suggest the threat operates at task and session level rather than as a chronic, role-wide displacement.
 
 ## Key Insight
 
@@ -93,6 +100,7 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[paradox-of-expertise]] - senior-level mirror of identity threat: experts who refuse to adopt GenAI marginalize themselves
 - [[identity-threat-coping]] - the five compensatory strategies workers use in response
 - [[hai-dark-side-collaboration-2025]] - daily-ESM field evidence that identity-threat operates at within-person daily level and channels into expedient unethical behavior
+- [[handa-economic-tasks-claude-2025]] - production-scale breadth dimension: ~36% of occupations have ≥25% of tasks with AI usage but only ~4% have ≥75%; identity-threat pressure is task-shaped at scale, not role-shaped
 
 ## Sources
 
@@ -103,4 +111,5 @@ Nikolova et al. (2024) provide empirical evidence for this: automation reduces w
 - [[keshky-illusory-competence-2026]] — Keshky (2026)
 - [[hermann-genai-psychology-work-2025]] — Hermann, E., Puntoni, S., & Morewedge, C. K. (2025). GenAI and the psychology of work. Trends in Cognitive Sciences. https://doi.org/10.1016/j.tics.2025.04.009
 - [[hai-dark-side-collaboration-2025]] — Hai, S., Long, T., Honora, A., Japutra, A., & Guo, T. (2025). The dark side of employee-generative AI collaboration in the workplace: An investigation on work alienation and employee expediency. International Journal of Information Management, 83, 102905. https://doi.org/10.1016/j.ijinfomgt.2025.102905
+- [[handa-economic-tasks-claude-2025]] — Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic.
 

@@ -7,7 +7,7 @@
   "hash": "8482c11bf8d025f14bb07f4960bbb8cf92ecae7887015ec95588dae7773c2b1e",
   "extractor": "pypdf",
   "extractor_script_version": "0.1.0",
-  "status": "deferred",
+  "status": "integrated",
   "ingested_at": "2026-04-29T19:59:30Z",
   "decisions": [
     {
@@ -15,6 +15,18 @@
       "outcome": "DEFER",
       "date": "2026-04-29",
       "reason": "Handa et al. (Anthropic 2025) - empirical analysis of AI usage at scale. High-priority for next session."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "reason": "AUTO mode override of prior DEFER. HIGH relevance + HIGH quality + no duplicate. First production-data baseline of AI task usage mapped to O*NET; anchors UPDATE proposals across multiple existing concepts."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "completed",
+      "date": "2026-04-30",
+      "reason": "All 6 UPDATEs applied (partial-automation-principle, execution-commoditization, human-ai-complementarity, novice-vulnerability, professional-identity-threat, situational-disempowerment). Source distillation moved to sources/handa-economic-tasks-claude-2025.md. Aux scripts (sync-source-links, build-index, update_readme_counts) executed. Two-stage finish: prior sub-agent completed Stages 1–4.5 + 1/6 UPDATEs (partial-automation-principle) before crashing; this sub-agent applied remaining 5 UPDATEs and ran aux scripts."
     }
   ],
   "pages": 38
