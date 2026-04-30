@@ -10,6 +10,7 @@ sources:
 - Huffstadt (2026)
 - Stadler, Bannert & Sailer (2024)
 - Meincke, Nave & Terwiesch (2026)
+- "Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58."
 ---
 
 # Fluency Bias
@@ -42,6 +43,10 @@ Nosta (2025) extends fluency bias into epistemological territory with the [[cohe
 
 Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivational one. Reduced cognitive effort from AI usage creates a form of "perceptual fluency" (Reber et al., 2004) that feels satisfying — but this satisfaction masks a motivational cost. In the SEM model (N=297), reduced effort predicted lower motivation (a key driver of performance, beta=0.58). The "silent impact" framing captures what fluency bias obscures: the very ease that makes AI use feel productive is simultaneously degrading the engagement that drives sustained performance. Users experience AI-assisted work as better (less effortful, more efficient), even as the motivational foundation erodes beneath the surface.
 
+## Extended: Field-Scale Adoption
+
+Messeri & Crockett (2024) extend fluency bias from individual perception to the structure of scientific knowledge production. They identify four qualities that make AI outputs feel like satisfying explanations — *simple*, *broad*, *reductive*, *quantitative* — and note that "reductive and quantitative explanations tend to produce feelings of understanding, [but] such feelings are not always correlated with actual understanding" (Messeri & Crockett 2024, p.4). All four qualities feature prominently in scientists' visions of AI: Oracles provide simplifying summaries of entire literatures; Quants produce quantitative models of complex phenomena; Surrogates promise breadth across humanity; Arbiters reduce scientific merit to predicted-replicability scores. Fluency bias thus operates not just on individual judgement of an AI output but on the *adoption* of AI tools at field scale: the very qualities that make AI outputs trigger fluency-driven trust are the qualities that, aggregated, produce a [[scientific-monoculture]] of knowing.
+
 ## Related
 
 - [[automation-bias]] - compounds with fluency bias
@@ -58,6 +63,9 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[stadler-cognitive-ease-cost-2024]] — CLT-anchored evidence: reduced cognitive load on LLM use fully mediates the drop in justification quality
 - [[disclosure-penalty]] — Meincke et al. (2026) show source-disclosure can interrupt fluency-driven trust formation, but only partially: even with disclosure, AI ethical advice is preferred in 46.8% of choices
 - [[meincke-advice-quality-2026]] — fluency bias evidence in the ethical-advice domain: AI rated equal to or higher than NYT Ethicist when source is hidden; authors propose natural-language reasoning as the trust-formation pathway
+- [[illusion-of-explanatory-depth]] - the metacognitive consequence of fluency-driven trust in AI explanations
+- [[illusion-of-objectivity]] - fluency reinforces the apparent neutrality of AI outputs
+- [[scientific-monoculture]] - the structural outcome when fluency bias drives tool adoption across a field
 
 ## Sources
 
@@ -68,4 +76,5 @@ Huffstadt (2026) extends fluency bias from a perceptual mechanism to a motivatio
 - [[huffstadt-silent-impact-2026]] — Huffstadt (2026)
 - [[stadler-cognitive-ease-cost-2024]] — Stadler, Bannert & Sailer (2024)
 - [[meincke-advice-quality-2026]] — Meincke, Nave & Terwiesch (2026)
+- [[messeri-crockett-illusions-understanding-2024]] — Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58.
 

@@ -12,6 +12,7 @@ sources:
   - "Han, Z., Song, G., Zhang, Y., & Li, B. (2025)"
   - "Fernandes et al. (2026)"
   - "Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. CHI '25."
+  - "Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58."
 ---
 
 # Confidence-Competence Gap
@@ -35,6 +36,8 @@ Fernandes et al. also report a counterintuitive moderation finding: higher self-
 Lee et al. (2025) extend the confidence-competence gap from lab to real-world workflows. In a survey of 319 knowledge workers (936 GenAI task examples, mixed-methods, CHI '25), a random-intercepts logistic regression revealed a confidence pair: **confidence in AI predicts less enaction of critical thinking** (β = −0.69, p < 0.001), while **confidence in self predicts more** (β = +0.26, p = 0.026; confidence in evaluating AI: β = +0.31, p = 0.046). Higher overall trust in GenAI also flattens perceived effort across four of six Bloom-level cognitive activities (Knowledge β = −0.12, Application β = −0.17, Analysis β = −0.12, Evaluation β = −0.24, all p < 0.05 corrected). At the qualitative level, 83 of 319 participants cite trust and reliance on GenAI as their primary critical-thinking inhibitor. The pair sharpens the gap mechanism: it is not just that AI inflates confidence regardless of accuracy (Shaw & Nave) or that AI use produces uniform high-baseline overestimation (Fernandes); the *direction* of confidence matters. Domain expertise (confidence-in-self) protects, AI-confidence undermines — and the two operate independently in the regression. Field-level evidence converges with the lab.
 
 Leonardi & Leavell (2026) extend the confidence-competence gap to the organizational level through the concept of [[artificial-certainty]]. In their comparative ethnography, non-expert stakeholders who encountered AI-generated simulations believed they fully understood complex urban planning dynamics — "knowing enough to be dangerous." The gap was not between a user's confidence and their ability to use AI, but between stakeholders' confidence in understanding complex systems and their actual domain expertise. When process experts amplified AI capabilities (enhancement mode), stakeholders mistook detailed representations for reality and questioned whether expert guidance was necessary at all.
+
+Messeri & Crockett (2024) extend the confidence-competence gap to the level of an entire knowledge-production community. In their analysis of AI in scientific research, the same mechanism that inflates individual confidence (fluent, reductive, quantitative outputs feel like understood phenomena) operates at field scale: scientists who use AI Quants for prediction tasks come to believe they understand the underlying phenomena better than they do, and the resulting "prediction–explanation fallacy" propagates through citation networks. The KB cluster confidence-competence-gap → [[artificial-certainty]] → [[scientific-monoculture]] now spans three nested levels of analysis: individual (Shaw & Nave, Fernandes et al., He et al.), organizational (Leonardi & Leavell), and knowledge-production-system (Messeri & Crockett).
 
 Reich & Teeny (2026) identify a second mechanism that widens the confidence-competence gap: **social comparison**. Beyond misattributing AI-assisted performance to personal skill, mere exposure to AI-labeled creative content inflates self-confidence through downward comparison — people perceive gen-AI as a lower social referent for creative tasks and consequently rate their own abilities higher. This operates without any AI assistance or collaboration; seeing AI output is sufficient. The effect is domain-specific: it emerges in creative domains but attenuates in fact-based domains where AI is perceived as an equal or superior referent (N = 6,801 across 11 experiments).
 
@@ -91,6 +94,8 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 - [[agency]] - Han et al. (2025) show self-efficacy as mediator between AI use and behavioral risk-taking; inflated efficacy without learning orientation produces agency illusion
 - [[sycophancy]] - sycophantic AI widens the gap by validating misconceptions and inflating confidence
 - [[lee-critical-thinking-survey-2025]] - field-scale evidence for the directional confidence pair (confidence-in-AI undermines vs. confidence-in-self protects critical engagement)
+- [[illusion-of-explanatory-depth]] - the foundational metacognitive mechanism the gap rests on; Messeri & Crockett anchor this construct in AI-assisted science
+- [[scientific-monoculture]] - system-level outcome when the gap goes uncorrected at scale; the gap is the individual-level signature of the monoculture
 
 ## Sources
 
@@ -104,4 +109,5 @@ Keshky's "resistance to feedback" dimension adds a self-reinforcing mechanism: i
 - [[han-trust-self-efficacy-2025]] — Han, Z., Song, G., Zhang, Y., & Li, B. (2025)
 - Fernandes et al. (2026)
 - [[lee-critical-thinking-survey-2025]] — Lee, H.-P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & Wilson, N. (2025). The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers. CHI '25.
+- [[messeri-crockett-illusions-understanding-2024]] — Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58.
 

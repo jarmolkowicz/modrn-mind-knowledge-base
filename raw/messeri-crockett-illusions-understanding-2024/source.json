@@ -1,0 +1,51 @@
+{
+  "slug": "messeri-crockett-illusions-understanding-2024",
+  "original_filename": "Artificial intelligence and illusions of understanding in scientific research.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 12860,
+  "hash": "afe40a433e5b9937017f95adb1c0f7c8442aaa7a900c59c3c24364abdc74dff5",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-04-30T15:39:11Z",
+  "decisions": [
+    {
+      "stage": "catalog",
+      "outcome": "renamed_and_reclassified",
+      "date": "2026-04-30",
+      "note": "Renamed workbench from auto-slug to citable form. Reclassified from article to paper (peer-reviewed Perspective in Nature Vol 627, 7 March 2024, doi:10.1038/s41586-024-07146-0)."
+    },
+    {
+      "stage": "triage",
+      "outcome": "INCLUDE",
+      "date": "2026-04-30",
+      "note": "Auto-INCLUDE: Relevance=HIGH x Quality=HIGH x not duplicate. Heavy peer-reviewed Nature Perspective introducing 3 named illusions + 4-vision AI taxonomy."
+    },
+    {
+      "stage": "distill",
+      "outcome": "PROCEED_TO_CRITIQUE",
+      "date": "2026-04-30",
+      "note": "Drafted 5 new entries (4 concepts + 1 method) and 5 UPDATE proposals. Volume + paper-original constructs warrant self-critique."
+    },
+    {
+      "stage": "critique",
+      "outcome": "PROCEED_TO_INTEGRATE",
+      "date": "2026-04-30",
+      "note": "Overall READY. All drafts passed Evidence/Practitioner/Adversarial lenses + AI failure checklist."
+    },
+    {
+      "stage": "validate",
+      "outcome": "READY",
+      "date": "2026-04-30",
+      "note": "validate_drafts.py: 1 missing_related finding fixed (added [[automation-bias]] link in source.md). Re-ran clean."
+    },
+    {
+      "stage": "integrate",
+      "outcome": "INTEGRATED",
+      "date": "2026-04-30",
+      "note": "Moved source.md -> sources/messeri-crockett-illusions-understanding-2024.md; concepts/{illusion-of-explanatory-depth, illusion-of-exploratory-breadth, illusion-of-objectivity, scientific-monoculture}.md; methods/ai-vision-taxonomy.md. Applied 5 UPDATEs to confidence-competence-gap, borrowed-certainty, artificial-certainty, fluency-bias, creativity-diversity-paradox. Ran sync-source-links, build-index, update_readme_counts."
+    }
+  ],
+  "pages": 10
+}

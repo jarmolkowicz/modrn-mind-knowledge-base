@@ -3,6 +3,7 @@ status: emerging
 area: [risk, erosion]
 sources:
   - "Leonardi & Leavell (2026)"
+  - "Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58."
 ---
 
 # Artificial Certainty
@@ -24,6 +25,8 @@ Leonardi & Leavell (2026) found that the critical variable is not the AI tool it
 
 The distinction maps to "representations *of* the future" (claiming to show what will happen) versus "representations *for* the future" (tools to support deliberation about what might happen).
 
+Messeri & Crockett (2024) extend artificial certainty to the level of an entire knowledge-production community. Where Leonardi & Leavell describe AI representations stripping uncertainty markers from organizational decision-making, Messeri & Crockett describe the same dynamic operating across a scientific field: AI Oracles, Surrogates, Quants, and Arbiters each produce outputs whose visible confidence outruns their actual epistemic warrant, and the cumulative effect is a [[scientific-monoculture]] in which AI-friendly methods and standpoints crowd out alternatives. The two papers describe nested levels of the same mechanism — organizational artificial certainty (Leonardi & Leavell) is one mode of community-level monoculture (Messeri & Crockett).
+
 ## Related
 
 - [[confidence-competence-gap]] - artificial certainty as the organizational variant
@@ -31,8 +34,12 @@ The distinction maps to "representations *of* the future" (claiming to show what
 - [[novice-vulnerability]] - organizational dimension where AI enables non-expert overconfidence
 - [[borrowed-certainty]] - individual-level counterpart; artificial certainty operates at the organizational/institutional level
 - [[fluency-bias]] - the perceptual mechanism through which artificial certainty takes hold
+- [[scientific-monoculture]] - the field-level structure artificial certainty cultivates when it propagates across an organization or community
+- [[illusion-of-objectivity]] - sister mechanism; both involve AI representations being read as standpoint-free when they are not
+- [[ai-vision-taxonomy]] - diagnostic framework for naming which kind of AI representation is producing the certainty
 
 ## Sources
 
 - [[leonardi-artificial-certainty-2026]] — Leonardi & Leavell (2026)
+- [[messeri-crockett-illusions-understanding-2024]] — Messeri, L. & Crockett, M. J. (2024). Artificial intelligence and illusions of understanding in scientific research. Nature, 627, 49–58.
 
