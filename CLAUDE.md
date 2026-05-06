@@ -1,16 +1,12 @@
 # CLAUDE.md — Modrn Mind Knowledge Base
 
-Operating instructions for Claude Code in this repo.
-
 ## What this is
 
 Public, curated reference on how AI reshapes human thinking, identity, and agency. Atomic entries in `concepts/`, `methods/`, `sources/`. Status-tagged (`solid` / `emerging` / `speculative`).
 
-The KB is the central trunk of the broader Modrn Mind project — downstream artifacts (books, writing, workshops) draw from it and contribute back.
-
 ## How to operate
 
-This repo gets used two ways. Notice which mode you're in.
+This repo gets used two ways.
 
 **Editing the KB** — user asks to ingest a source, refine an entry, restructure content.
 
@@ -27,8 +23,6 @@ This repo gets used two ways. Notice which mode you're in.
 
 ## Voice
 
-The repo is about this — embody it.
-
 - No hype, urgency triggers, fear-mongering. AI as augmentation, never replacement.
 - Label uncertainty as `[Inference]` or `[Speculation]` when synthesizing beyond what sources support.
 - No fabricated citations — match author + year to a real `sources/` entry.
@@ -38,7 +32,7 @@ The repo is about this — embody it.
 
 `uv run python tooling/scripts/<script>.py` — never bare `python`. uv reads `pyproject.toml` and manages `.venv/` automatically.
 
-For PDF extraction (`extract.py`), the optional dependency `opendataloader-pdf` requires Java 11+ on `PATH`. Without it, extraction falls back to `pypdf`/`pdfplumber` (text-only, weaker on multi-column or scanned PDFs). To enable: install OpenJDK 21+ and ensure `java` is on `PATH`, then `uv sync --extra pdf-pro`. The extractor used is recorded per source in `raw/<slug>/source.json: extractor`.
+PDF extraction (`extract.py`) tries `opendataloader-pdf` (needs Java 11+ on `PATH`), falls back to `pypdf`/`pdfplumber`. Enable the better extractor with `uv sync --extra pdf-pro` after installing OpenJDK 21+.
 
 ## Where things live
 
