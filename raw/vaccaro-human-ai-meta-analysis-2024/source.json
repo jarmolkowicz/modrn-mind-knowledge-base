@@ -1,0 +1,19 @@
+{
+  "slug": "vaccaro-human-ai-meta-analysis-2024",
+  "original_filename": "s41562-024-02024-1.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 10552,
+  "hash": "69ff4683a8513b2247a5375eaa81d8d18b3b8f51a9ba546c4daeb77a13205f74",
+  "extractor": "opendataloader-pdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-05-22T08:48:03Z",
+  "decisions": [
+    {"stage": "triage", "date": "2026-05-22", "outcome": "INCLUDE", "reason": "User-confirmed; strongest cross-task empirical evidence on human-AI complementarity."},
+    {"stage": "distill", "date": "2026-05-22", "outcome": "PROCEED_TO_CRITIQUE", "reason": "User-confirmed; new concept augmentation-synergy-gap kept standalone."},
+    {"stage": "critique", "date": "2026-05-22", "outcome": "PROCEED_TO_INTEGRATE", "reason": "User-confirmed; critique verdict READY."},
+    {"stage": "integrate", "date": "2026-05-22", "outcome": "INTEGRATED", "reason": "1 source + 1 new concept (augmentation-synergy-gap) added; 2 entries updated (human-ai-complementarity, complementarity-framework)."}
+  ],
+  "pages": 14
+}

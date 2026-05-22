@@ -3,7 +3,8 @@ status: speculative
 area:
 - preservation
 - risk
-sources: []
+sources:
+  - "Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1"
 ---
 
 # Complementarity Framework
@@ -38,9 +39,9 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 ### Factors Shaping Complementarity
 
 - **Team composition and size** — Larger teams increase coordination complexity; role clarity mitigates risks; humans in the minority can suffer reduced trust.
-- **Trust calibration** — Requires accurate shared mental models of AI abilities and limitations. Avoids both algorithm aversion (under-trust) and complacency (over-trust).
+- **Trust calibration** — Requires accurate shared mental models of AI abilities and limitations. Avoids both algorithm aversion (under-trust) and complacency (over-trust). A caution from Vaccaro et al.'s (2024) meta-analysis: AI explanations and AI confidence displays — features the framework's interrogation and interface principles lean on — did *not* significantly improve human-AI performance across 106 experiments. Surfacing AI reasoning is not sufficient on its own to produce calibrated trust.
 - **User expertise** — Novices and experts benefit from different collaboration modes. Prior experience with automation shapes acceptance.
-- **Task characteristics** — Largest gains in complex, uncertain tasks where error patterns differ. Well-defined tasks favor AI alone; open-ended strategic tasks favor humans.
+- **Task characteristics** — Largest gains in complex, uncertain tasks where error patterns differ. Well-defined tasks favor AI alone; open-ended strategic tasks favor humans. Vaccaro et al.'s (2024) meta-analysis of 106 experiments empirically confirms this: creation tasks (open-response content) showed performance gains, while decision tasks (choosing among fixed options) showed losses — and relative ability mattered most of all, with synergy appearing when the human was the stronger party and reversing into losses when the AI was.
 
 ## Strengths
 
@@ -69,8 +70,10 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 - [[judgment]] - human judgment anchors the reasoning dimension
 - accountability - accountability as non-delegable is a core premise
 - [[scan]] - complementary framework for individual-level AI engagement calibration
+- [[vaccaro-human-ai-meta-analysis-2024]] - meta-analytic evidence for the task-type and relative-ability factors; null result on AI explanations and confidence
+- [[augmentation-synergy-gap]] - the framework targets synergy; the gap names what a framework that settles for mere augmentation leaves on the table
 
 ## Sources
 
-_(Primary source — Gonzalez et al. (2026), Nature Reviews Psychology — was removed from the KB pending verifiable access. The framework's claims still draw on the broader human–AI complementarity literature; re-sourcing pending.)_
+- [[vaccaro-human-ai-meta-analysis-2024]] — Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
 
