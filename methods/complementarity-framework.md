@@ -5,6 +5,7 @@ area:
 - risk
 sources:
   - "Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1"
+  - "Dell'Acqua, F., Ayoubi, C., Lifshitz, H., Sadun, R., Mollick, E., Mollick, L., Han, Y., Goldman, J., Nair, H., Taub, S., & Lakhani, K. R. (2026). The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork. Organization Science, Articles in Advance. https://doi.org/10.1287/orsc.2025.20702"
 ---
 
 # Complementarity Framework
@@ -38,8 +39,8 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 
 ### Factors Shaping Complementarity
 
-- **Team composition and size** — Larger teams increase coordination complexity; role clarity mitigates risks; humans in the minority can suffer reduced trust.
-- **Trust calibration** — Requires accurate shared mental models of AI abilities and limitations. Avoids both algorithm aversion (under-trust) and complacency (over-trust). A caution from Vaccaro et al.'s (2024) meta-analysis: AI explanations and AI confidence displays — features the framework's interrogation and interface principles lean on — did *not* significantly improve human-AI performance across 106 experiments. Surfacing AI reasoning is not sufficient on its own to produce calibrated trust.
+- **Team composition and size** — Larger teams increase coordination complexity; role clarity mitigates risks; humans in the minority can suffer reduced trust. Dell'Acqua et al.'s (2026) P&G field experiment supplies direct field evidence for the diminishing-returns intuition: reading their conditions as sequential team expansion (individual → dyad → triad-with-AI), the *first* teammate added — whether a human or an AI — delivered most of the average quality gain, while the *second* addition yielded little further average improvement but disproportionately raised the odds of a top-decile breakthrough (Team+AI was ~3× as likely as a solo worker to land in the top decile). This suggests optimal configurations depend more on capturing the essential functional expertise than on raw head count — and that the marginal teammate's value shows up in the *tail* (exceptional outcomes) rather than the mean.
+- **Trust calibration** — Requires accurate shared mental models of AI abilities and limitations. Avoids both algorithm aversion (under-trust) and complacency (over-trust). A caution from Vaccaro et al.'s (2024) meta-analysis: AI explanations and AI confidence displays — features the framework's interrogation and interface principles lean on — did *not* significantly improve human-AI performance across 106 experiments. Surfacing AI reasoning is not sufficient on its own to produce calibrated trust. A second field caution from Dell'Acqua et al. (2026) bears on the framework's *interrogation* principle: AI-assisted workers were measurably worse than human teams at selecting their own best idea, which the authors attribute partly to AI's tendency to *affirm* rather than introduce dissent — "the validating nature of AI feedback may itself erode critical engagement" [p.16]. The framework's reliance on humans actively interrogating AI is therefore not just good practice but a hedge against a measured failure mode: absent deliberate friction, calibrated trust drifts toward comfortable over-acceptance at exactly the evaluative step where human judgment matters most.
 - **User expertise** — Novices and experts benefit from different collaboration modes. Prior experience with automation shapes acceptance.
 - **Task characteristics** — Largest gains in complex, uncertain tasks where error patterns differ. Well-defined tasks favor AI alone; open-ended strategic tasks favor humans. Vaccaro et al.'s (2024) meta-analysis of 106 experiments empirically confirms this: creation tasks (open-response content) showed performance gains, while decision tasks (choosing among fixed options) showed losses — and relative ability mattered most of all, with synergy appearing when the human was the stronger party and reversing into losses when the AI was.
 
@@ -72,8 +73,11 @@ Human-AI teams only outperform either party alone when collaboration is delibera
 - [[scan]] - complementary framework for individual-level AI engagement calibration
 - [[vaccaro-human-ai-meta-analysis-2024]] - meta-analytic evidence for the task-type and relative-ability factors; null result on AI explanations and confidence
 - [[augmentation-synergy-gap]] - the framework targets synergy; the gap names what a framework that settles for mere augmentation leaves on the table
+- [[dellacqua-cybernetic-teammate-2026]] — field evidence for the team-size (diminishing-returns) and interrogation factors; the affirming-AI selection deficit as a measured risk to calibrated trust
+- [[cybernetic-teammate]] — the reframing (AI as counterpart, not tool) that the framework's "adaptive partner" end of the spectrum describes
 
 ## Sources
 
 - [[vaccaro-human-ai-meta-analysis-2024]] — Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
+- Dell'Acqua, F., Ayoubi, C., Lifshitz, H., Sadun, R., Mollick, E., Mollick, L., Han, Y., Goldman, J., Nair, H., Taub, S., & Lakhani, K. R. (2026). The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork. Organization Science, Articles in Advance. https://doi.org/10.1287/orsc.2025.20702
 

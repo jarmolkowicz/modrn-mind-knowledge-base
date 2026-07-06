@@ -31,3 +31,4 @@ Augmentation is necessary but not sufficient for synergy, and the two come apart
 ## Sources
 
 - [[vaccaro-human-ai-meta-analysis-2024]] — Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
+

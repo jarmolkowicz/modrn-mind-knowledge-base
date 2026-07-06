@@ -1,0 +1,19 @@
+{
+  "slug": "dellacqua-cybernetic-teammate-2026",
+  "original_filename": "dell-acqua-et-al-2026-the-cybernetic-teammate-a-field-experiment-on-generative-ai-and-teamwork.pdf",
+  "format": "pdf",
+  "source_type": "paper",
+  "word_count": 20670,
+  "hash": "b6e3e5f95546f617537d1b23f866df5a42f0c714d766217930ca19a233a69ec9",
+  "extractor": "pypdf",
+  "extractor_script_version": "0.1.0",
+  "status": "integrated",
+  "ingested_at": "2026-07-06T16:34:53Z",
+  "decisions": [
+    {"stage": "triage", "date": "2026-07-06", "outcome": "INCLUDE", "reason": "User-confirmed; landmark preregistered field RCT on AI-as-teammate; not a duplicate. HITL elected two new concepts (cybernetic-teammate + separate ai-boundary-spanning)."},
+    {"stage": "distill", "date": "2026-07-06", "outcome": "PROCEED_TO_CRITIQUE", "reason": "User-confirmed; augmentation-synergy-gap update dropped per HITL (study has no AI-alone arm)."},
+    {"stage": "critique", "date": "2026-07-06", "outcome": "PROCEED_TO_INTEGRATE", "reason": "User-confirmed; Overall FLAGS with anthropomorphization flag fixed in-draft; AI-failure checklist all PASS."},
+    {"stage": "integrate", "date": "2026-07-06", "outcome": "INTEGRATED", "reason": "1 source (solid) + 2 new concepts (cybernetic-teammate, ai-boundary-spanning); 2 entries updated (human-ai-complementarity, complementarity-framework method)."}
+  ],
+  "pages": 27
+}

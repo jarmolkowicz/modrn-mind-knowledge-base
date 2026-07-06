@@ -7,6 +7,7 @@ sources:
   - "Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic."
   - "Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1"
   - "Yu, F., Moehring, A., Banerjee, O., Salz, T., Agarwal, N., & Rajpurkar, P. (2024). Heterogeneity and predictors of the effects of AI assistance on radiologists. Nature Medicine, 30, 837–849. https://doi.org/10.1038/s41591-024-02850-w"
+  - "Dell'Acqua, F., Ayoubi, C., Lifshitz, H., Sadun, R., Mollick, E., Mollick, L., Han, Y., Goldman, J., Nair, H., Taub, S., & Lakhani, K. R. (2026). The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork. Organization Science, Articles in Advance. https://doi.org/10.1287/orsc.2025.20702"
 ---
 
 # Human-AI Complementarity
@@ -37,6 +38,8 @@ This is the empirical version of the entry's existing "complementarity is a desi
 
 The strongest predictor Yu et al. did identify is AI error itself: more accurate AI yields better treatment effects, with a roughly linear dose-response on aggregated pathologies and a treatment effect of −16.845 when AI absolute error exceeds 80 (on a 0–100 scale) [p.9]. Direction of error matters too — AI predictions that underestimate ground-truth probabilities produce better treatment effects than equally-erroneous predictions that overestimate them. The complementarity sweet spot in this expert specialist context depends not just on task structure (the entry's existing framing) but on the AI model's specific failure-mode profile: a low-error AI that tends to underestimate is more complementary than a higher-error AI that tends to overestimate, even on the same diagnostic task.
 
+Dell'Acqua et al. (2026) locate complementarity *within* the innovation process rather than across tasks, and name where the human contribution survives. In a preregistered field experiment at Procter & Gamble (N=791; 550 solutions), they capped idea quantity at five per participant and decomposed performance into generation, variance, and selection. AI raised the *average quality of generated ideas* and preserved their variance (it did not homogenize output), but AI-assisted participants were *worse at selecting their own best idea* — human teams without AI chose their highest-quality concept ~50% of the time versus ~37% for AI conditions [p.15]. Their summary: AI "functions as a quality amplifier rather than a decision enhancer" [p.17]. The proposed mechanism sharpens the complementarity design problem: because AI tends to *affirm* rather than introduce the friction and dissent a human teammate supplies, its validating feedback can "erode critical engagement" and diminish evaluative judgment [p.16]. This is the cleanest field evidence the KB holds that the durable human role in a complementary pairing is *evaluative selection* — deciding which AI-amplified option is actually best — and that this role is actively at risk from the same affirming interaction style that makes AI a productive generation partner. Net final quality was still higher with AI because the generation gain outweighed the selection loss, which is exactly why the selection deficit is easy to miss and worth naming.
+
 ## Related
 
 - [[complementarity-framework]] - framework for designing complementarity
@@ -49,10 +52,13 @@ The strongest predictor Yu et al. did identify is AI error itself: more accurate
 - [[handa-economic-tasks-claude-2025]] — empirical map of where complementarity is currently realized at production scale (cognitive skills dominant in AI conversations; physical and high-credential specialty work not yet realized despite likely technical feasibility)
 - [[vaccaro-human-ai-meta-analysis-2024]] — meta-analytic anchor: synergy is a conditional minority result (42% of effect sizes), not the average outcome; task type and relative ability predict it
 - [[yu-radiologists-ai-2024]] — specialist-context evidence that complementarity is heterogeneous at the individual-expert level; same AI, same tasks, same expert pool yields treatment effects spanning improvement and degradation; AI error magnitude and direction shape the complementarity outcome
+- [[dellacqua-cybernetic-teammate-2026]] — field evidence for a within-process complementarity split: AI amplifies generation, human judgment retains value in evaluative selection ("quality amplifier, not decision enhancer")
+- [[cybernetic-teammate]] — the reframing this evidence anchors: AI reproducing teamwork functions asymmetrically
 
 ## Sources
 
 - [[handa-economic-tasks-claude-2025]] — Handa, K., Tamkin, A., McCain, M., Huang, S., Durmus, E., Heck, S., Mueller, J., Hong, J., Ritchie, S., Belonax, T., Troy, K. K., Amodei, D., Kaplan, J., Clark, J., & Ganguli, D. (2025). Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations. arXiv:2503.04761 [cs.CY], February 11, 2025. Anthropic.
 - [[vaccaro-human-ai-meta-analysis-2024]] — Vaccaro, M., Almaatouq, A. & Malone, T. (2024). When combinations of humans and AI are useful: a systematic review and meta-analysis. Nature Human Behaviour, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
 - [[yu-radiologists-ai-2024]] — Yu, F., Moehring, A., Banerjee, O., Salz, T., Agarwal, N., & Rajpurkar, P. (2024). Heterogeneity and predictors of the effects of AI assistance on radiologists. Nature Medicine, 30, 837–849. https://doi.org/10.1038/s41591-024-02850-w
+- Dell'Acqua, F., Ayoubi, C., Lifshitz, H., Sadun, R., Mollick, E., Mollick, L., Han, Y., Goldman, J., Nair, H., Taub, S., & Lakhani, K. R. (2026). The Cybernetic Teammate: A Field Experiment on Generative AI and Teamwork. Organization Science, Articles in Advance. https://doi.org/10.1287/orsc.2025.20702
 
