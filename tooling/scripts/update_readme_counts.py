@@ -23,6 +23,16 @@ import re
 import sys
 from pathlib import Path
 
+# On Windows the default console encoding (cp1252) can't encode characters like
+# the arrow in change lines ("updated concepts: 62 -> 64"), which raised
+# UnicodeEncodeError mid-run and aborted the script *before* it wrote README.md.
+# Force UTF-8 output and never let an unencodable glyph crash a status print.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass
+
 KB_ROOT = Path(__file__).resolve().parents[2]
 README = KB_ROOT / "README.md"
 
